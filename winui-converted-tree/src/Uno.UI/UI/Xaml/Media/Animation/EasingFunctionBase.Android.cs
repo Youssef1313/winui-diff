@@ -1,0 +1,14 @@
+﻿using System;
+using Android.Animation;
+using Android.Views.Animations;
+
+namespace Microsoft.UI.Xaml.Media.Animation
+{
+	public partial class EasingFunctionBase
+	{
+		internal virtual ITimeInterpolator CreateTimeInterpolator()
+		{
+			return new LinearInterpolator();
+		}
+	}
+}

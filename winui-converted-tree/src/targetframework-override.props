@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyGroup Condition="'$(UnoTargetFrameworkOverride)'!=''">
+	<TargetFrameworks>$(UnoTargetFrameworkOverride)</TargetFrameworks>
+  </PropertyGroup>
+
+</Project>

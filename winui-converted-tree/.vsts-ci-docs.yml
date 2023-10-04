@@ -1,0 +1,24 @@
+trigger:
+  branches:
+    include:
+      - master
+      - release/beta/*
+      - release/stable/*
+      - feature/*
+      - legacy/*
+
+pr: 
+  branches:
+    include:
+      - master
+      - release/beta/*
+      - release/stable/*
+      - feature/*
+      - legacy/*
+
+variables:
+  windowsScaledPool: 'Windows2022-20230918'
+  linuxVMImage: 'ubuntu-latest'
+
+stages:
+- template: build/ci/.azure-devops-stages-docs.yml

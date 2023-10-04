@@ -1,0 +1,133 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using Windows.Foundation;
+using Microsoft.UI.Xaml.Documents;
+using Uno.Extensions;
+using System.Linq;
+using Microsoft.UI.Xaml.Hosting;
+using SkiaSharp;
+using Microsoft.UI.Composition;
+using System.Numerics;
+using Microsoft.UI.Composition.Interactions;
+using Uno.Disposables;
+using Microsoft.UI.Xaml.Media;
+using Uno.UI;
+using Microsoft.UI.Xaml.Documents.TextFormatting;
+
+#nullable enable
+
+namespace Microsoft.UI.Xaml.Controls
+{
+	partial class TextBlock : FrameworkElement, IBlock
+	{
+		private readonly TextVisual _textVisual;
+
+		public TextBlock()
+		{
+			SetDefaultForeground(ForegroundProperty);
+			_textVisual = new TextVisual(Visual.Compositor, this);
+
+			Visual.Children.InsertAtBottom(_textVisual);
+		}
+
+#if DEBUG
+		private protected override void OnLoaded()
+		{
+			base.OnLoaded();
+			_textVisual.Comment = $"{Visual.Comment}#text";
+		}
+#endif
+
+		protected override Size MeasureOverride(Size availableSize)
+		{
+			var padding = Padding;
+			var availableSizeWithoutPadding = availableSize.Subtract(padding);
+			var desiredSize = Inlines.Measure(availableSizeWithoutPadding);
+
+			return desiredSize.Add(padding);
+		}
+
+		private void ApplyFlowDirection(float width)
+		{
+			if (this.FlowDirection == FlowDirection.RightToLeft)
+			{
+				_textVisual.TransformMatrix = new Matrix4x4(new Matrix3x2(-1.0f, 0.0f, 0.0f, 1.0f, width, 0.0f));
+			}
+			else
+			{
+				_textVisual.TransformMatrix = Matrix4x4.Identity;
+			}
+		}
+
+		protected override Size ArrangeOverride(Size finalSize)
+		{
+			var padding = Padding;
+			var availableSizeWithoutPadding = finalSize.Subtract(padding);
+			var arrangedSizeWithoutPadding = Inlines.Arrange(availableSizeWithoutPadding);
+			_textVisual.Size = new Vector2((float)arrangedSizeWithoutPadding.Width, (float)arrangedSizeWithoutPadding.Height);
+			_textVisual.Offset = new Vector3((float)padding.Left, (float)padding.Top, 0);
+			ApplyFlowDirection((float)finalSize.Width);
+			return base.ArrangeOverride(finalSize);
+		}
+
+		internal override void OnPropertyChanged2(DependencyPropertyChangedEventArgs args)
+		{
+			base.OnPropertyChanged2(args);
+			if (args.Property == FlowDirectionProperty)
+			{
+				ApplyFlowDirection((float)this.RenderSize.Width);
+			}
+		}
+
+		private Hyperlink? FindHyperlinkAt(Point point)
+		{
+			var padding = Padding;
+			var span = Inlines.GetRenderSegmentSpanAt(point - new Point(padding.Left, padding.Top), false);
+
+			if (span == null)
+			{
+				return null;
+			}
+
+			var inline = span.Segment.Inline;
+
+			while ((inline = inline.GetParent() as Inline) != null)
+			{
+				if (inline is Hyperlink hyperlink)
+				{
+					return hyperlink;
+				}
+			}
+
+			return null;
+		}
+
+		partial void OnInlinesChangedPartial()
+		{
+			Inlines.InvalidateMeasure();
+		}
+
+		// Invalidate Inlines measure when any IBlock properties used during measuring change:
+
+		partial void OnMaxLinesChangedPartial()
+		{
+			Inlines.InvalidateMeasure();
+		}
+
+		partial void OnTextWrappingChangedPartial()
+		{
+			Inlines.InvalidateMeasure();
+		}
+
+		partial void OnLineHeightChangedPartial()
+		{
+			Inlines.InvalidateMeasure();
+		}
+
+		partial void OnLineStackingStrategyChangedPartial()
+		{
+			Inlines.InvalidateMeasure();
+		}
+	}
+}
