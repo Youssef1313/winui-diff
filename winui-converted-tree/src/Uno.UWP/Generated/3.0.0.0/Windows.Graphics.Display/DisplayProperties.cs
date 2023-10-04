@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Graphics.Display
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -73,19 +72,7 @@ namespace Windows.Graphics.Display
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.CurrentOrientation.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.NativeOrientation.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.AutoRotationPreferences.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.AutoRotationPreferences.set
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.OrientationChanged.add
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.OrientationChanged.remove
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.ResolutionScale.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpi.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpiChanged.add
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpiChanged.remove
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabled.get
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabledChanged.add
-		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabledChanged.remove
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> GetColorProfileAsync()
@@ -93,10 +80,23 @@ namespace Windows.Graphics.Display
 			throw new global::System.NotImplementedException("The member IAsyncOperation<IRandomAccessStream> DisplayProperties.GetColorProfileAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CIRandomAccessStream%3E%20DisplayProperties.GetColorProfileAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.AutoRotationPreferences.get
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.AutoRotationPreferences.set
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.CurrentOrientation.get
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpi.get
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.NativeOrientation.get
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.ResolutionScale.get
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabled.get
 		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.ColorProfileChanged.add
 		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.ColorProfileChanged.remove
 		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.DisplayContentsInvalidated.add
 		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.DisplayContentsInvalidated.remove
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpiChanged.add
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.LogicalDpiChanged.remove
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.OrientationChanged.add
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.OrientationChanged.remove
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabledChanged.add
+		// Forced skipping of method Windows.Graphics.Display.DisplayProperties.StereoEnabledChanged.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static event global::Windows.Graphics.Display.DisplayPropertiesEventHandler ColorProfileChanged

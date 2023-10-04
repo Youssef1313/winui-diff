@@ -8,6 +8,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class TreeViewItemDataAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.ItemAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ExpandCollapseState global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ExpandCollapseState TreeViewItemDataAutomationPeer.ExpandCollapseState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ExpandCollapseState%20TreeViewItemDataAutomationPeer.ExpandCollapseState");
+			}
+		}
+#endif
 		// Skipping already declared property ExpandCollapseState
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -17,9 +27,24 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.TreeViewItemDataAutomationPeer(object, Microsoft.UI.Xaml.Automation.Peers.TreeViewListAutomationPeer)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.TreeViewItemDataAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.TreeViewItemDataAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Collapse()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Collapse()
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.TreeViewItemDataAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider
 	}
 }

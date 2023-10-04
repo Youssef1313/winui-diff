@@ -15,6 +15,106 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IDeviceActivatedEventArgs.DeviceInformationId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DeviceActivatedEventArgs.DeviceInformationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DeviceActivatedEventArgs.DeviceInformationId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IDeviceActivatedEventArgs.Verb
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DeviceActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DeviceActivatedEventArgs.Verb");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind DeviceActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20DeviceActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState DeviceActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20DeviceActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen DeviceActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20DeviceActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int DeviceActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20DeviceActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.ViewManagement.ActivationViewSwitcher global::Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationViewSwitcher DeviceActivatedEventArgs.ViewSwitcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationViewSwitcher%20DeviceActivatedEventArgs.ViewSwitcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User DeviceActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20DeviceActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int DeviceActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20DeviceActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string DeviceInformationId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DeviceActivatedEventArgs.DeviceInformationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DeviceActivatedEventArgs.DeviceInformationId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -55,26 +155,6 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int CurrentlyShownApplicationViewId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member int DeviceActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20DeviceActivatedEventArgs.CurrentlyShownApplicationViewId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string DeviceInformationId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string DeviceActivatedEventArgs.DeviceInformationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DeviceActivatedEventArgs.DeviceInformationId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Verb
 		{
 			get
@@ -93,14 +173,33 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.DeviceActivatedEventArgs, Windows.ApplicationModel.Activation.DeviceActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.DeviceActivatedEventArgs, Windows.ApplicationModel.Activation.DeviceActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.DeviceActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IDeviceActivatedEventArgs.DeviceInformationId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IDeviceActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.CurrentlyShownApplicationViewId.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.DeviceInformationId.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Verb.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.SplashScreen.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.CurrentlyShownApplicationViewId.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.ViewSwitcher.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.DeviceActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IDeviceActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs

@@ -15,6 +15,26 @@ namespace Windows.Storage.AccessCache
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.AccessCache.AccessListEntryView global::Windows.Storage.AccessCache.IStorageItemAccessList.Entries
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AccessListEntryView StorageItemAccessList.Entries is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AccessListEntryView%20StorageItemAccessList.Entries");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Storage.AccessCache.IStorageItemAccessList.MaximumItemsAllowed
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint StorageItemAccessList.MaximumItemsAllowed is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20StorageItemAccessList.MaximumItemsAllowed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.AccessCache.AccessListEntryView Entries
 		{
 			get
@@ -33,6 +53,16 @@ namespace Windows.Storage.AccessCache
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.operator ==(Windows.Storage.AccessCache.StorageItemAccessList, Windows.Storage.AccessCache.StorageItemAccessList)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.operator !=(Windows.Storage.AccessCache.StorageItemAccessList, Windows.Storage.AccessCache.StorageItemAccessList)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Equals(Windows.Storage.AccessCache.StorageItemAccessList)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Equals(object)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.GetHashCode()
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Add(global::Windows.Storage.IStorageItem file)
@@ -40,6 +70,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member string StorageItemAccessList.Add(IStorageItem file) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20StorageItemAccessList.Add%28IStorageItem%20file%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.Add(Windows.Storage.IStorageItem)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Add(global::Windows.Storage.IStorageItem file, string metadata)
@@ -47,6 +78,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member string StorageItemAccessList.Add(IStorageItem file, string metadata) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20StorageItemAccessList.Add%28IStorageItem%20file%2C%20string%20metadata%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.Add(Windows.Storage.IStorageItem, string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddOrReplace(string token, global::Windows.Storage.IStorageItem file)
@@ -54,6 +86,7 @@ namespace Windows.Storage.AccessCache
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.AccessCache.StorageItemAccessList", "void StorageItemAccessList.AddOrReplace(string token, IStorageItem file)");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.AddOrReplace(string, Windows.Storage.IStorageItem)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddOrReplace(string token, global::Windows.Storage.IStorageItem file, string metadata)
@@ -61,6 +94,7 @@ namespace Windows.Storage.AccessCache
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.AccessCache.StorageItemAccessList", "void StorageItemAccessList.AddOrReplace(string token, IStorageItem file, string metadata)");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.AddOrReplace(string, Windows.Storage.IStorageItem, string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> GetItemAsync(string token)
@@ -68,6 +102,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<IStorageItem> StorageItemAccessList.GetItemAsync(string token) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CIStorageItem%3E%20StorageItemAccessList.GetItemAsync%28string%20token%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetItemAsync(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> GetFileAsync(string token)
@@ -75,6 +110,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<StorageFile> StorageItemAccessList.GetFileAsync(string token) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CStorageFile%3E%20StorageItemAccessList.GetFileAsync%28string%20token%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetFileAsync(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> GetFolderAsync(string token)
@@ -82,6 +118,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<StorageFolder> StorageItemAccessList.GetFolderAsync(string token) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CStorageFolder%3E%20StorageItemAccessList.GetFolderAsync%28string%20token%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetFolderAsync(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.IStorageItem> GetItemAsync(string token, global::Windows.Storage.AccessCache.AccessCacheOptions options)
@@ -89,6 +126,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<IStorageItem> StorageItemAccessList.GetItemAsync(string token, AccessCacheOptions options) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CIStorageItem%3E%20StorageItemAccessList.GetItemAsync%28string%20token%2C%20AccessCacheOptions%20options%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetItemAsync(string, Windows.Storage.AccessCache.AccessCacheOptions)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> GetFileAsync(string token, global::Windows.Storage.AccessCache.AccessCacheOptions options)
@@ -96,6 +134,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<StorageFile> StorageItemAccessList.GetFileAsync(string token, AccessCacheOptions options) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CStorageFile%3E%20StorageItemAccessList.GetFileAsync%28string%20token%2C%20AccessCacheOptions%20options%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetFileAsync(string, Windows.Storage.AccessCache.AccessCacheOptions)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFolder> GetFolderAsync(string token, global::Windows.Storage.AccessCache.AccessCacheOptions options)
@@ -103,6 +142,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member IAsyncOperation<StorageFolder> StorageItemAccessList.GetFolderAsync(string token, AccessCacheOptions options) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CStorageFolder%3E%20StorageItemAccessList.GetFolderAsync%28string%20token%2C%20AccessCacheOptions%20options%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.GetFolderAsync(string, Windows.Storage.AccessCache.AccessCacheOptions)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Remove(string token)
@@ -110,6 +150,7 @@ namespace Windows.Storage.AccessCache
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.AccessCache.StorageItemAccessList", "void StorageItemAccessList.Remove(string token)");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.Remove(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool ContainsItem(string token)
@@ -117,6 +158,7 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member bool StorageItemAccessList.ContainsItem(string token) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20StorageItemAccessList.ContainsItem%28string%20token%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.ContainsItem(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Clear()
@@ -124,6 +166,7 @@ namespace Windows.Storage.AccessCache
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.AccessCache.StorageItemAccessList", "void StorageItemAccessList.Clear()");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.Clear()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool CheckAccess(global::Windows.Storage.IStorageItem file)
@@ -131,8 +174,12 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member bool StorageItemAccessList.CheckAccess(IStorageItem file) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20StorageItemAccessList.CheckAccess%28IStorageItem%20file%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.CheckAccess(Windows.Storage.IStorageItem)
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.Entries.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Windows.Storage.AccessCache.IStorageItemAccessList.MaximumItemsAllowed.get
 		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.Entries.get
 		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.MaximumItemsAllowed.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageItemAccessList.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.AccessCache.IStorageItemAccessList
 	}
 }

@@ -13,6 +13,16 @@ namespace Windows.Graphics.Imaging
 		{
 		}
 #endif
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.FromAbi(nint)
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.operator ==(Windows.Graphics.Imaging.BitmapBuffer, Windows.Graphics.Imaging.BitmapBuffer)
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.operator !=(Windows.Graphics.Imaging.BitmapBuffer, Windows.Graphics.Imaging.BitmapBuffer)
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.Equals(Windows.Graphics.Imaging.BitmapBuffer)
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.Equals(object)
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.GetHashCode()
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public int GetPlaneCount()
@@ -34,6 +44,7 @@ namespace Windows.Graphics.Imaging
 			throw new global::System.NotImplementedException("The member IMemoryBufferReference BitmapBuffer.CreateReference() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IMemoryBufferReference%20BitmapBuffer.CreateReference%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.Windows.Foundation.IMemoryBuffer.CreateReference()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -41,6 +52,7 @@ namespace Windows.Graphics.Imaging
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Graphics.Imaging.BitmapBuffer", "void BitmapBuffer.Dispose()");
 		}
 #endif
+		// Forced skipping of method Windows.Graphics.Imaging.BitmapBuffer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Foundation.IMemoryBuffer
 		// Processing: System.IDisposable
 	}

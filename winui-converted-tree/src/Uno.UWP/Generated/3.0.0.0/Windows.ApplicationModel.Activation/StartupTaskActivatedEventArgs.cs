@@ -15,6 +15,56 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs.TaskId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string StartupTaskActivatedEventArgs.TaskId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20StartupTaskActivatedEventArgs.TaskId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind StartupTaskActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20StartupTaskActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState StartupTaskActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20StartupTaskActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen StartupTaskActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20StartupTaskActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User StartupTaskActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20StartupTaskActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -45,16 +95,6 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.User User
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member User StartupTaskActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20StartupTaskActivatedEventArgs.User");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string TaskId
 		{
 			get
@@ -63,11 +103,37 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.TaskId.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.System.User User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User StartupTaskActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20StartupTaskActivatedEventArgs.User");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs, Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs, Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs.TaskId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.TaskId.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.StartupTaskActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IStartupTaskActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser

@@ -33,7 +33,17 @@ namespace Microsoft.UI.Composition
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.operator ==(Microsoft.UI.Composition.ExponentialEasingFunction, Microsoft.UI.Composition.ExponentialEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.operator !=(Microsoft.UI.Composition.ExponentialEasingFunction, Microsoft.UI.Composition.ExponentialEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.Equals(Microsoft.UI.Composition.ExponentialEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.Exponent.get
 		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.Mode.get
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.ExponentialEasingFunction.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

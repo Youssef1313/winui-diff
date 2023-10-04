@@ -9,11 +9,6 @@ namespace Microsoft.UI.Windowing
 	public partial class AppWindowPresenter
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		internal AppWindowPresenter()
-		{
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Windowing.AppWindowPresenterKind Kind
 		{
@@ -23,6 +18,20 @@ namespace Microsoft.UI.Windowing
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.AppWindowPresenter(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.operator ==(Microsoft.UI.Windowing.AppWindowPresenter, Microsoft.UI.Windowing.AppWindowPresenter)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.operator !=(Microsoft.UI.Windowing.AppWindowPresenter, Microsoft.UI.Windowing.AppWindowPresenter)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.Equals(Microsoft.UI.Windowing.AppWindowPresenter)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.Equals(object)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.AppWindowPresenter(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.Kind.get
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Windowing.AppWindowPresenter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

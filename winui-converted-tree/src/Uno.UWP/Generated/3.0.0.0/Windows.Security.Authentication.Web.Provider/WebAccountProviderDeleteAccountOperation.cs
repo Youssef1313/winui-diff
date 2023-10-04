@@ -15,11 +15,11 @@ namespace Windows.Security.Authentication.Web.Provider
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Security.Credentials.WebAccount WebAccount
+		global::Windows.Security.Authentication.Web.Provider.WebAccountProviderOperationKind global::Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation.Kind
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member WebAccount WebAccountProviderDeleteAccountOperation.WebAccount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccount%20WebAccountProviderDeleteAccountOperation.WebAccount");
+				throw new global::System.NotImplementedException("The member WebAccountProviderOperationKind WebAccountProviderDeleteAccountOperation.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccountProviderOperationKind%20WebAccountProviderDeleteAccountOperation.Kind");
 			}
 		}
 #endif
@@ -33,8 +33,27 @@ namespace Windows.Security.Authentication.Web.Provider
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WebAccount.get
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Kind.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Security.Credentials.WebAccount WebAccount
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebAccount WebAccountProviderDeleteAccountOperation.WebAccount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccount%20WebAccountProviderDeleteAccountOperation.WebAccount");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.FromAbi(nint)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.operator ==(Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation, Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.operator !=(Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation, Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Equals(Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Equals(object)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.GetHashCode()
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation.Kind.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportCompleted()
@@ -42,6 +61,7 @@ namespace Windows.Security.Authentication.Web.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation", "void WebAccountProviderDeleteAccountOperation.ReportCompleted()");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderBaseReportOperation.ReportCompleted()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportError(global::Windows.Security.Authentication.Web.Core.WebProviderError value)
@@ -49,6 +69,10 @@ namespace Windows.Security.Authentication.Web.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation", "void WebAccountProviderDeleteAccountOperation.ReportError(WebProviderError value)");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderBaseReportOperation.ReportError(Windows.Security.Authentication.Web.Core.WebProviderError)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.Kind.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.WebAccount.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderDeleteAccountOperation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation
 		// Processing: Windows.Security.Authentication.Web.Provider.IWebAccountProviderBaseReportOperation
 	}

@@ -15,6 +15,136 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.ProtocolForResultsOperation global::Windows.ApplicationModel.Activation.IProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ProtocolForResultsOperation ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ProtocolForResultsOperation%20ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind ProtocolForResultsActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20ProtocolForResultsActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState ProtocolForResultsActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20ProtocolForResultsActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen ProtocolForResultsActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20ProtocolForResultsActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Uri global::Windows.ApplicationModel.Activation.IProtocolActivatedEventArgs.Uri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri ProtocolForResultsActivatedEventArgs.Uri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20ProtocolForResultsActivatedEventArgs.Uri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IProtocolActivatedEventArgsWithCallerPackageFamilyNameAndData.CallerPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Collections.ValueSet global::Windows.ApplicationModel.Activation.IProtocolActivatedEventArgsWithCallerPackageFamilyNameAndData.Data
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ValueSet ProtocolForResultsActivatedEventArgs.Data is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20ProtocolForResultsActivatedEventArgs.Data");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.ViewManagement.ActivationViewSwitcher global::Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationViewSwitcher ProtocolForResultsActivatedEventArgs.ViewSwitcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationViewSwitcher%20ProtocolForResultsActivatedEventArgs.ViewSwitcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User ProtocolForResultsActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20ProtocolForResultsActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string CallerPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Foundation.Collections.ValueSet Data
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ValueSet ProtocolForResultsActivatedEventArgs.Data is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20ProtocolForResultsActivatedEventArgs.Data");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -35,31 +165,21 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.System.ProtocolForResultsOperation ProtocolForResultsOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ProtocolForResultsOperation ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ProtocolForResultsOperation%20ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.SplashScreen SplashScreen
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member SplashScreen ProtocolForResultsActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20ProtocolForResultsActivatedEventArgs.SplashScreen");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.User User
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member User ProtocolForResultsActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20ProtocolForResultsActivatedEventArgs.User");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int CurrentlyShownApplicationViewId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member int ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId");
 			}
 		}
 #endif
@@ -75,31 +195,11 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string CallerPackageFamilyName
+		public global::Windows.System.User User
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Foundation.Collections.ValueSet Data
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ValueSet ProtocolForResultsActivatedEventArgs.Data is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20ProtocolForResultsActivatedEventArgs.Data");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.ProtocolForResultsOperation ProtocolForResultsOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ProtocolForResultsOperation ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ProtocolForResultsOperation%20ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation");
+				throw new global::System.NotImplementedException("The member User ProtocolForResultsActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20ProtocolForResultsActivatedEventArgs.User");
 			}
 		}
 #endif
@@ -113,16 +213,37 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs, Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs, Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IProtocolActivatedEventArgs.Uri.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IProtocolActivatedEventArgsWithCallerPackageFamilyNameAndData.CallerPackageFamilyName.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IProtocolActivatedEventArgsWithCallerPackageFamilyNameAndData.Data.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Data.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.ProtocolForResultsOperation.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Uri.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.CallerPackageFamilyName.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.Data.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.CurrentlyShownApplicationViewId.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.ViewSwitcher.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ProtocolForResultsActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IProtocolForResultsActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IProtocolActivatedEventArgs

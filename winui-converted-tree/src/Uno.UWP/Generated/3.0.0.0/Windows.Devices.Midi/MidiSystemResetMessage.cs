@@ -8,14 +8,58 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiSystemResetMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiSystemResetMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiSystemResetMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiSystemResetMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiSystemResetMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiSystemResetMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiSystemResetMessage.Type");
+			}
+		}
+#endif
 		// Skipping already declared property RawData
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
 		// Skipping already declared method Windows.Devices.Midi.MidiSystemResetMessage.MidiSystemResetMessage()
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.MidiSystemResetMessage()
-		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.operator ==(Windows.Devices.Midi.MidiSystemResetMessage, Windows.Devices.Midi.MidiSystemResetMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.operator !=(Windows.Devices.Midi.MidiSystemResetMessage, Windows.Devices.Midi.MidiSystemResetMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Equals(Windows.Devices.Midi.MidiSystemResetMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemResetMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

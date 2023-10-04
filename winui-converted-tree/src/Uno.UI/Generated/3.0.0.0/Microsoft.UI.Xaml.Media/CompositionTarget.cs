@@ -13,12 +13,7 @@ namespace Microsoft.UI.Xaml.Media
 		{
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendering.add
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendering.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendered.add
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendered.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost.add
-		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Composition.Compositor GetCompositorForCurrentThread()
@@ -26,6 +21,23 @@ namespace Microsoft.UI.Xaml.Media
 			throw new global::System.NotImplementedException("The member Compositor CompositionTarget.GetCompositorForCurrentThread() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Compositor%20CompositionTarget.GetCompositorForCurrentThread%28%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendered.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendered.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendering.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Rendering.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.SurfaceContentsLost.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.operator ==(Microsoft.UI.Xaml.Media.CompositionTarget, Microsoft.UI.Xaml.Media.CompositionTarget)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.operator !=(Microsoft.UI.Xaml.Media.CompositionTarget, Microsoft.UI.Xaml.Media.CompositionTarget)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Equals(Microsoft.UI.Xaml.Media.CompositionTarget)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.CompositionTarget.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static event global::System.EventHandler<global::Microsoft.UI.Xaml.Media.RenderedEventArgs> Rendered

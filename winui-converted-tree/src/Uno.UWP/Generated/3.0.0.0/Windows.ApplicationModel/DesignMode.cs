@@ -10,7 +10,8 @@ namespace Windows.ApplicationModel
 	{
 		// Skipping already declared property DesignModeEnabled
 		// Skipping already declared property DesignMode2Enabled
-		// Forced skipping of method Windows.ApplicationModel.DesignMode.DesignMode2Enabled.get
+		// Forced skipping of method Windows.ApplicationModel.DesignMode.As<I>()
 		// Forced skipping of method Windows.ApplicationModel.DesignMode.DesignModeEnabled.get
+		// Forced skipping of method Windows.ApplicationModel.DesignMode.DesignMode2Enabled.get
 	}
 }

@@ -8,20 +8,64 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiPolyphonicKeyPressureMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
-		// Skipping already declared property RawData
-		// Skipping already declared property Timestamp
-		// Skipping already declared property Type
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiPolyphonicKeyPressureMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiPolyphonicKeyPressureMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiPolyphonicKeyPressureMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiPolyphonicKeyPressureMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiPolyphonicKeyPressureMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiPolyphonicKeyPressureMessage.Type");
+			}
+		}
+#endif
 		// Skipping already declared property Channel
 		// Skipping already declared property Note
 		// Skipping already declared property Pressure
+		// Skipping already declared property RawData
+		// Skipping already declared property Timestamp
+		// Skipping already declared property Type
 		// Skipping already declared method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.MidiPolyphonicKeyPressureMessage(byte, byte, byte)
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.MidiPolyphonicKeyPressureMessage(byte, byte, byte)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.operator ==(Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage, Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.operator !=(Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage, Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Equals(Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Channel.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Note.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Pressure.get
-		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPolyphonicKeyPressureMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

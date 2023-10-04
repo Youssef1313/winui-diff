@@ -8,11 +8,35 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class ToggleSwitchAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ToggleState global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ToggleState ToggleSwitchAutomationPeer.ToggleState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ToggleState%20ToggleSwitchAutomationPeer.ToggleState");
+			}
+		}
+#endif
 		// Skipping already declared property ToggleState
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleSwitchAutomationPeer(Microsoft.UI.Xaml.Controls.ToggleSwitch)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleSwitchAutomationPeer(Microsoft.UI.Xaml.Controls.ToggleSwitch)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleSwitchAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleSwitchAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleSwitchAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IToggleProvider
 	}
 }

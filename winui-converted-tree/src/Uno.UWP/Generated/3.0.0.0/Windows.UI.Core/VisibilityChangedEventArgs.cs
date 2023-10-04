@@ -8,11 +8,38 @@ namespace Windows.UI.Core
 #endif
 	public partial class VisibilityChangedEventArgs : global::Windows.UI.Core.ICoreWindowEventArgs
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool VisibilityChangedEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20VisibilityChangedEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.VisibilityChangedEventArgs", "bool VisibilityChangedEventArgs.Handled");
+			}
+		}
+#endif
 		// Skipping already declared property Handled
 		// Skipping already declared property Visible
-		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Visible.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.operator ==(Windows.UI.Core.VisibilityChangedEventArgs, Windows.UI.Core.VisibilityChangedEventArgs)
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.operator !=(Windows.UI.Core.VisibilityChangedEventArgs, Windows.UI.Core.VisibilityChangedEventArgs)
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Equals(Windows.UI.Core.VisibilityChangedEventArgs)
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
 		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.Visible.get
+		// Forced skipping of method Windows.UI.Core.VisibilityChangedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

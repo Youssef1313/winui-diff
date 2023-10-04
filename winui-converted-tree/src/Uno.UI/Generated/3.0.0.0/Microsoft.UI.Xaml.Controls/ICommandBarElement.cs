@@ -22,10 +22,10 @@ namespace Microsoft.UI.Xaml.Controls
 			get;
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.IsInOverflow.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.set
 	}
 }

@@ -15,6 +15,76 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Appointments.AppointmentsProvider.AddAppointmentOperation global::Windows.ApplicationModel.Activation.IAppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AddAppointmentOperation AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AddAppointmentOperation%20AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AppointmentsProviderAddAppointmentActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AppointmentsProviderAddAppointmentActivatedEventArgs.Verb");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind AppointmentsProviderAddAppointmentActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20AppointmentsProviderAddAppointmentActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState AppointmentsProviderAddAppointmentActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20AppointmentsProviderAddAppointmentActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen AppointmentsProviderAddAppointmentActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20AppointmentsProviderAddAppointmentActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User AppointmentsProviderAddAppointmentActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20AppointmentsProviderAddAppointmentActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.ApplicationModel.Appointments.AppointmentsProvider.AddAppointmentOperation AddAppointmentOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AddAppointmentOperation AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AddAppointmentOperation%20AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -63,22 +133,29 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.ApplicationModel.Appointments.AppointmentsProvider.AddAppointmentOperation AddAppointmentOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member AddAppointmentOperation AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AddAppointmentOperation%20AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation");
-			}
-		}
-#endif
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs, Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs, Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.AddAppointmentOperation.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Verb.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.AppointmentsProviderAddAppointmentActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderAddAppointmentActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs

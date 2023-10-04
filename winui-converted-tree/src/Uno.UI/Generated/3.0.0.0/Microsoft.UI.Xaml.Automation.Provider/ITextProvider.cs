@@ -20,8 +20,6 @@ namespace Microsoft.UI.Xaml.Automation.Provider
 			get;
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITextProvider.DocumentRange.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITextProvider.SupportedTextSelection.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		global::Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider[] GetSelection();
 #endif
@@ -34,5 +32,7 @@ namespace Microsoft.UI.Xaml.Automation.Provider
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		global::Microsoft.UI.Xaml.Automation.Provider.ITextRangeProvider RangeFromPoint(global::Windows.Foundation.Point screenLocation);
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITextProvider.DocumentRange.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITextProvider.SupportedTextSelection.get
 	}
 }

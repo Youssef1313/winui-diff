@@ -10,6 +10,14 @@ namespace Microsoft.UI.Xaml.Controls
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsDefaultShadowEnabledProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			nameof(IsDefaultShadowEnabled), typeof(bool),
+			typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter),
+			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(bool)));
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsDefaultShadowEnabled
 		{
 			get
@@ -23,19 +31,24 @@ namespace Microsoft.UI.Xaml.Controls
 		}
 #endif
 		// Skipping already declared property TemplateSettings
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Microsoft.UI.Xaml.DependencyProperty IsDefaultShadowEnabledProperty { get; } =
-		Microsoft.UI.Xaml.DependencyProperty.Register(
-			nameof(IsDefaultShadowEnabled), typeof(bool),
-			typeof(global::Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter),
-			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(bool)));
-#endif
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.MenuFlyoutPresenter()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.MenuFlyoutPresenter()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.MenuFlyoutPresenter(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.operator ==(Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter, Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.operator !=(Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter, Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.Equals(Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.MenuFlyoutPresenter(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabled.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabled.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsDefaultShadowEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MenuFlyoutPresenter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

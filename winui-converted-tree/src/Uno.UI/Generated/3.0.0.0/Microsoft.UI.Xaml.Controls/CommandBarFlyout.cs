@@ -11,6 +11,20 @@ namespace Microsoft.UI.Xaml.Controls
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool AlwaysExpanded
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CommandBarFlyout.AlwaysExpanded is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CommandBarFlyout.AlwaysExpanded");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.CommandBarFlyout", "bool CommandBarFlyout.AlwaysExpanded");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Collections.IObservableVector<global::Microsoft.UI.Xaml.Controls.ICommandBarElement> PrimaryCommands
 		{
 			get
@@ -31,29 +45,27 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool AlwaysExpanded
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool CommandBarFlyout.AlwaysExpanded is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CommandBarFlyout.AlwaysExpanded");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.CommandBarFlyout", "bool CommandBarFlyout.AlwaysExpanded");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public CommandBarFlyout() : base()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.CommandBarFlyout", "CommandBarFlyout.CommandBarFlyout()");
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.CommandBarFlyout()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.PrimaryCommands.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.SecondaryCommands.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.CommandBarFlyout(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.operator ==(Microsoft.UI.Xaml.Controls.CommandBarFlyout, Microsoft.UI.Xaml.Controls.CommandBarFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.operator !=(Microsoft.UI.Xaml.Controls.CommandBarFlyout, Microsoft.UI.Xaml.Controls.CommandBarFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.Equals(Microsoft.UI.Xaml.Controls.CommandBarFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.CommandBarFlyout(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.AlwaysExpanded.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.AlwaysExpanded.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.PrimaryCommands.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.SecondaryCommands.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CommandBarFlyout.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

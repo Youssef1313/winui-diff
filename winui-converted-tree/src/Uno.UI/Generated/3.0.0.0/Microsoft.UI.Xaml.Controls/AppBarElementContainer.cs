@@ -8,22 +8,78 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 	public partial class AppBarElementContainer : global::Microsoft.UI.Xaml.Controls.ContentControl, global::Microsoft.UI.Xaml.Controls.ICommandBarElement
 	{
-		// Skipping already declared property IsCompact
-		// Skipping already declared property DynamicOverflowOrder
-		// Skipping already declared property IsInOverflow
 		// Skipping already declared property DynamicOverflowOrderProperty
 		// Skipping already declared property IsCompactProperty
 		// Skipping already declared property IsInOverflowProperty
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int AppBarElementContainer.DynamicOverflowOrder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20AppBarElementContainer.DynamicOverflowOrder");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.AppBarElementContainer", "int AppBarElementContainer.DynamicOverflowOrder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarElementContainer.IsCompact is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarElementContainer.IsCompact");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.AppBarElementContainer", "bool AppBarElementContainer.IsCompact");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.ICommandBarElement.IsInOverflow
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarElementContainer.IsInOverflow is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarElementContainer.IsInOverflow");
+			}
+		}
+#endif
+		// Skipping already declared property DynamicOverflowOrder
+		// Skipping already declared property IsCompact
+		// Skipping already declared property IsInOverflow
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.AppBarElementContainer.AppBarElementContainer()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.AppBarElementContainer()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsCompactProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsInOverflowProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.AppBarElementContainer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.operator ==(Microsoft.UI.Xaml.Controls.AppBarElementContainer, Microsoft.UI.Xaml.Controls.AppBarElementContainer)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.operator !=(Microsoft.UI.Xaml.Controls.AppBarElementContainer, Microsoft.UI.Xaml.Controls.AppBarElementContainer)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Equals(Microsoft.UI.Xaml.Controls.AppBarElementContainer)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.AppBarElementContainer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsInOverflow.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrder.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrder.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsCompact.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsCompact.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsInOverflow.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrder.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrder.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsCompactProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsInOverflowProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.DynamicOverflowOrderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarElementContainer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Controls.ICommandBarElement
 	}
 }

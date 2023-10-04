@@ -8,16 +8,60 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiSongSelectMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiSongSelectMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiSongSelectMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiSongSelectMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiSongSelectMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiSongSelectMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiSongSelectMessage.Type");
+			}
+		}
+#endif
 		// Skipping already declared property RawData
+		// Skipping already declared property Song
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
-		// Skipping already declared property Song
 		// Skipping already declared method Windows.Devices.Midi.MidiSongSelectMessage.MidiSongSelectMessage(byte)
 		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.MidiSongSelectMessage(byte)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.operator ==(Windows.Devices.Midi.MidiSongSelectMessage, Windows.Devices.Midi.MidiSongSelectMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.operator !=(Windows.Devices.Midi.MidiSongSelectMessage, Windows.Devices.Midi.MidiSongSelectMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Equals(Windows.Devices.Midi.MidiSongSelectMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Windows.Devices.Midi.IMidiMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.RawData.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Song.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Timestamp.get
-		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.RawData.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongSelectMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

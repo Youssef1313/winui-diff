@@ -8,6 +8,66 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class RangeBaseAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.IsReadOnly
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool RangeBaseAutomationPeer.IsReadOnly is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20RangeBaseAutomationPeer.IsReadOnly");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.LargeChange
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double RangeBaseAutomationPeer.LargeChange is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20RangeBaseAutomationPeer.LargeChange");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Maximum
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double RangeBaseAutomationPeer.Maximum is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20RangeBaseAutomationPeer.Maximum");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Minimum
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double RangeBaseAutomationPeer.Minimum is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20RangeBaseAutomationPeer.Minimum");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.SmallChange
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double RangeBaseAutomationPeer.SmallChange is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20RangeBaseAutomationPeer.SmallChange");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Value
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double RangeBaseAutomationPeer.Value is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20RangeBaseAutomationPeer.Value");
+			}
+		}
+#endif
 		// Skipping already declared property IsReadOnly
 		// Skipping already declared property LargeChange
 		// Skipping already declared property Maximum
@@ -16,13 +76,32 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		// Skipping already declared property Value
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(Microsoft.UI.Xaml.Controls.Primitives.RangeBase)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(Microsoft.UI.Xaml.Controls.Primitives.RangeBase)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.WinRT.IWinRTObject.NativeObject.get
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SetValue(double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.SetValue(double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.LargeChange.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Maximum.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Minimum.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.SmallChange.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider.Value.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsReadOnly.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.LargeChange.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Maximum.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Minimum.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SmallChange.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Value.get
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SetValue(double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider
 	}
 }

@@ -8,6 +8,7 @@ namespace Windows.Networking.Connectivity
 #endif
 	public static partial class ConnectivityManager
 	{
+		// Forced skipping of method Windows.Networking.Connectivity.ConnectivityManager.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Networking.Connectivity.ConnectionSession> AcquireConnectionAsync(global::Windows.Networking.Connectivity.CellularApnContext cellularApnContext)

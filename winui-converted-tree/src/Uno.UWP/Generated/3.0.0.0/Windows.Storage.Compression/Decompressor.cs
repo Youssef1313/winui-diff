@@ -16,6 +16,16 @@ namespace Windows.Storage.Compression
 		}
 #endif
 		// Forced skipping of method Windows.Storage.Compression.Decompressor.Decompressor(Windows.Storage.Streams.IInputStream)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.operator ==(Windows.Storage.Compression.Decompressor, Windows.Storage.Compression.Decompressor)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.operator !=(Windows.Storage.Compression.Decompressor, Windows.Storage.Compression.Decompressor)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.Equals(Windows.Storage.Compression.Decompressor)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.Equals(object)
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.GetHashCode()
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.IInputStream DetachStream()
@@ -30,6 +40,7 @@ namespace Windows.Storage.Compression
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<IBuffer, uint> Decompressor.ReadAsync(IBuffer buffer, uint count, InputStreamOptions options) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3CIBuffer%2C%20uint%3E%20Decompressor.ReadAsync%28IBuffer%20buffer%2C%20uint%20count%2C%20InputStreamOptions%20options%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.Windows.Storage.Streams.IInputStream.ReadAsync(Windows.Storage.Streams.IBuffer, uint, Windows.Storage.Streams.InputStreamOptions)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -37,6 +48,7 @@ namespace Windows.Storage.Compression
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Compression.Decompressor", "void Decompressor.Dispose()");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.Compression.Decompressor.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.Streams.IInputStream
 		// Processing: System.IDisposable
 	}

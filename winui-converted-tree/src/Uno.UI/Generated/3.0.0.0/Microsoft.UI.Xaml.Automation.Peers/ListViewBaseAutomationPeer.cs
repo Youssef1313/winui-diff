@@ -10,6 +10,26 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider.DropEffect
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ListViewBaseAutomationPeer.DropEffect is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ListViewBaseAutomationPeer.DropEffect");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string[] global::Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider.DropEffects
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string[] ListViewBaseAutomationPeer.DropEffects is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%5B%5D%20ListViewBaseAutomationPeer.DropEffects");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string DropEffect
 		{
 			get
@@ -36,8 +56,22 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.ListViewBaseAutomationPeer(Microsoft.UI.Xaml.Controls.ListViewBase)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.ListViewBaseAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.ListViewBaseAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider.DropEffect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider.DropEffects.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.DropEffect.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.DropEffects.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ListViewBaseAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IDropTargetProvider
 	}
 }

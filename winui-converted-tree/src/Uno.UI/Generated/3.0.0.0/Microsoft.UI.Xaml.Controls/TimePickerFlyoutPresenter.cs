@@ -15,6 +15,14 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsDefaultShadowEnabledProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			nameof(IsDefaultShadowEnabled), typeof(bool),
+			typeof(global::Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter),
+			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(bool)));
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsDefaultShadowEnabled
 		{
 			get
@@ -27,16 +35,19 @@ namespace Microsoft.UI.Xaml.Controls
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Microsoft.UI.Xaml.DependencyProperty IsDefaultShadowEnabledProperty { get; } =
-		Microsoft.UI.Xaml.DependencyProperty.Register(
-			nameof(IsDefaultShadowEnabled), typeof(bool),
-			typeof(global::Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter),
-			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(bool)));
-#endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.operator ==(Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter, Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.operator !=(Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter, Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.Equals(Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabled.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabled.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsDefaultShadowEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyoutPresenter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

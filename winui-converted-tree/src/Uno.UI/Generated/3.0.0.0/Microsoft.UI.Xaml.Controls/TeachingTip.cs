@@ -10,296 +10,6 @@ namespace Microsoft.UI.Xaml.Controls
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Title
-		{
-			get
-			{
-				return (string)this.GetValue(TitleProperty);
-			}
-			set
-			{
-				this.SetValue(TitleProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.FrameworkElement Target
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.FrameworkElement)this.GetValue(TargetProperty);
-			}
-			set
-			{
-				this.SetValue(TargetProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility TailVisibility
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility)this.GetValue(TailVisibilityProperty);
-			}
-			set
-			{
-				this.SetValue(TailVisibilityProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Subtitle
-		{
-			get
-			{
-				return (string)this.GetValue(SubtitleProperty);
-			}
-			set
-			{
-				this.SetValue(SubtitleProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool ShouldConstrainToRootBounds
-		{
-			get
-			{
-				return (bool)this.GetValue(ShouldConstrainToRootBoundsProperty);
-			}
-			set
-			{
-				this.SetValue(ShouldConstrainToRootBoundsProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode PreferredPlacement
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode)this.GetValue(PreferredPlacementProperty);
-			}
-			set
-			{
-				this.SetValue(PreferredPlacementProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Thickness PlacementMargin
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(PlacementMarginProperty);
-			}
-			set
-			{
-				this.SetValue(PlacementMarginProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsOpen
-		{
-			get
-			{
-				return (bool)this.GetValue(IsOpenProperty);
-			}
-			set
-			{
-				this.SetValue(IsOpenProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsLightDismissEnabled
-		{
-			get
-			{
-				return (bool)this.GetValue(IsLightDismissEnabledProperty);
-			}
-			set
-			{
-				this.SetValue(IsLightDismissEnabledProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.IconSource IconSource
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.IconSource)this.GetValue(IconSourceProperty);
-			}
-			set
-			{
-				this.SetValue(IconSourceProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode HeroContentPlacement
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode)this.GetValue(HeroContentPlacementProperty);
-			}
-			set
-			{
-				this.SetValue(HeroContentPlacementProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.UIElement HeroContent
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.UIElement)this.GetValue(HeroContentProperty);
-			}
-			set
-			{
-				this.SetValue(HeroContentProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Style CloseButtonStyle
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Style)this.GetValue(CloseButtonStyleProperty);
-			}
-			set
-			{
-				this.SetValue(CloseButtonStyleProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public object CloseButtonContent
-		{
-			get
-			{
-				return (object)this.GetValue(CloseButtonContentProperty);
-			}
-			set
-			{
-				this.SetValue(CloseButtonContentProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public object CloseButtonCommandParameter
-		{
-			get
-			{
-				return (object)this.GetValue(CloseButtonCommandParameterProperty);
-			}
-			set
-			{
-				this.SetValue(CloseButtonCommandParameterProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Windows.Input.ICommand CloseButtonCommand
-		{
-			get
-			{
-				return (global::System.Windows.Input.ICommand)this.GetValue(CloseButtonCommandProperty);
-			}
-			set
-			{
-				this.SetValue(CloseButtonCommandProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Style ActionButtonStyle
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Style)this.GetValue(ActionButtonStyleProperty);
-			}
-			set
-			{
-				this.SetValue(ActionButtonStyleProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public object ActionButtonContent
-		{
-			get
-			{
-				return (object)this.GetValue(ActionButtonContentProperty);
-			}
-			set
-			{
-				this.SetValue(ActionButtonContentProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public object ActionButtonCommandParameter
-		{
-			get
-			{
-				return (object)this.GetValue(ActionButtonCommandParameterProperty);
-			}
-			set
-			{
-				this.SetValue(ActionButtonCommandParameterProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Windows.Input.ICommand ActionButtonCommand
-		{
-			get
-			{
-				return (global::System.Windows.Input.ICommand)this.GetValue(ActionButtonCommandProperty);
-			}
-			set
-			{
-				this.SetValue(ActionButtonCommandProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings TemplateSettings
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings)this.GetValue(TemplateSettingsProperty);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Xaml.DependencyProperty ActionButtonCommandParameterProperty { get; } =
 		Microsoft.UI.Xaml.DependencyProperty.Register(
 			nameof(ActionButtonCommandParameter), typeof(object),
@@ -468,82 +178,385 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Windows.Input.ICommand ActionButtonCommand
+		{
+			get
+			{
+				return (global::System.Windows.Input.ICommand)this.GetValue(ActionButtonCommandProperty);
+			}
+			set
+			{
+				this.SetValue(ActionButtonCommandProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public object ActionButtonCommandParameter
+		{
+			get
+			{
+				return (object)this.GetValue(ActionButtonCommandParameterProperty);
+			}
+			set
+			{
+				this.SetValue(ActionButtonCommandParameterProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public object ActionButtonContent
+		{
+			get
+			{
+				return (object)this.GetValue(ActionButtonContentProperty);
+			}
+			set
+			{
+				this.SetValue(ActionButtonContentProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Style ActionButtonStyle
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Style)this.GetValue(ActionButtonStyleProperty);
+			}
+			set
+			{
+				this.SetValue(ActionButtonStyleProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Windows.Input.ICommand CloseButtonCommand
+		{
+			get
+			{
+				return (global::System.Windows.Input.ICommand)this.GetValue(CloseButtonCommandProperty);
+			}
+			set
+			{
+				this.SetValue(CloseButtonCommandProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public object CloseButtonCommandParameter
+		{
+			get
+			{
+				return (object)this.GetValue(CloseButtonCommandParameterProperty);
+			}
+			set
+			{
+				this.SetValue(CloseButtonCommandParameterProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public object CloseButtonContent
+		{
+			get
+			{
+				return (object)this.GetValue(CloseButtonContentProperty);
+			}
+			set
+			{
+				this.SetValue(CloseButtonContentProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Style CloseButtonStyle
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Style)this.GetValue(CloseButtonStyleProperty);
+			}
+			set
+			{
+				this.SetValue(CloseButtonStyleProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.UIElement HeroContent
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.UIElement)this.GetValue(HeroContentProperty);
+			}
+			set
+			{
+				this.SetValue(HeroContentProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode HeroContentPlacement
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.TeachingTipHeroContentPlacementMode)this.GetValue(HeroContentPlacementProperty);
+			}
+			set
+			{
+				this.SetValue(HeroContentPlacementProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.IconSource IconSource
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.IconSource)this.GetValue(IconSourceProperty);
+			}
+			set
+			{
+				this.SetValue(IconSourceProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsLightDismissEnabled
+		{
+			get
+			{
+				return (bool)this.GetValue(IsLightDismissEnabledProperty);
+			}
+			set
+			{
+				this.SetValue(IsLightDismissEnabledProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsOpen
+		{
+			get
+			{
+				return (bool)this.GetValue(IsOpenProperty);
+			}
+			set
+			{
+				this.SetValue(IsOpenProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Thickness PlacementMargin
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(PlacementMarginProperty);
+			}
+			set
+			{
+				this.SetValue(PlacementMarginProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode PreferredPlacement
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.TeachingTipPlacementMode)this.GetValue(PreferredPlacementProperty);
+			}
+			set
+			{
+				this.SetValue(PreferredPlacementProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool ShouldConstrainToRootBounds
+		{
+			get
+			{
+				return (bool)this.GetValue(ShouldConstrainToRootBoundsProperty);
+			}
+			set
+			{
+				this.SetValue(ShouldConstrainToRootBoundsProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Subtitle
+		{
+			get
+			{
+				return (string)this.GetValue(SubtitleProperty);
+			}
+			set
+			{
+				this.SetValue(SubtitleProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility TailVisibility
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.TeachingTipTailVisibility)this.GetValue(TailVisibilityProperty);
+			}
+			set
+			{
+				this.SetValue(TailVisibilityProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.FrameworkElement Target
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.FrameworkElement)this.GetValue(TargetProperty);
+			}
+			set
+			{
+				this.SetValue(TargetProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings TemplateSettings
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings)this.GetValue(TemplateSettingsProperty);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Title
+		{
+			get
+			{
+				return (string)this.GetValue(TitleProperty);
+			}
+			set
+			{
+				this.SetValue(TitleProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public TeachingTip() : base()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.TeachingTip", "TeachingTip.TeachingTip()");
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TeachingTip()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Title.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Title.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Target.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Target.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSource.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSource.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameterProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameterProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpenProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMarginProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBoundsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.SubtitleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibilityProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettingsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TitleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TeachingTip(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.operator ==(Microsoft.UI.Xaml.Controls.TeachingTip, Microsoft.UI.Xaml.Controls.TeachingTip)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.operator !=(Microsoft.UI.Xaml.Controls.TeachingTip, Microsoft.UI.Xaml.Controls.TeachingTip)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Equals(Microsoft.UI.Xaml.Controls.TeachingTip)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TeachingTip(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonClick.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonClick.remove
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonClick.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonClick.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closing.add
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closing.remove
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closed.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closed.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpenProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TargetProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibilityProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TitleProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.SubtitleProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContentProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyleProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameterProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContentProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyleProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameterProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMarginProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBoundsProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabledProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacementProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacementProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSourceProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettingsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closing.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Closing.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommand.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonCommandParameter.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonContent.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ActionButtonStyle.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommand.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonCommandParameter.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonContent.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.CloseButtonStyle.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContent.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.HeroContentPlacement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSource.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IconSource.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsLightDismissEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOpen.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PlacementMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.PreferredPlacement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.ShouldConstrainToRootBounds.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Subtitle.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TailVisibility.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Target.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Target.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Title.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.Title.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTip.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.TeachingTip, object> ActionButtonClick

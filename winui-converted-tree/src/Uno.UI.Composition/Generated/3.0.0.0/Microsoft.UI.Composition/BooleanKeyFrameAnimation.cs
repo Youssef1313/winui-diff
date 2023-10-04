@@ -13,6 +13,14 @@ namespace Microsoft.UI.Composition
 		{
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.operator ==(Microsoft.UI.Composition.BooleanKeyFrameAnimation, Microsoft.UI.Composition.BooleanKeyFrameAnimation)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.operator !=(Microsoft.UI.Composition.BooleanKeyFrameAnimation, Microsoft.UI.Composition.BooleanKeyFrameAnimation)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.Equals(Microsoft.UI.Composition.BooleanKeyFrameAnimation)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void InsertKeyFrame(float normalizedProgressKey, bool value)
@@ -20,5 +28,7 @@ namespace Microsoft.UI.Composition
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.BooleanKeyFrameAnimation", "void BooleanKeyFrameAnimation.InsertKeyFrame(float normalizedProgressKey, bool value)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.BooleanKeyFrameAnimation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

@@ -15,15 +15,11 @@ namespace Windows.Storage.FileProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Title
+		public global::System.Collections.Generic.IList<string> Author
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string DocumentProperties.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DocumentProperties.Title");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.DocumentProperties", "string DocumentProperties.Title");
+				throw new global::System.NotImplementedException("The member IList<string> DocumentProperties.Author is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3Cstring%3E%20DocumentProperties.Author");
 			}
 		}
 #endif
@@ -43,16 +39,6 @@ namespace Windows.Storage.FileProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IList<string> Author
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IList<string> DocumentProperties.Author is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3Cstring%3E%20DocumentProperties.Author");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IList<string> Keywords
 		{
 			get
@@ -61,12 +47,30 @@ namespace Windows.Storage.FileProperties
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Author.get
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Title.get
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Title.set
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Keywords.get
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Comment.get
-		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Comment.set
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Title
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DocumentProperties.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DocumentProperties.Title");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.DocumentProperties", "string DocumentProperties.Title");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.operator ==(Windows.Storage.FileProperties.DocumentProperties, Windows.Storage.FileProperties.DocumentProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.operator !=(Windows.Storage.FileProperties.DocumentProperties, Windows.Storage.FileProperties.DocumentProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Equals(Windows.Storage.FileProperties.DocumentProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Equals(object)
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.GetHashCode()
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IDictionary<string, object>> RetrievePropertiesAsync(global::System.Collections.Generic.IEnumerable<string> propertiesToRetrieve)
@@ -74,6 +78,7 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncOperation<IDictionary<string, object>> DocumentProperties.RetrievePropertiesAsync(IEnumerable<string> propertiesToRetrieve) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CIDictionary%3Cstring%2C%20object%3E%3E%20DocumentProperties.RetrievePropertiesAsync%28IEnumerable%3Cstring%3E%20propertiesToRetrieve%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.RetrievePropertiesAsync(System.Collections.Generic.IEnumerable<string>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction SavePropertiesAsync(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, object>> propertiesToSave)
@@ -81,6 +86,7 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncAction DocumentProperties.SavePropertiesAsync(IEnumerable<KeyValuePair<string, object>> propertiesToSave) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20DocumentProperties.SavePropertiesAsync%28IEnumerable%3CKeyValuePair%3Cstring%2C%20object%3E%3E%20propertiesToSave%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.SavePropertiesAsync(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction SavePropertiesAsync()
@@ -88,6 +94,14 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncAction DocumentProperties.SavePropertiesAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20DocumentProperties.SavePropertiesAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.SavePropertiesAsync()
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Author.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Comment.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Comment.set
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Keywords.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Title.get
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.Title.set
+		// Forced skipping of method Windows.Storage.FileProperties.DocumentProperties.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.FileProperties.IStorageItemExtraProperties
 	}
 }

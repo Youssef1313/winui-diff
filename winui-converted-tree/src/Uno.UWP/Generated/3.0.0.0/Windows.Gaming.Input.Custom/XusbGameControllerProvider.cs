@@ -15,6 +15,56 @@ namespace Windows.Gaming.Input.Custom
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo XusbGameControllerProvider.FirmwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20XusbGameControllerProvider.FirmwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort XusbGameControllerProvider.HardwareProductId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20XusbGameControllerProvider.HardwareProductId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort XusbGameControllerProvider.HardwareVendorId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20XusbGameControllerProvider.HardwareVendorId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo XusbGameControllerProvider.HardwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20XusbGameControllerProvider.HardwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool XusbGameControllerProvider.IsConnected is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20XusbGameControllerProvider.IsConnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo
 		{
 			get
@@ -63,6 +113,16 @@ namespace Windows.Gaming.Input.Custom
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.operator ==(Windows.Gaming.Input.Custom.XusbGameControllerProvider, Windows.Gaming.Input.Custom.XusbGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.operator !=(Windows.Gaming.Input.Custom.XusbGameControllerProvider, Windows.Gaming.Input.Custom.XusbGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Equals(Windows.Gaming.Input.Custom.XusbGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetVibration(double lowFrequencyMotorSpeed, double highFrequencyMotorSpeed)
@@ -70,11 +130,17 @@ namespace Windows.Gaming.Input.Custom
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.Custom.XusbGameControllerProvider", "void XusbGameControllerProvider.SetVibration(double lowFrequencyMotorSpeed, double highFrequencyMotorSpeed)");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.FirmwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.HardwareProductId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.HardwareVendorId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.HardwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.IsConnected.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.XusbGameControllerProvider.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Gaming.Input.Custom.IGameControllerProvider
 	}
 }

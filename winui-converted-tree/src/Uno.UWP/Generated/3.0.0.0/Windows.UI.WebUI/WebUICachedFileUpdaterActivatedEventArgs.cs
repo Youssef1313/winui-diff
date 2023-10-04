@@ -15,6 +15,86 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Provider.CachedFileUpdaterUI global::Windows.ApplicationModel.Activation.ICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CachedFileUpdaterUI WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CachedFileUpdaterUI%20WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind WebUICachedFileUpdaterActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20WebUICachedFileUpdaterActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState WebUICachedFileUpdaterActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20WebUICachedFileUpdaterActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen WebUICachedFileUpdaterActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20WebUICachedFileUpdaterActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.WebUI.ActivatedOperation global::Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User WebUICachedFileUpdaterActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20WebUICachedFileUpdaterActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Storage.Provider.CachedFileUpdaterUI CachedFileUpdaterUI
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CachedFileUpdaterUI WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CachedFileUpdaterUI%20WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -53,32 +133,29 @@ namespace Windows.UI.WebUI
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Storage.Provider.CachedFileUpdaterUI CachedFileUpdaterUI
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member CachedFileUpdaterUI WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CachedFileUpdaterUI%20WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ActivatedOperation WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation");
-			}
-		}
-#endif
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.operator ==(Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs, Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.operator !=(Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs, Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Equals(Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.ApplicationModel.Activation.ICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.CachedFileUpdaterUI.get
 		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.SplashScreen.get
-		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.ActivatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUICachedFileUpdaterActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.ICachedFileUpdaterActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.UI.WebUI.IActivatedEventArgsDeferral

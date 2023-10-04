@@ -15,6 +15,16 @@ namespace Windows.Devices.PointOfService
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.PointOfService.CashDrawer global::Windows.Devices.PointOfService.ICashDrawerEventSourceEventArgs.CashDrawer
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CashDrawer CashDrawerClosedEventArgs.CashDrawer is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CashDrawer%20CashDrawerClosedEventArgs.CashDrawer");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Devices.PointOfService.CashDrawer CashDrawer
 		{
 			get
@@ -23,7 +33,19 @@ namespace Windows.Devices.PointOfService
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.operator ==(Windows.Devices.PointOfService.CashDrawerClosedEventArgs, Windows.Devices.PointOfService.CashDrawerClosedEventArgs)
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.operator !=(Windows.Devices.PointOfService.CashDrawerClosedEventArgs, Windows.Devices.PointOfService.CashDrawerClosedEventArgs)
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.Equals(Windows.Devices.PointOfService.CashDrawerClosedEventArgs)
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.Equals(object)
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.Windows.Devices.PointOfService.ICashDrawerEventSourceEventArgs.CashDrawer.get
 		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.CashDrawer.get
+		// Forced skipping of method Windows.Devices.PointOfService.CashDrawerClosedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.PointOfService.ICashDrawerEventSourceEventArgs
 	}
 }

@@ -10,6 +10,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ToggleState global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ToggleState SemanticZoomAutomationPeer.ToggleState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ToggleState%20SemanticZoomAutomationPeer.ToggleState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.Automation.ToggleState ToggleState
 		{
 			get
@@ -26,7 +36,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.SemanticZoomAutomationPeer(Microsoft.UI.Xaml.Controls.SemanticZoom)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.SemanticZoomAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.SemanticZoomAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Toggle()
@@ -34,6 +53,11 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer", "void SemanticZoomAutomationPeer.Toggle()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SemanticZoomAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IToggleProvider
 	}
 }

@@ -33,7 +33,19 @@ namespace Microsoft.UI.Xaml.Automation
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.As<I>()
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.DropTargetEffectProperty.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.DropTargetEffectsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.operator ==(Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers, Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.operator !=(Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers, Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.Equals(Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DropTargetPatternIdentifiers.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

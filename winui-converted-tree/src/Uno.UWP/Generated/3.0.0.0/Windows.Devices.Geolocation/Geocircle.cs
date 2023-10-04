@@ -8,10 +8,40 @@ namespace Windows.Devices.Geolocation
 #endif
 	public partial class Geocircle : global::Windows.Devices.Geolocation.IGeoshape
 	{
-		// Skipping already declared property Center
-		// Skipping already declared property Radius
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Geolocation.AltitudeReferenceSystem global::Windows.Devices.Geolocation.IGeoshape.AltitudeReferenceSystem
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AltitudeReferenceSystem Geocircle.AltitudeReferenceSystem is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AltitudeReferenceSystem%20Geocircle.AltitudeReferenceSystem");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Geolocation.GeoshapeType global::Windows.Devices.Geolocation.IGeoshape.GeoshapeType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GeoshapeType Geocircle.GeoshapeType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GeoshapeType%20Geocircle.GeoshapeType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Devices.Geolocation.IGeoshape.SpatialReferenceId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint Geocircle.SpatialReferenceId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Geocircle.SpatialReferenceId");
+			}
+		}
+#endif
 		// Skipping already declared property AltitudeReferenceSystem
+		// Skipping already declared property Center
 		// Skipping already declared property GeoshapeType
+		// Skipping already declared property Radius
 		// Skipping already declared property SpatialReferenceId
 		// Skipping already declared method Windows.Devices.Geolocation.Geocircle.Geocircle(Windows.Devices.Geolocation.BasicGeoposition, double)
 		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Geocircle(Windows.Devices.Geolocation.BasicGeoposition, double)
@@ -31,11 +61,25 @@ namespace Windows.Devices.Geolocation
 		}
 #endif
 		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Geocircle(Windows.Devices.Geolocation.BasicGeoposition, double, Windows.Devices.Geolocation.AltitudeReferenceSystem, uint)
-		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Center.get
-		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Radius.get
-		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.GeoshapeType.get
-		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.SpatialReferenceId.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.operator ==(Windows.Devices.Geolocation.Geocircle, Windows.Devices.Geolocation.Geocircle)
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.operator !=(Windows.Devices.Geolocation.Geocircle, Windows.Devices.Geolocation.Geocircle)
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Equals(Windows.Devices.Geolocation.Geocircle)
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Equals(object)
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.GetHashCode()
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Windows.Devices.Geolocation.IGeoshape.AltitudeReferenceSystem.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Windows.Devices.Geolocation.IGeoshape.GeoshapeType.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Windows.Devices.Geolocation.IGeoshape.SpatialReferenceId.get
 		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.AltitudeReferenceSystem.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Center.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.GeoshapeType.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.Radius.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.SpatialReferenceId.get
+		// Forced skipping of method Windows.Devices.Geolocation.Geocircle.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Geolocation.IGeoshape
 	}
 }

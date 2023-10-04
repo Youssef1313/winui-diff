@@ -10,6 +10,30 @@ namespace Windows.Gaming.Input.ForceFeedback
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.Gain
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double ConstantForceEffect.Gain is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20ConstantForceEffect.Gain");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.ForceFeedback.ConstantForceEffect", "double ConstantForceEffect.Gain");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.ForceFeedback.ForceFeedbackEffectState global::Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.State
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ForceFeedbackEffectState ConstantForceEffect.State is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ForceFeedbackEffectState%20ConstantForceEffect.State");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public double Gain
 		{
 			get
@@ -40,9 +64,16 @@ namespace Windows.Gaming.Input.ForceFeedback
 		}
 #endif
 		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.ConstantForceEffect()
-		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Gain.get
-		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Gain.set
-		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.State.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.operator ==(Windows.Gaming.Input.ForceFeedback.ConstantForceEffect, Windows.Gaming.Input.ForceFeedback.ConstantForceEffect)
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.operator !=(Windows.Gaming.Input.ForceFeedback.ConstantForceEffect, Windows.Gaming.Input.ForceFeedback.ConstantForceEffect)
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Equals(Windows.Gaming.Input.ForceFeedback.ConstantForceEffect)
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Start()
@@ -50,6 +81,7 @@ namespace Windows.Gaming.Input.ForceFeedback
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.ForceFeedback.ConstantForceEffect", "void ConstantForceEffect.Start()");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.Start()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Stop()
@@ -57,6 +89,10 @@ namespace Windows.Gaming.Input.ForceFeedback
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.ForceFeedback.ConstantForceEffect", "void ConstantForceEffect.Stop()");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.Stop()
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.Gain.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.Gain.set
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect.State.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetParameters(global::System.Numerics.Vector3 vector, global::System.TimeSpan duration)
@@ -71,6 +107,10 @@ namespace Windows.Gaming.Input.ForceFeedback
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.ForceFeedback.ConstantForceEffect", "void ConstantForceEffect.SetParametersWithEnvelope(Vector3 vector, float attackGain, float sustainGain, float releaseGain, TimeSpan startDelay, TimeSpan attackDuration, TimeSpan sustainDuration, TimeSpan releaseDuration, uint repeatCount)");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Gain.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.Gain.set
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.State.get
+		// Forced skipping of method Windows.Gaming.Input.ForceFeedback.ConstantForceEffect.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Gaming.Input.ForceFeedback.IForceFeedbackEffect
 	}
 }

@@ -15,6 +15,56 @@ namespace Windows.Gaming.Input.Custom
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo GipGameControllerProvider.FirmwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20GipGameControllerProvider.FirmwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort GipGameControllerProvider.HardwareProductId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20GipGameControllerProvider.HardwareProductId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort GipGameControllerProvider.HardwareVendorId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20GipGameControllerProvider.HardwareVendorId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo GipGameControllerProvider.HardwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20GipGameControllerProvider.HardwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool GipGameControllerProvider.IsConnected is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20GipGameControllerProvider.IsConnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo
 		{
 			get
@@ -63,6 +113,16 @@ namespace Windows.Gaming.Input.Custom
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.operator ==(Windows.Gaming.Input.Custom.GipGameControllerProvider, Windows.Gaming.Input.Custom.GipGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.operator !=(Windows.Gaming.Input.Custom.GipGameControllerProvider, Windows.Gaming.Input.Custom.GipGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Equals(Windows.Gaming.Input.Custom.GipGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SendMessage(global::Windows.Gaming.Input.Custom.GipMessageClass messageClass, byte messageId, byte[] messageBuffer)
@@ -84,11 +144,17 @@ namespace Windows.Gaming.Input.Custom
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<GipFirmwareUpdateResult, GipFirmwareUpdateProgress> GipGameControllerProvider.UpdateFirmwareAsync(IInputStream firmwareImage) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3CGipFirmwareUpdateResult%2C%20GipFirmwareUpdateProgress%3E%20GipGameControllerProvider.UpdateFirmwareAsync%28IInputStream%20firmwareImage%29");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.FirmwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.HardwareProductId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.HardwareVendorId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.HardwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.IsConnected.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.GipGameControllerProvider.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Gaming.Input.Custom.IGameControllerProvider
 	}
 }

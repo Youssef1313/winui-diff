@@ -15,6 +15,86 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Contacts.Contact global::Windows.ApplicationModel.Activation.IContactPanelActivatedEventArgs.Contact
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Contact ContactPanelActivatedEventArgs.Contact is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Contact%20ContactPanelActivatedEventArgs.Contact");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Contacts.ContactPanel global::Windows.ApplicationModel.Activation.IContactPanelActivatedEventArgs.ContactPanel
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ContactPanel ContactPanelActivatedEventArgs.ContactPanel is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ContactPanel%20ContactPanelActivatedEventArgs.ContactPanel");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind ContactPanelActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20ContactPanelActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState ContactPanelActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20ContactPanelActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen ContactPanelActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20ContactPanelActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User ContactPanelActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20ContactPanelActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.ApplicationModel.Contacts.Contact Contact
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Contact ContactPanelActivatedEventArgs.Contact is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Contact%20ContactPanelActivatedEventArgs.Contact");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.ApplicationModel.Contacts.ContactPanel ContactPanel
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ContactPanel ContactPanelActivatedEventArgs.ContactPanel is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ContactPanel%20ContactPanelActivatedEventArgs.ContactPanel");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -53,32 +133,29 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.ApplicationModel.Contacts.Contact Contact
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Contact ContactPanelActivatedEventArgs.Contact is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Contact%20ContactPanelActivatedEventArgs.Contact");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.ApplicationModel.Contacts.ContactPanel ContactPanel
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ContactPanel ContactPanelActivatedEventArgs.ContactPanel is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ContactPanel%20ContactPanelActivatedEventArgs.ContactPanel");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.ContactPanel.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs, Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs, Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IContactPanelActivatedEventArgs.Contact.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IContactPanelActivatedEventArgs.ContactPanel.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Contact.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.ContactPanel.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ContactPanelActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IContactPanelActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser

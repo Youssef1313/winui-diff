@@ -10,11 +10,93 @@ namespace Windows.Media.Protection.PlayReady
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest", "string PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ResponseCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ResponseCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Uri global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri PlayReadyIndividualizationServiceRequest.Uri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20PlayReadyIndividualizationServiceRequest.Uri");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest", "Uri PlayReadyIndividualizationServiceRequest.Uri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.IMediaProtectionServiceRequest.ProtectionSystem
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadyIndividualizationServiceRequest.ProtectionSystem is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyIndividualizationServiceRequest.ProtectionSystem");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.IMediaProtectionServiceRequest.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadyIndividualizationServiceRequest.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyIndividualizationServiceRequest.Type");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string ChallengeCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest", "string PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Guid ProtectionSystem
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member Guid PlayReadyIndividualizationServiceRequest.ProtectionSystem is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyIndividualizationServiceRequest.ProtectionSystem");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string ResponseCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ResponseCustomData");
 			}
 		}
 #endif
@@ -44,41 +126,22 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string ChallengeCustomData
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest", "string PlayReadyIndividualizationServiceRequest.ChallengeCustomData");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string ResponseCustomData
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string PlayReadyIndividualizationServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadyIndividualizationServiceRequest.ResponseCustomData");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public PlayReadyIndividualizationServiceRequest()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest", "PlayReadyIndividualizationServiceRequest.PlayReadyIndividualizationServiceRequest()");
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.PlayReadyIndividualizationServiceRequest()
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Uri.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Uri.set
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ResponseCustomData.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ChallengeCustomData.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ChallengeCustomData.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.operator ==(Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest, Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.operator !=(Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest, Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Equals(Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction BeginServiceRequest()
@@ -86,6 +149,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member IAsyncAction PlayReadyIndividualizationServiceRequest.BeginServiceRequest() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20PlayReadyIndividualizationServiceRequest.BeginServiceRequest%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.BeginServiceRequest()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest NextServiceRequest()
@@ -93,6 +157,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member IPlayReadyServiceRequest PlayReadyIndividualizationServiceRequest.NextServiceRequest() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPlayReadyServiceRequest%20PlayReadyIndividualizationServiceRequest.NextServiceRequest%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.NextServiceRequest()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.PlayReadySoapMessage GenerateManualEnablingChallenge()
@@ -100,6 +165,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member PlayReadySoapMessage PlayReadyIndividualizationServiceRequest.GenerateManualEnablingChallenge() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PlayReadySoapMessage%20PlayReadyIndividualizationServiceRequest.GenerateManualEnablingChallenge%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.GenerateManualEnablingChallenge()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Exception ProcessManualEnablingResponse(byte[] responseBytes)
@@ -107,8 +173,22 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member Exception PlayReadyIndividualizationServiceRequest.ProcessManualEnablingResponse(byte[] responseBytes) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Exception%20PlayReadyIndividualizationServiceRequest.ProcessManualEnablingResponse%28byte%5B%5D%20responseBytes%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ProcessManualEnablingResponse(byte[])
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ResponseCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.IMediaProtectionServiceRequest.ProtectionSystem.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Windows.Media.Protection.IMediaProtectionServiceRequest.Type.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ChallengeCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ChallengeCustomData.set
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ProtectionSystem.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.ResponseCustomData.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Type.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Uri.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.Uri.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyIndividualizationServiceRequest.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest
 		// Processing: Windows.Media.Protection.IMediaProtectionServiceRequest
 	}

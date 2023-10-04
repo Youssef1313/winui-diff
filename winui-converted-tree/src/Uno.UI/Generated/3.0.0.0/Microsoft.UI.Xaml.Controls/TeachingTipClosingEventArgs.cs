@@ -37,9 +37,16 @@ namespace Microsoft.UI.Xaml.Controls
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Reason.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Cancel.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.operator ==(Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs, Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.operator !=(Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs, Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Equals(Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Deferral GetDeferral()
@@ -47,5 +54,9 @@ namespace Microsoft.UI.Xaml.Controls
 			throw new global::System.NotImplementedException("The member Deferral TeachingTipClosingEventArgs.GetDeferral() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Deferral%20TeachingTipClosingEventArgs.GetDeferral%28%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Cancel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.Reason.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipClosingEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

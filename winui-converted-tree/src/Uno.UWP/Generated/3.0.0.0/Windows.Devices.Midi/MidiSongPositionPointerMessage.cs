@@ -8,16 +8,60 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiSongPositionPointerMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiSongPositionPointerMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiSongPositionPointerMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiSongPositionPointerMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiSongPositionPointerMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiSongPositionPointerMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiSongPositionPointerMessage.Type");
+			}
+		}
+#endif
+		// Skipping already declared property Beats
 		// Skipping already declared property RawData
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
-		// Skipping already declared property Beats
 		// Skipping already declared method Windows.Devices.Midi.MidiSongPositionPointerMessage.MidiSongPositionPointerMessage(ushort)
 		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.MidiSongPositionPointerMessage(ushort)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.operator ==(Windows.Devices.Midi.MidiSongPositionPointerMessage, Windows.Devices.Midi.MidiSongPositionPointerMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.operator !=(Windows.Devices.Midi.MidiSongPositionPointerMessage, Windows.Devices.Midi.MidiSongPositionPointerMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Equals(Windows.Devices.Midi.MidiSongPositionPointerMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Beats.get
-		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSongPositionPointerMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

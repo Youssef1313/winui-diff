@@ -110,16 +110,6 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid ProtectionSystemId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid PlayReadyStatics.ProtectionSystemId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyStatics.ProtectionSystemId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string InputTrustAuthorityToCreate
 		{
 			get
@@ -130,11 +120,11 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.DateTimeOffset? HardwareDRMDisabledUntilTime
+		public static global::System.Guid ProtectionSystemId
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member DateTimeOffset? PlayReadyStatics.HardwareDRMDisabledUntilTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%3F%20PlayReadyStatics.HardwareDRMDisabledUntilTime");
+				throw new global::System.NotImplementedException("The member Guid PlayReadyStatics.ProtectionSystemId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyStatics.ProtectionSystemId");
 			}
 		}
 #endif
@@ -148,18 +138,26 @@ namespace Windows.Media.Protection.PlayReady
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.HardwareDRMDisabledAtTime.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.HardwareDRMDisabledUntilTime.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static void ResetHardwareDRMDisabled()
+		public static global::System.DateTimeOffset? HardwareDRMDisabledUntilTime
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyStatics", "void PlayReadyStatics.ResetHardwareDRMDisabled()");
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset? PlayReadyStatics.HardwareDRMDisabledUntilTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%3F%20PlayReadyStatics.HardwareDRMDisabledUntilTime");
+			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.InputTrustAuthorityToCreate.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.ProtectionSystemId.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.SecureStopServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.As<I>()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.DomainJoinServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.DomainLeaveServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.IndividualizationServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.LicenseAcquirerServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.MediaProtectionSystemId.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.MeteringReportServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.PlayReadySecurityVersion.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.RevocationServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.PlayReadyCertificateSecurityLevel.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static bool CheckSupportedHardware(global::Windows.Media.Protection.PlayReady.PlayReadyHardwareDRMFeatures hwdrmFeature)
@@ -167,14 +165,17 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member bool PlayReadyStatics.CheckSupportedHardware(PlayReadyHardwareDRMFeatures hwdrmFeature) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyStatics.CheckSupportedHardware%28PlayReadyHardwareDRMFeatures%20hwdrmFeature%29");
 		}
 #endif
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.PlayReadyCertificateSecurityLevel.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.DomainJoinServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.DomainLeaveServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.IndividualizationServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.LicenseAcquirerServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.MeteringReportServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.RevocationServiceRequestType.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.MediaProtectionSystemId.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.PlayReadySecurityVersion.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.SecureStopServiceRequestType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.InputTrustAuthorityToCreate.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.ProtectionSystemId.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static void ResetHardwareDRMDisabled()
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyStatics", "void PlayReadyStatics.ResetHardwareDRMDisabled()");
+		}
+#endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.HardwareDRMDisabledAtTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyStatics.HardwareDRMDisabledUntilTime.get
 	}
 }

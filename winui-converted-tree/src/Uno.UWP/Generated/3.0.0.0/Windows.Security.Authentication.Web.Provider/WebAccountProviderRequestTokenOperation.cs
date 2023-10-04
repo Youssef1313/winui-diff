@@ -15,7 +15,41 @@ namespace Windows.Security.Authentication.Web.Provider
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Security.Authentication.Web.Provider.WebAccountProviderOperationKind Kind
+		global::System.DateTimeOffset global::Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.CacheExpirationTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset WebAccountProviderRequestTokenOperation.CacheExpirationTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20WebAccountProviderRequestTokenOperation.CacheExpirationTime");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation", "DateTimeOffset WebAccountProviderRequestTokenOperation.CacheExpirationTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Authentication.Web.Provider.WebProviderTokenRequest global::Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.ProviderRequest
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebProviderTokenRequest WebAccountProviderRequestTokenOperation.ProviderRequest is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebProviderTokenRequest%20WebAccountProviderRequestTokenOperation.ProviderRequest");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IList<global::Windows.Security.Authentication.Web.Provider.WebProviderTokenResponse> global::Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.ProviderResponses
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IList<WebProviderTokenResponse> WebAccountProviderRequestTokenOperation.ProviderResponses is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CWebProviderTokenResponse%3E%20WebAccountProviderRequestTokenOperation.ProviderResponses");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Authentication.Web.Provider.WebAccountProviderOperationKind global::Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation.Kind
 		{
 			get
 			{
@@ -39,6 +73,16 @@ namespace Windows.Security.Authentication.Web.Provider
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Security.Authentication.Web.Provider.WebAccountProviderOperationKind Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebAccountProviderOperationKind WebAccountProviderRequestTokenOperation.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccountProviderOperationKind%20WebAccountProviderRequestTokenOperation.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Security.Authentication.Web.Provider.WebProviderTokenRequest ProviderRequest
 		{
 			get
@@ -57,11 +101,21 @@ namespace Windows.Security.Authentication.Web.Provider
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.ProviderRequest.get
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.ProviderResponses.get
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.CacheExpirationTime.set
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.CacheExpirationTime.get
-		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Kind.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.FromAbi(nint)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.operator ==(Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation, Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.operator !=(Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation, Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Equals(Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Equals(object)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.GetHashCode()
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.CacheExpirationTime.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.CacheExpirationTime.set
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.ProviderRequest.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation.ProviderResponses.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation.Kind.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportUserCanceled()
@@ -69,6 +123,7 @@ namespace Windows.Security.Authentication.Web.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation", "void WebAccountProviderRequestTokenOperation.ReportUserCanceled()");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderUIReportOperation.ReportUserCanceled()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportCompleted()
@@ -76,6 +131,7 @@ namespace Windows.Security.Authentication.Web.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation", "void WebAccountProviderRequestTokenOperation.ReportCompleted()");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderBaseReportOperation.ReportCompleted()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportError(global::Windows.Security.Authentication.Web.Core.WebProviderError value)
@@ -83,6 +139,13 @@ namespace Windows.Security.Authentication.Web.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation", "void WebAccountProviderRequestTokenOperation.ReportError(WebProviderError value)");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Windows.Security.Authentication.Web.Provider.IWebAccountProviderBaseReportOperation.ReportError(Windows.Security.Authentication.Web.Core.WebProviderError)
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.CacheExpirationTime.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.CacheExpirationTime.set
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.Kind.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.ProviderRequest.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.ProviderResponses.get
+		// Forced skipping of method Windows.Security.Authentication.Web.Provider.WebAccountProviderRequestTokenOperation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Security.Authentication.Web.Provider.IWebAccountProviderTokenOperation
 		// Processing: Windows.Security.Authentication.Web.Provider.IWebAccountProviderOperation
 		// Processing: Windows.Security.Authentication.Web.Provider.IWebAccountProviderUIReportOperation

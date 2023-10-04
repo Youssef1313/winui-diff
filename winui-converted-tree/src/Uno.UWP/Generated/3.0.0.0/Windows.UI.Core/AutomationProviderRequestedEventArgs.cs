@@ -15,6 +15,20 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AutomationProviderRequestedEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AutomationProviderRequestedEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.AutomationProviderRequestedEventArgs", "bool AutomationProviderRequestedEventArgs.Handled");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public object AutomationProvider
 		{
 			get
@@ -41,10 +55,23 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.operator ==(Windows.UI.Core.AutomationProviderRequestedEventArgs, Windows.UI.Core.AutomationProviderRequestedEventArgs)
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.operator !=(Windows.UI.Core.AutomationProviderRequestedEventArgs, Windows.UI.Core.AutomationProviderRequestedEventArgs)
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Equals(Windows.UI.Core.AutomationProviderRequestedEventArgs)
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
 		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.AutomationProvider.get
 		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.AutomationProvider.set
 		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.AutomationProviderRequestedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

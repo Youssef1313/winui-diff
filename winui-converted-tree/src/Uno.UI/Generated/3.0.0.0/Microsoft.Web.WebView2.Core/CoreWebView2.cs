@@ -30,19 +30,6 @@ namespace Microsoft.Web.WebView2.Core
 			}
 		}
 #endif
-		// Skipping already declared property DocumentTitle
-		// Skipping already declared property Settings
-		// Skipping already declared property Source
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string StatusBarText
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string CoreWebView2.StatusBarText is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2.StatusBarText");
-			}
-		}
-#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.Web.WebView2.Core.CoreWebView2CookieManager CookieManager
@@ -50,64 +37,6 @@ namespace Microsoft.Web.WebView2.Core
 			get
 			{
 				throw new global::System.NotImplementedException("The member CoreWebView2CookieManager CoreWebView2.CookieManager is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreWebView2CookieManager%20CoreWebView2.CookieManager");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.Web.WebView2.Core.CoreWebView2Environment Environment
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member CoreWebView2Environment CoreWebView2.Environment is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreWebView2Environment%20CoreWebView2.Environment");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsSuspended
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsSuspended is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsSuspended");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsMuted
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsMuted is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsMuted");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "bool CoreWebView2.IsMuted");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsDocumentPlayingAudio
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsDocumentPlayingAudio is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsDocumentPlayingAudio");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Foundation.Point DefaultDownloadDialogMargin
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Point CoreWebView2.DefaultDownloadDialogMargin is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Point%20CoreWebView2.DefaultDownloadDialogMargin");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "Point CoreWebView2.DefaultDownloadDialogMargin");
 			}
 		}
 #endif
@@ -127,6 +56,31 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Foundation.Point DefaultDownloadDialogMargin
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Point CoreWebView2.DefaultDownloadDialogMargin is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Point%20CoreWebView2.DefaultDownloadDialogMargin");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "Point CoreWebView2.DefaultDownloadDialogMargin");
+			}
+		}
+#endif
+		// Skipping already declared property DocumentTitle
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.Web.WebView2.Core.CoreWebView2Environment Environment
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreWebView2Environment CoreWebView2.Environment is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreWebView2Environment%20CoreWebView2.Environment");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsDefaultDownloadDialogOpen
 		{
 			get
@@ -135,10 +89,64 @@ namespace Microsoft.Web.WebView2.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsDocumentPlayingAudio
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsDocumentPlayingAudio is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsDocumentPlayingAudio");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsMuted
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsMuted is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsMuted");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "bool CoreWebView2.IsMuted");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsSuspended
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWebView2.IsSuspended is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWebView2.IsSuspended");
+			}
+		}
+#endif
+		// Skipping already declared property Settings
+		// Skipping already declared property Source
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string StatusBarText
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CoreWebView2.StatusBarText is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2.StatusBarText");
+			}
+		}
+#endif
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FromAbi(nint)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.operator ==(Microsoft.Web.WebView2.Core.CoreWebView2, Microsoft.Web.WebView2.Core.CoreWebView2)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.operator !=(Microsoft.Web.WebView2.Core.CoreWebView2, Microsoft.Web.WebView2.Core.CoreWebView2)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Equals(Microsoft.Web.WebView2.Core.CoreWebView2)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Equals(object)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.GetHashCode()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.BasicAuthenticationRequested.add
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.BasicAuthenticationRequested.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContextMenuRequested.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContextMenuRequested.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<string> CallDevToolsProtocolMethodForSessionAsync(string sessionId, string methodName, string parametersAsJson)
@@ -146,15 +154,10 @@ namespace Microsoft.Web.WebView2.Core
 			throw new global::System.NotImplementedException("The member IAsyncOperation<string> CoreWebView2.CallDevToolsProtocolMethodForSessionAsync(string sessionId, string methodName, string parametersAsJson) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3Cstring%3E%20CoreWebView2.CallDevToolsProtocolMethodForSessionAsync%28string%20sessionId%2C%20string%20methodName%2C%20string%20parametersAsJson%29");
 		}
 #endif
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.StatusBarText.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContextMenuRequested.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContextMenuRequested.remove
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.StatusBarTextChanged.add
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.StatusBarTextChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CookieManager.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Environment.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceResponseReceived.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceResponseReceived.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DOMContentLoaded.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DOMContentLoaded.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void NavigateWithWebResourceRequest(global::Microsoft.Web.WebView2.Core.CoreWebView2WebResourceRequest Request)
@@ -162,7 +165,10 @@ namespace Microsoft.Web.WebView2.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "void CoreWebView2.NavigateWithWebResourceRequest(CoreWebView2WebResourceRequest Request)");
 		}
 #endif
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsSuspended.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DOMContentLoaded.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DOMContentLoaded.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceResponseReceived.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceResponseReceived.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<bool> TrySuspendAsync()
@@ -179,10 +185,10 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 		// Skipping already declared method Microsoft.Web.WebView2.Core.CoreWebView2.SetVirtualHostNameToFolderMapping(string, string, Microsoft.Web.WebView2.Core.CoreWebView2HostResourceAccessKind)
 		// Skipping already declared method Microsoft.Web.WebView2.Core.CoreWebView2.ClearVirtualHostNameToFolderMapping(string)
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameCreated.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameCreated.remove
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DownloadStarting.add
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DownloadStarting.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameCreated.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameCreated.remove
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ClientCertificateRequested.add
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ClientCertificateRequested.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
@@ -199,20 +205,10 @@ namespace Microsoft.Web.WebView2.Core
 			throw new global::System.NotImplementedException("The member IAsyncOperation<bool> CoreWebView2.PrintToPdfAsync(string ResultFilePath, CoreWebView2PrintSettings printSettings) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3Cbool%3E%20CoreWebView2.PrintToPdfAsync%28string%20ResultFilePath%2C%20CoreWebView2PrintSettings%20printSettings%29");
 		}
 #endif
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMuted.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMuted.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDocumentPlayingAudio.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMutedChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMutedChanged.remove
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDocumentPlayingAudioChanged.add
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDocumentPlayingAudioChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpen.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogCornerAlignment.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogCornerAlignment.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogMargin.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogMargin.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpenChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpenChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMutedChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMutedChanged.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OpenDefaultDownloadDialog()
@@ -227,45 +223,8 @@ namespace Microsoft.Web.WebView2.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "void CoreWebView2.CloseDefaultDownloadDialog()");
 		}
 #endif
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Settings.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Source.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.BrowserProcessId.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CanGoBack.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CanGoForward.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitle.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElement.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationStarting.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationStarting.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContentLoading.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContentLoading.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.SourceChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.SourceChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.HistoryChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.HistoryChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationCompleted.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationCompleted.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationStarting.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationStarting.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationCompleted.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationCompleted.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ScriptDialogOpening.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ScriptDialogOpening.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.PermissionRequested.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.PermissionRequested.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ProcessFailed.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ProcessFailed.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebMessageReceived.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebMessageReceived.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitleChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitleChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElementChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElementChanged.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceRequested.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceRequested.remove
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WindowCloseRequested.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WindowCloseRequested.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpenChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpenChanged.remove
 		// Skipping already declared method Microsoft.Web.WebView2.Core.CoreWebView2.Navigate(string)
 		// Skipping already declared method Microsoft.Web.WebView2.Core.CoreWebView2.NavigateToString(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
@@ -357,6 +316,58 @@ namespace Microsoft.Web.WebView2.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2", "void CoreWebView2.RemoveWebResourceRequestedFilter(string uri, CoreWebView2WebResourceContext ResourceContext)");
 		}
 #endif
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElementChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElementChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContentLoading.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContentLoading.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitleChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitleChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationCompleted.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationCompleted.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationStarting.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.FrameNavigationStarting.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.HistoryChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.HistoryChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationCompleted.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationCompleted.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationStarting.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NavigationStarting.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.NewWindowRequested.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.PermissionRequested.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.PermissionRequested.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ProcessFailed.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ProcessFailed.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ScriptDialogOpening.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ScriptDialogOpening.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.SourceChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.SourceChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebMessageReceived.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebMessageReceived.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceRequested.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WebResourceRequested.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WindowCloseRequested.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.WindowCloseRequested.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.BrowserProcessId.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CanGoBack.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CanGoForward.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.ContainsFullScreenElement.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.CookieManager.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogCornerAlignment.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogCornerAlignment.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogMargin.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DefaultDownloadDialogMargin.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.DocumentTitle.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Environment.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDefaultDownloadDialogOpen.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsDocumentPlayingAudio.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMuted.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsMuted.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.IsSuspended.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Settings.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.Source.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.StatusBarText.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.Web.WebView2.Core.CoreWebView2, global::Microsoft.Web.WebView2.Core.CoreWebView2BasicAuthenticationRequestedEventArgs> BasicAuthenticationRequested

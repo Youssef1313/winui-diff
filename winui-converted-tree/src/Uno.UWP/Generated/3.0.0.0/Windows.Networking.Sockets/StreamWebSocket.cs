@@ -10,6 +10,16 @@ namespace Windows.Networking.Sockets
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IOutputStream global::Windows.Networking.Sockets.IWebSocket.OutputStream
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IOutputStream StreamWebSocket.OutputStream is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IOutputStream%20StreamWebSocket.OutputStream");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Networking.Sockets.StreamWebSocketControl Control
 		{
 			get
@@ -56,10 +66,16 @@ namespace Windows.Networking.Sockets
 		}
 #endif
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.StreamWebSocket()
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Control.get
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Information.get
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.InputStream.get
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.OutputStream.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.operator ==(Windows.Networking.Sockets.StreamWebSocket, Windows.Networking.Sockets.StreamWebSocket)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.operator !=(Windows.Networking.Sockets.StreamWebSocket, Windows.Networking.Sockets.StreamWebSocket)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Equals(Windows.Networking.Sockets.StreamWebSocket)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Equals(object)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.GetHashCode()
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction ConnectAsync(global::System.Uri uri)
@@ -67,6 +83,7 @@ namespace Windows.Networking.Sockets
 			throw new global::System.NotImplementedException("The member IAsyncAction StreamWebSocket.ConnectAsync(Uri uri) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20StreamWebSocket.ConnectAsync%28Uri%20uri%29");
 		}
 #endif
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.ConnectAsync(System.Uri)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetRequestHeader(string headerName, string headerValue)
@@ -74,8 +91,7 @@ namespace Windows.Networking.Sockets
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.StreamWebSocket", "void StreamWebSocket.SetRequestHeader(string headerName, string headerValue)");
 		}
 #endif
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Closed.add
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Closed.remove
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.SetRequestHeader(string, string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Close(ushort code, string reason)
@@ -83,6 +99,12 @@ namespace Windows.Networking.Sockets
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.StreamWebSocket", "void StreamWebSocket.Close(ushort code, string reason)");
 		}
 #endif
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.Close(ushort, string)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Closed.add
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Closed.remove
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.Closed.add
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.Closed.remove
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Windows.Networking.Sockets.IWebSocket.OutputStream.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -92,9 +114,30 @@ namespace Windows.Networking.Sockets
 #endif
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.ServerCustomValidationRequested.add
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.ServerCustomValidationRequested.remove
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Control.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.Information.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.InputStream.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.OutputStream.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocket.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Networking.Sockets.IWebSocket, global::Windows.Networking.Sockets.WebSocketClosedEventArgs> Closed
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.StreamWebSocket", "event TypedEventHandler<IWebSocket, WebSocketClosedEventArgs> StreamWebSocket.Closed");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.StreamWebSocket", "event TypedEventHandler<IWebSocket, WebSocketClosedEventArgs> StreamWebSocket.Closed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Networking.Sockets.IWebSocket, global::Windows.Networking.Sockets.WebSocketClosedEventArgs> global::Windows.Networking.Sockets.IWebSocket.Closed
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add

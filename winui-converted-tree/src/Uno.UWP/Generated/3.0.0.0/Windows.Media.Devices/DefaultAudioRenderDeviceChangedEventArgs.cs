@@ -15,6 +15,26 @@ namespace Windows.Media.Devices
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Devices.IDefaultAudioDeviceChangedEventArgs.Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DefaultAudioRenderDeviceChangedEventArgs.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DefaultAudioRenderDeviceChangedEventArgs.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Media.Devices.AudioDeviceRole global::Windows.Media.Devices.IDefaultAudioDeviceChangedEventArgs.Role
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AudioDeviceRole DefaultAudioRenderDeviceChangedEventArgs.Role is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AudioDeviceRole%20DefaultAudioRenderDeviceChangedEventArgs.Role");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Id
 		{
 			get
@@ -33,8 +53,21 @@ namespace Windows.Media.Devices
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.operator ==(Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs, Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs)
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.operator !=(Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs, Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs)
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Equals(Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs)
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Equals(object)
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Windows.Media.Devices.IDefaultAudioDeviceChangedEventArgs.Id.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Windows.Media.Devices.IDefaultAudioDeviceChangedEventArgs.Role.get
 		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Id.get
 		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.Role.get
+		// Forced skipping of method Windows.Media.Devices.DefaultAudioRenderDeviceChangedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Devices.IDefaultAudioDeviceChangedEventArgs
 	}
 }

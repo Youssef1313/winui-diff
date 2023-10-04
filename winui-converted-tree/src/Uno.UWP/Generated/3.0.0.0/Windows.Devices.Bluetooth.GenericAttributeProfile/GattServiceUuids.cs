@@ -228,6 +228,16 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.As<I>()
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.Battery.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.BloodPressure.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.CyclingSpeedAndCadence.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.GenericAccess.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.GenericAttribute.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.Glucose.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.HealthThermometer.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.HeartRate.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.RunningSpeedAndCadence.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.AlertNotification.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.CurrentTime.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.CyclingPower.get
@@ -241,14 +251,5 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ReferenceTimeUpdate.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.ScanParameters.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.TxPower.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.Battery.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.BloodPressure.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.CyclingSpeedAndCadence.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.GenericAccess.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.GenericAttribute.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.Glucose.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.HealthThermometer.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.HeartRate.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattServiceUuids.RunningSpeedAndCadence.get
 	}
 }

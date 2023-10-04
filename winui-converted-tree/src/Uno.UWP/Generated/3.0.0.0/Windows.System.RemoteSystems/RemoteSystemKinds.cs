@@ -88,13 +88,14 @@ namespace Windows.System.RemoteSystems
 			}
 		}
 #endif
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Iot.get
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Tablet.get
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Laptop.get
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Phone.get
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Hub.get
-		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Holographic.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.As<I>()
 		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Desktop.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Holographic.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Hub.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Phone.get
 		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Xbox.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Iot.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Laptop.get
+		// Forced skipping of method Windows.System.RemoteSystems.RemoteSystemKinds.Tablet.get
 	}
 }

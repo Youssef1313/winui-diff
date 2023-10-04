@@ -15,43 +15,15 @@ namespace Windows.Storage.FileProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Title
+		public string CameraManufacturer
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string ImageProperties.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ImageProperties.Title");
+				throw new global::System.NotImplementedException("The member string ImageProperties.CameraManufacturer is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ImageProperties.CameraManufacturer");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "string ImageProperties.Title");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint Rating
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member uint ImageProperties.Rating is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ImageProperties.Rating");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "uint ImageProperties.Rating");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.DateTimeOffset DateTaken
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member DateTimeOffset ImageProperties.DateTaken is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20ImageProperties.DateTaken");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "DateTimeOffset ImageProperties.DateTaken");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "string ImageProperties.CameraManufacturer");
 			}
 		}
 #endif
@@ -71,15 +43,15 @@ namespace Windows.Storage.FileProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string CameraManufacturer
+		public global::System.DateTimeOffset DateTaken
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string ImageProperties.CameraManufacturer is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ImageProperties.CameraManufacturer");
+				throw new global::System.NotImplementedException("The member DateTimeOffset ImageProperties.DateTaken is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20ImageProperties.DateTaken");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "string ImageProperties.CameraManufacturer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "DateTimeOffset ImageProperties.DateTaken");
 			}
 		}
 #endif
@@ -145,6 +117,34 @@ namespace Windows.Storage.FileProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint Rating
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ImageProperties.Rating is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ImageProperties.Rating");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "uint ImageProperties.Rating");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Title
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ImageProperties.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ImageProperties.Title");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.FileProperties.ImageProperties", "string ImageProperties.Title");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public uint Width
 		{
 			get
@@ -153,23 +153,16 @@ namespace Windows.Storage.FileProperties
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Rating.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Rating.set
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Keywords.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.DateTaken.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.DateTaken.set
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Width.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Height.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Title.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Title.set
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Latitude.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Longitude.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraManufacturer.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraManufacturer.set
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraModel.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraModel.set
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Orientation.get
-		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.PeopleNames.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.operator ==(Windows.Storage.FileProperties.ImageProperties, Windows.Storage.FileProperties.ImageProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.operator !=(Windows.Storage.FileProperties.ImageProperties, Windows.Storage.FileProperties.ImageProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Equals(Windows.Storage.FileProperties.ImageProperties)
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Equals(object)
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.GetHashCode()
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::System.Collections.Generic.IDictionary<string, object>> RetrievePropertiesAsync(global::System.Collections.Generic.IEnumerable<string> propertiesToRetrieve)
@@ -177,6 +170,7 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncOperation<IDictionary<string, object>> ImageProperties.RetrievePropertiesAsync(IEnumerable<string> propertiesToRetrieve) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CIDictionary%3Cstring%2C%20object%3E%3E%20ImageProperties.RetrievePropertiesAsync%28IEnumerable%3Cstring%3E%20propertiesToRetrieve%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.RetrievePropertiesAsync(System.Collections.Generic.IEnumerable<string>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction SavePropertiesAsync(global::System.Collections.Generic.IEnumerable<global::System.Collections.Generic.KeyValuePair<string, object>> propertiesToSave)
@@ -184,6 +178,7 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncAction ImageProperties.SavePropertiesAsync(IEnumerable<KeyValuePair<string, object>> propertiesToSave) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20ImageProperties.SavePropertiesAsync%28IEnumerable%3CKeyValuePair%3Cstring%2C%20object%3E%3E%20propertiesToSave%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.SavePropertiesAsync(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<string, object>>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction SavePropertiesAsync()
@@ -191,6 +186,25 @@ namespace Windows.Storage.FileProperties
 			throw new global::System.NotImplementedException("The member IAsyncAction ImageProperties.SavePropertiesAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20ImageProperties.SavePropertiesAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Windows.Storage.FileProperties.IStorageItemExtraProperties.SavePropertiesAsync()
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraManufacturer.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraManufacturer.set
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraModel.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.CameraModel.set
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.DateTaken.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.DateTaken.set
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Height.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Keywords.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Latitude.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Longitude.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Orientation.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.PeopleNames.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Rating.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Rating.set
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Title.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Title.set
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.Width.get
+		// Forced skipping of method Windows.Storage.FileProperties.ImageProperties.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.FileProperties.IStorageItemExtraProperties
 	}
 }

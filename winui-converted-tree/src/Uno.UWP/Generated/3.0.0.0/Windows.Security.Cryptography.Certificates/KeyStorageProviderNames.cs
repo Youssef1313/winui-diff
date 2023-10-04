@@ -48,9 +48,10 @@ namespace Windows.Security.Cryptography.Certificates
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.PassportKeyStorageProvider.get
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.SoftwareKeyStorageProvider.get
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.SmartcardKeyStorageProvider.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.As<I>()
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.PlatformKeyStorageProvider.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.SmartcardKeyStorageProvider.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.SoftwareKeyStorageProvider.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyStorageProviderNames.PassportKeyStorageProvider.get
 	}
 }

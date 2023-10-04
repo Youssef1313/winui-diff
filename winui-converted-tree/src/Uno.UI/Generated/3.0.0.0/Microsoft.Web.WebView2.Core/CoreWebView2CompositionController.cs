@@ -15,6 +15,16 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.UI.Core.CoreCursor Cursor
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreCursor CoreWebView2CompositionController.Cursor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreCursor%20CoreWebView2CompositionController.Cursor");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public object RootVisualTarget
 		{
 			get
@@ -27,20 +37,15 @@ namespace Microsoft.Web.WebView2.Core
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.Core.CoreCursor Cursor
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member CoreCursor CoreWebView2CompositionController.Cursor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreCursor%20CoreWebView2CompositionController.Cursor");
-			}
-		}
-#endif
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.RootVisualTarget.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.RootVisualTarget.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.CursorChanged.add
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.CursorChanged.remove
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.As<I>()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.FromAbi(nint)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.operator ==(Microsoft.Web.WebView2.Core.CoreWebView2CompositionController, Microsoft.Web.WebView2.Core.CoreWebView2CompositionController)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.operator !=(Microsoft.Web.WebView2.Core.CoreWebView2CompositionController, Microsoft.Web.WebView2.Core.CoreWebView2CompositionController)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.Equals(Microsoft.Web.WebView2.Core.CoreWebView2CompositionController)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.Equals(object)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.GetHashCode()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SendMouseInput(global::Microsoft.Web.WebView2.Core.CoreWebView2MouseEventKind eventKind, global::Microsoft.Web.WebView2.Core.CoreWebView2MouseEventVirtualKeys virtualKeys, uint mouseData, global::Windows.Foundation.Point point)
@@ -55,7 +60,13 @@ namespace Microsoft.Web.WebView2.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2CompositionController", "void CoreWebView2CompositionController.SendPointerInput(CoreWebView2PointerEventKind eventKind, CoreWebView2PointerInfo pointerInfo)");
 		}
 #endif
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.CursorChanged.add
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.CursorChanged.remove
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.Cursor.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.RootVisualTarget.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.RootVisualTarget.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2CompositionController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.Web.WebView2.Core.CoreWebView2CompositionController, object> CursorChanged

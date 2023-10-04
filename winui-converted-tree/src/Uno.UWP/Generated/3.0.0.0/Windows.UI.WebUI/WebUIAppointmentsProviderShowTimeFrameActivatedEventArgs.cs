@@ -15,6 +15,106 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.ApplicationModel.Activation.IAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.DateTimeOffset global::Windows.ApplicationModel.Activation.IAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Verb");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.WebUI.ActivatedOperation global::Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.TimeSpan Duration
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -45,6 +145,16 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.DateTimeOffset TimeToShow
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.System.User User
 		{
 			get
@@ -63,44 +173,33 @@ namespace Windows.UI.WebUI
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.TimeSpan Duration
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member TimeSpan WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.DateTimeOffset TimeToShow
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member DateTimeOffset WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.operator ==(Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs, Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.operator !=(Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs, Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Equals(Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Duration.get
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Verb.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.SplashScreen.get
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.ActivatedOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.TimeToShow.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderShowTimeFrameActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderShowTimeFrameActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs

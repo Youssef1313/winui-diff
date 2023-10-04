@@ -27,7 +27,18 @@ namespace Microsoft.UI.Xaml.Controls
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.operator ==(Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs, Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.operator !=(Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs, Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.Equals(Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.Handled.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TextControlPasteEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

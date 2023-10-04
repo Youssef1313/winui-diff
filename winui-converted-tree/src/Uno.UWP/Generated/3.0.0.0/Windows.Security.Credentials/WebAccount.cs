@@ -10,6 +10,56 @@ namespace Windows.Security.Credentials
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Credentials.WebAccountState global::Windows.Security.Credentials.IWebAccount.State
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebAccountState WebAccount.State is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccountState%20WebAccount.State");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Security.Credentials.IWebAccount.UserName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string WebAccount.UserName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebAccount.UserName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Credentials.WebAccountProvider global::Windows.Security.Credentials.IWebAccount.WebAccountProvider
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebAccountProvider WebAccount.WebAccountProvider is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebAccountProvider%20WebAccount.WebAccountProvider");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string WebAccount.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebAccount.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Collections.Generic.IReadOnlyDictionary<string, string> Properties
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyDictionary<string, string> WebAccount.Properties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyDictionary%3Cstring%2C%20string%3E%20WebAccount.Properties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Security.Credentials.WebAccountState State
 		{
 			get
@@ -40,37 +90,25 @@ namespace Windows.Security.Credentials
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Id
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string WebAccount.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebAccount.Id");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IReadOnlyDictionary<string, string> Properties
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IReadOnlyDictionary<string, string> WebAccount.Properties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyDictionary%3Cstring%2C%20string%3E%20WebAccount.Properties");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public WebAccount(global::Windows.Security.Credentials.WebAccountProvider webAccountProvider, string userName, global::Windows.Security.Credentials.WebAccountState state)
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Security.Credentials.WebAccount", "WebAccount.WebAccount(WebAccountProvider webAccountProvider, string userName, WebAccountState state)");
 		}
 #endif
 		// Forced skipping of method Windows.Security.Credentials.WebAccount.WebAccount(Windows.Security.Credentials.WebAccountProvider, string, Windows.Security.Credentials.WebAccountState)
-		// Forced skipping of method Windows.Security.Credentials.WebAccount.WebAccountProvider.get
-		// Forced skipping of method Windows.Security.Credentials.WebAccount.UserName.get
-		// Forced skipping of method Windows.Security.Credentials.WebAccount.State.get
-		// Forced skipping of method Windows.Security.Credentials.WebAccount.Id.get
-		// Forced skipping of method Windows.Security.Credentials.WebAccount.Properties.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.FromAbi(nint)
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.operator ==(Windows.Security.Credentials.WebAccount, Windows.Security.Credentials.WebAccount)
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.operator !=(Windows.Security.Credentials.WebAccount, Windows.Security.Credentials.WebAccount)
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Equals(Windows.Security.Credentials.WebAccount)
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Equals(object)
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.GetHashCode()
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Windows.Security.Credentials.IWebAccount.State.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Windows.Security.Credentials.IWebAccount.UserName.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Windows.Security.Credentials.IWebAccount.WebAccountProvider.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.Streams.IRandomAccessStream> GetPictureAsync(global::Windows.Security.Credentials.WebAccountPictureSize desizedSize)
@@ -92,6 +130,12 @@ namespace Windows.Security.Credentials
 			throw new global::System.NotImplementedException("The member IAsyncAction WebAccount.SignOutAsync(string clientId) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20WebAccount.SignOutAsync%28string%20clientId%29");
 		}
 #endif
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Id.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.Properties.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.State.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.UserName.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.WebAccountProvider.get
+		// Forced skipping of method Windows.Security.Credentials.WebAccount.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Security.Credentials.IWebAccount
 	}
 }

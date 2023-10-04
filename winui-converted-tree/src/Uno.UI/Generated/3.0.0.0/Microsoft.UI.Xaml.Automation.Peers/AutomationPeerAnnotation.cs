@@ -10,17 +10,19 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Automation.AnnotationType Type
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Automation.AnnotationType)this.GetValue(TypeProperty);
-			}
-			set
-			{
-				this.SetValue(TypeProperty, value);
-			}
-		}
+		public static global::Microsoft.UI.Xaml.DependencyProperty PeerProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			nameof(Peer), typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer),
+			typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation),
+			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer)));
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::Microsoft.UI.Xaml.DependencyProperty TypeProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			nameof(Type), typeof(global::Microsoft.UI.Xaml.Automation.AnnotationType),
+			typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation),
+			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Automation.AnnotationType)));
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -38,20 +40,26 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Microsoft.UI.Xaml.DependencyProperty PeerProperty { get; } =
-		Microsoft.UI.Xaml.DependencyProperty.Register(
-			nameof(Peer), typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer),
-			typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation),
-			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer)));
+		public global::Microsoft.UI.Xaml.Automation.AnnotationType Type
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Automation.AnnotationType)this.GetValue(TypeProperty);
+			}
+			set
+			{
+				this.SetValue(TypeProperty, value);
+			}
+		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Microsoft.UI.Xaml.DependencyProperty TypeProperty { get; } =
-		Microsoft.UI.Xaml.DependencyProperty.Register(
-			nameof(Type), typeof(global::Microsoft.UI.Xaml.Automation.AnnotationType),
-			typeof(global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation),
-			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Automation.AnnotationType)));
+		public AutomationPeerAnnotation() : base()
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation", "AutomationPeerAnnotation.AutomationPeerAnnotation()");
+		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.AutomationPeerAnnotation()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public AutomationPeerAnnotation(global::Microsoft.UI.Xaml.Automation.AnnotationType type) : base()
@@ -68,19 +76,22 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.AutomationPeerAnnotation(Microsoft.UI.Xaml.Automation.AnnotationType, Microsoft.UI.Xaml.Automation.Peers.AutomationPeer)
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public AutomationPeerAnnotation() : base()
-		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation", "AutomationPeerAnnotation.AutomationPeerAnnotation()");
-		}
-#endif
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.AutomationPeerAnnotation()
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Type.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Type.set
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.PeerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.TypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.operator ==(Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation, Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.operator !=(Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation, Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Equals(Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Peer.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Peer.set
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.TypeProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.PeerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Type.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.Type.set
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

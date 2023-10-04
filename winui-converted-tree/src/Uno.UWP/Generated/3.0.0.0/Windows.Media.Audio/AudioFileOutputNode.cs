@@ -15,27 +15,41 @@ namespace Windows.Media.Audio
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Storage.IStorageFile File
+		bool global::Windows.Media.Audio.IAudioNode.ConsumeInput
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member IStorageFile AudioFileOutputNode.File is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IStorageFile%20AudioFileOutputNode.File");
+				throw new global::System.NotImplementedException("The member bool AudioFileOutputNode.ConsumeInput is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFileOutputNode.ConsumeInput");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "bool AudioFileOutputNode.ConsumeInput");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Media.MediaProperties.MediaEncodingProfile FileEncodingProfile
+		global::System.Collections.Generic.IList<global::Windows.Media.Effects.IAudioEffectDefinition> global::Windows.Media.Audio.IAudioNode.EffectDefinitions
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member MediaEncodingProfile AudioFileOutputNode.FileEncodingProfile is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MediaEncodingProfile%20AudioFileOutputNode.FileEncodingProfile");
+				throw new global::System.NotImplementedException("The member IList<IAudioEffectDefinition> AudioFileOutputNode.EffectDefinitions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CIAudioEffectDefinition%3E%20AudioFileOutputNode.EffectDefinitions");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public double OutgoingGain
+		global::Windows.Media.MediaProperties.AudioEncodingProperties global::Windows.Media.Audio.IAudioNode.EncodingProperties
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AudioEncodingProperties AudioFileOutputNode.EncodingProperties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AudioEncodingProperties%20AudioFileOutputNode.EncodingProperties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Windows.Media.Audio.IAudioNode.OutgoingGain
 		{
 			get
 			{
@@ -81,8 +95,50 @@ namespace Windows.Media.Audio
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.File.get
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.FileEncodingProfile.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Storage.IStorageFile File
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IStorageFile AudioFileOutputNode.File is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IStorageFile%20AudioFileOutputNode.File");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Media.MediaProperties.MediaEncodingProfile FileEncodingProfile
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MediaEncodingProfile AudioFileOutputNode.FileEncodingProfile is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MediaEncodingProfile%20AudioFileOutputNode.FileEncodingProfile");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public double OutgoingGain
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double AudioFileOutputNode.OutgoingGain is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20AudioFileOutputNode.OutgoingGain");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "double AudioFileOutputNode.OutgoingGain");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.operator ==(Windows.Media.Audio.AudioFileOutputNode, Windows.Media.Audio.AudioFileOutputNode)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.operator !=(Windows.Media.Audio.AudioFileOutputNode, Windows.Media.Audio.AudioFileOutputNode)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Equals(Windows.Media.Audio.AudioFileOutputNode)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Equals(object)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.GetHashCode()
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Media.Transcoding.TranscodeFailureReason> FinalizeAsync()
@@ -90,12 +146,6 @@ namespace Windows.Media.Audio
 			throw new global::System.NotImplementedException("The member IAsyncOperation<TranscodeFailureReason> AudioFileOutputNode.FinalizeAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CTranscodeFailureReason%3E%20AudioFileOutputNode.FinalizeAsync%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.EffectDefinitions.get
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.OutgoingGain.set
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.OutgoingGain.get
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.EncodingProperties.get
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.ConsumeInput.get
-		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.ConsumeInput.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Start()
@@ -103,6 +153,7 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.Start()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.Start()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Stop()
@@ -110,6 +161,7 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.Stop()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.Stop()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Reset()
@@ -117,6 +169,7 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.Reset()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.Reset()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void DisableEffectsByDefinition(global::Windows.Media.Effects.IAudioEffectDefinition definition)
@@ -124,6 +177,7 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.DisableEffectsByDefinition(IAudioEffectDefinition definition)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.DisableEffectsByDefinition(Windows.Media.Effects.IAudioEffectDefinition)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void EnableEffectsByDefinition(global::Windows.Media.Effects.IAudioEffectDefinition definition)
@@ -131,6 +185,13 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.EnableEffectsByDefinition(IAudioEffectDefinition definition)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.EnableEffectsByDefinition(Windows.Media.Effects.IAudioEffectDefinition)
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.ConsumeInput.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.ConsumeInput.set
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.EffectDefinitions.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.EncodingProperties.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.OutgoingGain.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.Windows.Media.Audio.IAudioNode.OutgoingGain.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -138,6 +199,15 @@ namespace Windows.Media.Audio
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.AudioFileOutputNode", "void AudioFileOutputNode.Dispose()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.ConsumeInput.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.ConsumeInput.set
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.EffectDefinitions.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.EncodingProperties.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.File.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.FileEncodingProfile.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.OutgoingGain.get
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.OutgoingGain.set
+		// Forced skipping of method Windows.Media.Audio.AudioFileOutputNode.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Audio.IAudioNode
 		// Processing: System.IDisposable
 	}

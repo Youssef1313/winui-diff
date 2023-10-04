@@ -108,9 +108,7 @@ namespace Windows.Security.Cryptography.Certificates
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdsa.get
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdh.get
-		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Rsa.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.As<I>()
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Dsa.get
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdh256.get
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdh384.get
@@ -118,5 +116,8 @@ namespace Windows.Security.Cryptography.Certificates
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdsa256.get
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdsa384.get
 		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdsa521.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Rsa.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdh.get
+		// Forced skipping of method Windows.Security.Cryptography.Certificates.KeyAlgorithmNames.Ecdsa.get
 	}
 }

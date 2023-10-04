@@ -10,16 +10,6 @@ namespace Windows.Security.Cryptography.Core
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Pbkdf2Sha256
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.Pbkdf2Sha256 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.Pbkdf2Sha256");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string Pbkdf2Md5
 		{
 			get
@@ -40,11 +30,11 @@ namespace Windows.Security.Cryptography.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Sp800108CtrHmacSha512
+		public static string Pbkdf2Sha256
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.Sp800108CtrHmacSha512 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.Sp800108CtrHmacSha512");
+				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.Pbkdf2Sha256 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.Pbkdf2Sha256");
 			}
 		}
 #endif
@@ -110,6 +100,16 @@ namespace Windows.Security.Cryptography.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static string Sp800108CtrHmacSha512
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.Sp800108CtrHmacSha512 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.Sp800108CtrHmacSha512");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string Sp80056aConcatMd5
 		{
 			get
@@ -160,6 +160,16 @@ namespace Windows.Security.Cryptography.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static string CapiKdfMd5
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.CapiKdfMd5 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.CapiKdfMd5");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string CapiKdfSha1
 		{
 			get
@@ -198,21 +208,7 @@ namespace Windows.Security.Cryptography.Core
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string CapiKdfMd5
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string KeyDerivationAlgorithmNames.CapiKdfMd5 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20KeyDerivationAlgorithmNames.CapiKdfMd5");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfMd5.get
-		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha1.get
-		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha256.get
-		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha384.get
-		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha512.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.As<I>()
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Pbkdf2Md5.get
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Pbkdf2Sha1.get
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Pbkdf2Sha256.get
@@ -228,5 +224,10 @@ namespace Windows.Security.Cryptography.Core
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Sp80056aConcatSha256.get
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Sp80056aConcatSha384.get
 		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.Sp80056aConcatSha512.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfMd5.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha1.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha256.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha384.get
+		// Forced skipping of method Windows.Security.Cryptography.Core.KeyDerivationAlgorithmNames.CapiKdfSha512.get
 	}
 }

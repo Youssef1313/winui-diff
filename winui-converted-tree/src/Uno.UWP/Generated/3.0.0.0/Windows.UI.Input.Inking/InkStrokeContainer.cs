@@ -10,6 +10,16 @@ namespace Windows.UI.Input.Inking
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Rect global::Windows.UI.Input.Inking.IInkStrokeContainer.BoundingRect
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.BoundingRect is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.BoundingRect");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect BoundingRect
 		{
 			get
@@ -26,7 +36,16 @@ namespace Windows.UI.Input.Inking
 		}
 #endif
 		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.InkStrokeContainer()
-		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.BoundingRect.get
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.operator ==(Windows.UI.Input.Inking.InkStrokeContainer, Windows.UI.Input.Inking.InkStrokeContainer)
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.operator !=(Windows.UI.Input.Inking.InkStrokeContainer, Windows.UI.Input.Inking.InkStrokeContainer)
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Equals(Windows.UI.Input.Inking.InkStrokeContainer)
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Equals(object)
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.GetHashCode()
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddStroke(global::Windows.UI.Input.Inking.InkStroke stroke)
@@ -34,6 +53,7 @@ namespace Windows.UI.Input.Inking
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Input.Inking.InkStrokeContainer", "void InkStrokeContainer.AddStroke(InkStroke stroke)");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.AddStroke(Windows.UI.Input.Inking.InkStroke)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect DeleteSelected()
@@ -41,6 +61,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.DeleteSelected() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.DeleteSelected%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.DeleteSelected()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect MoveSelected(global::Windows.Foundation.Point translation)
@@ -48,6 +69,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.MoveSelected(Point translation) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.MoveSelected%28Point%20translation%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.MoveSelected(Windows.Foundation.Point)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect SelectWithPolyLine(global::System.Collections.Generic.IEnumerable<global::Windows.Foundation.Point> polyline)
@@ -55,6 +77,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.SelectWithPolyLine(IEnumerable<Point> polyline) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.SelectWithPolyLine%28IEnumerable%3CPoint%3E%20polyline%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.SelectWithPolyLine(System.Collections.Generic.IEnumerable<Windows.Foundation.Point>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect SelectWithLine(global::Windows.Foundation.Point from, global::Windows.Foundation.Point to)
@@ -62,6 +85,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.SelectWithLine(Point from, Point to) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.SelectWithLine%28Point%20from%2C%20Point%20to%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.SelectWithLine(Windows.Foundation.Point, Windows.Foundation.Point)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void CopySelectedToClipboard()
@@ -69,6 +93,7 @@ namespace Windows.UI.Input.Inking
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Input.Inking.InkStrokeContainer", "void InkStrokeContainer.CopySelectedToClipboard()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.CopySelectedToClipboard()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Rect PasteFromClipboard(global::Windows.Foundation.Point position)
@@ -76,6 +101,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member Rect InkStrokeContainer.PasteFromClipboard(Point position) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20InkStrokeContainer.PasteFromClipboard%28Point%20position%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.PasteFromClipboard(Windows.Foundation.Point)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool CanPasteFromClipboard()
@@ -83,6 +109,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member bool InkStrokeContainer.CanPasteFromClipboard() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20InkStrokeContainer.CanPasteFromClipboard%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.CanPasteFromClipboard()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncActionWithProgress<ulong> LoadAsync(global::Windows.Storage.Streams.IInputStream inputStream)
@@ -90,6 +117,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member IAsyncActionWithProgress<ulong> InkStrokeContainer.LoadAsync(IInputStream inputStream) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncActionWithProgress%3Culong%3E%20InkStrokeContainer.LoadAsync%28IInputStream%20inputStream%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.LoadAsync(Windows.Storage.Streams.IInputStream)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<uint, uint> SaveAsync(global::Windows.Storage.Streams.IOutputStream outputStream)
@@ -97,6 +125,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<uint, uint> InkStrokeContainer.SaveAsync(IOutputStream outputStream) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3Cuint%2C%20uint%3E%20InkStrokeContainer.SaveAsync%28IOutputStream%20outputStream%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.SaveAsync(Windows.Storage.Streams.IOutputStream)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void UpdateRecognitionResults(global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Input.Inking.InkRecognitionResult> recognitionResults)
@@ -104,6 +133,7 @@ namespace Windows.UI.Input.Inking
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Input.Inking.InkStrokeContainer", "void InkStrokeContainer.UpdateRecognitionResults(IReadOnlyList<InkRecognitionResult> recognitionResults)");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.UpdateRecognitionResults(System.Collections.Generic.IReadOnlyList<Windows.UI.Input.Inking.InkRecognitionResult>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Input.Inking.InkStroke> GetStrokes()
@@ -111,6 +141,7 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member IReadOnlyList<InkStroke> InkStrokeContainer.GetStrokes() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CInkStroke%3E%20InkStrokeContainer.GetStrokes%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.GetStrokes()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Input.Inking.InkRecognitionResult> GetRecognitionResults()
@@ -118,6 +149,8 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member IReadOnlyList<InkRecognitionResult> InkStrokeContainer.GetRecognitionResults() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CInkRecognitionResult%3E%20InkStrokeContainer.GetRecognitionResults%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.GetRecognitionResults()
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.Windows.UI.Input.Inking.IInkStrokeContainer.BoundingRect.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddStrokes(global::System.Collections.Generic.IEnumerable<global::Windows.UI.Input.Inking.InkStroke> strokes)
@@ -146,6 +179,8 @@ namespace Windows.UI.Input.Inking
 			throw new global::System.NotImplementedException("The member InkStroke InkStrokeContainer.GetStrokeById(uint id) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=InkStroke%20InkStrokeContainer.GetStrokeById%28uint%20id%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.BoundingRect.get
+		// Forced skipping of method Windows.UI.Input.Inking.InkStrokeContainer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Input.Inking.IInkStrokeContainer
 	}
 }

@@ -10,77 +10,55 @@ namespace Windows.Web.Syndication
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Version
+		global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> global::Windows.Web.Syndication.ISyndicationNode.AttributeExtensions
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Version is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Version");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Version");
+				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> SyndicationGenerator.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20SyndicationGenerator.AttributeExtensions");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Uri Uri
+		global::System.Uri global::Windows.Web.Syndication.ISyndicationNode.BaseUri
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member Uri SyndicationGenerator.Uri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20SyndicationGenerator.Uri");
+				throw new global::System.NotImplementedException("The member Uri SyndicationGenerator.BaseUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20SyndicationGenerator.BaseUri");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "Uri SyndicationGenerator.Uri");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "Uri SyndicationGenerator.BaseUri");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Text
+		global::System.Collections.Generic.IList<global::Windows.Web.Syndication.ISyndicationNode> global::Windows.Web.Syndication.ISyndicationNode.ElementExtensions
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Text is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Text");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Text");
+				throw new global::System.NotImplementedException("The member IList<ISyndicationNode> SyndicationGenerator.ElementExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CISyndicationNode%3E%20SyndicationGenerator.ElementExtensions");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeValue
+		string global::Windows.Web.Syndication.ISyndicationNode.Language
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeValue");
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Language");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeValue");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Language");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeNamespace
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeNamespace");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeNamespace");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeName
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeName
 		{
 			get
 			{
@@ -94,15 +72,39 @@ namespace Windows.Web.Syndication
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Language
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeNamespace
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Language");
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeNamespace");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Language");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeNamespace");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeValue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeValue");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeValue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> AttributeExtensions
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> SyndicationGenerator.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20SyndicationGenerator.AttributeExtensions");
 			}
 		}
 #endif
@@ -122,16 +124,6 @@ namespace Windows.Web.Syndication
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> AttributeExtensions
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> SyndicationGenerator.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20SyndicationGenerator.AttributeExtensions");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IList<global::Windows.Web.Syndication.ISyndicationNode> ElementExtensions
 		{
 			get
@@ -142,12 +134,102 @@ namespace Windows.Web.Syndication
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public SyndicationGenerator(string text)
+		public string Language
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "SyndicationGenerator.SyndicationGenerator(string text)");
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Language");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Language");
+			}
 		}
 #endif
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.SyndicationGenerator(string)
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeName");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeNamespace
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeNamespace");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeNamespace");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeValue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.NodeValue");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.NodeValue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Text
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Text is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Text");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Text");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Uri Uri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri SyndicationGenerator.Uri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20SyndicationGenerator.Uri");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "Uri SyndicationGenerator.Uri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Version
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SyndicationGenerator.Version is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SyndicationGenerator.Version");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "string SyndicationGenerator.Version");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public SyndicationGenerator()
@@ -156,24 +238,24 @@ namespace Windows.Web.Syndication
 		}
 #endif
 		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.SyndicationGenerator()
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Text.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Text.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Uri.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Uri.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Version.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Version.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeName.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeName.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeNamespace.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeNamespace.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeValue.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeValue.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Language.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Language.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.BaseUri.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.BaseUri.set
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.AttributeExtensions.get
-		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.ElementExtensions.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public SyndicationGenerator(string text)
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.Syndication.SyndicationGenerator", "SyndicationGenerator.SyndicationGenerator(string text)");
+		}
+#endif
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.SyndicationGenerator(string)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.FromAbi(nint)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.operator ==(Windows.Web.Syndication.SyndicationGenerator, Windows.Web.Syndication.SyndicationGenerator)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.operator !=(Windows.Web.Syndication.SyndicationGenerator, Windows.Web.Syndication.SyndicationGenerator)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Equals(Windows.Web.Syndication.SyndicationGenerator)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Equals(object)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.GetHashCode()
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Data.Xml.Dom.XmlDocument GetXmlDocument(global::Windows.Web.Syndication.SyndicationFormat format)
@@ -181,6 +263,38 @@ namespace Windows.Web.Syndication
 			throw new global::System.NotImplementedException("The member XmlDocument SyndicationGenerator.GetXmlDocument(SyndicationFormat format) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlDocument%20SyndicationGenerator.GetXmlDocument%28SyndicationFormat%20format%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.GetXmlDocument(Windows.Web.Syndication.SyndicationFormat)
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.AttributeExtensions.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.BaseUri.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.BaseUri.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.ElementExtensions.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.Language.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.Language.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeName.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeName.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeNamespace.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeNamespace.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeValue.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Windows.Web.Syndication.ISyndicationNode.NodeValue.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.AttributeExtensions.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.BaseUri.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.BaseUri.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.ElementExtensions.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Language.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Language.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeName.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeName.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeNamespace.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeNamespace.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeValue.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.NodeValue.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Text.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Text.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Uri.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Uri.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Version.get
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.Version.set
+		// Forced skipping of method Windows.Web.Syndication.SyndicationGenerator.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Web.Syndication.ISyndicationNode
 	}
 }

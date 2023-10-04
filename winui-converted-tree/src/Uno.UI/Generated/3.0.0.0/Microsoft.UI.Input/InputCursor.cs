@@ -8,13 +8,7 @@ namespace Microsoft.UI.Input
 #endif
 	public partial class InputCursor : global::System.IDisposable
 	{
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public void Dispose()
-		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Input.InputCursor", "void InputCursor.Dispose()");
-		}
-#endif
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Input.InputCursor CreateFromCoreCursor(global::Windows.UI.Core.CoreCursor cursor)
@@ -22,6 +16,27 @@ namespace Microsoft.UI.Input
 			throw new global::System.NotImplementedException("The member InputCursor InputCursor.CreateFromCoreCursor(CoreCursor cursor) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=InputCursor%20InputCursor.CreateFromCoreCursor%28CoreCursor%20cursor%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.InputCursor(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.operator ==(Microsoft.UI.Input.InputCursor, Microsoft.UI.Input.InputCursor)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.operator !=(Microsoft.UI.Input.InputCursor, Microsoft.UI.Input.InputCursor)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.Equals(Microsoft.UI.Input.InputCursor)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.Equals(object)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.InputCursor(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.WinRT.IWinRTObject.AdditionalTypeData.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public void Dispose()
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Input.InputCursor", "void InputCursor.Dispose()");
+		}
+#endif
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Input.InputCursor.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: System.IDisposable
 	}
 }

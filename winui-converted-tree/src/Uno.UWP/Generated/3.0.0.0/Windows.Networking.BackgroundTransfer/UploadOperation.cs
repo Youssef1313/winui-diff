@@ -15,6 +15,74 @@ namespace Windows.Networking.BackgroundTransfer
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Networking.BackgroundTransfer.BackgroundTransferCostPolicy global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.CostPolicy
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member BackgroundTransferCostPolicy UploadOperation.CostPolicy is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BackgroundTransferCostPolicy%20UploadOperation.CostPolicy");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.BackgroundTransfer.UploadOperation", "BackgroundTransferCostPolicy UploadOperation.CostPolicy");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Group
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string UploadOperation.Group is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20UploadOperation.Group");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Guid
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid UploadOperation.Guid is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20UploadOperation.Guid");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Method
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string UploadOperation.Method is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20UploadOperation.Method");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Uri global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.RequestedUri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri UploadOperation.RequestedUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20UploadOperation.RequestedUri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Networking.BackgroundTransfer.BackgroundTransferPriority global::Windows.Networking.BackgroundTransfer.IBackgroundTransferOperationPriority.Priority
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member BackgroundTransferPriority UploadOperation.Priority is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BackgroundTransferPriority%20UploadOperation.Priority");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.BackgroundTransfer.UploadOperation", "BackgroundTransferPriority UploadOperation.Priority");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Networking.BackgroundTransfer.BackgroundTransferCostPolicy CostPolicy
 		{
 			get
@@ -59,16 +127,6 @@ namespace Windows.Networking.BackgroundTransfer
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Uri RequestedUri
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Uri UploadOperation.RequestedUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20UploadOperation.RequestedUri");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Networking.BackgroundTransfer.BackgroundTransferPriority Priority
 		{
 			get
@@ -93,6 +151,16 @@ namespace Windows.Networking.BackgroundTransfer
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Uri RequestedUri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri UploadOperation.RequestedUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20UploadOperation.RequestedUri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.IStorageFile SourceFile
 		{
 			get
@@ -111,8 +179,16 @@ namespace Windows.Networking.BackgroundTransfer
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.SourceFile.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Progress.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.operator ==(Windows.Networking.BackgroundTransfer.UploadOperation, Windows.Networking.BackgroundTransfer.UploadOperation)
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.operator !=(Windows.Networking.BackgroundTransfer.UploadOperation, Windows.Networking.BackgroundTransfer.UploadOperation)
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Equals(Windows.Networking.BackgroundTransfer.UploadOperation)
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Equals(object)
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.GetHashCode()
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Networking.BackgroundTransfer.UploadOperation, global::Windows.Networking.BackgroundTransfer.UploadOperation> StartAsync()
@@ -127,12 +203,6 @@ namespace Windows.Networking.BackgroundTransfer
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<UploadOperation, UploadOperation> UploadOperation.AttachAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3CUploadOperation%2C%20UploadOperation%3E%20UploadOperation.AttachAsync%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Guid.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.RequestedUri.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Method.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Group.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.CostPolicy.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.CostPolicy.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.IInputStream GetResultStreamAt(ulong position)
@@ -140,6 +210,7 @@ namespace Windows.Networking.BackgroundTransfer
 			throw new global::System.NotImplementedException("The member IInputStream UploadOperation.GetResultStreamAt(ulong position) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IInputStream%20UploadOperation.GetResultStreamAt%28ulong%20position%29");
 		}
 #endif
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.GetResultStreamAt(ulong)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Networking.BackgroundTransfer.ResponseInformation GetResponseInformation()
@@ -147,9 +218,15 @@ namespace Windows.Networking.BackgroundTransfer
 			throw new global::System.NotImplementedException("The member ResponseInformation UploadOperation.GetResponseInformation() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ResponseInformation%20UploadOperation.GetResponseInformation%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Priority.get
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Priority.set
-		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.TransferGroup.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.GetResponseInformation()
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.CostPolicy.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.CostPolicy.set
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Group.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Guid.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.Method.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation.RequestedUri.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperationPriority.Priority.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Windows.Networking.BackgroundTransfer.IBackgroundTransferOperationPriority.Priority.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void MakeCurrentInTransferGroup()
@@ -171,6 +248,18 @@ namespace Windows.Networking.BackgroundTransfer
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.BackgroundTransfer.UploadOperation", "void UploadOperation.RemoveRequestHeader(string headerName)");
 		}
 #endif
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.CostPolicy.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.CostPolicy.set
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Group.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Guid.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Method.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Priority.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Priority.set
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.Progress.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.RequestedUri.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.SourceFile.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.TransferGroup.get
+		// Forced skipping of method Windows.Networking.BackgroundTransfer.UploadOperation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Networking.BackgroundTransfer.IBackgroundTransferOperation
 		// Processing: Windows.Networking.BackgroundTransfer.IBackgroundTransferOperationPriority
 	}

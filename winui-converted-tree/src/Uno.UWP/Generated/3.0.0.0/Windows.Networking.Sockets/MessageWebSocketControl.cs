@@ -15,57 +15,73 @@ namespace Windows.Networking.Sockets
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Networking.Sockets.SocketMessageType MessageType
+		uint global::Windows.Networking.Sockets.IWebSocketControl.OutboundBufferSizeInBytes
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member SocketMessageType MessageWebSocketControl.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SocketMessageType%20MessageWebSocketControl.MessageType");
+				throw new global::System.NotImplementedException("The member uint MessageWebSocketControl.OutboundBufferSizeInBytes is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20MessageWebSocketControl.OutboundBufferSizeInBytes");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "SocketMessageType MessageWebSocketControl.MessageType");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "uint MessageWebSocketControl.OutboundBufferSizeInBytes");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint MaxMessageSize
+		global::Windows.Security.Credentials.PasswordCredential global::Windows.Networking.Sockets.IWebSocketControl.ProxyCredential
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member uint MessageWebSocketControl.MaxMessageSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20MessageWebSocketControl.MaxMessageSize");
+				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ProxyCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ProxyCredential");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "uint MessageWebSocketControl.MaxMessageSize");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ProxyCredential");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Networking.Sockets.MessageWebSocketReceiveMode ReceiveMode
+		global::Windows.Security.Credentials.PasswordCredential global::Windows.Networking.Sockets.IWebSocketControl.ServerCredential
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member MessageWebSocketReceiveMode MessageWebSocketControl.ReceiveMode is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MessageWebSocketReceiveMode%20MessageWebSocketControl.ReceiveMode");
+				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ServerCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ServerCredential");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "MessageWebSocketReceiveMode MessageWebSocketControl.ReceiveMode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ServerCredential");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.TimeSpan DesiredUnsolicitedPongInterval
+		global::System.Collections.Generic.IList<string> global::Windows.Networking.Sockets.IWebSocketControl.SupportedProtocols
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member TimeSpan MessageWebSocketControl.DesiredUnsolicitedPongInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MessageWebSocketControl.DesiredUnsolicitedPongInterval");
+				throw new global::System.NotImplementedException("The member IList<string> MessageWebSocketControl.SupportedProtocols is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3Cstring%3E%20MessageWebSocketControl.SupportedProtocols");
 			}
-			set
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IList<global::Windows.Security.Cryptography.Certificates.ChainValidationResult> global::Windows.Networking.Sockets.IWebSocketControl2.IgnorableServerCertificateErrors
+		{
+			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "TimeSpan MessageWebSocketControl.DesiredUnsolicitedPongInterval");
+				throw new global::System.NotImplementedException("The member IList<ChainValidationResult> MessageWebSocketControl.IgnorableServerCertificateErrors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CChainValidationResult%3E%20MessageWebSocketControl.IgnorableServerCertificateErrors");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.TimeSpan ActualUnsolicitedPongInterval
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MessageWebSocketControl.ActualUnsolicitedPongInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MessageWebSocketControl.ActualUnsolicitedPongInterval");
 			}
 		}
 #endif
@@ -85,39 +101,53 @@ namespace Windows.Networking.Sockets
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.TimeSpan ActualUnsolicitedPongInterval
+		public global::System.TimeSpan DesiredUnsolicitedPongInterval
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member TimeSpan MessageWebSocketControl.ActualUnsolicitedPongInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MessageWebSocketControl.ActualUnsolicitedPongInterval");
+				throw new global::System.NotImplementedException("The member TimeSpan MessageWebSocketControl.DesiredUnsolicitedPongInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MessageWebSocketControl.DesiredUnsolicitedPongInterval");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "TimeSpan MessageWebSocketControl.DesiredUnsolicitedPongInterval");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Security.Credentials.PasswordCredential ServerCredential
+		public global::System.Collections.Generic.IList<global::Windows.Security.Cryptography.Certificates.ChainValidationResult> IgnorableServerCertificateErrors
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ServerCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ServerCredential");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ServerCredential");
+				throw new global::System.NotImplementedException("The member IList<ChainValidationResult> MessageWebSocketControl.IgnorableServerCertificateErrors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CChainValidationResult%3E%20MessageWebSocketControl.IgnorableServerCertificateErrors");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Security.Credentials.PasswordCredential ProxyCredential
+		public uint MaxMessageSize
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ProxyCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ProxyCredential");
+				throw new global::System.NotImplementedException("The member uint MessageWebSocketControl.MaxMessageSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20MessageWebSocketControl.MaxMessageSize");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ProxyCredential");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "uint MessageWebSocketControl.MaxMessageSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Networking.Sockets.SocketMessageType MessageType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SocketMessageType MessageWebSocketControl.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SocketMessageType%20MessageWebSocketControl.MessageType");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "SocketMessageType MessageWebSocketControl.MessageType");
 			}
 		}
 #endif
@@ -137,6 +167,48 @@ namespace Windows.Networking.Sockets
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Security.Credentials.PasswordCredential ProxyCredential
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ProxyCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ProxyCredential");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ProxyCredential");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Networking.Sockets.MessageWebSocketReceiveMode ReceiveMode
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MessageWebSocketReceiveMode MessageWebSocketControl.ReceiveMode is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MessageWebSocketReceiveMode%20MessageWebSocketControl.ReceiveMode");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "MessageWebSocketReceiveMode MessageWebSocketControl.ReceiveMode");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Security.Credentials.PasswordCredential ServerCredential
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member PasswordCredential MessageWebSocketControl.ServerCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20MessageWebSocketControl.ServerCredential");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Sockets.MessageWebSocketControl", "PasswordCredential MessageWebSocketControl.ServerCredential");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IList<string> SupportedProtocols
 		{
 			get
@@ -145,35 +217,44 @@ namespace Windows.Networking.Sockets
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IList<global::Windows.Security.Cryptography.Certificates.ChainValidationResult> IgnorableServerCertificateErrors
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IList<ChainValidationResult> MessageWebSocketControl.IgnorableServerCertificateErrors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CChainValidationResult%3E%20MessageWebSocketControl.IgnorableServerCertificateErrors");
-			}
-		}
-#endif
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.operator ==(Windows.Networking.Sockets.MessageWebSocketControl, Windows.Networking.Sockets.MessageWebSocketControl)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.operator !=(Windows.Networking.Sockets.MessageWebSocketControl, Windows.Networking.Sockets.MessageWebSocketControl)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Equals(Windows.Networking.Sockets.MessageWebSocketControl)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Equals(object)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.GetHashCode()
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.OutboundBufferSizeInBytes.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.OutboundBufferSizeInBytes.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.ProxyCredential.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.ProxyCredential.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.ServerCredential.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.ServerCredential.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl.SupportedProtocols.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.Windows.Networking.Sockets.IWebSocketControl2.IgnorableServerCertificateErrors.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ActualUnsolicitedPongInterval.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ClientCertificate.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ClientCertificate.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.DesiredUnsolicitedPongInterval.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.DesiredUnsolicitedPongInterval.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.IgnorableServerCertificateErrors.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.MaxMessageSize.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.MaxMessageSize.set
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.MessageType.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.MessageType.set
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.OutboundBufferSizeInBytes.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.OutboundBufferSizeInBytes.set
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ServerCredential.get
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ServerCredential.set
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ProxyCredential.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ProxyCredential.set
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.SupportedProtocols.get
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.IgnorableServerCertificateErrors.get
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.DesiredUnsolicitedPongInterval.get
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.DesiredUnsolicitedPongInterval.set
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ActualUnsolicitedPongInterval.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ReceiveMode.get
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ReceiveMode.set
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ClientCertificate.get
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ClientCertificate.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ServerCredential.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.ServerCredential.set
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.SupportedProtocols.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketControl.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Networking.Sockets.IWebSocketControl
 		// Processing: Windows.Networking.Sockets.IWebSocketControl2
 	}

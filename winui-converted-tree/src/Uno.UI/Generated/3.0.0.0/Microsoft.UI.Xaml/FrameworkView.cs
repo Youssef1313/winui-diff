@@ -16,6 +16,16 @@ namespace Microsoft.UI.Xaml
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.FrameworkView()
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.operator ==(Microsoft.UI.Xaml.FrameworkView, Microsoft.UI.Xaml.FrameworkView)
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.operator !=(Microsoft.UI.Xaml.FrameworkView, Microsoft.UI.Xaml.FrameworkView)
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Equals(Microsoft.UI.Xaml.FrameworkView)
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Initialize(global::Windows.ApplicationModel.Core.CoreApplicationView applicationView)
@@ -23,6 +33,7 @@ namespace Microsoft.UI.Xaml
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkView", "void FrameworkView.Initialize(CoreApplicationView applicationView)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Windows.ApplicationModel.Core.IFrameworkView.Initialize(Windows.ApplicationModel.Core.CoreApplicationView)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetWindow(global::Windows.UI.Core.CoreWindow window)
@@ -30,6 +41,7 @@ namespace Microsoft.UI.Xaml
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkView", "void FrameworkView.SetWindow(CoreWindow window)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Windows.ApplicationModel.Core.IFrameworkView.SetWindow(Windows.UI.Core.CoreWindow)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Load(string entryPoint)
@@ -37,6 +49,7 @@ namespace Microsoft.UI.Xaml
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkView", "void FrameworkView.Load(string entryPoint)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Windows.ApplicationModel.Core.IFrameworkView.Load(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Run()
@@ -44,6 +57,7 @@ namespace Microsoft.UI.Xaml
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkView", "void FrameworkView.Run()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Windows.ApplicationModel.Core.IFrameworkView.Run()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Uninitialize()
@@ -51,6 +65,8 @@ namespace Microsoft.UI.Xaml
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkView", "void FrameworkView.Uninitialize()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.Windows.ApplicationModel.Core.IFrameworkView.Uninitialize()
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkView.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Core.IFrameworkView
 	}
 }

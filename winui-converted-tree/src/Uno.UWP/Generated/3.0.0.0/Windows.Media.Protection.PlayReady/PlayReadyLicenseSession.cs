@@ -16,6 +16,16 @@ namespace Windows.Media.Protection.PlayReady
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.PlayReadyLicenseSession(Windows.Foundation.Collections.IPropertySet)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.operator ==(Windows.Media.Protection.PlayReady.PlayReadyLicenseSession, Windows.Media.Protection.PlayReady.PlayReadyLicenseSession)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.operator !=(Windows.Media.Protection.PlayReady.PlayReadyLicenseSession, Windows.Media.Protection.PlayReady.PlayReadyLicenseSession)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.Equals(Windows.Media.Protection.PlayReady.PlayReadyLicenseSession)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.IPlayReadyLicenseAcquisitionServiceRequest CreateLAServiceRequest()
@@ -23,6 +33,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member IPlayReadyLicenseAcquisitionServiceRequest PlayReadyLicenseSession.CreateLAServiceRequest() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPlayReadyLicenseAcquisitionServiceRequest%20PlayReadyLicenseSession.CreateLAServiceRequest%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession.CreateLAServiceRequest()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ConfigureMediaProtectionManager(global::Windows.Media.Protection.MediaProtectionManager mpm)
@@ -30,6 +41,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadyLicenseSession", "void PlayReadyLicenseSession.ConfigureMediaProtectionManager(MediaProtectionManager mpm)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession.ConfigureMediaProtectionManager(Windows.Media.Protection.MediaProtectionManager)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.PlayReadyLicenseIterable CreateLicenseIterable(global::Windows.Media.Protection.PlayReady.PlayReadyContentHeader contentHeader, bool fullyEvaluated)
@@ -37,6 +49,8 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member PlayReadyLicenseIterable PlayReadyLicenseSession.CreateLicenseIterable(PlayReadyContentHeader contentHeader, bool fullyEvaluated) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PlayReadyLicenseIterable%20PlayReadyLicenseSession.CreateLicenseIterable%28PlayReadyContentHeader%20contentHeader%2C%20bool%20fullyEvaluated%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession2.CreateLicenseIterable(Windows.Media.Protection.PlayReady.PlayReadyContentHeader, bool)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicenseSession.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadyLicenseSession2
 	}

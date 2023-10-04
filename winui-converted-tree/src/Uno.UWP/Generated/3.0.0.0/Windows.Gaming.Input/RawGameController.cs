@@ -15,7 +15,17 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Gaming.Input.Headset Headset
+		public static global::System.Collections.Generic.IReadOnlyList<global::Windows.Gaming.Input.RawGameController> RawGameControllers
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<RawGameController> RawGameController.RawGameControllers is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CRawGameController%3E%20RawGameController.RawGameControllers");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Headset global::Windows.Gaming.Input.IGameController.Headset
 		{
 			get
 			{
@@ -25,7 +35,7 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsWireless
+		bool global::Windows.Gaming.Input.IGameController.IsWireless
 		{
 			get
 			{
@@ -35,7 +45,7 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.User User
+		global::Windows.System.User global::Windows.Gaming.Input.IGameController.User
 		{
 			get
 			{
@@ -60,6 +70,16 @@ namespace Windows.Gaming.Input
 			get
 			{
 				throw new global::System.NotImplementedException("The member int RawGameController.ButtonCount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20RawGameController.ButtonCount");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string DisplayName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string RawGameController.DisplayName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20RawGameController.DisplayName");
 			}
 		}
 #endif
@@ -95,21 +115,21 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int SwitchCount
+		public global::Windows.Gaming.Input.Headset Headset
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member int RawGameController.SwitchCount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20RawGameController.SwitchCount");
+				throw new global::System.NotImplementedException("The member Headset RawGameController.Headset is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Headset%20RawGameController.Headset");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string DisplayName
+		public bool IsWireless
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string RawGameController.DisplayName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20RawGameController.DisplayName");
+				throw new global::System.NotImplementedException("The member bool RawGameController.IsWireless is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20RawGameController.IsWireless");
 			}
 		}
 #endif
@@ -135,20 +155,47 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Collections.Generic.IReadOnlyList<global::Windows.Gaming.Input.RawGameController> RawGameControllers
+		public int SwitchCount
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member IReadOnlyList<RawGameController> RawGameController.RawGameControllers is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CRawGameController%3E%20RawGameController.RawGameControllers");
+				throw new global::System.NotImplementedException("The member int RawGameController.SwitchCount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20RawGameController.SwitchCount");
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.AxisCount.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.ButtonCount.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.ForceFeedbackMotors.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.HardwareProductId.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.HardwareVendorId.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.SwitchCount.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.System.User User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User RawGameController.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20RawGameController.User");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.As<I>()
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::Windows.Gaming.Input.RawGameController FromGameController(global::Windows.Gaming.Input.IGameController gameController)
+		{
+			throw new global::System.NotImplementedException("The member RawGameController RawGameController.FromGameController(IGameController gameController) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=RawGameController%20RawGameController.FromGameController%28IGameController%20gameController%29");
+		}
+#endif
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllers.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerAdded.add
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerAdded.remove
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerRemoved.add
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerRemoved.remove
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.operator ==(Windows.Gaming.Input.RawGameController, Windows.Gaming.Input.RawGameController)
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.operator !=(Windows.Gaming.Input.RawGameController, Windows.Gaming.Input.RawGameController)
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Equals(Windows.Gaming.Input.RawGameController)
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.GameControllerButtonLabel GetButtonLabel(int buttonIndex)
@@ -172,13 +219,19 @@ namespace Windows.Gaming.Input
 #endif
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.HeadsetConnected.add
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.HeadsetConnected.remove
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.HeadsetConnected.add
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.HeadsetConnected.remove
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.HeadsetDisconnected.add
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.HeadsetDisconnected.remove
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.HeadsetDisconnected.add
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.HeadsetDisconnected.remove
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.UserChanged.add
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.UserChanged.remove
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.Headset.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.IsWireless.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.User.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.UserChanged.add
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.UserChanged.remove
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.Headset.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.IsWireless.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameController.User.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Devices.Power.BatteryReport TryGetBatteryReport()
@@ -186,24 +239,71 @@ namespace Windows.Gaming.Input
 			throw new global::System.NotImplementedException("The member BatteryReport RawGameController.TryGetBatteryReport() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BatteryReport%20RawGameController.TryGetBatteryReport%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.SimpleHapticsControllers.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.NonRoamableId.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Windows.Gaming.Input.IGameControllerBatteryInfo.TryGetBatteryReport()
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.AxisCount.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.ButtonCount.get
 		// Forced skipping of method Windows.Gaming.Input.RawGameController.DisplayName.get
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerAdded.add
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerAdded.remove
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerRemoved.add
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllerRemoved.remove
-		// Forced skipping of method Windows.Gaming.Input.RawGameController.RawGameControllers.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.ForceFeedbackMotors.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.HardwareProductId.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.HardwareVendorId.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.Headset.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.IsWireless.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.NonRoamableId.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.SimpleHapticsControllers.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.SwitchCount.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.User.get
+		// Forced skipping of method Windows.Gaming.Input.RawGameController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Windows.Gaming.Input.RawGameController FromGameController(global::Windows.Gaming.Input.IGameController gameController)
+		public static event global::System.EventHandler<global::Windows.Gaming.Input.RawGameController> RawGameControllerAdded
 		{
-			throw new global::System.NotImplementedException("The member RawGameController RawGameController.FromGameController(IGameController gameController) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=RawGameController%20RawGameController.FromGameController%28IGameController%20gameController%29");
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerAdded");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerAdded");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static event global::System.EventHandler<global::Windows.Gaming.Input.RawGameController> RawGameControllerRemoved
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerRemoved");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerRemoved");
+			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> HeadsetConnected
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, Headset> RawGameController.HeadsetConnected");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, Headset> RawGameController.HeadsetConnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> global::Windows.Gaming.Input.IGameController.HeadsetConnected
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -235,6 +335,22 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> global::Windows.Gaming.Input.IGameController.HeadsetDisconnected
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, Headset> RawGameController.HeadsetDisconnected");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, Headset> RawGameController.HeadsetDisconnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.System.UserChangedEventArgs> UserChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -251,33 +367,17 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static event global::System.EventHandler<global::Windows.Gaming.Input.RawGameController> RawGameControllerAdded
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.System.UserChangedEventArgs> global::Windows.Gaming.Input.IGameController.UserChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerAdded");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, UserChangedEventArgs> RawGameController.UserChanged");
 			}
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerAdded");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static event global::System.EventHandler<global::Windows.Gaming.Input.RawGameController> RawGameControllerRemoved
-		{
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerRemoved");
-			}
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event EventHandler<RawGameController> RawGameController.RawGameControllerRemoved");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.RawGameController", "event TypedEventHandler<IGameController, UserChangedEventArgs> RawGameController.UserChanged");
 			}
 		}
 #endif

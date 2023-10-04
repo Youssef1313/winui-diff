@@ -15,6 +15,20 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool InputEnabledEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20InputEnabledEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.InputEnabledEventArgs", "bool InputEnabledEventArgs.Handled");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool Handled
 		{
 			get
@@ -37,9 +51,22 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
-		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.InputEnabled.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.operator ==(Windows.UI.Core.InputEnabledEventArgs, Windows.UI.Core.InputEnabledEventArgs)
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.operator !=(Windows.UI.Core.InputEnabledEventArgs, Windows.UI.Core.InputEnabledEventArgs)
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Equals(Windows.UI.Core.InputEnabledEventArgs)
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
 		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.InputEnabled.get
+		// Forced skipping of method Windows.UI.Core.InputEnabledEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

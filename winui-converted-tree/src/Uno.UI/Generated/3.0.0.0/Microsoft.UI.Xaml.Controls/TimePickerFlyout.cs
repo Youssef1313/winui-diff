@@ -8,22 +8,26 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 	public partial class TimePickerFlyout
 	{
-		// Skipping already declared property Time
-		// Skipping already declared property MinuteIncrement
-		// Skipping already declared property ClockIdentifier
 		// Skipping already declared property ClockIdentifierProperty
 		// Skipping already declared property MinuteIncrementProperty
 		// Skipping already declared property TimeProperty
+		// Skipping already declared property ClockIdentifier
+		// Skipping already declared property MinuteIncrement
+		// Skipping already declared property Time
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePickerFlyout()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePickerFlyout()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifier.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifier.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Time.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Time.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrement.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrement.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked.add
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifierProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.operator ==(Microsoft.UI.Xaml.Controls.TimePickerFlyout, Microsoft.UI.Xaml.Controls.TimePickerFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.operator !=(Microsoft.UI.Xaml.Controls.TimePickerFlyout, Microsoft.UI.Xaml.Controls.TimePickerFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Equals(Microsoft.UI.Xaml.Controls.TimePickerFlyout)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::System.TimeSpan?> ShowAtAsync(global::Microsoft.UI.Xaml.FrameworkElement target)
@@ -31,9 +35,16 @@ namespace Microsoft.UI.Xaml.Controls
 			throw new global::System.NotImplementedException("The member IAsyncOperation<TimeSpan?> TimePickerFlyout.ShowAtAsync(FrameworkElement target) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CTimeSpan%3F%3E%20TimePickerFlyout.ShowAtAsync%28FrameworkElement%20target%29");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifierProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimeProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.TimePicked.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifier.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.ClockIdentifier.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.MinuteIncrement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Time.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.Time.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePickerFlyout.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if false || false || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.TimePickerFlyout, global::Microsoft.UI.Xaml.Controls.TimePickedEventArgs> TimePicked

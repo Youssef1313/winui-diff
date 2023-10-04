@@ -8,14 +8,41 @@ namespace Windows.UI.Core
 #endif
 	public partial class PointerEventArgs : global::Windows.UI.Core.ICoreWindowEventArgs
 	{
-		// Skipping already declared property Handled
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PointerEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PointerEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.PointerEventArgs", "bool PointerEventArgs.Handled");
+			}
+		}
+#endif
 		// Skipping already declared property CurrentPoint
+		// Skipping already declared property Handled
 		// Skipping already declared property KeyModifiers
-		// Forced skipping of method Windows.UI.Core.PointerEventArgs.CurrentPoint.get
-		// Forced skipping of method Windows.UI.Core.PointerEventArgs.KeyModifiers.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.operator ==(Windows.UI.Core.PointerEventArgs, Windows.UI.Core.PointerEventArgs)
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.operator !=(Windows.UI.Core.PointerEventArgs, Windows.UI.Core.PointerEventArgs)
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Equals(Windows.UI.Core.PointerEventArgs)
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.UI.Core.PointerEventArgs.GetIntermediatePoints()
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.CurrentPoint.get
 		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.PointerEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.KeyModifiers.get
+		// Forced skipping of method Windows.UI.Core.PointerEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

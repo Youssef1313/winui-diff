@@ -9,91 +9,6 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 	public partial class TimePicker : global::Microsoft.UI.Xaml.Controls.Control
 	{
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public global::System.TimeSpan Time
-		{
-			get
-			{
-				return (global::System.TimeSpan)this.GetValue(TimeProperty);
-			}
-			set
-			{
-				this.SetValue(TimeProperty, value);
-			}
-		}
-#endif
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public global::System.TimeSpan? SelectedTime
-		{
-			get
-			{
-				return (global::System.TimeSpan?)this.GetValue(SelectedTimeProperty);
-			}
-			set
-			{
-				this.SetValue(SelectedTimeProperty, value);
-			}
-		}
-#endif
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public int MinuteIncrement
-		{
-			get
-			{
-				return (int)this.GetValue(MinuteIncrementProperty);
-			}
-			set
-			{
-				this.SetValue(MinuteIncrementProperty, value);
-			}
-		}
-#endif
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode LightDismissOverlayMode
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode)this.GetValue(LightDismissOverlayModeProperty);
-			}
-			set
-			{
-				this.SetValue(LightDismissOverlayModeProperty, value);
-			}
-		}
-#endif
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public global::Microsoft.UI.Xaml.DataTemplate HeaderTemplate
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
-			}
-			set
-			{
-				this.SetValue(HeaderTemplateProperty, value);
-			}
-		}
-#endif
-#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
-		public object Header
-		{
-			get
-			{
-				return (object)this.GetValue(HeaderProperty);
-			}
-			set
-			{
-				this.SetValue(HeaderProperty, value);
-			}
-		}
-#endif
-		// Skipping already declared property ClockIdentifier
 		// Skipping already declared property ClockIdentifierProperty
 #if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
@@ -143,33 +58,131 @@ namespace Microsoft.UI.Xaml.Controls
 			typeof(global::Microsoft.UI.Xaml.Controls.TimePicker),
 			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::System.TimeSpan)));
 #endif
+		// Skipping already declared property ClockIdentifier
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public object Header
+		{
+			get
+			{
+				return (object)this.GetValue(HeaderProperty);
+			}
+			set
+			{
+				this.SetValue(HeaderProperty, value);
+			}
+		}
+#endif
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public global::Microsoft.UI.Xaml.DataTemplate HeaderTemplate
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
+			}
+			set
+			{
+				this.SetValue(HeaderTemplateProperty, value);
+			}
+		}
+#endif
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode LightDismissOverlayMode
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.LightDismissOverlayMode)this.GetValue(LightDismissOverlayModeProperty);
+			}
+			set
+			{
+				this.SetValue(LightDismissOverlayModeProperty, value);
+			}
+		}
+#endif
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public int MinuteIncrement
+		{
+			get
+			{
+				return (int)this.GetValue(MinuteIncrementProperty);
+			}
+			set
+			{
+				this.SetValue(MinuteIncrementProperty, value);
+			}
+		}
+#endif
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public global::System.TimeSpan? SelectedTime
+		{
+			get
+			{
+				return (global::System.TimeSpan?)this.GetValue(SelectedTimeProperty);
+			}
+			set
+			{
+				this.SetValue(SelectedTimeProperty, value);
+			}
+		}
+#endif
+#if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
+		public global::System.TimeSpan Time
+		{
+			get
+			{
+				return (global::System.TimeSpan)this.GetValue(TimeProperty);
+			}
+			set
+			{
+				this.SetValue(TimeProperty, value);
+			}
+		}
+#endif
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.TimePicker.TimePicker()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimePicker()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifierProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimePicker(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.operator ==(Microsoft.UI.Xaml.Controls.TimePicker, Microsoft.UI.Xaml.Controls.TimePicker)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.operator !=(Microsoft.UI.Xaml.Controls.TimePicker, Microsoft.UI.Xaml.Controls.TimePicker)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Equals(Microsoft.UI.Xaml.Controls.TimePicker)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimePicker(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifier.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifier.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Header.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Header.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderTemplate.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderTemplate.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifier.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifier.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrement.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrement.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Time.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Time.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayMode.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrement.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTime.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTime.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeChanged.add
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeChanged.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged.add
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeChanged.remove
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.HeaderTemplateProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.ClockIdentifierProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.MinuteIncrementProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.TimeProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.LightDismissOverlayModeProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.SelectedTimeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Time.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.Time.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TimePicker.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if false || false || false || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__WASM__", "__SKIA__", "__NETSTD_REFERENCE__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.TimePicker, global::Microsoft.UI.Xaml.Controls.TimePickerSelectedValueChangedEventArgs> SelectedTimeChanged

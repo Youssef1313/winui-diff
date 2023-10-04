@@ -8,30 +8,136 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class AppBarAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider, global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider, global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ExpandCollapseState global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ExpandCollapseState AppBarAutomationPeer.ExpandCollapseState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ExpandCollapseState%20AppBarAutomationPeer.ExpandCollapseState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ToggleState global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ToggleState AppBarAutomationPeer.ToggleState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ToggleState%20AppBarAutomationPeer.ToggleState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.WindowInteractionState global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WindowInteractionState AppBarAutomationPeer.InteractionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WindowInteractionState%20AppBarAutomationPeer.InteractionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsModal
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarAutomationPeer.IsModal is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarAutomationPeer.IsModal");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarAutomationPeer.IsTopmost is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarAutomationPeer.IsTopmost");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarAutomationPeer.Maximizable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarAutomationPeer.Maximizable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarAutomationPeer.Minimizable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarAutomationPeer.Minimizable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.WindowVisualState global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.VisualState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WindowVisualState AppBarAutomationPeer.VisualState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WindowVisualState%20AppBarAutomationPeer.VisualState");
+			}
+		}
+#endif
 		// Skipping already declared property ExpandCollapseState
-		// Skipping already declared property ToggleState
 		// Skipping already declared property InteractionState
 		// Skipping already declared property IsModal
 		// Skipping already declared property IsTopmost
 		// Skipping already declared property Maximizable
 		// Skipping already declared property Minimizable
+		// Skipping already declared property ToggleState
 		// Skipping already declared property VisualState
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.AppBarAutomationPeer(Microsoft.UI.Xaml.Controls.AppBar)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.AppBarAutomationPeer(Microsoft.UI.Xaml.Controls.AppBar)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.AppBarAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.AppBarAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Collapse()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Collapse()
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Expand()
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState.get
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Close()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Close()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsModal.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.VisualState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.InteractionState.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.IsModal.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.IsTopmost.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Maximizable.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Minimizable.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.InteractionState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.ToggleState.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.VisualState.get
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.Close()
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AppBarAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IToggleProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IWindowProvider

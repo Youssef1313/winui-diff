@@ -10,29 +10,15 @@ namespace Microsoft.Web.WebView2.Core
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string TargetCompatibleBrowserVersion
+		public string AdditionalBrowserArguments
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion");
+				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.AdditionalBrowserArguments is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.AdditionalBrowserArguments");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Language
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.Language");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.Language");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.AdditionalBrowserArguments");
 			}
 		}
 #endif
@@ -52,20 +38,6 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string AdditionalBrowserArguments
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.AdditionalBrowserArguments is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.AdditionalBrowserArguments");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.AdditionalBrowserArguments");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool ExclusiveUserDataFolderAccess
 		{
 			get
@@ -80,21 +52,60 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Language
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.Language");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.Language");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string TargetCompatibleBrowserVersion
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "string CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public CoreWebView2EnvironmentOptions()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions", "CoreWebView2EnvironmentOptions.CoreWebView2EnvironmentOptions()");
 		}
 #endif
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.CoreWebView2EnvironmentOptions()
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.ExclusiveUserDataFolderAccess.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.ExclusiveUserDataFolderAccess.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.FromAbi(nint)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.operator ==(Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions, Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.operator !=(Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions, Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.Equals(Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.Equals(object)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.GetHashCode()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AdditionalBrowserArguments.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AdditionalBrowserArguments.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AllowSingleSignOnUsingOSPrimaryAccount.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AllowSingleSignOnUsingOSPrimaryAccount.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.ExclusiveUserDataFolderAccess.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.ExclusiveUserDataFolderAccess.set
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.Language.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.Language.set
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.TargetCompatibleBrowserVersion.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AllowSingleSignOnUsingOSPrimaryAccount.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.AllowSingleSignOnUsingOSPrimaryAccount.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2EnvironmentOptions.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

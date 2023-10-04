@@ -18,10 +18,9 @@ namespace Microsoft.UI.Xaml.Controls
 			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.UIElement)));
 #endif
 		// Skipping already declared property ToolTipProperty
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.PlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.As<I>()
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ToolTipService.GetPlacement(Microsoft.UI.Xaml.DependencyObject)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ToolTipService.SetPlacement(Microsoft.UI.Xaml.DependencyObject, Microsoft.UI.Xaml.Controls.Primitives.PlacementMode)
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.PlacementTargetProperty.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Xaml.UIElement GetPlacementTarget(global::Microsoft.UI.Xaml.DependencyObject element)
@@ -36,8 +35,21 @@ namespace Microsoft.UI.Xaml.Controls
 			element.SetValue(PlacementTargetProperty, value);
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.ToolTipProperty.get
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ToolTipService.GetToolTip(Microsoft.UI.Xaml.DependencyObject)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ToolTipService.SetToolTip(Microsoft.UI.Xaml.DependencyObject, object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.PlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.PlacementTargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.ToolTipProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.operator ==(Microsoft.UI.Xaml.Controls.ToolTipService, Microsoft.UI.Xaml.Controls.ToolTipService)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.operator !=(Microsoft.UI.Xaml.Controls.ToolTipService, Microsoft.UI.Xaml.Controls.ToolTipService)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.Equals(Microsoft.UI.Xaml.Controls.ToolTipService)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTipService.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

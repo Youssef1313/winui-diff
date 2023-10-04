@@ -25,7 +25,7 @@ branches:
   pull-request:
     regex: ^(pull|pull\-requests|pr)[/-]
     mode: ContinuousDeployment
-    tag: 'PullRequest'
+    tag: PullRequest-13867-96733-
     tag-number-pattern: '[/-](?<number>\d+)[-/]'
     increment: Minor # use minor to avoid expensive commit search
 

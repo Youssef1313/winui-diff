@@ -10,20 +10,6 @@ namespace Microsoft.UI.Xaml.Navigation
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo TransitionInfoOverride
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member NavigationTransitionInfo FrameNavigationOptions.TransitionInfoOverride is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=NavigationTransitionInfo%20FrameNavigationOptions.TransitionInfoOverride");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Navigation.FrameNavigationOptions", "NavigationTransitionInfo FrameNavigationOptions.TransitionInfoOverride");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsNavigationStackEnabled
 		{
 			get
@@ -38,15 +24,43 @@ namespace Microsoft.UI.Xaml.Navigation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo TransitionInfoOverride
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member NavigationTransitionInfo FrameNavigationOptions.TransitionInfoOverride is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=NavigationTransitionInfo%20FrameNavigationOptions.TransitionInfoOverride");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Navigation.FrameNavigationOptions", "NavigationTransitionInfo FrameNavigationOptions.TransitionInfoOverride");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public FrameNavigationOptions()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Navigation.FrameNavigationOptions", "FrameNavigationOptions.FrameNavigationOptions()");
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.FrameNavigationOptions()
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.FrameNavigationOptions(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.operator ==(Microsoft.UI.Xaml.Navigation.FrameNavigationOptions, Microsoft.UI.Xaml.Navigation.FrameNavigationOptions)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.operator !=(Microsoft.UI.Xaml.Navigation.FrameNavigationOptions, Microsoft.UI.Xaml.Navigation.FrameNavigationOptions)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.Equals(Microsoft.UI.Xaml.Navigation.FrameNavigationOptions)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.FrameNavigationOptions(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.IsNavigationStackEnabled.get
 		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.IsNavigationStackEnabled.set
 		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.TransitionInfoOverride.get
 		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.TransitionInfoOverride.set
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Navigation.FrameNavigationOptions.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

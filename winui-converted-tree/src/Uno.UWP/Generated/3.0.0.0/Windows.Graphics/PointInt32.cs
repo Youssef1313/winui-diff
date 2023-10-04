@@ -10,6 +10,19 @@ namespace Windows.Graphics
 	{
 		// Forced skipping of method Windows.Graphics.PointInt32.PointInt32()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public PointInt32(int _X, int _Y)
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Graphics.PointInt32", "PointInt32.PointInt32(int _X, int _Y)");
+		}
+#endif
+		// Forced skipping of method Windows.Graphics.PointInt32.PointInt32(int, int)
+		// Forced skipping of method Windows.Graphics.PointInt32.operator ==(Windows.Graphics.PointInt32, Windows.Graphics.PointInt32)
+		// Forced skipping of method Windows.Graphics.PointInt32.operator !=(Windows.Graphics.PointInt32, Windows.Graphics.PointInt32)
+		// Forced skipping of method Windows.Graphics.PointInt32.Equals(Windows.Graphics.PointInt32)
+		// Forced skipping of method Windows.Graphics.PointInt32.Equals(object)
+		// Forced skipping of method Windows.Graphics.PointInt32.GetHashCode()
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		public int X;
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__

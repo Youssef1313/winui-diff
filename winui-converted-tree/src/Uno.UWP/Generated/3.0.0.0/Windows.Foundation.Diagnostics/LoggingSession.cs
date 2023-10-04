@@ -10,6 +10,16 @@ namespace Windows.Foundation.Diagnostics
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Foundation.Diagnostics.ILoggingSession.Name
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string LoggingSession.Name is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LoggingSession.Name");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Name
 		{
 			get
@@ -26,7 +36,16 @@ namespace Windows.Foundation.Diagnostics
 		}
 #endif
 		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.LoggingSession(string)
-		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Name.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.FromAbi(nint)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.operator ==(Windows.Foundation.Diagnostics.LoggingSession, Windows.Foundation.Diagnostics.LoggingSession)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.operator !=(Windows.Foundation.Diagnostics.LoggingSession, Windows.Foundation.Diagnostics.LoggingSession)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Equals(Windows.Foundation.Diagnostics.LoggingSession)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Equals(object)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.GetHashCode()
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.Storage.StorageFile> SaveToFileAsync(global::Windows.Storage.IStorageFolder folder, string fileName)
@@ -34,6 +53,7 @@ namespace Windows.Foundation.Diagnostics
 			throw new global::System.NotImplementedException("The member IAsyncOperation<StorageFile> LoggingSession.SaveToFileAsync(IStorageFolder folder, string fileName) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CStorageFile%3E%20LoggingSession.SaveToFileAsync%28IStorageFolder%20folder%2C%20string%20fileName%29");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Windows.Foundation.Diagnostics.ILoggingSession.SaveToFileAsync(Windows.Storage.IStorageFolder, string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddLoggingChannel(global::Windows.Foundation.Diagnostics.ILoggingChannel loggingChannel)
@@ -41,6 +61,7 @@ namespace Windows.Foundation.Diagnostics
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Foundation.Diagnostics.LoggingSession", "void LoggingSession.AddLoggingChannel(ILoggingChannel loggingChannel)");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Windows.Foundation.Diagnostics.ILoggingSession.AddLoggingChannel(Windows.Foundation.Diagnostics.ILoggingChannel)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddLoggingChannel(global::Windows.Foundation.Diagnostics.ILoggingChannel loggingChannel, global::Windows.Foundation.Diagnostics.LoggingLevel maxLevel)
@@ -48,6 +69,7 @@ namespace Windows.Foundation.Diagnostics
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Foundation.Diagnostics.LoggingSession", "void LoggingSession.AddLoggingChannel(ILoggingChannel loggingChannel, LoggingLevel maxLevel)");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Windows.Foundation.Diagnostics.ILoggingSession.AddLoggingChannel(Windows.Foundation.Diagnostics.ILoggingChannel, Windows.Foundation.Diagnostics.LoggingLevel)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void RemoveLoggingChannel(global::Windows.Foundation.Diagnostics.ILoggingChannel loggingChannel)
@@ -55,6 +77,8 @@ namespace Windows.Foundation.Diagnostics
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Foundation.Diagnostics.LoggingSession", "void LoggingSession.RemoveLoggingChannel(ILoggingChannel loggingChannel)");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Windows.Foundation.Diagnostics.ILoggingSession.RemoveLoggingChannel(Windows.Foundation.Diagnostics.ILoggingChannel)
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Windows.Foundation.Diagnostics.ILoggingSession.Name.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -62,6 +86,8 @@ namespace Windows.Foundation.Diagnostics
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Foundation.Diagnostics.LoggingSession", "void LoggingSession.Dispose()");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.Name.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.LoggingSession.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Foundation.Diagnostics.ILoggingSession
 		// Processing: System.IDisposable
 	}

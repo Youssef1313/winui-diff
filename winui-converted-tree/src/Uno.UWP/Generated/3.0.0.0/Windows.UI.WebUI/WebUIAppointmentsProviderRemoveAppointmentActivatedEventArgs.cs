@@ -15,6 +15,86 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Appointments.AppointmentsProvider.RemoveAppointmentOperation global::Windows.ApplicationModel.Activation.IAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member RemoveAppointmentOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=RemoveAppointmentOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Verb");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.WebUI.ActivatedOperation global::Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
@@ -30,6 +110,16 @@ namespace Windows.UI.WebUI
 			get
 			{
 				throw new global::System.NotImplementedException("The member ApplicationExecutionState WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.ApplicationModel.Appointments.AppointmentsProvider.RemoveAppointmentOperation RemoveAppointmentOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member RemoveAppointmentOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=RemoveAppointmentOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation");
 			}
 		}
 #endif
@@ -63,33 +153,31 @@ namespace Windows.UI.WebUI
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.ApplicationModel.Appointments.AppointmentsProvider.RemoveAppointmentOperation RemoveAppointmentOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member RemoveAppointmentOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=RemoveAppointmentOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.WebUI.ActivatedOperation ActivatedOperation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ActivatedOperation WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivatedOperation%20WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation.get
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.operator ==(Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs, Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.operator !=(Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs, Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Equals(Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.UI.WebUI.IActivatedEventArgsDeferral.ActivatedOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.RemoveAppointmentOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.SplashScreen.get
-		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.ActivatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.User.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.UI.WebUI.WebUIAppointmentsProviderRemoveAppointmentActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderRemoveAppointmentActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IAppointmentsProviderActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs

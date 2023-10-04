@@ -8,11 +8,7 @@ namespace Microsoft.UI.Composition
 #endif
 	public partial class CompositionEasingFunction : global::Microsoft.UI.Composition.CompositionObject
 	{
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		internal CompositionEasingFunction()
-		{
-		}
-#endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Composition.CubicBezierEasingFunction CreateCubicBezierEasingFunction(global::Microsoft.UI.Composition.Compositor owner, global::System.Numerics.Vector2 controlPoint1, global::System.Numerics.Vector2 controlPoint2)
@@ -90,5 +86,17 @@ namespace Microsoft.UI.Composition
 			throw new global::System.NotImplementedException("The member SineEasingFunction CompositionEasingFunction.CreateSineEasingFunction(Compositor owner, CompositionEasingFunctionMode mode) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SineEasingFunction%20CompositionEasingFunction.CreateSineEasingFunction%28Compositor%20owner%2C%20CompositionEasingFunctionMode%20mode%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.CompositionEasingFunction(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.operator ==(Microsoft.UI.Composition.CompositionEasingFunction, Microsoft.UI.Composition.CompositionEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.operator !=(Microsoft.UI.Composition.CompositionEasingFunction, Microsoft.UI.Composition.CompositionEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.Equals(Microsoft.UI.Composition.CompositionEasingFunction)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.CompositionEasingFunction(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEasingFunction.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

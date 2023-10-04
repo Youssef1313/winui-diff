@@ -8,32 +8,149 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class ComboBoxAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.IValueProvider, global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider, global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IValueProvider.IsReadOnly
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ComboBoxAutomationPeer.IsReadOnly is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ComboBoxAutomationPeer.IsReadOnly");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Microsoft.UI.Xaml.Automation.Provider.IValueProvider.Value
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ComboBoxAutomationPeer.Value is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ComboBoxAutomationPeer.Value");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ExpandCollapseState global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ExpandCollapseState ComboBoxAutomationPeer.ExpandCollapseState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ExpandCollapseState%20ComboBoxAutomationPeer.ExpandCollapseState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.WindowInteractionState global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WindowInteractionState ComboBoxAutomationPeer.InteractionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WindowInteractionState%20ComboBoxAutomationPeer.InteractionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsModal
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ComboBoxAutomationPeer.IsModal is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ComboBoxAutomationPeer.IsModal");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ComboBoxAutomationPeer.IsTopmost is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ComboBoxAutomationPeer.IsTopmost");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ComboBoxAutomationPeer.Maximizable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ComboBoxAutomationPeer.Maximizable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ComboBoxAutomationPeer.Minimizable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ComboBoxAutomationPeer.Minimizable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.WindowVisualState global::Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.VisualState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WindowVisualState ComboBoxAutomationPeer.VisualState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WindowVisualState%20ComboBoxAutomationPeer.VisualState");
+			}
+		}
+#endif
 		// Skipping already declared property ExpandCollapseState
-		// Skipping already declared property IsReadOnly
-		// Skipping already declared property Value
 		// Skipping already declared property InteractionState
 		// Skipping already declared property IsModal
+		// Skipping already declared property IsReadOnly
 		// Skipping already declared property IsTopmost
 		// Skipping already declared property Maximizable
 		// Skipping already declared property Minimizable
+		// Skipping already declared property Value
 		// Skipping already declared property VisualState
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ComboBoxAutomationPeer(Microsoft.UI.Xaml.Controls.ComboBox)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ComboBoxAutomationPeer(Microsoft.UI.Xaml.Controls.ComboBox)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsReadOnly.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ComboBoxAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ComboBoxAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.SetValue(string)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.SetValue(string)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.Value.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Collapse()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Collapse()
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState.get
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Close()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Close()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsModal.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.VisualState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.InteractionState.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsModal.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsReadOnly.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsTopmost.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Maximizable.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Minimizable.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.InteractionState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Value.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.VisualState.get
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.Close()
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.SetVisualState(Microsoft.UI.Xaml.Automation.WindowVisualState)
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.WaitForInputIdle(int)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ComboBoxAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IValueProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IWindowProvider

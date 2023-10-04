@@ -8,18 +8,62 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiPitchBendChangeMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiPitchBendChangeMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiPitchBendChangeMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiPitchBendChangeMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiPitchBendChangeMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiPitchBendChangeMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiPitchBendChangeMessage.Type");
+			}
+		}
+#endif
+		// Skipping already declared property Bend
+		// Skipping already declared property Channel
 		// Skipping already declared property RawData
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
-		// Skipping already declared property Bend
-		// Skipping already declared property Channel
 		// Skipping already declared method Windows.Devices.Midi.MidiPitchBendChangeMessage.MidiPitchBendChangeMessage(byte, ushort)
 		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.MidiPitchBendChangeMessage(byte, ushort)
-		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Channel.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.operator ==(Windows.Devices.Midi.MidiPitchBendChangeMessage, Windows.Devices.Midi.MidiPitchBendChangeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.operator !=(Windows.Devices.Midi.MidiPitchBendChangeMessage, Windows.Devices.Midi.MidiPitchBendChangeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Equals(Windows.Devices.Midi.MidiPitchBendChangeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Bend.get
-		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Channel.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiPitchBendChangeMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

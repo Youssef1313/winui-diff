@@ -15,6 +15,46 @@ namespace Windows.Networking.Vpn
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Networking.Vpn.IVpnCredential.AdditionalPin
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string VpnCredential.AdditionalPin is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20VpnCredential.AdditionalPin");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Cryptography.Certificates.Certificate global::Windows.Networking.Vpn.IVpnCredential.CertificateCredential
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Certificate VpnCredential.CertificateCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Certificate%20VpnCredential.CertificateCredential");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Credentials.PasswordCredential global::Windows.Networking.Vpn.IVpnCredential.OldPasswordCredential
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member PasswordCredential VpnCredential.OldPasswordCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20VpnCredential.OldPasswordCredential");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Credentials.PasswordCredential global::Windows.Networking.Vpn.IVpnCredential.PasskeyCredential
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member PasswordCredential VpnCredential.PasskeyCredential is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PasswordCredential%20VpnCredential.PasskeyCredential");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string AdditionalPin
 		{
 			get
@@ -53,10 +93,25 @@ namespace Windows.Networking.Vpn
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.PasskeyCredential.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.CertificateCredential.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.operator ==(Windows.Networking.Vpn.VpnCredential, Windows.Networking.Vpn.VpnCredential)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.operator !=(Windows.Networking.Vpn.VpnCredential, Windows.Networking.Vpn.VpnCredential)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Equals(Windows.Networking.Vpn.VpnCredential)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Equals(object)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.GetHashCode()
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Windows.Networking.Vpn.IVpnCredential.AdditionalPin.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Windows.Networking.Vpn.IVpnCredential.CertificateCredential.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Windows.Networking.Vpn.IVpnCredential.OldPasswordCredential.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.Windows.Networking.Vpn.IVpnCredential.PasskeyCredential.get
 		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.AdditionalPin.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.CertificateCredential.get
 		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.OldPasswordCredential.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.PasskeyCredential.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCredential.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Networking.Vpn.IVpnCredential
 	}
 }

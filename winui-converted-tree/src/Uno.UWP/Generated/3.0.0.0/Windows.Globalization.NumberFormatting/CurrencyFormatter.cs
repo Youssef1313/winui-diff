@@ -10,6 +10,158 @@ namespace Windows.Globalization.NumberFormatting
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.FractionDigits
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int CurrencyFormatter.FractionDigits is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20CurrencyFormatter.FractionDigits");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "int CurrencyFormatter.FractionDigits");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.GeographicRegion
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CurrencyFormatter.GeographicRegion is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.GeographicRegion");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.IntegerDigits
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int CurrencyFormatter.IntegerDigits is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20CurrencyFormatter.IntegerDigits");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "int CurrencyFormatter.IntegerDigits");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsDecimalPointAlwaysDisplayed
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CurrencyFormatter.IsDecimalPointAlwaysDisplayed is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CurrencyFormatter.IsDecimalPointAlwaysDisplayed");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "bool CurrencyFormatter.IsDecimalPointAlwaysDisplayed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsGrouped
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CurrencyFormatter.IsGrouped is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CurrencyFormatter.IsGrouped");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "bool CurrencyFormatter.IsGrouped");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IReadOnlyList<string> global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.Languages
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<string> CurrencyFormatter.Languages is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3Cstring%3E%20CurrencyFormatter.Languages");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.NumeralSystem
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CurrencyFormatter.NumeralSystem is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.NumeralSystem");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "string CurrencyFormatter.NumeralSystem");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.ResolvedGeographicRegion
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CurrencyFormatter.ResolvedGeographicRegion is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.ResolvedGeographicRegion");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Globalization.NumberFormatting.INumberFormatterOptions.ResolvedLanguage
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CurrencyFormatter.ResolvedLanguage is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.ResolvedLanguage");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.Globalization.NumberFormatting.ISignificantDigitsOption.SignificantDigits
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int CurrencyFormatter.SignificantDigits is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20CurrencyFormatter.SignificantDigits");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "int CurrencyFormatter.SignificantDigits");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Globalization.NumberFormatting.INumberRounder global::Windows.Globalization.NumberFormatting.INumberRounderOption.NumberRounder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member INumberRounder CurrencyFormatter.NumberRounder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=INumberRounder%20CurrencyFormatter.NumberRounder");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "INumberRounder CurrencyFormatter.NumberRounder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Globalization.NumberFormatting.ISignedZeroOption.IsZeroSigned
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CurrencyFormatter.IsZeroSigned is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CurrencyFormatter.IsZeroSigned");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Globalization.NumberFormatting.CurrencyFormatter", "bool CurrencyFormatter.IsZeroSigned");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Currency
 		{
 			get
@@ -22,11 +174,6 @@ namespace Windows.Globalization.NumberFormatting
 			}
 		}
 #endif
-		// Skipping already declared property Mode
-		// Skipping already declared property NumeralSystem
-		// Skipping already declared property IsGrouped
-		// Skipping already declared property IsDecimalPointAlwaysDisplayed
-		// Skipping already declared property IntegerDigits
 		// Skipping already declared property FractionDigits
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -38,6 +185,14 @@ namespace Windows.Globalization.NumberFormatting
 			}
 		}
 #endif
+		// Skipping already declared property IntegerDigits
+		// Skipping already declared property IsDecimalPointAlwaysDisplayed
+		// Skipping already declared property IsGrouped
+		// Skipping already declared property IsZeroSigned
+		// Skipping already declared property Languages
+		// Skipping already declared property Mode
+		// Skipping already declared property NumberRounder
+		// Skipping already declared property NumeralSystem
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string ResolvedGeographicRegion
@@ -49,9 +204,6 @@ namespace Windows.Globalization.NumberFormatting
 		}
 #endif
 		// Skipping already declared property ResolvedLanguage
-		// Skipping already declared property Languages
-		// Skipping already declared property NumberRounder
-		// Skipping already declared property IsZeroSigned
 		// Skipping already declared property SignificantDigits
 		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.CurrencyFormatter(string)
 		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.CurrencyFormatter(string)
@@ -63,52 +215,16 @@ namespace Windows.Globalization.NumberFormatting
 		}
 #endif
 		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.CurrencyFormatter(string, System.Collections.Generic.IEnumerable<string>, string)
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Currency.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Currency.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Languages.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.GeographicRegion.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IntegerDigits.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IntegerDigits.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.FractionDigits.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.FractionDigits.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsGrouped.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsGrouped.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsDecimalPointAlwaysDisplayed.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsDecimalPointAlwaysDisplayed.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumeralSystem.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumeralSystem.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.ResolvedLanguage.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.ResolvedGeographicRegion.get
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Format(long value)
-		{
-			throw new global::System.NotImplementedException("The member string CurrencyFormatter.Format(long value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.Format%28long%20value%29");
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Format(ulong value)
-		{
-			throw new global::System.NotImplementedException("The member string CurrencyFormatter.Format(ulong value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.Format%28ulong%20value%29");
-		}
-#endif
-		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.Format(double)
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string FormatInt(long value)
-		{
-			throw new global::System.NotImplementedException("The member string CurrencyFormatter.FormatInt(long value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.FormatInt%28long%20value%29");
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string FormatUInt(ulong value)
-		{
-			throw new global::System.NotImplementedException("The member string CurrencyFormatter.FormatUInt(ulong value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.FormatUInt%28ulong%20value%29");
-		}
-#endif
-		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.FormatDouble(double)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.FromAbi(nint)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.operator ==(Windows.Globalization.NumberFormatting.CurrencyFormatter, Windows.Globalization.NumberFormatting.CurrencyFormatter)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.operator !=(Windows.Globalization.NumberFormatting.CurrencyFormatter, Windows.Globalization.NumberFormatting.CurrencyFormatter)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Equals(Windows.Globalization.NumberFormatting.CurrencyFormatter)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Equals(object)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.GetHashCode()
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public long? ParseInt(string text)
@@ -116,6 +232,7 @@ namespace Windows.Globalization.NumberFormatting
 			throw new global::System.NotImplementedException("The member long? CurrencyFormatter.ParseInt(string text) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=long%3F%20CurrencyFormatter.ParseInt%28string%20text%29");
 		}
 #endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberParser.ParseInt(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public ulong? ParseUInt(string text)
@@ -123,16 +240,91 @@ namespace Windows.Globalization.NumberFormatting
 			throw new global::System.NotImplementedException("The member ulong? CurrencyFormatter.ParseUInt(string text) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ulong%3F%20CurrencyFormatter.ParseUInt%28string%20text%29");
 		}
 #endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberParser.ParseUInt(string)
 		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.ParseDouble(string)
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Mode.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Mode.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberParser.ParseDouble(string)
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string FormatInt(long value)
+		{
+			throw new global::System.NotImplementedException("The member string CurrencyFormatter.FormatInt(long value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.FormatInt%28long%20value%29");
+		}
+#endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter2.FormatInt(long)
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string FormatUInt(ulong value)
+		{
+			throw new global::System.NotImplementedException("The member string CurrencyFormatter.FormatUInt(ulong value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.FormatUInt%28ulong%20value%29");
+		}
+#endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter2.FormatUInt(ulong)
+		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.FormatDouble(double)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter2.FormatDouble(double)
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Format(long value)
+		{
+			throw new global::System.NotImplementedException("The member string CurrencyFormatter.Format(long value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.Format%28long%20value%29");
+		}
+#endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter.Format(long)
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Format(ulong value)
+		{
+			throw new global::System.NotImplementedException("The member string CurrencyFormatter.Format(ulong value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CurrencyFormatter.Format%28ulong%20value%29");
+		}
+#endif
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter.Format(ulong)
+		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.Format(double)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatter.Format(double)
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.FractionDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.FractionDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.GeographicRegion.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IntegerDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IntegerDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsDecimalPointAlwaysDisplayed.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsDecimalPointAlwaysDisplayed.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsGrouped.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.IsGrouped.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.Languages.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.NumeralSystem.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.NumeralSystem.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.ResolvedGeographicRegion.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberFormatterOptions.ResolvedLanguage.get
 		// Skipping already declared method Windows.Globalization.NumberFormatting.CurrencyFormatter.ApplyRoundingForCurrency(Windows.Globalization.NumberFormatting.RoundingAlgorithm)
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.SignificantDigits.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.SignificantDigits.set
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumberRounder.get
-		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumberRounder.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.ISignificantDigitsOption.SignificantDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.ISignificantDigitsOption.SignificantDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberRounderOption.NumberRounder.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.INumberRounderOption.NumberRounder.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.ISignedZeroOption.IsZeroSigned.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Windows.Globalization.NumberFormatting.ISignedZeroOption.IsZeroSigned.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Currency.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Currency.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.FractionDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.FractionDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.GeographicRegion.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IntegerDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IntegerDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsDecimalPointAlwaysDisplayed.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsDecimalPointAlwaysDisplayed.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsGrouped.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsGrouped.set
 		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsZeroSigned.get
 		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.IsZeroSigned.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Languages.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Mode.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.Mode.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumberRounder.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumberRounder.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumeralSystem.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.NumeralSystem.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.ResolvedGeographicRegion.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.ResolvedLanguage.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.SignificantDigits.get
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.SignificantDigits.set
+		// Forced skipping of method Windows.Globalization.NumberFormatting.CurrencyFormatter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Globalization.NumberFormatting.INumberParser
 		// Processing: Windows.Globalization.NumberFormatting.INumberFormatter2
 		// Processing: Windows.Globalization.NumberFormatting.INumberFormatter

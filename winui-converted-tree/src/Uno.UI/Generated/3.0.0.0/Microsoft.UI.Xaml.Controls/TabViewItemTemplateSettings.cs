@@ -8,6 +8,15 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 	public partial class TabViewItemTemplateSettings : global::Microsoft.UI.Xaml.DependencyObject
 	{
+		// Skipping already declared property IconElementProperty
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::Microsoft.UI.Xaml.DependencyProperty TabGeometryProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			nameof(TabGeometry), typeof(global::Microsoft.UI.Xaml.Media.Geometry),
+			typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings),
+			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Geometry)));
+#endif
 		// Skipping already declared property IconElement
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -23,22 +32,26 @@ namespace Microsoft.UI.Xaml.Controls
 			}
 		}
 #endif
-		// Skipping already declared property IconElementProperty
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Microsoft.UI.Xaml.DependencyProperty TabGeometryProperty { get; } =
-		Microsoft.UI.Xaml.DependencyProperty.Register(
-			nameof(TabGeometry), typeof(global::Microsoft.UI.Xaml.Media.Geometry),
-			typeof(global::Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings),
-			new Microsoft.UI.Xaml.FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Geometry)));
-#endif
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabViewItemTemplateSettings()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabViewItemTemplateSettings()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.IconElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabGeometryProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabViewItemTemplateSettings(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.operator ==(Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings, Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.operator !=(Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings, Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.Equals(Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabViewItemTemplateSettings(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.IconElement.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.IconElement.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabGeometry.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabGeometry.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.TabGeometryProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.IconElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TabViewItemTemplateSettings.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

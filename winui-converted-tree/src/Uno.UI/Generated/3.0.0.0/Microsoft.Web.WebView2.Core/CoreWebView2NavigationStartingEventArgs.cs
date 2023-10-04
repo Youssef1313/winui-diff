@@ -8,6 +8,20 @@ namespace Microsoft.Web.WebView2.Core
 #endif
 	public partial class CoreWebView2NavigationStartingEventArgs
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string AdditionalAllowedFrameAncestors
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs", "string CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors");
+			}
+		}
+#endif
 		// Skipping already declared property Cancel
 		// Skipping already declared property IsRedirected
 		// Skipping already declared property IsUserInitiated
@@ -23,28 +37,25 @@ namespace Microsoft.Web.WebView2.Core
 		}
 #endif
 		// Skipping already declared property Uri
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string AdditionalAllowedFrameAncestors
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs", "string CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors");
-			}
-		}
-#endif
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.FromAbi(nint)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.operator ==(Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.operator !=(Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Equals(Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Equals(object)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.GetHashCode()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.AdditionalAllowedFrameAncestors.set
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Uri.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.IsUserInitiated.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.IsRedirected.get
-		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.RequestHeaders.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Cancel.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.IsRedirected.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.IsUserInitiated.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.NavigationId.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.RequestHeaders.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.Uri.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

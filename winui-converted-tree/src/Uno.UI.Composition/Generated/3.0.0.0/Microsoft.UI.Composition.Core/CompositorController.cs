@@ -18,14 +18,24 @@ namespace Microsoft.UI.Composition.Core
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.CommitNeeded.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public void Dispose()
+		public CompositorController()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Core.CompositorController", "void CompositorController.Dispose()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Core.CompositorController", "CompositorController.CompositorController()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.CompositorController()
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.operator ==(Microsoft.UI.Composition.Core.CompositorController, Microsoft.UI.Composition.Core.CompositorController)
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.operator !=(Microsoft.UI.Composition.Core.CompositorController, Microsoft.UI.Composition.Core.CompositorController)
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.Equals(Microsoft.UI.Composition.Core.CompositorController)
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Commit()
@@ -41,15 +51,16 @@ namespace Microsoft.UI.Composition.Core
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.CommitNeeded.add
-		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.Compositor.get
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.CommitNeeded.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public CompositorController()
+		public void Dispose()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Core.CompositorController", "CompositorController.CompositorController()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Core.CompositorController", "void CompositorController.Dispose()");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.CompositorController()
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.Compositor.get
+		// Forced skipping of method Microsoft.UI.Composition.Core.CompositorController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Composition.Core.CompositorController, object> CommitNeeded

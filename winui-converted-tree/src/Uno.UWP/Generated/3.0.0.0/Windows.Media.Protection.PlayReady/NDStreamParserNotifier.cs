@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Media.Protection.PlayReady
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -17,6 +16,16 @@ namespace Windows.Media.Protection.PlayReady
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.NDStreamParserNotifier()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.operator ==(Windows.Media.Protection.PlayReady.NDStreamParserNotifier, Windows.Media.Protection.PlayReady.NDStreamParserNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.operator !=(Windows.Media.Protection.PlayReady.NDStreamParserNotifier, Windows.Media.Protection.PlayReady.NDStreamParserNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Equals(Windows.Media.Protection.PlayReady.NDStreamParserNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnContentIDReceived(global::Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor licenseFetchDescriptor)
@@ -24,6 +33,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDStreamParserNotifier", "void NDStreamParserNotifier.OnContentIDReceived(INDLicenseFetchDescriptor licenseFetchDescriptor)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Windows.Media.Protection.PlayReady.INDStreamParserNotifier.OnContentIDReceived(Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnMediaStreamDescriptorCreated(global::System.Collections.Generic.IList<global::Windows.Media.Core.AudioStreamDescriptor> audioStreamDescriptors, global::System.Collections.Generic.IList<global::Windows.Media.Core.VideoStreamDescriptor> videoStreamDescriptors)
@@ -31,6 +41,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDStreamParserNotifier", "void NDStreamParserNotifier.OnMediaStreamDescriptorCreated(IList<AudioStreamDescriptor> audioStreamDescriptors, IList<VideoStreamDescriptor> videoStreamDescriptors)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Windows.Media.Protection.PlayReady.INDStreamParserNotifier.OnMediaStreamDescriptorCreated(System.Collections.Generic.IList<Windows.Media.Core.AudioStreamDescriptor>, System.Collections.Generic.IList<Windows.Media.Core.VideoStreamDescriptor>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnSampleParsed(uint streamID, global::Windows.Media.Protection.PlayReady.NDMediaStreamType streamType, global::Windows.Media.Core.MediaStreamSample streamSample, long pts, global::Windows.Media.Protection.PlayReady.NDClosedCaptionFormat ccFormat, byte[] ccDataBytes)
@@ -38,6 +49,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDStreamParserNotifier", "void NDStreamParserNotifier.OnSampleParsed(uint streamID, NDMediaStreamType streamType, MediaStreamSample streamSample, long pts, NDClosedCaptionFormat ccFormat, byte[] ccDataBytes)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Windows.Media.Protection.PlayReady.INDStreamParserNotifier.OnSampleParsed(uint, Windows.Media.Protection.PlayReady.NDMediaStreamType, Windows.Media.Core.MediaStreamSample, long, Windows.Media.Protection.PlayReady.NDClosedCaptionFormat, byte[])
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnBeginSetupDecryptor(global::Windows.Media.Core.IMediaStreamDescriptor descriptor, global::System.Guid keyID, byte[] proBytes)
@@ -45,6 +57,8 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDStreamParserNotifier", "void NDStreamParserNotifier.OnBeginSetupDecryptor(IMediaStreamDescriptor descriptor, Guid keyID, byte[] proBytes)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.Windows.Media.Protection.PlayReady.INDStreamParserNotifier.OnBeginSetupDecryptor(Windows.Media.Core.IMediaStreamDescriptor, System.Guid, byte[])
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDStreamParserNotifier.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.INDStreamParserNotifier
 	}
 }

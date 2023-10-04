@@ -15,29 +15,89 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public double Scale
+		bool global::Windows.Web.UI.IWebViewControl.CanGoBack
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member double WebViewControl.Scale is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20WebViewControl.Scale");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "double WebViewControl.Scale");
+				throw new global::System.NotImplementedException("The member bool WebViewControl.CanGoBack is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WebViewControl.CanGoBack");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsVisible
+		bool global::Windows.Web.UI.IWebViewControl.CanGoForward
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member bool WebViewControl.IsVisible is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WebViewControl.IsVisible");
+				throw new global::System.NotImplementedException("The member bool WebViewControl.CanGoForward is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WebViewControl.CanGoForward");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Web.UI.IWebViewControl.ContainsFullScreenElement
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool WebViewControl.ContainsFullScreenElement is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WebViewControl.ContainsFullScreenElement");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Color global::Windows.Web.UI.IWebViewControl.DefaultBackgroundColor
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Color WebViewControl.DefaultBackgroundColor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Color%20WebViewControl.DefaultBackgroundColor");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "bool WebViewControl.IsVisible");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Color WebViewControl.DefaultBackgroundColor");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Web.UI.WebViewControlDeferredPermissionRequest> global::Windows.Web.UI.IWebViewControl.DeferredPermissionRequests
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<WebViewControlDeferredPermissionRequest> WebViewControl.DeferredPermissionRequests is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CWebViewControlDeferredPermissionRequest%3E%20WebViewControl.DeferredPermissionRequests");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Web.UI.IWebViewControl.DocumentTitle
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string WebViewControl.DocumentTitle is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20WebViewControl.DocumentTitle");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Web.UI.WebViewControlSettings global::Windows.Web.UI.IWebViewControl.Settings
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebViewControlSettings WebViewControl.Settings is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebViewControlSettings%20WebViewControl.Settings");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Uri global::Windows.Web.UI.IWebViewControl.Source
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri WebViewControl.Source is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20WebViewControl.Source");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Uri WebViewControl.Source");
 			}
 		}
 #endif
@@ -52,44 +112,6 @@ namespace Windows.Web.UI.Interop
 			set
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Rect WebViewControl.Bounds");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Web.UI.Interop.WebViewControlProcess Process
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member WebViewControlProcess WebViewControl.Process is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebViewControlProcess%20WebViewControl.Process");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Uri Source
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Uri WebViewControl.Source is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20WebViewControl.Source");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Uri WebViewControl.Source");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.Color DefaultBackgroundColor
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Color WebViewControl.DefaultBackgroundColor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Color%20WebViewControl.DefaultBackgroundColor");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Color WebViewControl.DefaultBackgroundColor");
 			}
 		}
 #endif
@@ -125,6 +147,20 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.UI.Color DefaultBackgroundColor
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Color WebViewControl.DefaultBackgroundColor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Color%20WebViewControl.DefaultBackgroundColor");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Color WebViewControl.DefaultBackgroundColor");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Web.UI.WebViewControlDeferredPermissionRequest> DeferredPermissionRequests
 		{
 			get
@@ -145,6 +181,44 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsVisible
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool WebViewControl.IsVisible is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WebViewControl.IsVisible");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "bool WebViewControl.IsVisible");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Web.UI.Interop.WebViewControlProcess Process
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebViewControlProcess WebViewControl.Process is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebViewControlProcess%20WebViewControl.Process");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public double Scale
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double WebViewControl.Scale is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20WebViewControl.Scale");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "double WebViewControl.Scale");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Web.UI.WebViewControlSettings Settings
 		{
 			get
@@ -153,16 +227,30 @@ namespace Windows.Web.UI.Interop
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Source.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Source.set
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DocumentTitle.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.CanGoBack.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.CanGoForward.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DefaultBackgroundColor.set
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DefaultBackgroundColor.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContainsFullScreenElement.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Settings.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DeferredPermissionRequests.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Uri Source
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri WebViewControl.Source is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20WebViewControl.Source");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "Uri WebViewControl.Source");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FromAbi(nint)
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.operator ==(Windows.Web.UI.Interop.WebViewControl, Windows.Web.UI.Interop.WebViewControl)
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.operator !=(Windows.Web.UI.Interop.WebViewControl, Windows.Web.UI.Interop.WebViewControl)
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Equals(Windows.Web.UI.Interop.WebViewControl)
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Equals(object)
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.GetHashCode()
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void GoForward()
@@ -170,6 +258,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.GoForward()");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.GoForward()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void GoBack()
@@ -177,6 +266,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.GoBack()");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.GoBack()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Refresh()
@@ -184,6 +274,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.Refresh()");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Refresh()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Stop()
@@ -191,6 +282,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.Stop()");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Stop()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Navigate(global::System.Uri source)
@@ -198,6 +290,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.Navigate(Uri source)");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Navigate(System.Uri)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void NavigateToString(string text)
@@ -205,6 +298,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.NavigateToString(string text)");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigateToString(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void NavigateToLocalStreamUri(global::System.Uri source, global::Windows.Web.IUriToStreamResolver streamResolver)
@@ -212,6 +306,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.NavigateToLocalStreamUri(Uri source, IUriToStreamResolver streamResolver)");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigateToLocalStreamUri(System.Uri, Windows.Web.IUriToStreamResolver)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void NavigateWithHttpRequestMessage(global::Windows.Web.Http.HttpRequestMessage requestMessage)
@@ -219,6 +314,7 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.NavigateWithHttpRequestMessage(HttpRequestMessage requestMessage)");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigateWithHttpRequestMessage(Windows.Web.Http.HttpRequestMessage)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<string> InvokeScriptAsync(string scriptName, global::System.Collections.Generic.IEnumerable<string> arguments)
@@ -226,6 +322,7 @@ namespace Windows.Web.UI.Interop
 			throw new global::System.NotImplementedException("The member IAsyncOperation<string> WebViewControl.InvokeScriptAsync(string scriptName, IEnumerable<string> arguments) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3Cstring%3E%20WebViewControl.InvokeScriptAsync%28string%20scriptName%2C%20IEnumerable%3Cstring%3E%20arguments%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.InvokeScriptAsync(string, System.Collections.Generic.IEnumerable<string>)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction CapturePreviewToStreamAsync(global::Windows.Storage.Streams.IRandomAccessStream stream)
@@ -233,6 +330,7 @@ namespace Windows.Web.UI.Interop
 			throw new global::System.NotImplementedException("The member IAsyncAction WebViewControl.CapturePreviewToStreamAsync(IRandomAccessStream stream) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20WebViewControl.CapturePreviewToStreamAsync%28IRandomAccessStream%20stream%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.CapturePreviewToStreamAsync(Windows.Storage.Streams.IRandomAccessStream)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperation<global::Windows.ApplicationModel.DataTransfer.DataPackage> CaptureSelectedContentToDataPackageAsync()
@@ -240,6 +338,7 @@ namespace Windows.Web.UI.Interop
 			throw new global::System.NotImplementedException("The member IAsyncOperation<DataPackage> WebViewControl.CaptureSelectedContentToDataPackageAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CDataPackage%3E%20WebViewControl.CaptureSelectedContentToDataPackageAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.CaptureSelectedContentToDataPackageAsync()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Uri BuildLocalStreamUri(string contentIdentifier, string relativePath)
@@ -247,6 +346,7 @@ namespace Windows.Web.UI.Interop
 			throw new global::System.NotImplementedException("The member Uri WebViewControl.BuildLocalStreamUri(string contentIdentifier, string relativePath) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20WebViewControl.BuildLocalStreamUri%28string%20contentIdentifier%2C%20string%20relativePath%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.BuildLocalStreamUri(string, string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void GetDeferredPermissionRequestById(uint id, out global::Windows.Web.UI.WebViewControlDeferredPermissionRequest result)
@@ -254,47 +354,85 @@ namespace Windows.Web.UI.Interop
 			throw new global::System.NotImplementedException("The member void WebViewControl.GetDeferredPermissionRequestById(uint id, out WebViewControlDeferredPermissionRequest result) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=void%20WebViewControl.GetDeferredPermissionRequestById%28uint%20id%2C%20out%20WebViewControlDeferredPermissionRequest%20result%29");
 		}
 #endif
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationStarting.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationStarting.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContentLoading.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContentLoading.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DOMContentLoaded.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DOMContentLoaded.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationCompleted.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationCompleted.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationStarting.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationStarting.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameContentLoading.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameContentLoading.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameDOMContentLoaded.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameDOMContentLoaded.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationCompleted.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationCompleted.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ScriptNotify.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ScriptNotify.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LongRunningScriptDetected.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LongRunningScriptDetected.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsafeContentWarningDisplaying.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsafeContentWarningDisplaying.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnviewableContentIdentified.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnviewableContentIdentified.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.PermissionRequested.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.PermissionRequested.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsupportedUriSchemeIdentified.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsupportedUriSchemeIdentified.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NewWindowRequested.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NewWindowRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.GetDeferredPermissionRequestById(uint, out Windows.Web.UI.WebViewControlDeferredPermissionRequest)
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContainsFullScreenElementChanged.add
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContainsFullScreenElementChanged.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ContainsFullScreenElementChanged.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ContainsFullScreenElementChanged.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContentLoading.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContentLoading.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ContentLoading.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ContentLoading.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DOMContentLoaded.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DOMContentLoaded.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DOMContentLoaded.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DOMContentLoaded.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameContentLoading.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameContentLoading.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameContentLoading.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameContentLoading.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameDOMContentLoaded.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameDOMContentLoaded.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameDOMContentLoaded.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameDOMContentLoaded.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationCompleted.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationCompleted.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameNavigationCompleted.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameNavigationCompleted.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationStarting.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.FrameNavigationStarting.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameNavigationStarting.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.FrameNavigationStarting.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LongRunningScriptDetected.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LongRunningScriptDetected.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.LongRunningScriptDetected.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.LongRunningScriptDetected.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationCompleted.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationCompleted.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigationCompleted.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigationCompleted.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationStarting.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NavigationStarting.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigationStarting.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NavigationStarting.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NewWindowRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.NewWindowRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NewWindowRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.NewWindowRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.PermissionRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.PermissionRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.PermissionRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.PermissionRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ScriptNotify.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ScriptNotify.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ScriptNotify.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ScriptNotify.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsafeContentWarningDisplaying.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsafeContentWarningDisplaying.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnsafeContentWarningDisplaying.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnsafeContentWarningDisplaying.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsupportedUriSchemeIdentified.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnsupportedUriSchemeIdentified.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnsupportedUriSchemeIdentified.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnsupportedUriSchemeIdentified.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnviewableContentIdentified.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.UnviewableContentIdentified.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnviewableContentIdentified.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.UnviewableContentIdentified.remove
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WebResourceRequested.add
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.WebResourceRequested.remove
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Process.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Scale.set
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Scale.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Bounds.set
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Bounds.get
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.IsVisible.set
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.IsVisible.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.WebResourceRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.WebResourceRequested.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.CanGoBack.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.CanGoForward.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.ContainsFullScreenElement.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DefaultBackgroundColor.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DefaultBackgroundColor.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DeferredPermissionRequests.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.DocumentTitle.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Settings.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Source.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl.Source.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Close()
@@ -309,10 +447,10 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.MoveFocus(WebViewControlMoveFocusReason reason)");
 		}
 #endif
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.MoveFocusRequested.add
-		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.MoveFocusRequested.remove
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.AcceleratorKeyPressed.add
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.AcceleratorKeyPressed.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.MoveFocusRequested.add
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.MoveFocusRequested.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddInitializeScript(string script)
@@ -320,13 +458,48 @@ namespace Windows.Web.UI.Interop
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "void WebViewControl.AddInitializeScript(string script)");
 		}
 #endif
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Windows.Web.UI.IWebViewControl2.AddInitializeScript(string)
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.GotFocus.add
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.GotFocus.remove
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LostFocus.add
 		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.LostFocus.remove
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Bounds.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Bounds.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.CanGoBack.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.CanGoForward.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.ContainsFullScreenElement.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DefaultBackgroundColor.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DefaultBackgroundColor.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DeferredPermissionRequests.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.DocumentTitle.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.IsVisible.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.IsVisible.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Process.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Scale.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Scale.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Settings.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Source.get
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.Source.set
+		// Forced skipping of method Windows.Web.UI.Interop.WebViewControl.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, object> ContainsFullScreenElementChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, object> WebViewControl.ContainsFullScreenElementChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, object> WebViewControl.ContainsFullScreenElementChanged");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, object> global::Windows.Web.UI.IWebViewControl.ContainsFullScreenElementChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -358,7 +531,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlContentLoadingEventArgs> global::Windows.Web.UI.IWebViewControl.ContentLoading
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlContentLoadingEventArgs> WebViewControl.ContentLoading");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlContentLoadingEventArgs> WebViewControl.ContentLoading");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlDOMContentLoadedEventArgs> DOMContentLoaded
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlDOMContentLoadedEventArgs> WebViewControl.DOMContentLoaded");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlDOMContentLoadedEventArgs> WebViewControl.DOMContentLoaded");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlDOMContentLoadedEventArgs> global::Windows.Web.UI.IWebViewControl.DOMContentLoaded
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -390,7 +595,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlContentLoadingEventArgs> global::Windows.Web.UI.IWebViewControl.FrameContentLoading
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlContentLoadingEventArgs> WebViewControl.FrameContentLoading");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlContentLoadingEventArgs> WebViewControl.FrameContentLoading");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlDOMContentLoadedEventArgs> FrameDOMContentLoaded
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlDOMContentLoadedEventArgs> WebViewControl.FrameDOMContentLoaded");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlDOMContentLoadedEventArgs> WebViewControl.FrameDOMContentLoaded");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlDOMContentLoadedEventArgs> global::Windows.Web.UI.IWebViewControl.FrameDOMContentLoaded
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -422,7 +659,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationCompletedEventArgs> global::Windows.Web.UI.IWebViewControl.FrameNavigationCompleted
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationCompletedEventArgs> WebViewControl.FrameNavigationCompleted");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationCompletedEventArgs> WebViewControl.FrameNavigationCompleted");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationStartingEventArgs> FrameNavigationStarting
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationStartingEventArgs> WebViewControl.FrameNavigationStarting");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationStartingEventArgs> WebViewControl.FrameNavigationStarting");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationStartingEventArgs> global::Windows.Web.UI.IWebViewControl.FrameNavigationStarting
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -454,7 +723,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlLongRunningScriptDetectedEventArgs> global::Windows.Web.UI.IWebViewControl.LongRunningScriptDetected
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlLongRunningScriptDetectedEventArgs> WebViewControl.LongRunningScriptDetected");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlLongRunningScriptDetectedEventArgs> WebViewControl.LongRunningScriptDetected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationCompletedEventArgs> NavigationCompleted
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationCompletedEventArgs> WebViewControl.NavigationCompleted");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationCompletedEventArgs> WebViewControl.NavigationCompleted");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationCompletedEventArgs> global::Windows.Web.UI.IWebViewControl.NavigationCompleted
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -486,7 +787,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNavigationStartingEventArgs> global::Windows.Web.UI.IWebViewControl.NavigationStarting
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationStartingEventArgs> WebViewControl.NavigationStarting");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNavigationStartingEventArgs> WebViewControl.NavigationStarting");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNewWindowRequestedEventArgs> NewWindowRequested
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNewWindowRequestedEventArgs> WebViewControl.NewWindowRequested");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlNewWindowRequestedEventArgs> WebViewControl.NewWindowRequested");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlNewWindowRequestedEventArgs> global::Windows.Web.UI.IWebViewControl.NewWindowRequested
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -518,7 +851,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlPermissionRequestedEventArgs> global::Windows.Web.UI.IWebViewControl.PermissionRequested
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlPermissionRequestedEventArgs> WebViewControl.PermissionRequested");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlPermissionRequestedEventArgs> WebViewControl.PermissionRequested");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlScriptNotifyEventArgs> ScriptNotify
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlScriptNotifyEventArgs> WebViewControl.ScriptNotify");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlScriptNotifyEventArgs> WebViewControl.ScriptNotify");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlScriptNotifyEventArgs> global::Windows.Web.UI.IWebViewControl.ScriptNotify
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -550,7 +915,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, object> global::Windows.Web.UI.IWebViewControl.UnsafeContentWarningDisplaying
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, object> WebViewControl.UnsafeContentWarningDisplaying");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, object> WebViewControl.UnsafeContentWarningDisplaying");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlUnsupportedUriSchemeIdentifiedEventArgs> UnsupportedUriSchemeIdentified
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlUnsupportedUriSchemeIdentifiedEventArgs> WebViewControl.UnsupportedUriSchemeIdentified");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlUnsupportedUriSchemeIdentifiedEventArgs> WebViewControl.UnsupportedUriSchemeIdentified");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlUnsupportedUriSchemeIdentifiedEventArgs> global::Windows.Web.UI.IWebViewControl.UnsupportedUriSchemeIdentified
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -582,7 +979,39 @@ namespace Windows.Web.UI.Interop
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlUnviewableContentIdentifiedEventArgs> global::Windows.Web.UI.IWebViewControl.UnviewableContentIdentified
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlUnviewableContentIdentifiedEventArgs> WebViewControl.UnviewableContentIdentified");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlUnviewableContentIdentifiedEventArgs> WebViewControl.UnviewableContentIdentified");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlWebResourceRequestedEventArgs> WebResourceRequested
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlWebResourceRequestedEventArgs> WebViewControl.WebResourceRequested");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.UI.Interop.WebViewControl", "event TypedEventHandler<IWebViewControl, WebViewControlWebResourceRequestedEventArgs> WebViewControl.WebResourceRequested");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Web.UI.IWebViewControl, global::Windows.Web.UI.WebViewControlWebResourceRequestedEventArgs> global::Windows.Web.UI.IWebViewControl.WebResourceRequested
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add

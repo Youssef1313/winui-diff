@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.ApplicationModel.Activation
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -12,6 +11,86 @@ namespace Windows.ApplicationModel.Activation
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		internal FolderPickerContinuationEventArgs()
 		{
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.StorageFolder global::Windows.ApplicationModel.Activation.IFolderPickerContinuationEventArgs.Folder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member StorageFolder FolderPickerContinuationEventArgs.Folder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFolder%20FolderPickerContinuationEventArgs.Folder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Collections.ValueSet global::Windows.ApplicationModel.Activation.IContinuationActivatedEventArgs.ContinuationData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ValueSet FolderPickerContinuationEventArgs.ContinuationData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20FolderPickerContinuationEventArgs.ContinuationData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind FolderPickerContinuationEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20FolderPickerContinuationEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState FolderPickerContinuationEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20FolderPickerContinuationEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen FolderPickerContinuationEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20FolderPickerContinuationEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User FolderPickerContinuationEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20FolderPickerContinuationEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Foundation.Collections.ValueSet ContinuationData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ValueSet FolderPickerContinuationEventArgs.ContinuationData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20FolderPickerContinuationEventArgs.ContinuationData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Storage.StorageFolder Folder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member StorageFolder FolderPickerContinuationEventArgs.Folder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFolder%20FolderPickerContinuationEventArgs.Folder");
+			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
@@ -54,32 +133,29 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Foundation.Collections.ValueSet ContinuationData
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member ValueSet FolderPickerContinuationEventArgs.ContinuationData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20FolderPickerContinuationEventArgs.ContinuationData");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Storage.StorageFolder Folder
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member StorageFolder FolderPickerContinuationEventArgs.Folder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFolder%20FolderPickerContinuationEventArgs.Folder");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Folder.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.operator ==(Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs, Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.operator !=(Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs, Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Equals(Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IFolderPickerContinuationEventArgs.Folder.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IContinuationActivatedEventArgs.ContinuationData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.ContinuationData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Folder.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FolderPickerContinuationEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IFolderPickerContinuationEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IContinuationActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs

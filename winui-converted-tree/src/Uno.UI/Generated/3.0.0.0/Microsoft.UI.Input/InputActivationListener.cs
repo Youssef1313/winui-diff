@@ -23,9 +23,7 @@ namespace Microsoft.UI.Input
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.InputActivationChanged.add
-		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.State.get
-		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.InputActivationChanged.remove
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Input.InputActivationListener GetForWindowId(global::Microsoft.UI.WindowId windowId)
@@ -33,6 +31,19 @@ namespace Microsoft.UI.Input
 			throw new global::System.NotImplementedException("The member InputActivationListener InputActivationListener.GetForWindowId(WindowId windowId) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=InputActivationListener%20InputActivationListener.GetForWindowId%28WindowId%20windowId%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.operator ==(Microsoft.UI.Input.InputActivationListener, Microsoft.UI.Input.InputActivationListener)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.operator !=(Microsoft.UI.Input.InputActivationListener, Microsoft.UI.Input.InputActivationListener)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.Equals(Microsoft.UI.Input.InputActivationListener)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.Equals(object)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.InputActivationChanged.add
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.InputActivationChanged.remove
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.State.get
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Input.InputActivationListener.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Input.InputActivationListener, global::Microsoft.UI.Input.InputActivationListenerActivationChangedEventArgs> InputActivationChanged

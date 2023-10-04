@@ -8,9 +8,36 @@ namespace Windows.UI.Core
 #endif
 	public partial class CoreWindowEventArgs : global::Windows.UI.Core.ICoreWindowEventArgs
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWindowEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWindowEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindowEventArgs", "bool CoreWindowEventArgs.Handled");
+			}
+		}
+#endif
 		// Skipping already declared property Handled
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.operator ==(Windows.UI.Core.CoreWindowEventArgs, Windows.UI.Core.CoreWindowEventArgs)
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.operator !=(Windows.UI.Core.CoreWindowEventArgs, Windows.UI.Core.CoreWindowEventArgs)
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Equals(Windows.UI.Core.CoreWindowEventArgs)
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
 		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.CoreWindowEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

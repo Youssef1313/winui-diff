@@ -8,15 +8,52 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class RadioButtonAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.ToggleButtonAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.IsSelected
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool RadioButtonAutomationPeer.IsSelected is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20RadioButtonAutomationPeer.IsSelected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.SelectionContainer
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IRawElementProviderSimple RadioButtonAutomationPeer.SelectionContainer is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IRawElementProviderSimple%20RadioButtonAutomationPeer.SelectionContainer");
+			}
+		}
+#endif
 		// Skipping already declared property IsSelected
 		// Skipping already declared property SelectionContainer
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RadioButtonAutomationPeer(Microsoft.UI.Xaml.Controls.RadioButton)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RadioButtonAutomationPeer(Microsoft.UI.Xaml.Controls.RadioButton)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RadioButtonAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RadioButtonAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.WinRT.IWinRTObject.NativeObject.get
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.AddToSelection()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.AddToSelection()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RemoveFromSelection()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.RemoveFromSelection()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Select()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.Select()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.IsSelected.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.SelectionContainer.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.IsSelected.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.SelectionContainer.get
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.AddToSelection()
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.RemoveFromSelection()
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.Select()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RadioButtonAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 	}
 }

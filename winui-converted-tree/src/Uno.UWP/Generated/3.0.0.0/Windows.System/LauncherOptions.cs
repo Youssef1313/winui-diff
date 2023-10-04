@@ -10,71 +10,15 @@ namespace Windows.System
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool TreatAsUntrusted
+		global::Windows.UI.ViewManagement.ViewSizePreference global::Windows.System.ILauncherViewOptions.DesiredRemainingView
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member bool LauncherOptions.TreatAsUntrusted is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LauncherOptions.TreatAsUntrusted");
+				throw new global::System.NotImplementedException("The member ViewSizePreference LauncherOptions.DesiredRemainingView is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ViewSizePreference%20LauncherOptions.DesiredRemainingView");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "bool LauncherOptions.TreatAsUntrusted");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string PreferredApplicationPackageFamilyName
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string LauncherOptions.PreferredApplicationPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.PreferredApplicationPackageFamilyName");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.PreferredApplicationPackageFamilyName");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string PreferredApplicationDisplayName
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string LauncherOptions.PreferredApplicationDisplayName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.PreferredApplicationDisplayName");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.PreferredApplicationDisplayName");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Uri FallbackUri
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Uri LauncherOptions.FallbackUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20LauncherOptions.FallbackUri");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "Uri LauncherOptions.FallbackUri");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool DisplayApplicationPicker
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool LauncherOptions.DisplayApplicationPicker is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LauncherOptions.DisplayApplicationPicker");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "bool LauncherOptions.DisplayApplicationPicker");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "ViewSizePreference LauncherOptions.DesiredRemainingView");
 			}
 		}
 #endif
@@ -94,39 +38,43 @@ namespace Windows.System
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.LauncherUIOptions UI
+		public global::Windows.UI.ViewManagement.ViewSizePreference DesiredRemainingView
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member LauncherUIOptions LauncherOptions.UI is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=LauncherUIOptions%20LauncherOptions.UI");
+				throw new global::System.NotImplementedException("The member ViewSizePreference LauncherOptions.DesiredRemainingView is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ViewSizePreference%20LauncherOptions.DesiredRemainingView");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "ViewSizePreference LauncherOptions.DesiredRemainingView");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string TargetApplicationPackageFamilyName
+		public bool DisplayApplicationPicker
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string LauncherOptions.TargetApplicationPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.TargetApplicationPackageFamilyName");
+				throw new global::System.NotImplementedException("The member bool LauncherOptions.DisplayApplicationPicker is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LauncherOptions.DisplayApplicationPicker");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.TargetApplicationPackageFamilyName");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "bool LauncherOptions.DisplayApplicationPicker");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Storage.Search.StorageFileQueryResult NeighboringFilesQuery
+		public global::System.Uri FallbackUri
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member StorageFileQueryResult LauncherOptions.NeighboringFilesQuery is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFileQueryResult%20LauncherOptions.NeighboringFilesQuery");
+				throw new global::System.NotImplementedException("The member Uri LauncherOptions.FallbackUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20LauncherOptions.FallbackUri");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "StorageFileQueryResult LauncherOptions.NeighboringFilesQuery");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "Uri LauncherOptions.FallbackUri");
 			}
 		}
 #endif
@@ -160,15 +108,81 @@ namespace Windows.System
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.ViewManagement.ViewSizePreference DesiredRemainingView
+		public global::Windows.Storage.Search.StorageFileQueryResult NeighboringFilesQuery
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member ViewSizePreference LauncherOptions.DesiredRemainingView is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ViewSizePreference%20LauncherOptions.DesiredRemainingView");
+				throw new global::System.NotImplementedException("The member StorageFileQueryResult LauncherOptions.NeighboringFilesQuery is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFileQueryResult%20LauncherOptions.NeighboringFilesQuery");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "ViewSizePreference LauncherOptions.DesiredRemainingView");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "StorageFileQueryResult LauncherOptions.NeighboringFilesQuery");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string PreferredApplicationDisplayName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string LauncherOptions.PreferredApplicationDisplayName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.PreferredApplicationDisplayName");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.PreferredApplicationDisplayName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string PreferredApplicationPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string LauncherOptions.PreferredApplicationPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.PreferredApplicationPackageFamilyName");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.PreferredApplicationPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string TargetApplicationPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string LauncherOptions.TargetApplicationPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LauncherOptions.TargetApplicationPackageFamilyName");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "string LauncherOptions.TargetApplicationPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool TreatAsUntrusted
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LauncherOptions.TreatAsUntrusted is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LauncherOptions.TreatAsUntrusted");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.System.LauncherOptions", "bool LauncherOptions.TreatAsUntrusted");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.System.LauncherUIOptions UI
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member LauncherUIOptions LauncherOptions.UI is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=LauncherUIOptions%20LauncherOptions.UI");
 			}
 		}
 #endif
@@ -180,29 +194,42 @@ namespace Windows.System
 		}
 #endif
 		// Forced skipping of method Windows.System.LauncherOptions.LauncherOptions()
-		// Forced skipping of method Windows.System.LauncherOptions.TargetApplicationPackageFamilyName.get
-		// Forced skipping of method Windows.System.LauncherOptions.TargetApplicationPackageFamilyName.set
-		// Forced skipping of method Windows.System.LauncherOptions.NeighboringFilesQuery.get
-		// Forced skipping of method Windows.System.LauncherOptions.NeighboringFilesQuery.set
-		// Forced skipping of method Windows.System.LauncherOptions.TreatAsUntrusted.get
-		// Forced skipping of method Windows.System.LauncherOptions.TreatAsUntrusted.set
-		// Forced skipping of method Windows.System.LauncherOptions.DisplayApplicationPicker.get
-		// Forced skipping of method Windows.System.LauncherOptions.DisplayApplicationPicker.set
-		// Forced skipping of method Windows.System.LauncherOptions.UI.get
-		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationPackageFamilyName.get
-		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationPackageFamilyName.set
-		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationDisplayName.get
-		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationDisplayName.set
-		// Forced skipping of method Windows.System.LauncherOptions.FallbackUri.get
-		// Forced skipping of method Windows.System.LauncherOptions.FallbackUri.set
+		// Forced skipping of method Windows.System.LauncherOptions.FromAbi(nint)
+		// Forced skipping of method Windows.System.LauncherOptions.operator ==(Windows.System.LauncherOptions, Windows.System.LauncherOptions)
+		// Forced skipping of method Windows.System.LauncherOptions.operator !=(Windows.System.LauncherOptions, Windows.System.LauncherOptions)
+		// Forced skipping of method Windows.System.LauncherOptions.Equals(Windows.System.LauncherOptions)
+		// Forced skipping of method Windows.System.LauncherOptions.Equals(object)
+		// Forced skipping of method Windows.System.LauncherOptions.GetHashCode()
+		// Forced skipping of method Windows.System.LauncherOptions.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.System.LauncherOptions.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.System.LauncherOptions.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.System.LauncherOptions.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.System.LauncherOptions.Windows.System.ILauncherViewOptions.DesiredRemainingView.get
+		// Forced skipping of method Windows.System.LauncherOptions.Windows.System.ILauncherViewOptions.DesiredRemainingView.set
 		// Forced skipping of method Windows.System.LauncherOptions.ContentType.get
 		// Forced skipping of method Windows.System.LauncherOptions.ContentType.set
+		// Forced skipping of method Windows.System.LauncherOptions.DesiredRemainingView.get
+		// Forced skipping of method Windows.System.LauncherOptions.DesiredRemainingView.set
+		// Forced skipping of method Windows.System.LauncherOptions.DisplayApplicationPicker.get
+		// Forced skipping of method Windows.System.LauncherOptions.DisplayApplicationPicker.set
+		// Forced skipping of method Windows.System.LauncherOptions.FallbackUri.get
+		// Forced skipping of method Windows.System.LauncherOptions.FallbackUri.set
 		// Forced skipping of method Windows.System.LauncherOptions.IgnoreAppUriHandlers.get
 		// Forced skipping of method Windows.System.LauncherOptions.IgnoreAppUriHandlers.set
 		// Forced skipping of method Windows.System.LauncherOptions.LimitPickerToCurrentAppAndAppUriHandlers.get
 		// Forced skipping of method Windows.System.LauncherOptions.LimitPickerToCurrentAppAndAppUriHandlers.set
-		// Forced skipping of method Windows.System.LauncherOptions.DesiredRemainingView.get
-		// Forced skipping of method Windows.System.LauncherOptions.DesiredRemainingView.set
+		// Forced skipping of method Windows.System.LauncherOptions.NeighboringFilesQuery.get
+		// Forced skipping of method Windows.System.LauncherOptions.NeighboringFilesQuery.set
+		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationDisplayName.get
+		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationDisplayName.set
+		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationPackageFamilyName.get
+		// Forced skipping of method Windows.System.LauncherOptions.PreferredApplicationPackageFamilyName.set
+		// Forced skipping of method Windows.System.LauncherOptions.TargetApplicationPackageFamilyName.get
+		// Forced skipping of method Windows.System.LauncherOptions.TargetApplicationPackageFamilyName.set
+		// Forced skipping of method Windows.System.LauncherOptions.TreatAsUntrusted.get
+		// Forced skipping of method Windows.System.LauncherOptions.TreatAsUntrusted.set
+		// Forced skipping of method Windows.System.LauncherOptions.UI.get
+		// Forced skipping of method Windows.System.LauncherOptions.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.System.ILauncherViewOptions
 	}
 }

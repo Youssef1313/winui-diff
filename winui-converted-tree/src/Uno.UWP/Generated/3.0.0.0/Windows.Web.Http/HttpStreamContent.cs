@@ -10,6 +10,16 @@ namespace Windows.Web.Http
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Web.Http.Headers.HttpContentHeaderCollection global::Windows.Web.Http.IHttpContent.Headers
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member HttpContentHeaderCollection HttpStreamContent.Headers is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=HttpContentHeaderCollection%20HttpStreamContent.Headers");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Web.Http.Headers.HttpContentHeaderCollection Headers
 		{
 			get
@@ -26,7 +36,16 @@ namespace Windows.Web.Http
 		}
 #endif
 		// Forced skipping of method Windows.Web.Http.HttpStreamContent.HttpStreamContent(Windows.Storage.Streams.IInputStream)
-		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Headers.get
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.FromAbi(nint)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.operator ==(Windows.Web.Http.HttpStreamContent, Windows.Web.Http.HttpStreamContent)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.operator !=(Windows.Web.Http.HttpStreamContent, Windows.Web.Http.HttpStreamContent)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Equals(Windows.Web.Http.HttpStreamContent)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Equals(object)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.GetHashCode()
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<ulong, ulong> BufferAllAsync()
@@ -34,6 +53,7 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<ulong, ulong> HttpStreamContent.BufferAllAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3Culong%2C%20ulong%3E%20HttpStreamContent.BufferAllAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.BufferAllAsync()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IBuffer, ulong> ReadAsBufferAsync()
@@ -41,6 +61,7 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<IBuffer, ulong> HttpStreamContent.ReadAsBufferAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3CIBuffer%2C%20ulong%3E%20HttpStreamContent.ReadAsBufferAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.ReadAsBufferAsync()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<global::Windows.Storage.Streams.IInputStream, ulong> ReadAsInputStreamAsync()
@@ -48,6 +69,7 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<IInputStream, ulong> HttpStreamContent.ReadAsInputStreamAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3CIInputStream%2C%20ulong%3E%20HttpStreamContent.ReadAsInputStreamAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.ReadAsInputStreamAsync()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<string, ulong> ReadAsStringAsync()
@@ -55,6 +77,7 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<string, ulong> HttpStreamContent.ReadAsStringAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3Cstring%2C%20ulong%3E%20HttpStreamContent.ReadAsStringAsync%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.ReadAsStringAsync()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool TryComputeLength(out ulong length)
@@ -62,6 +85,7 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member bool HttpStreamContent.TryComputeLength(out ulong length) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20HttpStreamContent.TryComputeLength%28out%20ulong%20length%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.TryComputeLength(out ulong)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncOperationWithProgress<ulong, ulong> WriteToStreamAsync(global::Windows.Storage.Streams.IOutputStream outputStream)
@@ -69,6 +93,8 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member IAsyncOperationWithProgress<ulong, ulong> HttpStreamContent.WriteToStreamAsync(IOutputStream outputStream) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperationWithProgress%3Culong%2C%20ulong%3E%20HttpStreamContent.WriteToStreamAsync%28IOutputStream%20outputStream%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.WriteToStreamAsync(Windows.Storage.Streams.IOutputStream)
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Web.Http.IHttpContent.Headers.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -83,6 +109,9 @@ namespace Windows.Web.Http
 			throw new global::System.NotImplementedException("The member string HttpStreamContent.ToString() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20HttpStreamContent.ToString%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Windows.Foundation.IStringable.ToString()
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.Headers.get
+		// Forced skipping of method Windows.Web.Http.HttpStreamContent.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Web.Http.IHttpContent
 		// Processing: System.IDisposable
 	}

@@ -8,11 +8,38 @@ namespace Windows.UI.Core
 #endif
 	public partial class WindowActivatedEventArgs : global::Windows.UI.Core.ICoreWindowEventArgs
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindowEventArgs.Handled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool WindowActivatedEventArgs.Handled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20WindowActivatedEventArgs.Handled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.WindowActivatedEventArgs", "bool WindowActivatedEventArgs.Handled");
+			}
+		}
+#endif
 		// Skipping already declared property Handled
 		// Skipping already declared property WindowActivationState
-		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WindowActivationState.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.operator ==(Windows.UI.Core.WindowActivatedEventArgs, Windows.UI.Core.WindowActivatedEventArgs)
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.operator !=(Windows.UI.Core.WindowActivatedEventArgs, Windows.UI.Core.WindowActivatedEventArgs)
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Equals(Windows.UI.Core.WindowActivatedEventArgs)
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Windows.UI.Core.ICoreWindowEventArgs.Handled.set
 		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Handled.get
 		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.Handled.set
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.WindowActivationState.get
+		// Forced skipping of method Windows.UI.Core.WindowActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Core.ICoreWindowEventArgs
 	}
 }

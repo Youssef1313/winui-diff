@@ -28,6 +28,9 @@ namespace Windows.Storage.AccessCache
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Storage.AccessCache.StorageApplicationPermissions.As<I>()
+		// Forced skipping of method Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.get
+		// Forced skipping of method Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Storage.AccessCache.StorageItemAccessList GetFutureAccessListForUser(global::Windows.System.User user)
@@ -42,7 +45,5 @@ namespace Windows.Storage.AccessCache
 			throw new global::System.NotImplementedException("The member StorageItemMostRecentlyUsedList StorageApplicationPermissions.GetMostRecentlyUsedListForUser(User user) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageItemMostRecentlyUsedList%20StorageApplicationPermissions.GetMostRecentlyUsedListForUser%28User%20user%29");
 		}
 #endif
-		// Forced skipping of method Windows.Storage.AccessCache.StorageApplicationPermissions.FutureAccessList.get
-		// Forced skipping of method Windows.Storage.AccessCache.StorageApplicationPermissions.MostRecentlyUsedList.get
 	}
 }

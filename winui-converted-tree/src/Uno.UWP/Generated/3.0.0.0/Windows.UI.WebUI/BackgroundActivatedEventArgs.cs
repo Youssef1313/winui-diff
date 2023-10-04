@@ -15,6 +15,16 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Background.IBackgroundTaskInstance global::Windows.ApplicationModel.Activation.IBackgroundActivatedEventArgs.TaskInstance
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBackgroundTaskInstance BackgroundActivatedEventArgs.TaskInstance is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBackgroundTaskInstance%20BackgroundActivatedEventArgs.TaskInstance");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Background.IBackgroundTaskInstance TaskInstance
 		{
 			get
@@ -23,7 +33,19 @@ namespace Windows.UI.WebUI
 			}
 		}
 #endif
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.operator ==(Windows.UI.WebUI.BackgroundActivatedEventArgs, Windows.UI.WebUI.BackgroundActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.operator !=(Windows.UI.WebUI.BackgroundActivatedEventArgs, Windows.UI.WebUI.BackgroundActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.Equals(Windows.UI.WebUI.BackgroundActivatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.Windows.ApplicationModel.Activation.IBackgroundActivatedEventArgs.TaskInstance.get
 		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.TaskInstance.get
+		// Forced skipping of method Windows.UI.WebUI.BackgroundActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IBackgroundActivatedEventArgs
 	}
 }

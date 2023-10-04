@@ -15,11 +15,61 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IPickerReturnedActivatedEventArgs.PickerOperationId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PickerReturnedActivatedEventArgs.PickerOperationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PickerReturnedActivatedEventArgs.PickerOperationId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind PickerReturnedActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20PickerReturnedActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState PickerReturnedActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20PickerReturnedActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen PickerReturnedActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20PickerReturnedActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member ActivationKind PickerReturnedActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20PickerReturnedActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string PickerOperationId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PickerReturnedActivatedEventArgs.PickerOperationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PickerReturnedActivatedEventArgs.PickerOperationId");
 			}
 		}
 #endif
@@ -43,20 +93,25 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string PickerOperationId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string PickerReturnedActivatedEventArgs.PickerOperationId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PickerReturnedActivatedEventArgs.PickerOperationId");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.PickerOperationId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs, Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs, Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Windows.ApplicationModel.Activation.IPickerReturnedActivatedEventArgs.PickerOperationId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.PickerOperationId.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.PickerReturnedActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IPickerReturnedActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 	}

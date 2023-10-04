@@ -32,15 +32,15 @@ namespace Microsoft.UI.Xaml.Automation.Provider
 			get;
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.CanZoom.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.ZoomLevel.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MaxZoom.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MinZoom.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		void Zoom(double zoom);
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		void ZoomByUnit(global::Microsoft.UI.Xaml.Automation.ZoomUnit zoomUnit);
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.CanZoom.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MaxZoom.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.MinZoom.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ITransformProvider2.ZoomLevel.get
 	}
 }

@@ -15,6 +15,84 @@ namespace Windows.Media.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Core.IMediaTrack.Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Core.IMediaTrack.Label
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Label is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Label");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Core.AudioTrack", "string AudioTrack.Label");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Core.IMediaTrack.Language
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Language");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Media.Core.MediaTrackKind global::Windows.Media.Core.IMediaTrack.TrackKind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MediaTrackKind AudioTrack.TrackKind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MediaTrackKind%20AudioTrack.TrackKind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Label
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Label is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Label");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Core.AudioTrack", "string AudioTrack.Label");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Language
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioTrack.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Language");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Name
 		{
 			get
@@ -45,40 +123,6 @@ namespace Windows.Media.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Label
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string AudioTrack.Label is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Label");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Core.AudioTrack", "string AudioTrack.Label");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Id
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string AudioTrack.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Id");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Language
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string AudioTrack.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioTrack.Language");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Core.MediaTrackKind TrackKind
 		{
 			get
@@ -87,13 +131,21 @@ namespace Windows.Media.Core
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Core.AudioTrack.Id.get
-		// Forced skipping of method Windows.Media.Core.AudioTrack.Language.get
-		// Forced skipping of method Windows.Media.Core.AudioTrack.TrackKind.get
-		// Forced skipping of method Windows.Media.Core.AudioTrack.Label.set
-		// Forced skipping of method Windows.Media.Core.AudioTrack.Label.get
-		// Forced skipping of method Windows.Media.Core.AudioTrack.OpenFailed.add
-		// Forced skipping of method Windows.Media.Core.AudioTrack.OpenFailed.remove
+		// Forced skipping of method Windows.Media.Core.AudioTrack.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Core.AudioTrack.operator ==(Windows.Media.Core.AudioTrack, Windows.Media.Core.AudioTrack)
+		// Forced skipping of method Windows.Media.Core.AudioTrack.operator !=(Windows.Media.Core.AudioTrack, Windows.Media.Core.AudioTrack)
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Equals(Windows.Media.Core.AudioTrack)
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Equals(object)
+		// Forced skipping of method Windows.Media.Core.AudioTrack.GetHashCode()
+		// Forced skipping of method Windows.Media.Core.AudioTrack.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Windows.Media.Core.IMediaTrack.Id.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Windows.Media.Core.IMediaTrack.Label.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Windows.Media.Core.IMediaTrack.Label.set
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Windows.Media.Core.IMediaTrack.Language.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Windows.Media.Core.IMediaTrack.TrackKind.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.MediaProperties.AudioEncodingProperties GetEncodingProperties()
@@ -101,9 +153,17 @@ namespace Windows.Media.Core
 			throw new global::System.NotImplementedException("The member AudioEncodingProperties AudioTrack.GetEncodingProperties() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AudioEncodingProperties%20AudioTrack.GetEncodingProperties%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Media.Core.AudioTrack.PlaybackItem.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.OpenFailed.add
+		// Forced skipping of method Windows.Media.Core.AudioTrack.OpenFailed.remove
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Id.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Label.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Label.set
+		// Forced skipping of method Windows.Media.Core.AudioTrack.Language.get
 		// Forced skipping of method Windows.Media.Core.AudioTrack.Name.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.PlaybackItem.get
 		// Forced skipping of method Windows.Media.Core.AudioTrack.SupportInfo.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.TrackKind.get
+		// Forced skipping of method Windows.Media.Core.AudioTrack.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Media.Core.AudioTrack, global::Windows.Media.Core.AudioTrackOpenFailedEventArgs> OpenFailed

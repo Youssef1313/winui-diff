@@ -8,39 +8,103 @@ namespace Windows.Storage.Streams
 #endif
 	public partial class DataWriter : global::Windows.Storage.Streams.IDataWriter, global::System.IDisposable
 	{
-		// Skipping already declared property UnicodeEncoding
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.ByteOrder global::Windows.Storage.Streams.IDataWriter.ByteOrder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ByteOrder DataWriter.ByteOrder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ByteOrder%20DataWriter.ByteOrder");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataWriter", "ByteOrder DataWriter.ByteOrder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.UnicodeEncoding global::Windows.Storage.Streams.IDataWriter.UnicodeEncoding
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member UnicodeEncoding DataWriter.UnicodeEncoding is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UnicodeEncoding%20DataWriter.UnicodeEncoding");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataWriter", "UnicodeEncoding DataWriter.UnicodeEncoding");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Storage.Streams.IDataWriter.UnstoredBufferLength
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint DataWriter.UnstoredBufferLength is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20DataWriter.UnstoredBufferLength");
+			}
+		}
+#endif
 		// Skipping already declared property ByteOrder
+		// Skipping already declared property UnicodeEncoding
 		// Skipping already declared property UnstoredBufferLength
-		// Skipping already declared method Windows.Storage.Streams.DataWriter.DataWriter(Windows.Storage.Streams.IOutputStream)
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.DataWriter(Windows.Storage.Streams.IOutputStream)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.DataWriter()
 		// Forced skipping of method Windows.Storage.Streams.DataWriter.DataWriter()
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnstoredBufferLength.get
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnicodeEncoding.get
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnicodeEncoding.set
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.ByteOrder.get
-		// Forced skipping of method Windows.Storage.Streams.DataWriter.ByteOrder.set
+		// Skipping already declared method Windows.Storage.Streams.DataWriter.DataWriter(Windows.Storage.Streams.IOutputStream)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.DataWriter(Windows.Storage.Streams.IOutputStream)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.operator ==(Windows.Storage.Streams.DataWriter, Windows.Storage.Streams.DataWriter)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.operator !=(Windows.Storage.Streams.DataWriter, Windows.Storage.Streams.DataWriter)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Equals(Windows.Storage.Streams.DataWriter)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Equals(object)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.GetHashCode()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteByte(byte)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteByte(byte)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteBytes(byte[])
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteBytes(byte[])
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteBuffer(Windows.Storage.Streams.IBuffer)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteBuffer(Windows.Storage.Streams.IBuffer)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteBuffer(Windows.Storage.Streams.IBuffer, uint, uint)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteBuffer(Windows.Storage.Streams.IBuffer, uint, uint)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteBoolean(bool)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteBoolean(bool)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteGuid(System.Guid)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteGuid(System.Guid)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteInt16(short)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteInt16(short)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteInt32(int)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteInt32(int)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteInt64(long)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteInt64(long)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteUInt16(ushort)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteUInt16(ushort)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteUInt32(uint)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteUInt32(uint)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteUInt64(ulong)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteUInt64(ulong)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteSingle(float)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteSingle(float)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteDouble(double)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteDouble(double)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteDateTime(System.DateTimeOffset)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteDateTime(System.DateTimeOffset)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteTimeSpan(System.TimeSpan)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteTimeSpan(System.TimeSpan)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.WriteString(string)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.WriteString(string)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.MeasureString(string)
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.MeasureString(string)
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.StoreAsync()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.StoreAsync()
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.FlushAsync()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.FlushAsync()
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.DetachBuffer()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.DetachBuffer()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.IOutputStream DetachStream()
@@ -48,7 +112,19 @@ namespace Windows.Storage.Streams
 			throw new global::System.NotImplementedException("The member IOutputStream DataWriter.DetachStream() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IOutputStream%20DataWriter.DetachStream%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.DetachStream()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.ByteOrder.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.ByteOrder.set
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.UnicodeEncoding.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.UnicodeEncoding.set
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.Windows.Storage.Streams.IDataWriter.UnstoredBufferLength.get
 		// Skipping already declared method Windows.Storage.Streams.DataWriter.Dispose()
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.ByteOrder.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.ByteOrder.set
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnicodeEncoding.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnicodeEncoding.set
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.UnstoredBufferLength.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.Streams.IDataWriter
 		// Processing: System.IDisposable
 	}

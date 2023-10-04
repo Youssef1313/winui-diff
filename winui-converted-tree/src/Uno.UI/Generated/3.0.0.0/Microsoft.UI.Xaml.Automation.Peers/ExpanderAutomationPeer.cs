@@ -10,6 +10,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ExpandCollapseState global::Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ExpandCollapseState ExpanderAutomationPeer.ExpandCollapseState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ExpandCollapseState%20ExpanderAutomationPeer.ExpandCollapseState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.Automation.ExpandCollapseState ExpandCollapseState
 		{
 			get
@@ -26,7 +36,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.ExpanderAutomationPeer(Microsoft.UI.Xaml.Controls.Expander)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.ExpanderAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.ExpanderAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Collapse()
@@ -34,6 +53,7 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer", "void ExpanderAutomationPeer.Collapse()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Collapse()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Expand()
@@ -41,6 +61,11 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer", "void ExpanderAutomationPeer.Expand()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.Expand()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.ExpandCollapseState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ExpanderAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IExpandCollapseProvider
 	}
 }

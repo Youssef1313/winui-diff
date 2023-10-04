@@ -8,17 +8,76 @@ namespace Windows.UI.Popups
 #endif
 	public partial class UICommandSeparator : global::Windows.UI.Popups.IUICommand
 	{
-		// Skipping already declared property Label
-		// Skipping already declared property Invoked
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.UI.Popups.IUICommand.Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object UICommandSeparator.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20UICommandSeparator.Id");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Popups.UICommandSeparator", "object UICommandSeparator.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Popups.UICommandInvokedHandler global::Windows.UI.Popups.IUICommand.Invoked
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member UICommandInvokedHandler UICommandSeparator.Invoked is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UICommandInvokedHandler%20UICommandSeparator.Invoked");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Popups.UICommandSeparator", "UICommandInvokedHandler UICommandSeparator.Invoked");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.UI.Popups.IUICommand.Label
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string UICommandSeparator.Label is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20UICommandSeparator.Label");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Popups.UICommandSeparator", "string UICommandSeparator.Label");
+			}
+		}
+#endif
 		// Skipping already declared property Id
+		// Skipping already declared property Invoked
+		// Skipping already declared property Label
 		// Skipping already declared method Windows.UI.Popups.UICommandSeparator.UICommandSeparator()
 		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.UICommandSeparator()
-		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Label.get
-		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Label.set
-		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Invoked.get
-		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Invoked.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.operator ==(Windows.UI.Popups.UICommandSeparator, Windows.UI.Popups.UICommandSeparator)
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.operator !=(Windows.UI.Popups.UICommandSeparator, Windows.UI.Popups.UICommandSeparator)
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Equals(Windows.UI.Popups.UICommandSeparator)
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Equals(object)
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.GetHashCode()
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Id.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Id.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Invoked.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Invoked.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Label.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Windows.UI.Popups.IUICommand.Label.set
 		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Id.get
 		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Id.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Invoked.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Invoked.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Label.get
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.Label.set
+		// Forced skipping of method Windows.UI.Popups.UICommandSeparator.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.Popups.IUICommand
 	}
 }

@@ -6,54 +6,236 @@ namespace Windows.Data.Xml.Dom
 #if false || false || false || false || false || false || false
 	[global::Uno.NotImplemented]
 #endif
-	public partial class DtdEntity : global::Windows.Data.Xml.Dom.IXmlNode, global::Windows.Data.Xml.Dom.IXmlNodeSerializer, global::Windows.Data.Xml.Dom.IXmlNodeSelector
+	public partial class DtdEntity : global::Windows.Data.Xml.Dom.IXmlNode, global::Windows.Data.Xml.Dom.IXmlNodeSelector, global::Windows.Data.Xml.Dom.IXmlNodeSerializer
 	{
-		// Skipping already declared property NotationName
-		// Skipping already declared property PublicId
-		// Skipping already declared property SystemId
-		// Skipping already declared property Prefix
-		// Skipping already declared property NodeValue
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.XmlNamedNodeMap global::Windows.Data.Xml.Dom.IXmlNode.Attributes
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member XmlNamedNodeMap DtdEntity.Attributes is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlNamedNodeMap%20DtdEntity.Attributes");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.XmlNodeList global::Windows.Data.Xml.Dom.IXmlNode.ChildNodes
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member XmlNodeList DtdEntity.ChildNodes is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlNodeList%20DtdEntity.ChildNodes");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.IXmlNode global::Windows.Data.Xml.Dom.IXmlNode.FirstChild
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.FirstChild is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.FirstChild");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.IXmlNode global::Windows.Data.Xml.Dom.IXmlNode.LastChild
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.LastChild is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.LastChild");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.Data.Xml.Dom.IXmlNode.LocalName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object DtdEntity.LocalName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20DtdEntity.LocalName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.Data.Xml.Dom.IXmlNode.NamespaceUri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object DtdEntity.NamespaceUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20DtdEntity.NamespaceUri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.IXmlNode global::Windows.Data.Xml.Dom.IXmlNode.NextSibling
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.NextSibling is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.NextSibling");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Data.Xml.Dom.IXmlNode.NodeName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DtdEntity.NodeName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DtdEntity.NodeName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.NodeType global::Windows.Data.Xml.Dom.IXmlNode.NodeType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member NodeType DtdEntity.NodeType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=NodeType%20DtdEntity.NodeType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.Data.Xml.Dom.IXmlNode.NodeValue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object DtdEntity.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20DtdEntity.NodeValue");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Data.Xml.Dom.DtdEntity", "object DtdEntity.NodeValue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.XmlDocument global::Windows.Data.Xml.Dom.IXmlNode.OwnerDocument
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member XmlDocument DtdEntity.OwnerDocument is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlDocument%20DtdEntity.OwnerDocument");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.IXmlNode global::Windows.Data.Xml.Dom.IXmlNode.ParentNode
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.ParentNode is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.ParentNode");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.Data.Xml.Dom.IXmlNode.Prefix
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object DtdEntity.Prefix is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20DtdEntity.Prefix");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Data.Xml.Dom.DtdEntity", "object DtdEntity.Prefix");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Data.Xml.Dom.IXmlNode global::Windows.Data.Xml.Dom.IXmlNode.PreviousSibling
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.PreviousSibling is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.PreviousSibling");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Data.Xml.Dom.IXmlNodeSerializer.InnerText
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string DtdEntity.InnerText is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20DtdEntity.InnerText");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Data.Xml.Dom.DtdEntity", "string DtdEntity.InnerText");
+			}
+		}
+#endif
+		// Skipping already declared property Attributes
+		// Skipping already declared property ChildNodes
 		// Skipping already declared property FirstChild
+		// Skipping already declared property InnerText
 		// Skipping already declared property LastChild
 		// Skipping already declared property LocalName
 		// Skipping already declared property NamespaceUri
 		// Skipping already declared property NextSibling
 		// Skipping already declared property NodeName
 		// Skipping already declared property NodeType
-		// Skipping already declared property Attributes
+		// Skipping already declared property NodeValue
+		// Skipping already declared property NotationName
 		// Skipping already declared property OwnerDocument
-		// Skipping already declared property ChildNodes
 		// Skipping already declared property ParentNode
+		// Skipping already declared property Prefix
 		// Skipping already declared property PreviousSibling
-		// Skipping already declared property InnerText
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.PublicId.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.SystemId.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NotationName.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeValue.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeValue.set
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeType.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeName.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.ParentNode.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.ChildNodes.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.FirstChild.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.LastChild.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.PreviousSibling.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NextSibling.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Attributes.get
+		// Skipping already declared property PublicId
+		// Skipping already declared property SystemId
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.FromAbi(nint)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.operator ==(Windows.Data.Xml.Dom.DtdEntity, Windows.Data.Xml.Dom.DtdEntity)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.operator !=(Windows.Data.Xml.Dom.DtdEntity, Windows.Data.Xml.Dom.DtdEntity)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Equals(Windows.Data.Xml.Dom.DtdEntity)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Equals(object)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.GetHashCode()
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.HasChildNodes()
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.OwnerDocument.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.HasChildNodes()
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.InsertBefore(Windows.Data.Xml.Dom.IXmlNode, Windows.Data.Xml.Dom.IXmlNode)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.InsertBefore(Windows.Data.Xml.Dom.IXmlNode, Windows.Data.Xml.Dom.IXmlNode)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.ReplaceChild(Windows.Data.Xml.Dom.IXmlNode, Windows.Data.Xml.Dom.IXmlNode)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.ReplaceChild(Windows.Data.Xml.Dom.IXmlNode, Windows.Data.Xml.Dom.IXmlNode)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.RemoveChild(Windows.Data.Xml.Dom.IXmlNode)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.RemoveChild(Windows.Data.Xml.Dom.IXmlNode)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.AppendChild(Windows.Data.Xml.Dom.IXmlNode)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.AppendChild(Windows.Data.Xml.Dom.IXmlNode)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.CloneNode(bool)
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NamespaceUri.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.LocalName.get
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Prefix.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.CloneNode(bool)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.Normalize()
-		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Prefix.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.Normalize()
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.Attributes.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.ChildNodes.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.FirstChild.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.LastChild.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.LocalName.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NamespaceUri.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NextSibling.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NodeName.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NodeType.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NodeValue.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.NodeValue.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.OwnerDocument.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.ParentNode.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.Prefix.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.Prefix.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNode.PreviousSibling.get
+		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.GetXml()
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSerializer.GetXml()
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSerializer.InnerText.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSerializer.InnerText.set
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.SelectSingleNode(string)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSelector.SelectSingleNode(string)
 		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.SelectNodes(string)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSelector.SelectNodes(string)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Data.Xml.Dom.IXmlNode SelectSingleNodeNS(string xpath, object namespaces)
@@ -61,6 +243,7 @@ namespace Windows.Data.Xml.Dom
 			throw new global::System.NotImplementedException("The member IXmlNode DtdEntity.SelectSingleNodeNS(string xpath, object namespaces) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IXmlNode%20DtdEntity.SelectSingleNodeNS%28string%20xpath%2C%20object%20namespaces%29");
 		}
 #endif
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSelector.SelectSingleNodeNS(string, object)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Data.Xml.Dom.XmlNodeList SelectNodesNS(string xpath, object namespaces)
@@ -68,9 +251,29 @@ namespace Windows.Data.Xml.Dom
 			throw new global::System.NotImplementedException("The member XmlNodeList DtdEntity.SelectNodesNS(string xpath, object namespaces) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlNodeList%20DtdEntity.SelectNodesNS%28string%20xpath%2C%20object%20namespaces%29");
 		}
 #endif
-		// Skipping already declared method Windows.Data.Xml.Dom.DtdEntity.GetXml()
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Windows.Data.Xml.Dom.IXmlNodeSelector.SelectNodesNS(string, object)
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Attributes.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.ChildNodes.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.FirstChild.get
 		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.InnerText.get
 		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.InnerText.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.LastChild.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.LocalName.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NamespaceUri.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NextSibling.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeName.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeType.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeValue.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NodeValue.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.NotationName.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.OwnerDocument.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.ParentNode.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Prefix.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.Prefix.set
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.PreviousSibling.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.PublicId.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.SystemId.get
+		// Forced skipping of method Windows.Data.Xml.Dom.DtdEntity.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Data.Xml.Dom.IXmlNode
 		// Processing: Windows.Data.Xml.Dom.IXmlNodeSelector
 		// Processing: Windows.Data.Xml.Dom.IXmlNodeSerializer

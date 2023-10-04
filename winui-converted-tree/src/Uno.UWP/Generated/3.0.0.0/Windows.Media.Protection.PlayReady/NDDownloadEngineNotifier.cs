@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Media.Protection.PlayReady
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -17,6 +16,16 @@ namespace Windows.Media.Protection.PlayReady
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.NDDownloadEngineNotifier()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.operator ==(Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier, Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.operator !=(Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier, Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Equals(Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnStreamOpened()
@@ -24,6 +33,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnStreamOpened()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnStreamOpened()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnPlayReadyObjectReceived(byte[] dataBytes)
@@ -31,6 +41,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnPlayReadyObjectReceived(byte[] dataBytes)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnPlayReadyObjectReceived(byte[])
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnContentIDReceived(global::Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor licenseFetchDescriptor)
@@ -38,6 +49,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnContentIDReceived(INDLicenseFetchDescriptor licenseFetchDescriptor)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnContentIDReceived(Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnDataReceived(byte[] dataBytes, uint bytesReceived)
@@ -45,6 +57,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnDataReceived(byte[] dataBytes, uint bytesReceived)");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnDataReceived(byte[], uint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnEndOfStream()
@@ -52,6 +65,7 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnEndOfStream()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnEndOfStream()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void OnNetworkError()
@@ -59,6 +73,8 @@ namespace Windows.Media.Protection.PlayReady
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier", "void NDDownloadEngineNotifier.OnNetworkError()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier.OnNetworkError()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDDownloadEngineNotifier.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.INDDownloadEngineNotifier
 	}
 }

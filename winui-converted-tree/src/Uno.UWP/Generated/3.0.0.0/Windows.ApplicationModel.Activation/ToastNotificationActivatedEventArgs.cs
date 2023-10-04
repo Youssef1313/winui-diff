@@ -8,6 +8,87 @@ namespace Windows.ApplicationModel.Activation
 #endif
 	public partial class ToastNotificationActivatedEventArgs : global::Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs, global::Windows.ApplicationModel.Activation.IActivatedEventArgs, global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser, global::Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs.Argument
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ToastNotificationActivatedEventArgs.Argument is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ToastNotificationActivatedEventArgs.Argument");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Collections.ValueSet global::Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs.UserInput
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ValueSet ToastNotificationActivatedEventArgs.UserInput is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ValueSet%20ToastNotificationActivatedEventArgs.UserInput");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind ToastNotificationActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20ToastNotificationActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState ToastNotificationActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20ToastNotificationActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen ToastNotificationActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20ToastNotificationActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User ToastNotificationActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20ToastNotificationActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+		// Skipping already declared property Argument
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
 		// Skipping already declared property Kind
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -41,17 +122,6 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int CurrentlyShownApplicationViewId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member int ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId");
-			}
-		}
-#endif
-		// Skipping already declared property Argument
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Collections.ValueSet UserInput
 		{
 			get
@@ -60,13 +130,31 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs, Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs, Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs.Argument.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs.UserInput.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Argument.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.UserInput.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.PreviousExecutionState.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.User.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.CurrentlyShownApplicationViewId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.UserInput.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.ToastNotificationActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IToastNotificationActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser

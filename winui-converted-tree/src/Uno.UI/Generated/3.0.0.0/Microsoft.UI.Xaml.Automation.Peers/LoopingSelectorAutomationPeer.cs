@@ -8,17 +8,106 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 	public partial class LoopingSelectorAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer, global::Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider, global::Microsoft.UI.Xaml.Automation.Provider.IItemContainerProvider, global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorAutomationPeer.CanSelectMultiple is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorAutomationPeer.CanSelectMultiple");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorAutomationPeer.IsSelectionRequired is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorAutomationPeer.IsSelectionRequired");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double LoopingSelectorAutomationPeer.HorizontalScrollPercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20LoopingSelectorAutomationPeer.HorizontalScrollPercent");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double LoopingSelectorAutomationPeer.HorizontalViewSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20LoopingSelectorAutomationPeer.HorizontalViewSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorAutomationPeer.HorizontallyScrollable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorAutomationPeer.HorizontallyScrollable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double LoopingSelectorAutomationPeer.VerticalScrollPercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20LoopingSelectorAutomationPeer.VerticalScrollPercent");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double LoopingSelectorAutomationPeer.VerticalViewSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20LoopingSelectorAutomationPeer.VerticalViewSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorAutomationPeer.VerticallyScrollable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorAutomationPeer.VerticallyScrollable");
+			}
+		}
+#endif
+		// Skipping already declared property CanSelectMultiple
 		// Skipping already declared property HorizontalScrollPercent
 		// Skipping already declared property HorizontalViewSize
 		// Skipping already declared property HorizontallyScrollable
+		// Skipping already declared property IsSelectionRequired
 		// Skipping already declared property VerticalScrollPercent
 		// Skipping already declared property VerticalViewSize
 		// Skipping already declared property VerticallyScrollable
-		// Skipping already declared property CanSelectMultiple
-		// Skipping already declared property IsSelectionRequired
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.CanSelectMultiple.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.IsSelectionRequired.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.GetSelection()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.GetSelection()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple FindItemByProperty(global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple startAfter, global::Microsoft.UI.Xaml.Automation.AutomationProperty automationProperty, object value)
@@ -26,14 +115,27 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member IRawElementProviderSimple LoopingSelectorAutomationPeer.FindItemByProperty(IRawElementProviderSimple startAfter, AutomationProperty automationProperty, object value) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IRawElementProviderSimple%20LoopingSelectorAutomationPeer.FindItemByProperty%28IRawElementProviderSimple%20startAfter%2C%20AutomationProperty%20automationProperty%2C%20object%20value%29");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IItemContainerProvider.FindItemByProperty(Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple, Microsoft.UI.Xaml.Automation.AutomationProperty, object)
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Scroll(Microsoft.UI.Xaml.Automation.ScrollAmount, Microsoft.UI.Xaml.Automation.ScrollAmount)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.Scroll(Microsoft.UI.Xaml.Automation.ScrollAmount, Microsoft.UI.Xaml.Automation.ScrollAmount)
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.SetScrollPercent(double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent(double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.CanSelectMultiple.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.HorizontalScrollPercent.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.HorizontalViewSize.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.IsSelectionRequired.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticalScrollPercent.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticalViewSize.get
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.Scroll(Microsoft.UI.Xaml.Automation.ScrollAmount, Microsoft.UI.Xaml.Automation.ScrollAmount)
-		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.SetScrollPercent(double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IItemContainerProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IScrollProvider

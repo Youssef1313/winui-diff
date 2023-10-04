@@ -15,16 +15,6 @@ namespace Windows.Networking.Sockets
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Networking.Sockets.SocketMessageType MessageType
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member SocketMessageType MessageWebSocketMessageReceivedEventArgs.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SocketMessageType%20MessageWebSocketMessageReceivedEventArgs.MessageType");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsMessageComplete
 		{
 			get
@@ -33,7 +23,26 @@ namespace Windows.Networking.Sockets
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.MessageType.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Networking.Sockets.SocketMessageType MessageType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SocketMessageType MessageWebSocketMessageReceivedEventArgs.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SocketMessageType%20MessageWebSocketMessageReceivedEventArgs.MessageType");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.operator ==(Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs, Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.operator !=(Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs, Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.Equals(Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.Equals(object)
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.DataReader GetDataReader()
@@ -49,5 +58,7 @@ namespace Windows.Networking.Sockets
 		}
 #endif
 		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.IsMessageComplete.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.MessageType.get
+		// Forced skipping of method Windows.Networking.Sockets.MessageWebSocketMessageReceivedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

@@ -8,18 +8,81 @@ namespace Windows.Storage.Streams
 #endif
 	public partial class DataWriterStoreOperation : global::Windows.Foundation.IAsyncOperation<uint>, global::Windows.Foundation.IAsyncInfo
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.AsyncOperationCompletedHandler<uint> global::Windows.Foundation.IAsyncOperation<uint>.Completed
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AsyncOperationCompletedHandler<uint> DataWriterStoreOperation.Completed is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AsyncOperationCompletedHandler%3Cuint%3E%20DataWriterStoreOperation.Completed");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataWriterStoreOperation", "AsyncOperationCompletedHandler<uint> DataWriterStoreOperation.Completed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Exception global::Windows.Foundation.IAsyncInfo.ErrorCode
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Exception DataWriterStoreOperation.ErrorCode is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Exception%20DataWriterStoreOperation.ErrorCode");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Foundation.IAsyncInfo.Id
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint DataWriterStoreOperation.Id is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20DataWriterStoreOperation.Id");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.AsyncStatus global::Windows.Foundation.IAsyncInfo.Status
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member AsyncStatus DataWriterStoreOperation.Status is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AsyncStatus%20DataWriterStoreOperation.Status");
+			}
+		}
+#endif
+		// Skipping already declared property Completed
 		// Skipping already declared property ErrorCode
 		// Skipping already declared property Id
 		// Skipping already declared property Status
-		// Skipping already declared property Completed
-		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Completed.set
-		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Completed.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.operator ==(Windows.Storage.Streams.DataWriterStoreOperation, Windows.Storage.Streams.DataWriterStoreOperation)
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.operator !=(Windows.Storage.Streams.DataWriterStoreOperation, Windows.Storage.Streams.DataWriterStoreOperation)
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Equals(Windows.Storage.Streams.DataWriterStoreOperation)
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Equals(object)
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.GetHashCode()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.Storage.Streams.DataWriterStoreOperation.GetResults()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncOperation<uint>.GetResults()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncOperation<uint>.Completed.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncOperation<uint>.Completed.set
+		// Skipping already declared method Windows.Storage.Streams.DataWriterStoreOperation.Cancel()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncInfo.Cancel()
+		// Skipping already declared method Windows.Storage.Streams.DataWriterStoreOperation.Close()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncInfo.Close()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncInfo.ErrorCode.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncInfo.Id.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Windows.Foundation.IAsyncInfo.Status.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Completed.get
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Completed.set
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.ErrorCode.get
 		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Id.get
 		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.Status.get
-		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.ErrorCode.get
-		// Skipping already declared method Windows.Storage.Streams.DataWriterStoreOperation.Cancel()
-		// Skipping already declared method Windows.Storage.Streams.DataWriterStoreOperation.Close()
+		// Forced skipping of method Windows.Storage.Streams.DataWriterStoreOperation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Foundation.IAsyncOperation<uint>
 		// Processing: Windows.Foundation.IAsyncInfo
 	}

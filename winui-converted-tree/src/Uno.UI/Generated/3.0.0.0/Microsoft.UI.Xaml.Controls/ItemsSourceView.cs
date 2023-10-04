@@ -12,15 +12,47 @@ namespace Microsoft.UI.Xaml.Controls
 		// Skipping already declared property HasKeyIndexMapping
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsSourceView.ItemsSourceView(object)
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.ItemsSourceView(object)
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.Count.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.ItemsSourceView(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.operator ==(Microsoft.UI.Xaml.Controls.ItemsSourceView, Microsoft.UI.Xaml.Controls.ItemsSourceView)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.operator !=(Microsoft.UI.Xaml.Controls.ItemsSourceView, Microsoft.UI.Xaml.Controls.ItemsSourceView)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.Equals(Microsoft.UI.Xaml.Controls.ItemsSourceView)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.ItemsSourceView(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsSourceView.GetAt(int)
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.HasKeyIndexMapping.get
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsSourceView.KeyFromIndex(int)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsSourceView.IndexFromKey(string)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsSourceView.IndexOf(object)
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.CollectionChanged.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.CollectionChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.Count.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.HasKeyIndexMapping.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsSourceView.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Skipping already declared event Microsoft.UI.Xaml.Controls.ItemsSourceView.CollectionChanged
-		// Processing: Microsoft.UI.Xaml.Interop.INotifyCollectionChanged
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::System.Collections.Specialized.NotifyCollectionChangedEventHandler global::System.Collections.Specialized.INotifyCollectionChanged.CollectionChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsSourceView", "event NotifyCollectionChangedEventHandler ItemsSourceView.CollectionChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsSourceView", "event NotifyCollectionChangedEventHandler ItemsSourceView.CollectionChanged");
+			}
+		}
+#endif
+		// Processing: System.Collections.Specialized.INotifyCollectionChanged
 	}
 }

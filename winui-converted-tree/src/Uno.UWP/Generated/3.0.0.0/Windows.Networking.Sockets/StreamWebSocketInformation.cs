@@ -15,6 +15,76 @@ namespace Windows.Networking.Sockets
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Networking.Sockets.BandwidthStatistics global::Windows.Networking.Sockets.IWebSocketInformation.BandwidthStatistics
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member BandwidthStatistics StreamWebSocketInformation.BandwidthStatistics is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BandwidthStatistics%20StreamWebSocketInformation.BandwidthStatistics");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Networking.HostName global::Windows.Networking.Sockets.IWebSocketInformation.LocalAddress
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member HostName StreamWebSocketInformation.LocalAddress is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=HostName%20StreamWebSocketInformation.LocalAddress");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Networking.Sockets.IWebSocketInformation.Protocol
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string StreamWebSocketInformation.Protocol is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20StreamWebSocketInformation.Protocol");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Security.Cryptography.Certificates.Certificate global::Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificate
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Certificate StreamWebSocketInformation.ServerCertificate is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Certificate%20StreamWebSocketInformation.ServerCertificate");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Networking.Sockets.SocketSslErrorSeverity global::Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificateErrorSeverity
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SocketSslErrorSeverity StreamWebSocketInformation.ServerCertificateErrorSeverity is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SocketSslErrorSeverity%20StreamWebSocketInformation.ServerCertificateErrorSeverity");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Security.Cryptography.Certificates.ChainValidationResult> global::Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificateErrors
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<ChainValidationResult> StreamWebSocketInformation.ServerCertificateErrors is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CChainValidationResult%3E%20StreamWebSocketInformation.ServerCertificateErrors");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Security.Cryptography.Certificates.Certificate> global::Windows.Networking.Sockets.IWebSocketInformation2.ServerIntermediateCertificates
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<Certificate> StreamWebSocketInformation.ServerIntermediateCertificates is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CCertificate%3E%20StreamWebSocketInformation.ServerIntermediateCertificates");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Networking.Sockets.BandwidthStatistics BandwidthStatistics
 		{
 			get
@@ -83,13 +153,31 @@ namespace Windows.Networking.Sockets
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.LocalAddress.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.operator ==(Windows.Networking.Sockets.StreamWebSocketInformation, Windows.Networking.Sockets.StreamWebSocketInformation)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.operator !=(Windows.Networking.Sockets.StreamWebSocketInformation, Windows.Networking.Sockets.StreamWebSocketInformation)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Equals(Windows.Networking.Sockets.StreamWebSocketInformation)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Equals(object)
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.GetHashCode()
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation.BandwidthStatistics.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation.LocalAddress.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation.Protocol.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificate.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificateErrorSeverity.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation2.ServerCertificateErrors.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Windows.Networking.Sockets.IWebSocketInformation2.ServerIntermediateCertificates.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.BandwidthStatistics.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.LocalAddress.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.Protocol.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.ServerCertificate.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.ServerCertificateErrorSeverity.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.ServerCertificateErrors.get
 		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.ServerIntermediateCertificates.get
+		// Forced skipping of method Windows.Networking.Sockets.StreamWebSocketInformation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Networking.Sockets.IWebSocketInformation
 		// Processing: Windows.Networking.Sockets.IWebSocketInformation2
 	}

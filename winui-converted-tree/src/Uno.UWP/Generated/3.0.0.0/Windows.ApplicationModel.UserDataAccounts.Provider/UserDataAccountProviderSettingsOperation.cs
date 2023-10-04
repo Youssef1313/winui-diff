@@ -15,6 +15,16 @@ namespace Windows.ApplicationModel.UserDataAccounts.Provider
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderOperationKind global::Windows.ApplicationModel.UserDataAccounts.Provider.IUserDataAccountProviderOperation.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member UserDataAccountProviderOperationKind UserDataAccountProviderSettingsOperation.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UserDataAccountProviderOperationKind%20UserDataAccountProviderSettingsOperation.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderOperationKind Kind
 		{
 			get
@@ -33,7 +43,16 @@ namespace Windows.ApplicationModel.UserDataAccounts.Provider
 			}
 		}
 #endif
-		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.UserDataAccountId.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.operator ==(Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation, Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation)
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.operator !=(Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation, Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation)
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.Equals(Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation)
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReportCompleted()
@@ -41,7 +60,10 @@ namespace Windows.ApplicationModel.UserDataAccounts.Provider
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation", "void UserDataAccountProviderSettingsOperation.ReportCompleted()");
 		}
 #endif
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.Windows.ApplicationModel.UserDataAccounts.Provider.IUserDataAccountProviderOperation.Kind.get
 		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.UserDataAccountId.get
+		// Forced skipping of method Windows.ApplicationModel.UserDataAccounts.Provider.UserDataAccountProviderSettingsOperation.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.UserDataAccounts.Provider.IUserDataAccountProviderOperation
 	}
 }

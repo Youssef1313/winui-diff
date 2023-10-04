@@ -8,18 +8,62 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiTimeCodeMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiTimeCodeMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiTimeCodeMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiTimeCodeMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiTimeCodeMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiTimeCodeMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiTimeCodeMessage.Type");
+			}
+		}
+#endif
+		// Skipping already declared property FrameType
 		// Skipping already declared property RawData
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
-		// Skipping already declared property FrameType
 		// Skipping already declared property Values
 		// Skipping already declared method Windows.Devices.Midi.MidiTimeCodeMessage.MidiTimeCodeMessage(byte, byte)
 		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.MidiTimeCodeMessage(byte, byte)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.operator ==(Windows.Devices.Midi.MidiTimeCodeMessage, Windows.Devices.Midi.MidiTimeCodeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.operator !=(Windows.Devices.Midi.MidiTimeCodeMessage, Windows.Devices.Midi.MidiTimeCodeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Equals(Windows.Devices.Midi.MidiTimeCodeMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.FrameType.get
-		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Values.get
-		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.Values.get
+		// Forced skipping of method Windows.Devices.Midi.MidiTimeCodeMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

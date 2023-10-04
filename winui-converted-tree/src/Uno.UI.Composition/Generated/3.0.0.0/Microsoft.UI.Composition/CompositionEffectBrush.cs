@@ -13,13 +13,14 @@ namespace Microsoft.UI.Composition
 		{
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public void SetSourceParameter(string name, global::Microsoft.UI.Composition.CompositionBrush source)
-		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.CompositionEffectBrush", "void CompositionEffectBrush.SetSourceParameter(string name, CompositionBrush source)");
-		}
-#endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.operator ==(Microsoft.UI.Composition.CompositionEffectBrush, Microsoft.UI.Composition.CompositionEffectBrush)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.operator !=(Microsoft.UI.Composition.CompositionEffectBrush, Microsoft.UI.Composition.CompositionEffectBrush)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.Equals(Microsoft.UI.Composition.CompositionEffectBrush)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Composition.CompositionBrush GetSourceParameter(string name)
@@ -27,5 +28,14 @@ namespace Microsoft.UI.Composition
 			throw new global::System.NotImplementedException("The member CompositionBrush CompositionEffectBrush.GetSourceParameter(string name) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CompositionBrush%20CompositionEffectBrush.GetSourceParameter%28string%20name%29");
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public void SetSourceParameter(string name, global::Microsoft.UI.Composition.CompositionBrush source)
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.CompositionEffectBrush", "void CompositionEffectBrush.SetSourceParameter(string name, CompositionBrush source)");
+		}
+#endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectBrush.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

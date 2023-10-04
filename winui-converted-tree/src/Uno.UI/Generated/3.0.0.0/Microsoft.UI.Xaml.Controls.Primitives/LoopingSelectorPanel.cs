@@ -8,18 +8,88 @@ namespace Microsoft.UI.Xaml.Controls.Primitives
 #endif
 	public partial class LoopingSelectorPanel : global::Microsoft.UI.Xaml.Controls.Canvas, global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.AreHorizontalSnapPointsRegular
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorPanel.AreHorizontalSnapPointsRegular is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorPanel.AreHorizontalSnapPointsRegular");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.AreVerticalSnapPointsRegular
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool LoopingSelectorPanel.AreVerticalSnapPointsRegular is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20LoopingSelectorPanel.AreVerticalSnapPointsRegular");
+			}
+		}
+#endif
 		// Skipping already declared property AreHorizontalSnapPointsRegular
 		// Skipping already declared property AreVerticalSnapPointsRegular
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.AreHorizontalSnapPointsRegular.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.AreVerticalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.operator ==(Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel, Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.operator !=(Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel, Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Equals(Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.WinRT.IWinRTObject.NativeObject.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetIrregularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.GetIrregularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment)
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetRegularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment, out float)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.GetRegularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment, out float)
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.HorizontalSnapPointsChanged.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.HorizontalSnapPointsChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.HorizontalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.HorizontalSnapPointsChanged.remove
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.VerticalSnapPointsChanged.add
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.VerticalSnapPointsChanged.remove
-		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetIrregularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment)
-		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.GetRegularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment, out float)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.VerticalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.VerticalSnapPointsChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.AreHorizontalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.AreVerticalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.AreHorizontalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.AreVerticalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.HorizontalSnapPointsChanged
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::System.EventHandler<object> global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.HorizontalSnapPointsChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel", "event EventHandler<object> LoopingSelectorPanel.HorizontalSnapPointsChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel", "event EventHandler<object> LoopingSelectorPanel.HorizontalSnapPointsChanged");
+			}
+		}
+#endif
 		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel.VerticalSnapPointsChanged
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::System.EventHandler<object> global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo.VerticalSnapPointsChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel", "event EventHandler<object> LoopingSelectorPanel.VerticalSnapPointsChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.LoopingSelectorPanel", "event EventHandler<object> LoopingSelectorPanel.VerticalSnapPointsChanged");
+			}
+		}
+#endif
 		// Processing: Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
 	}
 }

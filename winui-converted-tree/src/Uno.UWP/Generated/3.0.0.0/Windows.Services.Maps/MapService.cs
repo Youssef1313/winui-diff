@@ -56,11 +56,12 @@ namespace Windows.Services.Maps
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Services.Maps.MapService.DataUsagePreference.set
-		// Forced skipping of method Windows.Services.Maps.MapService.DataUsagePreference.get
-		// Forced skipping of method Windows.Services.Maps.MapService.DataAttributions.get
-		// Forced skipping of method Windows.Services.Maps.MapService.WorldViewRegionCode.get
-		// Forced skipping of method Windows.Services.Maps.MapService.ServiceToken.set
+		// Forced skipping of method Windows.Services.Maps.MapService.As<I>()
 		// Forced skipping of method Windows.Services.Maps.MapService.ServiceToken.get
+		// Forced skipping of method Windows.Services.Maps.MapService.ServiceToken.set
+		// Forced skipping of method Windows.Services.Maps.MapService.WorldViewRegionCode.get
+		// Forced skipping of method Windows.Services.Maps.MapService.DataAttributions.get
+		// Forced skipping of method Windows.Services.Maps.MapService.DataUsagePreference.get
+		// Forced skipping of method Windows.Services.Maps.MapService.DataUsagePreference.set
 	}
 }

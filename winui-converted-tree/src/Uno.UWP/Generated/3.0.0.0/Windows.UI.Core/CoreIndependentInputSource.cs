@@ -6,7 +6,7 @@ namespace Windows.UI.Core
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
-	public partial class CoreIndependentInputSource : global::Windows.UI.Core.ICoreInputSourceBase, global::Windows.UI.Core.ICorePointerInputSource, global::Windows.UI.Core.ICorePointerInputSource2, global::Windows.UI.Core.ICorePointerRedirector
+	public partial class CoreIndependentInputSource : global::Windows.UI.Core.ICoreInputSourceBase, global::Windows.UI.Core.ICorePointerInputSource, global::Windows.UI.Core.ICorePointerInputSource2
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		internal CoreIndependentInputSource()
@@ -15,7 +15,17 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsInputEnabled
+		global::Windows.UI.Core.CoreDispatcher global::Windows.UI.Core.ICoreInputSourceBase.Dispatcher
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreDispatcher CoreIndependentInputSource.Dispatcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreDispatcher%20CoreIndependentInputSource.Dispatcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreInputSourceBase.IsInputEnabled
 		{
 			get
 			{
@@ -29,11 +39,89 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICorePointerInputSource.HasCapture
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreIndependentInputSource.HasCapture is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreIndependentInputSource.HasCapture");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Core.CoreCursor global::Windows.UI.Core.ICorePointerInputSource.PointerCursor
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreCursor CoreIndependentInputSource.PointerCursor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreCursor%20CoreIndependentInputSource.PointerCursor");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "CoreCursor CoreIndependentInputSource.PointerCursor");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Point global::Windows.UI.Core.ICorePointerInputSource.PointerPosition
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Point CoreIndependentInputSource.PointerPosition is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Point%20CoreIndependentInputSource.PointerPosition");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.DispatcherQueue global::Windows.UI.Core.ICorePointerInputSource2.DispatcherQueue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DispatcherQueue CoreIndependentInputSource.DispatcherQueue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DispatcherQueue%20CoreIndependentInputSource.DispatcherQueue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.UI.Core.CoreDispatcher Dispatcher
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member CoreDispatcher CoreIndependentInputSource.Dispatcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreDispatcher%20CoreIndependentInputSource.Dispatcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.System.DispatcherQueue DispatcherQueue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DispatcherQueue CoreIndependentInputSource.DispatcherQueue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DispatcherQueue%20CoreIndependentInputSource.DispatcherQueue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool HasCapture
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreIndependentInputSource.HasCapture is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreIndependentInputSource.HasCapture");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsInputEnabled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreIndependentInputSource.IsInputEnabled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreIndependentInputSource.IsInputEnabled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "bool CoreIndependentInputSource.IsInputEnabled");
 			}
 		}
 #endif
@@ -53,16 +141,6 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool HasCapture
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool CoreIndependentInputSource.HasCapture is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreIndependentInputSource.HasCapture");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Point PointerPosition
 		{
 			get
@@ -71,21 +149,23 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.System.DispatcherQueue DispatcherQueue
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member DispatcherQueue CoreIndependentInputSource.DispatcherQueue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DispatcherQueue%20CoreIndependentInputSource.DispatcherQueue");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Dispatcher.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.IsInputEnabled.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.IsInputEnabled.set
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.operator ==(Windows.UI.Core.CoreIndependentInputSource, Windows.UI.Core.CoreIndependentInputSource)
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.operator !=(Windows.UI.Core.CoreIndependentInputSource, Windows.UI.Core.CoreIndependentInputSource)
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Equals(Windows.UI.Core.CoreIndependentInputSource)
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Equals(object)
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.InputEnabled.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.InputEnabled.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICoreInputSourceBase.InputEnabled.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICoreInputSourceBase.InputEnabled.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICoreInputSourceBase.Dispatcher.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICoreInputSourceBase.IsInputEnabled.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICoreInputSourceBase.IsInputEnabled.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void ReleasePointerCapture()
@@ -93,6 +173,7 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "void CoreIndependentInputSource.ReleasePointerCapture()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.ReleasePointerCapture()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetPointerCapture()
@@ -100,34 +181,68 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "void CoreIndependentInputSource.SetPointerCapture()");
 		}
 #endif
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.HasCapture.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerPosition.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCursor.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCursor.set
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.SetPointerCapture()
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCaptureLost.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCaptureLost.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerCaptureLost.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerCaptureLost.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerEntered.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerEntered.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerEntered.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerEntered.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerExited.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerExited.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerExited.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerExited.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerMoved.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerMoved.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerMoved.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerMoved.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerPressed.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerPressed.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerPressed.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerPressed.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerReleased.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerReleased.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerReleased.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerReleased.remove
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerWheelChanged.add
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerWheelChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerWheelChanged.add
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerWheelChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.HasCapture.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerCursor.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerCursor.set
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource.PointerPosition.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Windows.UI.Core.ICorePointerInputSource2.DispatcherQueue.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.Dispatcher.get
 		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.DispatcherQueue.get
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedAway.add
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedAway.remove
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedTo.add
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedTo.remove
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedReleased.add
-		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerRoutedReleased.remove
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.HasCapture.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.IsInputEnabled.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.IsInputEnabled.set
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCursor.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerCursor.set
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.PointerPosition.get
+		// Forced skipping of method Windows.UI.Core.CoreIndependentInputSource.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.InputEnabledEventArgs> InputEnabled
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, InputEnabledEventArgs> CoreIndependentInputSource.InputEnabled");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, InputEnabledEventArgs> CoreIndependentInputSource.InputEnabled");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.InputEnabledEventArgs> global::Windows.UI.Core.ICoreInputSourceBase.InputEnabled
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -159,7 +274,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerCaptureLost
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerCaptureLost");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerCaptureLost");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> PointerEntered
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerEntered");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerEntered");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerEntered
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -191,7 +338,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerExited
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerExited");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerExited");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> PointerMoved
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerMoved");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerMoved");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerMoved
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -223,7 +402,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerPressed
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerPressed");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerPressed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> PointerReleased
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerReleased");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerReleased");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerReleased
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -255,55 +466,22 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> PointerRoutedAway
+		event global::Windows.Foundation.TypedEventHandler<object, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerInputSource.PointerWheelChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedAway");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerWheelChanged");
 			}
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedAway");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> PointerRoutedReleased
-		{
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedReleased");
-			}
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedReleased");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> PointerRoutedTo
-		{
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedTo");
-			}
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreIndependentInputSource.PointerRoutedTo");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreIndependentInputSource", "event TypedEventHandler<object, PointerEventArgs> CoreIndependentInputSource.PointerWheelChanged");
 			}
 		}
 #endif
 		// Processing: Windows.UI.Core.ICoreInputSourceBase
 		// Processing: Windows.UI.Core.ICorePointerInputSource
 		// Processing: Windows.UI.Core.ICorePointerInputSource2
-		// Processing: Windows.UI.Core.ICorePointerRedirector
 	}
 }

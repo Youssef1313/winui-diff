@@ -20,10 +20,10 @@ namespace Microsoft.UI.Xaml.Automation.Provider
 			get;
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetSelection();
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired.get
 	}
 }

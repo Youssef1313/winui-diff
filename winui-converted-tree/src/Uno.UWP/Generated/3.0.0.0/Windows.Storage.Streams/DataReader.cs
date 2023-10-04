@@ -8,7 +8,59 @@ namespace Windows.Storage.Streams
 #endif
 	public partial class DataReader : global::Windows.Storage.Streams.IDataReader, global::System.IDisposable
 	{
-		// Skipping already declared property UnicodeEncoding
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.ByteOrder global::Windows.Storage.Streams.IDataReader.ByteOrder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ByteOrder DataReader.ByteOrder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ByteOrder%20DataReader.ByteOrder");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataReader", "ByteOrder DataReader.ByteOrder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.InputStreamOptions global::Windows.Storage.Streams.IDataReader.InputStreamOptions
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member InputStreamOptions DataReader.InputStreamOptions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=InputStreamOptions%20DataReader.InputStreamOptions");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataReader", "InputStreamOptions DataReader.InputStreamOptions");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Storage.Streams.IDataReader.UnconsumedBufferLength
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint DataReader.UnconsumedBufferLength is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20DataReader.UnconsumedBufferLength");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.UnicodeEncoding global::Windows.Storage.Streams.IDataReader.UnicodeEncoding
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member UnicodeEncoding DataReader.UnicodeEncoding is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UnicodeEncoding%20DataReader.UnicodeEncoding");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.DataReader", "UnicodeEncoding DataReader.UnicodeEncoding");
+			}
+		}
+#endif
+		// Skipping already declared property ByteOrder
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.InputStreamOptions InputStreamOptions
@@ -23,8 +75,8 @@ namespace Windows.Storage.Streams
 			}
 		}
 #endif
-		// Skipping already declared property ByteOrder
 		// Skipping already declared property UnconsumedBufferLength
+		// Skipping already declared property UnicodeEncoding
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public DataReader(global::Windows.Storage.Streams.IInputStream inputStream)
@@ -33,29 +85,50 @@ namespace Windows.Storage.Streams
 		}
 #endif
 		// Forced skipping of method Windows.Storage.Streams.DataReader.DataReader(Windows.Storage.Streams.IInputStream)
-		// Forced skipping of method Windows.Storage.Streams.DataReader.UnconsumedBufferLength.get
-		// Forced skipping of method Windows.Storage.Streams.DataReader.UnicodeEncoding.get
-		// Forced skipping of method Windows.Storage.Streams.DataReader.UnicodeEncoding.set
-		// Forced skipping of method Windows.Storage.Streams.DataReader.ByteOrder.get
-		// Forced skipping of method Windows.Storage.Streams.DataReader.ByteOrder.set
-		// Forced skipping of method Windows.Storage.Streams.DataReader.InputStreamOptions.get
-		// Forced skipping of method Windows.Storage.Streams.DataReader.InputStreamOptions.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.As<I>()
+		// Skipping already declared method Windows.Storage.Streams.DataReader.FromBuffer(Windows.Storage.Streams.IBuffer)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.operator ==(Windows.Storage.Streams.DataReader, Windows.Storage.Streams.DataReader)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.operator !=(Windows.Storage.Streams.DataReader, Windows.Storage.Streams.DataReader)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Equals(Windows.Storage.Streams.DataReader)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Equals(object)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.GetHashCode()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadByte()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadByte()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadBytes(byte[])
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadBytes(byte[])
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadBuffer(uint)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadBuffer(uint)
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadBoolean()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadBoolean()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadGuid()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadGuid()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadInt16()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadInt16()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadInt32()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadInt32()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadInt64()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadInt64()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadUInt16()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadUInt16()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadUInt32()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadUInt32()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadUInt64()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadUInt64()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadSingle()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadSingle()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadDouble()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadDouble()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadString(uint)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadString(uint)
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadDateTime()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadDateTime()
 		// Skipping already declared method Windows.Storage.Streams.DataReader.ReadTimeSpan()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ReadTimeSpan()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.DataReaderLoadOperation LoadAsync(uint count)
@@ -63,7 +136,9 @@ namespace Windows.Storage.Streams
 			throw new global::System.NotImplementedException("The member DataReaderLoadOperation DataReader.LoadAsync(uint count) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DataReaderLoadOperation%20DataReader.LoadAsync%28uint%20count%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.LoadAsync(uint)
 		// Skipping already declared method Windows.Storage.Streams.DataReader.DetachBuffer()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.DetachBuffer()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Storage.Streams.IInputStream DetachStream()
@@ -71,8 +146,23 @@ namespace Windows.Storage.Streams
 			throw new global::System.NotImplementedException("The member IInputStream DataReader.DetachStream() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IInputStream%20DataReader.DetachStream%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.DetachStream()
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ByteOrder.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.ByteOrder.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.InputStreamOptions.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.InputStreamOptions.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.UnconsumedBufferLength.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.UnicodeEncoding.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.Windows.Storage.Streams.IDataReader.UnicodeEncoding.set
 		// Skipping already declared method Windows.Storage.Streams.DataReader.Dispose()
-		// Skipping already declared method Windows.Storage.Streams.DataReader.FromBuffer(Windows.Storage.Streams.IBuffer)
+		// Forced skipping of method Windows.Storage.Streams.DataReader.ByteOrder.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.ByteOrder.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.InputStreamOptions.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.InputStreamOptions.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.UnconsumedBufferLength.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.UnicodeEncoding.get
+		// Forced skipping of method Windows.Storage.Streams.DataReader.UnicodeEncoding.set
+		// Forced skipping of method Windows.Storage.Streams.DataReader.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.Streams.IDataReader
 		// Processing: System.IDisposable
 	}

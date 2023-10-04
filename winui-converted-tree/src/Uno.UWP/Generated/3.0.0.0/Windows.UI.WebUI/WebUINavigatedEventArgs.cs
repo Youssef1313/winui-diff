@@ -15,6 +15,16 @@ namespace Windows.UI.WebUI
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.WebUI.WebUINavigatedOperation global::Windows.UI.WebUI.IWebUINavigatedEventArgs.NavigatedOperation
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member WebUINavigatedOperation WebUINavigatedEventArgs.NavigatedOperation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=WebUINavigatedOperation%20WebUINavigatedEventArgs.NavigatedOperation");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.UI.WebUI.WebUINavigatedOperation NavigatedOperation
 		{
 			get
@@ -23,7 +33,19 @@ namespace Windows.UI.WebUI
 			}
 		}
 #endif
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.operator ==(Windows.UI.WebUI.WebUINavigatedEventArgs, Windows.UI.WebUI.WebUINavigatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.operator !=(Windows.UI.WebUI.WebUINavigatedEventArgs, Windows.UI.WebUI.WebUINavigatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.Equals(Windows.UI.WebUI.WebUINavigatedEventArgs)
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.Windows.UI.WebUI.IWebUINavigatedEventArgs.NavigatedOperation.get
 		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.NavigatedOperation.get
+		// Forced skipping of method Windows.UI.WebUI.WebUINavigatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.UI.WebUI.IWebUINavigatedEventArgs
 	}
 }

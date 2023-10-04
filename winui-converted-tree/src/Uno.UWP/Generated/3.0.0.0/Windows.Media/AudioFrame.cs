@@ -10,21 +10,55 @@ namespace Windows.Media
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.TimeSpan? SystemRelativeTime
+		global::System.TimeSpan? global::Windows.Media.IMediaFrame.Duration
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member TimeSpan? AudioFrame.SystemRelativeTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%3F%20AudioFrame.SystemRelativeTime");
+				throw new global::System.NotImplementedException("The member TimeSpan? AudioFrame.Duration is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%3F%20AudioFrame.Duration");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "TimeSpan? AudioFrame.SystemRelativeTime");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "TimeSpan? AudioFrame.Duration");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.TimeSpan? RelativeTime
+		global::Windows.Foundation.Collections.IPropertySet global::Windows.Media.IMediaFrame.ExtendedProperties
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IPropertySet AudioFrame.ExtendedProperties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20AudioFrame.ExtendedProperties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Media.IMediaFrame.IsDiscontinuous
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AudioFrame.IsDiscontinuous is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFrame.IsDiscontinuous");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "bool AudioFrame.IsDiscontinuous");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Media.IMediaFrame.IsReadOnly
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AudioFrame.IsReadOnly is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFrame.IsReadOnly");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan? global::Windows.Media.IMediaFrame.RelativeTime
 		{
 			get
 			{
@@ -38,15 +72,25 @@ namespace Windows.Media
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsDiscontinuous
+		global::System.TimeSpan? global::Windows.Media.IMediaFrame.SystemRelativeTime
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member bool AudioFrame.IsDiscontinuous is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFrame.IsDiscontinuous");
+				throw new global::System.NotImplementedException("The member TimeSpan? AudioFrame.SystemRelativeTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%3F%20AudioFrame.SystemRelativeTime");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "bool AudioFrame.IsDiscontinuous");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "TimeSpan? AudioFrame.SystemRelativeTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.IMediaFrame.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string AudioFrame.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20AudioFrame.Type");
 			}
 		}
 #endif
@@ -76,11 +120,53 @@ namespace Windows.Media
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsDiscontinuous
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AudioFrame.IsDiscontinuous is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFrame.IsDiscontinuous");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "bool AudioFrame.IsDiscontinuous");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsReadOnly
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member bool AudioFrame.IsReadOnly is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AudioFrame.IsReadOnly");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.TimeSpan? RelativeTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan? AudioFrame.RelativeTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%3F%20AudioFrame.RelativeTime");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "TimeSpan? AudioFrame.RelativeTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.TimeSpan? SystemRelativeTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan? AudioFrame.SystemRelativeTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%3F%20AudioFrame.SystemRelativeTime");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "TimeSpan? AudioFrame.SystemRelativeTime");
 			}
 		}
 #endif
@@ -102,6 +188,16 @@ namespace Windows.Media
 		}
 #endif
 		// Forced skipping of method Windows.Media.AudioFrame.AudioFrame(uint)
+		// Forced skipping of method Windows.Media.AudioFrame.FromAbi(nint)
+		// Forced skipping of method Windows.Media.AudioFrame.operator ==(Windows.Media.AudioFrame, Windows.Media.AudioFrame)
+		// Forced skipping of method Windows.Media.AudioFrame.operator !=(Windows.Media.AudioFrame, Windows.Media.AudioFrame)
+		// Forced skipping of method Windows.Media.AudioFrame.Equals(Windows.Media.AudioFrame)
+		// Forced skipping of method Windows.Media.AudioFrame.Equals(object)
+		// Forced skipping of method Windows.Media.AudioFrame.GetHashCode()
+		// Forced skipping of method Windows.Media.AudioFrame.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.AudioFrame.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.AudioFrame.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.AudioFrame.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.AudioBuffer LockBuffer(global::Windows.Media.AudioBufferAccessMode mode)
@@ -109,17 +205,17 @@ namespace Windows.Media
 			throw new global::System.NotImplementedException("The member AudioBuffer AudioFrame.LockBuffer(AudioBufferAccessMode mode) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=AudioBuffer%20AudioFrame.LockBuffer%28AudioBufferAccessMode%20mode%29");
 		}
 #endif
-		// Forced skipping of method Windows.Media.AudioFrame.Type.get
-		// Forced skipping of method Windows.Media.AudioFrame.IsReadOnly.get
-		// Forced skipping of method Windows.Media.AudioFrame.RelativeTime.set
-		// Forced skipping of method Windows.Media.AudioFrame.RelativeTime.get
-		// Forced skipping of method Windows.Media.AudioFrame.SystemRelativeTime.set
-		// Forced skipping of method Windows.Media.AudioFrame.SystemRelativeTime.get
-		// Forced skipping of method Windows.Media.AudioFrame.Duration.set
-		// Forced skipping of method Windows.Media.AudioFrame.Duration.get
-		// Forced skipping of method Windows.Media.AudioFrame.IsDiscontinuous.set
-		// Forced skipping of method Windows.Media.AudioFrame.IsDiscontinuous.get
-		// Forced skipping of method Windows.Media.AudioFrame.ExtendedProperties.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.Duration.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.Duration.set
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.ExtendedProperties.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.IsDiscontinuous.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.IsDiscontinuous.set
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.IsReadOnly.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.RelativeTime.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.RelativeTime.set
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.SystemRelativeTime.get
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.SystemRelativeTime.set
+		// Forced skipping of method Windows.Media.AudioFrame.Windows.Media.IMediaFrame.Type.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Dispose()
@@ -127,6 +223,18 @@ namespace Windows.Media
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.AudioFrame", "void AudioFrame.Dispose()");
 		}
 #endif
+		// Forced skipping of method Windows.Media.AudioFrame.Duration.get
+		// Forced skipping of method Windows.Media.AudioFrame.Duration.set
+		// Forced skipping of method Windows.Media.AudioFrame.ExtendedProperties.get
+		// Forced skipping of method Windows.Media.AudioFrame.IsDiscontinuous.get
+		// Forced skipping of method Windows.Media.AudioFrame.IsDiscontinuous.set
+		// Forced skipping of method Windows.Media.AudioFrame.IsReadOnly.get
+		// Forced skipping of method Windows.Media.AudioFrame.RelativeTime.get
+		// Forced skipping of method Windows.Media.AudioFrame.RelativeTime.set
+		// Forced skipping of method Windows.Media.AudioFrame.SystemRelativeTime.get
+		// Forced skipping of method Windows.Media.AudioFrame.SystemRelativeTime.set
+		// Forced skipping of method Windows.Media.AudioFrame.Type.get
+		// Forced skipping of method Windows.Media.AudioFrame.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.IMediaFrame
 		// Processing: System.IDisposable
 	}

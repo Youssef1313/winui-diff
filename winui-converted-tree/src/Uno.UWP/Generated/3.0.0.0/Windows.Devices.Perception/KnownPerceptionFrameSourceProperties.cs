@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Devices.Perception
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -69,11 +68,12 @@ namespace Windows.Devices.Perception
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.DeviceId.get
-		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.Id.get
-		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.PhysicalDeviceIds.get
-		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.FrameKind.get
+		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.As<I>()
 		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.DeviceModelVersion.get
 		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.EnclosureLocation.get
+		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.FrameKind.get
+		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.Id.get
+		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.PhysicalDeviceIds.get
+		// Forced skipping of method Windows.Devices.Perception.KnownPerceptionFrameSourceProperties.DeviceId.get
 	}
 }

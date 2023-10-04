@@ -33,15 +33,7 @@ namespace Windows.Web.Http.Headers
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Date.get
-		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Delta.get
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public override string ToString()
-		{
-			throw new global::System.NotImplementedException("The member string HttpDateOrDeltaHeaderValue.ToString() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20HttpDateOrDeltaHeaderValue.ToString%28%29");
-		}
-#endif
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue Parse(string input)
@@ -56,5 +48,26 @@ namespace Windows.Web.Http.Headers
 			throw new global::System.NotImplementedException("The member bool HttpDateOrDeltaHeaderValue.TryParse(string input, out HttpDateOrDeltaHeaderValue dateOrDeltaHeaderValue) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20HttpDateOrDeltaHeaderValue.TryParse%28string%20input%2C%20out%20HttpDateOrDeltaHeaderValue%20dateOrDeltaHeaderValue%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.FromAbi(nint)
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.operator ==(Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue, Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue)
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.operator !=(Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue, Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue)
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Equals(Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue)
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Equals(object)
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.GetHashCode()
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.WinRT.IWinRTObject.AdditionalTypeData.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public override string ToString()
+		{
+			throw new global::System.NotImplementedException("The member string HttpDateOrDeltaHeaderValue.ToString() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20HttpDateOrDeltaHeaderValue.ToString%28%29");
+		}
+#endif
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Windows.Foundation.IStringable.ToString()
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Date.get
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.Delta.get
+		// Forced skipping of method Windows.Web.Http.Headers.HttpDateOrDeltaHeaderValue.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

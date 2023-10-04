@@ -4,10 +4,8 @@
 namespace Microsoft.UI.Xaml.Core.Direct
 {
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-	[global::Uno.NotImplemented]
-#endif
-	public partial struct XamlDirectContract
+	public enum XamlDirectContract
 	{
-		// Forced skipping of method Microsoft.UI.Xaml.Core.Direct.XamlDirectContract.XamlDirectContract()
 	}
+#endif
 }

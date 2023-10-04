@@ -6,7 +6,7 @@ namespace Microsoft.UI.Composition
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
-	public partial class CompositionEffectSourceParameter
+	public partial class CompositionEffectSourceParameter : global::Windows.Graphics.Effects.IGraphicsEffectSource
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -18,7 +18,6 @@ namespace Microsoft.UI.Composition
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.Name.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public CompositionEffectSourceParameter(string name)
@@ -27,5 +26,18 @@ namespace Microsoft.UI.Composition
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.CompositionEffectSourceParameter(string)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.operator ==(Microsoft.UI.Composition.CompositionEffectSourceParameter, Microsoft.UI.Composition.CompositionEffectSourceParameter)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.operator !=(Microsoft.UI.Composition.CompositionEffectSourceParameter, Microsoft.UI.Composition.CompositionEffectSourceParameter)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.Equals(Microsoft.UI.Composition.CompositionEffectSourceParameter)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.Name.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionEffectSourceParameter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
+		// Processing: Windows.Graphics.Effects.IGraphicsEffectSource
 	}
 }

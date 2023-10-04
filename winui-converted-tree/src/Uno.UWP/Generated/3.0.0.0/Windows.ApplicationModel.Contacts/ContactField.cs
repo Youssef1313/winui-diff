@@ -10,6 +10,46 @@ namespace Windows.ApplicationModel.Contacts
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Contacts.ContactFieldCategory global::Windows.ApplicationModel.Contacts.IContactField.Category
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ContactFieldCategory ContactField.Category is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ContactFieldCategory%20ContactField.Category");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Contacts.IContactField.Name
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ContactField.Name is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ContactField.Name");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Contacts.ContactFieldType global::Windows.ApplicationModel.Contacts.IContactField.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ContactFieldType ContactField.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ContactFieldType%20ContactField.Type");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Contacts.IContactField.Value
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string ContactField.Value is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20ContactField.Value");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Contacts.ContactFieldCategory Category
 		{
 			get
@@ -72,10 +112,25 @@ namespace Windows.ApplicationModel.Contacts
 		}
 #endif
 		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.ContactField(string, string, Windows.ApplicationModel.Contacts.ContactFieldType, Windows.ApplicationModel.Contacts.ContactFieldCategory)
-		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Type.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.operator ==(Windows.ApplicationModel.Contacts.ContactField, Windows.ApplicationModel.Contacts.ContactField)
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.operator !=(Windows.ApplicationModel.Contacts.ContactField, Windows.ApplicationModel.Contacts.ContactField)
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Equals(Windows.ApplicationModel.Contacts.ContactField)
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Windows.ApplicationModel.Contacts.IContactField.Category.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Windows.ApplicationModel.Contacts.IContactField.Name.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Windows.ApplicationModel.Contacts.IContactField.Type.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Windows.ApplicationModel.Contacts.IContactField.Value.get
 		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Category.get
 		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Name.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Type.get
 		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.Value.get
+		// Forced skipping of method Windows.ApplicationModel.Contacts.ContactField.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Contacts.IContactField
 	}
 }

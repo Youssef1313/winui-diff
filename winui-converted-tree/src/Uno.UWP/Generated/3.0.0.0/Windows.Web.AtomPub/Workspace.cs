@@ -15,55 +15,55 @@ namespace Windows.Web.AtomPub
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Web.AtomPub.ResourceCollection> Collections
+		global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> global::Windows.Web.Syndication.ISyndicationNode.AttributeExtensions
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member IReadOnlyList<ResourceCollection> Workspace.Collections is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CResourceCollection%3E%20Workspace.Collections");
+				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> Workspace.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20Workspace.AttributeExtensions");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Web.Syndication.ISyndicationText Title
+		global::System.Uri global::Windows.Web.Syndication.ISyndicationNode.BaseUri
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member ISyndicationText Workspace.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ISyndicationText%20Workspace.Title");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeValue
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string Workspace.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeValue");
+				throw new global::System.NotImplementedException("The member Uri Workspace.BaseUri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20Workspace.BaseUri");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeValue");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "Uri Workspace.BaseUri");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeNamespace
+		global::System.Collections.Generic.IList<global::Windows.Web.Syndication.ISyndicationNode> global::Windows.Web.Syndication.ISyndicationNode.ElementExtensions
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string Workspace.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeNamespace");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeNamespace");
+				throw new global::System.NotImplementedException("The member IList<ISyndicationNode> Workspace.ElementExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CISyndicationNode%3E%20Workspace.ElementExtensions");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string NodeName
+		string global::Windows.Web.Syndication.ISyndicationNode.Language
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.Language");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.Language");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeName
 		{
 			get
 			{
@@ -77,15 +77,39 @@ namespace Windows.Web.AtomPub
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string Language
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeNamespace
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string Workspace.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.Language");
+				throw new global::System.NotImplementedException("The member string Workspace.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeNamespace");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.Language");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeNamespace");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Web.Syndication.ISyndicationNode.NodeValue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeValue");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeValue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> AttributeExtensions
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> Workspace.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20Workspace.AttributeExtensions");
 			}
 		}
 #endif
@@ -105,11 +129,11 @@ namespace Windows.Web.AtomPub
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IList<global::Windows.Web.Syndication.SyndicationAttribute> AttributeExtensions
+		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Web.AtomPub.ResourceCollection> Collections
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member IList<SyndicationAttribute> Workspace.AttributeExtensions is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IList%3CSyndicationAttribute%3E%20Workspace.AttributeExtensions");
+				throw new global::System.NotImplementedException("The member IReadOnlyList<ResourceCollection> Workspace.Collections is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CResourceCollection%3E%20Workspace.Collections");
 			}
 		}
 #endif
@@ -123,20 +147,82 @@ namespace Windows.Web.AtomPub
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.Title.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.Collections.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeName.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeName.set
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeNamespace.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeNamespace.set
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeValue.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeValue.set
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.Language.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.Language.set
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.BaseUri.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.BaseUri.set
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.AttributeExtensions.get
-		// Forced skipping of method Windows.Web.AtomPub.Workspace.ElementExtensions.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string Language
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.Language is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.Language");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.Language");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.NodeName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeName");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeNamespace
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.NodeNamespace is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeNamespace");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeNamespace");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string NodeValue
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string Workspace.NodeValue is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Workspace.NodeValue");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Web.AtomPub.Workspace", "string Workspace.NodeValue");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Web.Syndication.ISyndicationText Title
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ISyndicationText Workspace.Title is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ISyndicationText%20Workspace.Title");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.FromAbi(nint)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.operator ==(Windows.Web.AtomPub.Workspace, Windows.Web.AtomPub.Workspace)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.operator !=(Windows.Web.AtomPub.Workspace, Windows.Web.AtomPub.Workspace)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Equals(Windows.Web.AtomPub.Workspace)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Equals(object)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.GetHashCode()
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Data.Xml.Dom.XmlDocument GetXmlDocument(global::Windows.Web.Syndication.SyndicationFormat format)
@@ -144,6 +230,34 @@ namespace Windows.Web.AtomPub
 			throw new global::System.NotImplementedException("The member XmlDocument Workspace.GetXmlDocument(SyndicationFormat format) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=XmlDocument%20Workspace.GetXmlDocument%28SyndicationFormat%20format%29");
 		}
 #endif
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.GetXmlDocument(Windows.Web.Syndication.SyndicationFormat)
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.AttributeExtensions.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.BaseUri.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.BaseUri.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.ElementExtensions.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.Language.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.Language.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeName.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeName.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeNamespace.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeNamespace.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeValue.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Windows.Web.Syndication.ISyndicationNode.NodeValue.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.AttributeExtensions.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.BaseUri.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.BaseUri.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Collections.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.ElementExtensions.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Language.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Language.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeName.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeName.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeNamespace.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeNamespace.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeValue.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.NodeValue.set
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.Title.get
+		// Forced skipping of method Windows.Web.AtomPub.Workspace.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Web.Syndication.ISyndicationNode
 	}
 }

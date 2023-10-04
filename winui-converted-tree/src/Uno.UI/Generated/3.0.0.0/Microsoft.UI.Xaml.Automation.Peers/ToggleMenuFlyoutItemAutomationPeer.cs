@@ -10,6 +10,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.ToggleState global::Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ToggleState ToggleMenuFlyoutItemAutomationPeer.ToggleState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ToggleState%20ToggleMenuFlyoutItemAutomationPeer.ToggleState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.Automation.ToggleState ToggleState
 		{
 			get
@@ -26,7 +36,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.ToggleMenuFlyoutItemAutomationPeer(Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.ToggleMenuFlyoutItemAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.ToggleMenuFlyoutItemAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Toggle()
@@ -34,6 +53,11 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer", "void ToggleMenuFlyoutItemAutomationPeer.Toggle()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.Toggle()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IToggleProvider.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.ToggleState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ToggleMenuFlyoutItemAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IToggleProvider
 	}
 }

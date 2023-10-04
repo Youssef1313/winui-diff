@@ -10,6 +10,26 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.IsSelected
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool SelectorItemAutomationPeer.IsSelected is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20SelectorItemAutomationPeer.IsSelected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.SelectionContainer
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IRawElementProviderSimple SelectorItemAutomationPeer.SelectionContainer is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IRawElementProviderSimple%20SelectorItemAutomationPeer.SelectionContainer");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsSelected
 		{
 			get
@@ -36,8 +56,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectorItemAutomationPeer(object, Microsoft.UI.Xaml.Automation.Peers.SelectorAutomationPeer)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.IsSelected.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectionContainer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectorItemAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectorItemAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void AddToSelection()
@@ -45,6 +73,7 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer", "void SelectorItemAutomationPeer.AddToSelection()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.AddToSelection()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void RemoveFromSelection()
@@ -52,6 +81,7 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer", "void SelectorItemAutomationPeer.RemoveFromSelection()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.RemoveFromSelection()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Select()
@@ -59,6 +89,13 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer", "void SelectorItemAutomationPeer.Select()");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.Select()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.IsSelected.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider.SelectionContainer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.IsSelected.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.SelectionContainer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.SelectorItemAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 	}
 }

@@ -15,6 +15,16 @@ namespace Microsoft.UI.Xaml.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.DependencyObject Element
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DependencyObject KeyboardAcceleratorInvokedEventArgs.Element is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DependencyObject%20KeyboardAcceleratorInvokedEventArgs.Element");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool Handled
 		{
 			get
@@ -29,16 +39,6 @@ namespace Microsoft.UI.Xaml.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.DependencyObject Element
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member DependencyObject KeyboardAcceleratorInvokedEventArgs.Element is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DependencyObject%20KeyboardAcceleratorInvokedEventArgs.Element");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.Input.KeyboardAccelerator KeyboardAccelerator
 		{
 			get
@@ -47,9 +47,20 @@ namespace Microsoft.UI.Xaml.Input
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.operator ==(Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs, Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.operator !=(Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs, Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Equals(Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Element.get
 		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.get
 		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.set
-		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Element.get
 		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.KeyboardAccelerator.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

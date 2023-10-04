@@ -8,6 +8,10 @@ namespace Windows.Security.Authentication.Web
 #endif
 	public static partial class WebAuthenticationBroker
 	{
+		// Forced skipping of method Windows.Security.Authentication.Web.WebAuthenticationBroker.As<I>()
+		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.AuthenticateAsync(Windows.Security.Authentication.Web.WebAuthenticationOptions, System.Uri, System.Uri)
+		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.AuthenticateAsync(Windows.Security.Authentication.Web.WebAuthenticationOptions, System.Uri)
+		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.GetCurrentApplicationCallbackUri()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static void AuthenticateAndContinue(global::System.Uri requestUri)
@@ -43,8 +47,5 @@ namespace Windows.Security.Authentication.Web
 			throw new global::System.NotImplementedException("The member IAsyncOperation<WebAuthenticationResult> WebAuthenticationBroker.AuthenticateSilentlyAsync(Uri requestUri, WebAuthenticationOptions options) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncOperation%3CWebAuthenticationResult%3E%20WebAuthenticationBroker.AuthenticateSilentlyAsync%28Uri%20requestUri%2C%20WebAuthenticationOptions%20options%29");
 		}
 #endif
-		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.AuthenticateAsync(Windows.Security.Authentication.Web.WebAuthenticationOptions, System.Uri, System.Uri)
-		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.AuthenticateAsync(Windows.Security.Authentication.Web.WebAuthenticationOptions, System.Uri)
-		// Skipping already declared method Windows.Security.Authentication.Web.WebAuthenticationBroker.GetCurrentApplicationCallbackUri()
 	}
 }

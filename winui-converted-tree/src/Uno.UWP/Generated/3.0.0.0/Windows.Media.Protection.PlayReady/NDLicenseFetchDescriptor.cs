@@ -3,7 +3,6 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Media.Protection.PlayReady
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
@@ -11,7 +10,27 @@ namespace Windows.Media.Protection.PlayReady
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Media.Protection.PlayReady.INDCustomData LicenseFetchChallengeCustomData
+		byte[] global::Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.ContentID
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member byte[] NDLicenseFetchDescriptor.ContentID is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=byte%5B%5D%20NDLicenseFetchDescriptor.ContentID");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Media.Protection.PlayReady.NDContentIDType global::Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.ContentIDType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member NDContentIDType NDLicenseFetchDescriptor.ContentIDType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=NDContentIDType%20NDLicenseFetchDescriptor.ContentIDType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Media.Protection.PlayReady.INDCustomData global::Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.LicenseFetchChallengeCustomData
 		{
 			get
 			{
@@ -45,16 +64,45 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Media.Protection.PlayReady.INDCustomData LicenseFetchChallengeCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member INDCustomData NDLicenseFetchDescriptor.LicenseFetchChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=INDCustomData%20NDLicenseFetchDescriptor.LicenseFetchChallengeCustomData");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor", "INDCustomData NDLicenseFetchDescriptor.LicenseFetchChallengeCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public NDLicenseFetchDescriptor(global::Windows.Media.Protection.PlayReady.NDContentIDType contentIDType, byte[] contentIDBytes, global::Windows.Media.Protection.PlayReady.INDCustomData licenseFetchChallengeCustomData)
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor", "NDLicenseFetchDescriptor.NDLicenseFetchDescriptor(NDContentIDType contentIDType, byte[] contentIDBytes, INDCustomData licenseFetchChallengeCustomData)");
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.NDLicenseFetchDescriptor(Windows.Media.Protection.PlayReady.NDContentIDType, byte[], Windows.Media.Protection.PlayReady.INDCustomData)
-		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.ContentIDType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.operator ==(Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor, Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.operator !=(Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor, Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Equals(Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.ContentID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.ContentIDType.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.LicenseFetchChallengeCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor.LicenseFetchChallengeCustomData.set
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.ContentID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.ContentIDType.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.LicenseFetchChallengeCustomData.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.LicenseFetchChallengeCustomData.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDLicenseFetchDescriptor.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.INDLicenseFetchDescriptor
 	}
 }

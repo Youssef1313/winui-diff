@@ -10,27 +10,7 @@ namespace Windows.Devices.Sms
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.Sms.SmsMessageType MessageType
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member SmsMessageType SmsTextMessage2.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsMessageType%20SmsTextMessage2.MessageType");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string DeviceId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string SmsTextMessage2.DeviceId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.DeviceId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.Sms.CellularClass CellularClass
+		global::Windows.Devices.Sms.CellularClass global::Windows.Devices.Sms.ISmsMessageBase.CellularClass
 		{
 			get
 			{
@@ -40,7 +20,17 @@ namespace Windows.Devices.Sms
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.Sms.SmsMessageClass MessageClass
+		string global::Windows.Devices.Sms.ISmsMessageBase.DeviceId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SmsTextMessage2.DeviceId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.DeviceId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Sms.SmsMessageClass global::Windows.Devices.Sms.ISmsMessageBase.MessageClass
 		{
 			get
 			{
@@ -50,81 +40,21 @@ namespace Windows.Devices.Sms
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string SimIccId
+		global::Windows.Devices.Sms.SmsMessageType global::Windows.Devices.Sms.ISmsMessageBase.MessageType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SmsMessageType SmsTextMessage2.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsMessageType%20SmsTextMessage2.MessageType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Devices.Sms.ISmsMessageBase.SimIccId
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member string SmsTextMessage2.SimIccId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.SimIccId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int RetryAttemptCount
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member int SmsTextMessage2.RetryAttemptCount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20SmsTextMessage2.RetryAttemptCount");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "int SmsTextMessage2.RetryAttemptCount");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string To
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string SmsTextMessage2.To is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.To");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "string SmsTextMessage2.To");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsDeliveryNotificationEnabled
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool SmsTextMessage2.IsDeliveryNotificationEnabled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20SmsTextMessage2.IsDeliveryNotificationEnabled");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "bool SmsTextMessage2.IsDeliveryNotificationEnabled");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.Sms.SmsEncoding Encoding
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member SmsEncoding SmsTextMessage2.Encoding is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsEncoding%20SmsTextMessage2.Encoding");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "SmsEncoding SmsTextMessage2.Encoding");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string CallbackNumber
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string SmsTextMessage2.CallbackNumber is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.CallbackNumber");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "string SmsTextMessage2.CallbackNumber");
 			}
 		}
 #endif
@@ -144,11 +74,49 @@ namespace Windows.Devices.Sms
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int ProtocolId
+		public string CallbackNumber
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member int SmsTextMessage2.ProtocolId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20SmsTextMessage2.ProtocolId");
+				throw new global::System.NotImplementedException("The member string SmsTextMessage2.CallbackNumber is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.CallbackNumber");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "string SmsTextMessage2.CallbackNumber");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.Sms.CellularClass CellularClass
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CellularClass SmsTextMessage2.CellularClass is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CellularClass%20SmsTextMessage2.CellularClass");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string DeviceId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SmsTextMessage2.DeviceId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.DeviceId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.Sms.SmsEncoding Encoding
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SmsEncoding SmsTextMessage2.Encoding is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsEncoding%20SmsTextMessage2.Encoding");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "SmsEncoding SmsTextMessage2.Encoding");
 			}
 		}
 #endif
@@ -164,11 +132,69 @@ namespace Windows.Devices.Sms
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.DateTimeOffset Timestamp
+		public bool IsDeliveryNotificationEnabled
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member DateTimeOffset SmsTextMessage2.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20SmsTextMessage2.Timestamp");
+				throw new global::System.NotImplementedException("The member bool SmsTextMessage2.IsDeliveryNotificationEnabled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20SmsTextMessage2.IsDeliveryNotificationEnabled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "bool SmsTextMessage2.IsDeliveryNotificationEnabled");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.Sms.SmsMessageClass MessageClass
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SmsMessageClass SmsTextMessage2.MessageClass is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsMessageClass%20SmsTextMessage2.MessageClass");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.Sms.SmsMessageType MessageType
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SmsMessageType SmsTextMessage2.MessageType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SmsMessageType%20SmsTextMessage2.MessageType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int ProtocolId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int SmsTextMessage2.ProtocolId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20SmsTextMessage2.ProtocolId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int RetryAttemptCount
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int SmsTextMessage2.RetryAttemptCount is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20SmsTextMessage2.RetryAttemptCount");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "int SmsTextMessage2.RetryAttemptCount");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string SimIccId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SmsTextMessage2.SimIccId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.SimIccId");
 			}
 		}
 #endif
@@ -184,33 +210,73 @@ namespace Windows.Devices.Sms
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.DateTimeOffset Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset SmsTextMessage2.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20SmsTextMessage2.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string To
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string SmsTextMessage2.To is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20SmsTextMessage2.To");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "string SmsTextMessage2.To");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public SmsTextMessage2()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sms.SmsTextMessage2", "SmsTextMessage2.SmsTextMessage2()");
 		}
 #endif
 		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.SmsTextMessage2()
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.operator ==(Windows.Devices.Sms.SmsTextMessage2, Windows.Devices.Sms.SmsTextMessage2)
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.operator !=(Windows.Devices.Sms.SmsTextMessage2, Windows.Devices.Sms.SmsTextMessage2)
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Equals(Windows.Devices.Sms.SmsTextMessage2)
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Equals(object)
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.GetHashCode()
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Windows.Devices.Sms.ISmsMessageBase.CellularClass.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Windows.Devices.Sms.ISmsMessageBase.DeviceId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Windows.Devices.Sms.ISmsMessageBase.MessageClass.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Windows.Devices.Sms.ISmsMessageBase.MessageType.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Windows.Devices.Sms.ISmsMessageBase.SimIccId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Body.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Body.set
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CallbackNumber.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CallbackNumber.set
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CellularClass.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.DeviceId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Encoding.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Encoding.set
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.From.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.IsDeliveryNotificationEnabled.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.IsDeliveryNotificationEnabled.set
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.MessageClass.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.MessageType.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.ProtocolId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.RetryAttemptCount.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.RetryAttemptCount.set
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.SimIccId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.TeleserviceId.get
 		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Timestamp.get
 		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.To.get
 		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.To.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.From.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Body.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Body.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Encoding.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.Encoding.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CallbackNumber.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CallbackNumber.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.IsDeliveryNotificationEnabled.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.IsDeliveryNotificationEnabled.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.RetryAttemptCount.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.RetryAttemptCount.set
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.TeleserviceId.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.ProtocolId.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.MessageType.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.DeviceId.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.CellularClass.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.MessageClass.get
-		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.SimIccId.get
+		// Forced skipping of method Windows.Devices.Sms.SmsTextMessage2.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Sms.ISmsMessageBase
 	}
 }

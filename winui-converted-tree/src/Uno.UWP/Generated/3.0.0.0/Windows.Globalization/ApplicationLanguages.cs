@@ -8,9 +8,14 @@ namespace Windows.Globalization
 #endif
 	public static partial class ApplicationLanguages
 	{
-		// Skipping already declared property PrimaryLanguageOverride
 		// Skipping already declared property Languages
 		// Skipping already declared property ManifestLanguages
+		// Skipping already declared property PrimaryLanguageOverride
+		// Forced skipping of method Windows.Globalization.ApplicationLanguages.As<I>()
+		// Forced skipping of method Windows.Globalization.ApplicationLanguages.Languages.get
+		// Forced skipping of method Windows.Globalization.ApplicationLanguages.ManifestLanguages.get
+		// Forced skipping of method Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride.get
+		// Forced skipping of method Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride.set
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::System.Collections.Generic.IReadOnlyList<string> GetLanguagesForUser(global::Windows.System.User user)
@@ -18,9 +23,5 @@ namespace Windows.Globalization
 			throw new global::System.NotImplementedException("The member IReadOnlyList<string> ApplicationLanguages.GetLanguagesForUser(User user) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3Cstring%3E%20ApplicationLanguages.GetLanguagesForUser%28User%20user%29");
 		}
 #endif
-		// Forced skipping of method Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride.get
-		// Forced skipping of method Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride.set
-		// Forced skipping of method Windows.Globalization.ApplicationLanguages.Languages.get
-		// Forced skipping of method Windows.Globalization.ApplicationLanguages.ManifestLanguages.get
 	}
 }

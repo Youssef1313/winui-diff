@@ -6,27 +6,94 @@ namespace Windows.Storage.Streams
 #if false || false || false || false || false || false || false
 	[global::Uno.NotImplemented]
 #endif
-	public partial class InMemoryRandomAccessStream : global::Windows.Storage.Streams.IRandomAccessStream, global::Windows.Storage.Streams.IOutputStream, global::System.IDisposable, global::Windows.Storage.Streams.IInputStream
+	public partial class InMemoryRandomAccessStream : global::Windows.Storage.Streams.IRandomAccessStream, global::System.IDisposable, global::Windows.Storage.Streams.IInputStream, global::Windows.Storage.Streams.IOutputStream
 	{
-		// Skipping already declared property Size
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Storage.Streams.IRandomAccessStream.CanRead
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool InMemoryRandomAccessStream.CanRead is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20InMemoryRandomAccessStream.CanRead");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Storage.Streams.IRandomAccessStream.CanWrite
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool InMemoryRandomAccessStream.CanWrite is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20InMemoryRandomAccessStream.CanWrite");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ulong global::Windows.Storage.Streams.IRandomAccessStream.Position
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ulong InMemoryRandomAccessStream.Position is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ulong%20InMemoryRandomAccessStream.Position");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ulong global::Windows.Storage.Streams.IRandomAccessStream.Size
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ulong InMemoryRandomAccessStream.Size is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ulong%20InMemoryRandomAccessStream.Size");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Storage.Streams.InMemoryRandomAccessStream", "ulong InMemoryRandomAccessStream.Size");
+			}
+		}
+#endif
 		// Skipping already declared property CanRead
 		// Skipping already declared property CanWrite
 		// Skipping already declared property Position
+		// Skipping already declared property Size
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.InMemoryRandomAccessStream()
 		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.InMemoryRandomAccessStream()
-		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Size.get
-		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Size.set
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.FromAbi(nint)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.operator ==(Windows.Storage.Streams.InMemoryRandomAccessStream, Windows.Storage.Streams.InMemoryRandomAccessStream)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.operator !=(Windows.Storage.Streams.InMemoryRandomAccessStream, Windows.Storage.Streams.InMemoryRandomAccessStream)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Equals(Windows.Storage.Streams.InMemoryRandomAccessStream)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Equals(object)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.GetHashCode()
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.GetInputStreamAt(ulong)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.GetInputStreamAt(ulong)
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.GetOutputStreamAt(ulong)
-		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Position.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.GetOutputStreamAt(ulong)
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.Seek(ulong)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.Seek(ulong)
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.CloneStream()
-		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.CanRead.get
-		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.CanWrite.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.CloneStream()
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.CanRead.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.CanWrite.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.Position.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.Size.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IRandomAccessStream.Size.set
+		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.WriteAsync(Windows.Storage.Streams.IBuffer)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IOutputStream.WriteAsync(Windows.Storage.Streams.IBuffer)
+		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.FlushAsync()
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IOutputStream.FlushAsync()
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.Dispose()
 		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.ReadAsync(Windows.Storage.Streams.IBuffer, uint, Windows.Storage.Streams.InputStreamOptions)
-		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.WriteAsync(Windows.Storage.Streams.IBuffer)
-		// Skipping already declared method Windows.Storage.Streams.InMemoryRandomAccessStream.FlushAsync()
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Windows.Storage.Streams.IInputStream.ReadAsync(Windows.Storage.Streams.IBuffer, uint, Windows.Storage.Streams.InputStreamOptions)
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.CanRead.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.CanWrite.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Position.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Size.get
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.Size.set
+		// Forced skipping of method Windows.Storage.Streams.InMemoryRandomAccessStream.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Storage.Streams.IRandomAccessStream
 		// Processing: System.IDisposable
 		// Processing: Windows.Storage.Streams.IInputStream

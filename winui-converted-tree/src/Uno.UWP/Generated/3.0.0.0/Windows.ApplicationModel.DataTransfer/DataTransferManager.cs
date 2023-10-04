@@ -8,20 +8,7 @@ namespace Windows.ApplicationModel.DataTransfer
 #endif
 	public partial class DataTransferManager
 	{
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.DataRequested.add
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.DataRequested.remove
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen.add
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen.remove
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.ShareProvidersRequested.add
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.ShareProvidersRequested.remove
-#if false || false || IS_UNIT_TESTS || false || false || __NETSTD_REFERENCE__ || false
-		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__NETSTD_REFERENCE__")]
-		public static void ShowShareUI(global::Windows.ApplicationModel.DataTransfer.ShareUIOptions options)
-		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.ApplicationModel.DataTransfer.DataTransferManager", "void DataTransferManager.ShowShareUI(ShareUIOptions options)");
-		}
-#endif
-		// Skipping already declared method Windows.ApplicationModel.DataTransfer.DataTransferManager.IsSupported()
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.As<I>()
 #if false || false || IS_UNIT_TESTS || false || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__NETSTD_REFERENCE__")]
 		public static void ShowShareUI()
@@ -30,6 +17,31 @@ namespace Windows.ApplicationModel.DataTransfer
 		}
 #endif
 		// Skipping already declared method Windows.ApplicationModel.DataTransfer.DataTransferManager.GetForCurrentView()
+		// Skipping already declared method Windows.ApplicationModel.DataTransfer.DataTransferManager.IsSupported()
+#if false || false || IS_UNIT_TESTS || false || false || __NETSTD_REFERENCE__ || false
+		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__NETSTD_REFERENCE__")]
+		public static void ShowShareUI(global::Windows.ApplicationModel.DataTransfer.ShareUIOptions options)
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.ApplicationModel.DataTransfer.DataTransferManager", "void DataTransferManager.ShowShareUI(ShareUIOptions options)");
+		}
+#endif
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.operator ==(Windows.ApplicationModel.DataTransfer.DataTransferManager, Windows.ApplicationModel.DataTransfer.DataTransferManager)
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.operator !=(Windows.ApplicationModel.DataTransfer.DataTransferManager, Windows.ApplicationModel.DataTransfer.DataTransferManager)
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.Equals(Windows.ApplicationModel.DataTransfer.DataTransferManager)
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.DataRequested.add
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.DataRequested.remove
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen.add
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.TargetApplicationChosen.remove
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.ShareProvidersRequested.add
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.ShareProvidersRequested.remove
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.DataTransferManager.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if false || false || IS_UNIT_TESTS || false || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__NETSTD_REFERENCE__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.ApplicationModel.DataTransfer.DataTransferManager, global::Windows.ApplicationModel.DataTransfer.DataRequestedEventArgs> DataRequested

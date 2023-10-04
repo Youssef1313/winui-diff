@@ -15,6 +15,56 @@ namespace Windows.Gaming.Input.Custom
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo HidGameControllerProvider.FirmwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20HidGameControllerProvider.FirmwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort HidGameControllerProvider.HardwareProductId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20HidGameControllerProvider.HardwareProductId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		ushort global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ushort HidGameControllerProvider.HardwareVendorId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ushort%20HidGameControllerProvider.HardwareVendorId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Custom.GameControllerVersionInfo global::Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member GameControllerVersionInfo HidGameControllerProvider.HardwareVersionInfo is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=GameControllerVersionInfo%20HidGameControllerProvider.HardwareVersionInfo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool HidGameControllerProvider.IsConnected is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20HidGameControllerProvider.IsConnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.Custom.GameControllerVersionInfo FirmwareVersionInfo
 		{
 			get
@@ -83,8 +133,16 @@ namespace Windows.Gaming.Input.Custom
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.UsageId.get
-		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.UsagePage.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.operator ==(Windows.Gaming.Input.Custom.HidGameControllerProvider, Windows.Gaming.Input.Custom.HidGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.operator !=(Windows.Gaming.Input.Custom.HidGameControllerProvider, Windows.Gaming.Input.Custom.HidGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Equals(Windows.Gaming.Input.Custom.HidGameControllerProvider)
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void GetFeatureReport(byte reportId, byte[] reportBuffer)
@@ -106,11 +164,19 @@ namespace Windows.Gaming.Input.Custom
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.Custom.HidGameControllerProvider", "void HidGameControllerProvider.SendOutputReport(byte reportId, byte[] reportBuffer)");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.FirmwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareProductId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVendorId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.HardwareVersionInfo.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.Windows.Gaming.Input.Custom.IGameControllerProvider.IsConnected.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.FirmwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.HardwareProductId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.HardwareVendorId.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.HardwareVersionInfo.get
 		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.IsConnected.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.UsageId.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.UsagePage.get
+		// Forced skipping of method Windows.Gaming.Input.Custom.HidGameControllerProvider.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Gaming.Input.Custom.IGameControllerProvider
 	}
 }

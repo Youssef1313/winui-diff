@@ -15,20 +15,6 @@ namespace Windows.Media.Devices
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public float VolumePercent
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member float AudioDeviceController.VolumePercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=float%20AudioDeviceController.VolumePercent");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Devices.AudioDeviceController", "float AudioDeviceController.VolumePercent");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool Muted
 		{
 			get
@@ -41,10 +27,30 @@ namespace Windows.Media.Devices
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Muted.set
-		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Muted.get
-		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.VolumePercent.set
-		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.VolumePercent.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public float VolumePercent
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member float AudioDeviceController.VolumePercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=float%20AudioDeviceController.VolumePercent");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Devices.AudioDeviceController", "float AudioDeviceController.VolumePercent");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.operator ==(Windows.Media.Devices.AudioDeviceController, Windows.Media.Devices.AudioDeviceController)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.operator !=(Windows.Media.Devices.AudioDeviceController, Windows.Media.Devices.AudioDeviceController)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Equals(Windows.Media.Devices.AudioDeviceController)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Equals(object)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.GetHashCode()
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Media.MediaProperties.IMediaEncodingProperties> GetAvailableMediaStreamProperties(global::Windows.Media.Capture.MediaStreamType mediaStreamType)
@@ -52,6 +58,7 @@ namespace Windows.Media.Devices
 			throw new global::System.NotImplementedException("The member IReadOnlyList<IMediaEncodingProperties> AudioDeviceController.GetAvailableMediaStreamProperties(MediaStreamType mediaStreamType) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CIMediaEncodingProperties%3E%20AudioDeviceController.GetAvailableMediaStreamProperties%28MediaStreamType%20mediaStreamType%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Windows.Media.Devices.IMediaDeviceController.GetAvailableMediaStreamProperties(Windows.Media.Capture.MediaStreamType)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.MediaProperties.IMediaEncodingProperties GetMediaStreamProperties(global::Windows.Media.Capture.MediaStreamType mediaStreamType)
@@ -59,6 +66,7 @@ namespace Windows.Media.Devices
 			throw new global::System.NotImplementedException("The member IMediaEncodingProperties AudioDeviceController.GetMediaStreamProperties(MediaStreamType mediaStreamType) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IMediaEncodingProperties%20AudioDeviceController.GetMediaStreamProperties%28MediaStreamType%20mediaStreamType%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Windows.Media.Devices.IMediaDeviceController.GetMediaStreamProperties(Windows.Media.Capture.MediaStreamType)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction SetMediaStreamPropertiesAsync(global::Windows.Media.Capture.MediaStreamType mediaStreamType, global::Windows.Media.MediaProperties.IMediaEncodingProperties mediaEncodingProperties)
@@ -66,6 +74,12 @@ namespace Windows.Media.Devices
 			throw new global::System.NotImplementedException("The member IAsyncAction AudioDeviceController.SetMediaStreamPropertiesAsync(MediaStreamType mediaStreamType, IMediaEncodingProperties mediaEncodingProperties) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20AudioDeviceController.SetMediaStreamPropertiesAsync%28MediaStreamType%20mediaStreamType%2C%20IMediaEncodingProperties%20mediaEncodingProperties%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Windows.Media.Devices.IMediaDeviceController.SetMediaStreamPropertiesAsync(Windows.Media.Capture.MediaStreamType, Windows.Media.MediaProperties.IMediaEncodingProperties)
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Muted.get
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.Muted.set
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.VolumePercent.get
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.VolumePercent.set
+		// Forced skipping of method Windows.Media.Devices.AudioDeviceController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Devices.IMediaDeviceController
 	}
 }

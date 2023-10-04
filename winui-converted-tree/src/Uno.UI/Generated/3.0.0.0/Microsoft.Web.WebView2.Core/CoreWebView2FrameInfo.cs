@@ -33,7 +33,18 @@ namespace Microsoft.Web.WebView2.Core
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.FromAbi(nint)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.operator ==(Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo, Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.operator !=(Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo, Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.Equals(Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.Equals(object)
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.GetHashCode()
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.Name.get
 		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.Source.get
+		// Forced skipping of method Microsoft.Web.WebView2.Core.CoreWebView2FrameInfo.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

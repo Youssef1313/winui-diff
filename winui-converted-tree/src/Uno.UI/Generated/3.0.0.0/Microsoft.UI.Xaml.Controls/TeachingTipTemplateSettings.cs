@@ -10,48 +10,6 @@ namespace Microsoft.UI.Xaml.Controls
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Thickness TopRightHighlightMargin
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(TopRightHighlightMarginProperty);
-			}
-			set
-			{
-				this.SetValue(TopRightHighlightMarginProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Thickness TopLeftHighlightMargin
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(TopLeftHighlightMarginProperty);
-			}
-			set
-			{
-				this.SetValue(TopLeftHighlightMarginProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Microsoft.UI.Xaml.Controls.IconElement IconElement
-		{
-			get
-			{
-				return (global::Microsoft.UI.Xaml.Controls.IconElement)this.GetValue(IconElementProperty);
-			}
-			set
-			{
-				this.SetValue(IconElementProperty, value);
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Xaml.DependencyProperty IconElementProperty { get; } =
 		Microsoft.UI.Xaml.DependencyProperty.Register(
 			nameof(IconElement), typeof(global::Microsoft.UI.Xaml.Controls.IconElement),
@@ -76,20 +34,75 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Controls.IconElement IconElement
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Controls.IconElement)this.GetValue(IconElementProperty);
+			}
+			set
+			{
+				this.SetValue(IconElementProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Thickness TopLeftHighlightMargin
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(TopLeftHighlightMarginProperty);
+			}
+			set
+			{
+				this.SetValue(TopLeftHighlightMarginProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Microsoft.UI.Xaml.Thickness TopRightHighlightMargin
+		{
+			get
+			{
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(TopRightHighlightMarginProperty);
+			}
+			set
+			{
+				this.SetValue(TopRightHighlightMarginProperty, value);
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public TeachingTipTemplateSettings() : base()
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings", "TeachingTipTemplateSettings.TeachingTipTemplateSettings()");
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TeachingTipTemplateSettings()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMargin.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMargin.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMargin.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.IconElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMarginProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMarginProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TeachingTipTemplateSettings(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.operator ==(Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings, Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.operator !=(Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings, Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.Equals(Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TeachingTipTemplateSettings(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.WinRT.IWinRTObject.NativeObject.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.IconElement.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.IconElement.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMarginProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMarginProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.IconElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMargin.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopLeftHighlightMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMargin.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.TopRightHighlightMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TeachingTipTemplateSettings.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

@@ -23,14 +23,7 @@ namespace Microsoft.UI.Dispatching
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.DispatcherQueue.get
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Foundation.IAsyncAction ShutdownQueueAsync()
-		{
-			throw new global::System.NotImplementedException("The member IAsyncAction DispatcherQueueController.ShutdownQueueAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20DispatcherQueueController.ShutdownQueueAsync%28%29");
-		}
-#endif
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Dispatching.DispatcherQueueController CreateOnDedicatedThread()
@@ -45,5 +38,24 @@ namespace Microsoft.UI.Dispatching
 			throw new global::System.NotImplementedException("The member DispatcherQueueController DispatcherQueueController.CreateOnCurrentThread() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DispatcherQueueController%20DispatcherQueueController.CreateOnCurrentThread%28%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.operator ==(Microsoft.UI.Dispatching.DispatcherQueueController, Microsoft.UI.Dispatching.DispatcherQueueController)
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.operator !=(Microsoft.UI.Dispatching.DispatcherQueueController, Microsoft.UI.Dispatching.DispatcherQueueController)
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.Equals(Microsoft.UI.Dispatching.DispatcherQueueController)
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.Equals(object)
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.WinRT.IWinRTObject.AdditionalTypeData.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Foundation.IAsyncAction ShutdownQueueAsync()
+		{
+			throw new global::System.NotImplementedException("The member IAsyncAction DispatcherQueueController.ShutdownQueueAsync() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20DispatcherQueueController.ShutdownQueueAsync%28%29");
+		}
+#endif
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.DispatcherQueue.get
+		// Forced skipping of method Microsoft.UI.Dispatching.DispatcherQueueController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

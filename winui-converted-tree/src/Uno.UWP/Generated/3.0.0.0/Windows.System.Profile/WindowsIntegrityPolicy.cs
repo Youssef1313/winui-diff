@@ -48,10 +48,11 @@ namespace Windows.System.Profile
 			}
 		}
 #endif
-		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.IsEnabled.get
-		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.IsEnabledForTrial.get
+		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.As<I>()
 		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.CanDisable.get
 		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.IsDisableSupported.get
+		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.IsEnabled.get
+		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.IsEnabledForTrial.get
 		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.PolicyChanged.add
 		// Forced skipping of method Windows.System.Profile.WindowsIntegrityPolicy.PolicyChanged.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__

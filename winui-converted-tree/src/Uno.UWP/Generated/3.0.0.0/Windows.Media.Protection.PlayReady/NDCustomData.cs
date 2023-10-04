@@ -3,12 +3,31 @@
 #pragma warning disable 114 // new keyword hiding
 namespace Windows.Media.Protection.PlayReady
 {
-	// This type is deprecated. Consider not implementing it.
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
 	public partial class NDCustomData : global::Windows.Media.Protection.PlayReady.INDCustomData
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		byte[] global::Windows.Media.Protection.PlayReady.INDCustomData.CustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member byte[] NDCustomData.CustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=byte%5B%5D%20NDCustomData.CustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		byte[] global::Windows.Media.Protection.PlayReady.INDCustomData.CustomDataTypeID
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member byte[] NDCustomData.CustomDataTypeID is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=byte%5B%5D%20NDCustomData.CustomDataTypeID");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public byte[] CustomData
@@ -37,8 +56,21 @@ namespace Windows.Media.Protection.PlayReady
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.NDCustomData(byte[], byte[])
-		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.CustomDataTypeID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.operator ==(Windows.Media.Protection.PlayReady.NDCustomData, Windows.Media.Protection.PlayReady.NDCustomData)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.operator !=(Windows.Media.Protection.PlayReady.NDCustomData, Windows.Media.Protection.PlayReady.NDCustomData)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.Equals(Windows.Media.Protection.PlayReady.NDCustomData)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.Windows.Media.Protection.PlayReady.INDCustomData.CustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.Windows.Media.Protection.PlayReady.INDCustomData.CustomDataTypeID.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.CustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.CustomDataTypeID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.NDCustomData.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.INDCustomData
 	}
 }

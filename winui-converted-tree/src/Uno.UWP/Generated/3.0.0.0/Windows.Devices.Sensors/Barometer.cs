@@ -8,20 +8,6 @@ namespace Windows.Devices.Sensors
 #endif
 	public partial class Barometer
 	{
-#if false || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint ReportInterval
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member uint Barometer.ReportInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Barometer.ReportInterval");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sensors.Barometer", "uint Barometer.ReportInterval");
-			}
-		}
-#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string DeviceId
@@ -34,11 +20,35 @@ namespace Windows.Devices.Sensors
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint MaxBatchSize
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint Barometer.MaxBatchSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Barometer.MaxBatchSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public uint MinimumReportInterval
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member uint Barometer.MinimumReportInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Barometer.MinimumReportInterval");
+			}
+		}
+#endif
+#if false || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint ReportInterval
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint Barometer.ReportInterval is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Barometer.ReportInterval");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.Sensors.Barometer", "uint Barometer.ReportInterval");
 			}
 		}
 #endif
@@ -58,16 +68,6 @@ namespace Windows.Devices.Sensors
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint MaxBatchSize
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member uint Barometer.MaxBatchSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20Barometer.MaxBatchSize");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Devices.Sensors.BarometerDataThreshold ReportThreshold
 		{
 			get
@@ -76,23 +76,8 @@ namespace Windows.Devices.Sensors
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.Sensors.BarometerReading GetCurrentReading()
-		{
-			throw new global::System.NotImplementedException("The member BarometerReading Barometer.GetCurrentReading() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BarometerReading%20Barometer.GetCurrentReading%28%29");
-		}
-#endif
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.DeviceId.get
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.MinimumReportInterval.get
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportInterval.set
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportInterval.get
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReadingChanged.add
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReadingChanged.remove
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportLatency.set
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportLatency.get
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.MaxBatchSize.get
-		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportThreshold.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.As<I>()
+		// Skipping already declared method Windows.Devices.Sensors.Barometer.GetDefault()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Foundation.IAsyncOperation<global::Windows.Devices.Sensors.Barometer> FromIdAsync(string deviceId)
@@ -107,7 +92,34 @@ namespace Windows.Devices.Sensors
 			throw new global::System.NotImplementedException("The member string Barometer.GetDeviceSelector() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20Barometer.GetDeviceSelector%28%29");
 		}
 #endif
-		// Skipping already declared method Windows.Devices.Sensors.Barometer.GetDefault()
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.operator ==(Windows.Devices.Sensors.Barometer, Windows.Devices.Sensors.Barometer)
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.operator !=(Windows.Devices.Sensors.Barometer, Windows.Devices.Sensors.Barometer)
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.Equals(Windows.Devices.Sensors.Barometer)
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.Equals(object)
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.GetHashCode()
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.WinRT.IWinRTObject.AdditionalTypeData.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.Sensors.BarometerReading GetCurrentReading()
+		{
+			throw new global::System.NotImplementedException("The member BarometerReading Barometer.GetCurrentReading() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BarometerReading%20Barometer.GetCurrentReading%28%29");
+		}
+#endif
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReadingChanged.add
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReadingChanged.remove
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.DeviceId.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.MaxBatchSize.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.MinimumReportInterval.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportInterval.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportInterval.set
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportLatency.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportLatency.set
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.ReportThreshold.get
+		// Forced skipping of method Windows.Devices.Sensors.Barometer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if false || false || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Devices.Sensors.Barometer, global::Windows.Devices.Sensors.BarometerReadingChangedEventArgs> ReadingChanged

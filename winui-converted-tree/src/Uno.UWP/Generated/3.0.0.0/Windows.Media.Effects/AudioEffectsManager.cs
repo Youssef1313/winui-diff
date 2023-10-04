@@ -8,6 +8,7 @@ namespace Windows.Media.Effects
 #endif
 	public static partial class AudioEffectsManager
 	{
+		// Forced skipping of method Windows.Media.Effects.AudioEffectsManager.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.Media.Effects.AudioRenderEffectsManager CreateAudioRenderEffectsManager(string deviceId, global::Windows.Media.Render.AudioRenderCategory category)

@@ -98,14 +98,15 @@ namespace Windows.ApplicationModel.DataTransfer
 			}
 		}
 #endif
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.UserActivityJsonArray.get
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.WebLink.get
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.ApplicationLink.get
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Text.get
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Uri.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.As<I>()
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Bitmap.get
 		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Html.get
 		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Rtf.get
-		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Bitmap.get
 		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.StorageItems.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Text.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.Uri.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.ApplicationLink.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.WebLink.get
+		// Forced skipping of method Windows.ApplicationModel.DataTransfer.StandardDataFormats.UserActivityJsonArray.get
 	}
 }

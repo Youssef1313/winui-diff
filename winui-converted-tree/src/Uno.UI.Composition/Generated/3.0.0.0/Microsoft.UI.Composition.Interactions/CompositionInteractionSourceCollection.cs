@@ -6,7 +6,7 @@ namespace Microsoft.UI.Composition.Interactions
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
-	public partial class CompositionInteractionSourceCollection : global::Microsoft.UI.Composition.CompositionObject, global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Composition.Interactions.ICompositionInteractionSource>
+	public partial class CompositionInteractionSourceCollection : global::Microsoft.UI.Composition.CompositionObject, global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Composition.Interactions.ICompositionInteractionSource>, global::System.Collections.IEnumerable
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		internal CompositionInteractionSourceCollection()
@@ -23,14 +23,14 @@ namespace Microsoft.UI.Composition.Interactions
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public void RemoveAll()
-		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection", "void CompositionInteractionSourceCollection.RemoveAll()");
-		}
-#endif
-		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.First()
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.operator ==(Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection, Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.operator !=(Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection, Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Equals(Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Add(global::Microsoft.UI.Composition.Interactions.ICompositionInteractionSource value)
@@ -45,16 +45,25 @@ namespace Microsoft.UI.Composition.Interactions
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection", "void CompositionInteractionSourceCollection.Remove(ICompositionInteractionSource value)");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Count.get
-		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.Interactions.ICompositionInteractionSource>
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.Interactions.ICompositionInteractionSource>
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public void RemoveAll()
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection", "void CompositionInteractionSourceCollection.RemoveAll()");
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Composition.Interactions.ICompositionInteractionSource> GetEnumerator()
 		{
-			throw new global::System.NotSupportedException();
+			throw new global::System.NotImplementedException("The member IEnumerator<ICompositionInteractionSource> CompositionInteractionSourceCollection.GetEnumerator() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IEnumerator%3CICompositionInteractionSource%3E%20CompositionInteractionSourceCollection.GetEnumerator%28%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.System.Collections.IEnumerable.GetEnumerator()
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.Count.get
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.Interactions.CompositionInteractionSourceCollection.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.Interactions.ICompositionInteractionSource>
 		// Processing: System.Collections.IEnumerable
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		// DeclaringType: System.Collections.IEnumerable

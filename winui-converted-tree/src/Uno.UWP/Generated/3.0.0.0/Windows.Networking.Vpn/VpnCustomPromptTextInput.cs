@@ -10,21 +10,21 @@ namespace Windows.Networking.Vpn
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool Emphasized
+		bool global::Windows.Networking.Vpn.IVpnCustomPromptElement.Compulsory
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member bool VpnCustomPromptTextInput.Emphasized is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20VpnCustomPromptTextInput.Emphasized");
+				throw new global::System.NotImplementedException("The member bool VpnCustomPromptTextInput.Compulsory is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20VpnCustomPromptTextInput.Compulsory");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "bool VpnCustomPromptTextInput.Emphasized");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "bool VpnCustomPromptTextInput.Compulsory");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string DisplayName
+		string global::Windows.Networking.Vpn.IVpnCustomPromptElement.DisplayName
 		{
 			get
 			{
@@ -33,6 +33,20 @@ namespace Windows.Networking.Vpn
 			set
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "string VpnCustomPromptTextInput.DisplayName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Networking.Vpn.IVpnCustomPromptElement.Emphasized
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool VpnCustomPromptTextInput.Emphasized is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20VpnCustomPromptTextInput.Emphasized");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "bool VpnCustomPromptTextInput.Emphasized");
 			}
 		}
 #endif
@@ -52,15 +66,29 @@ namespace Windows.Networking.Vpn
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string PlaceholderText
+		public string DisplayName
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string VpnCustomPromptTextInput.PlaceholderText is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20VpnCustomPromptTextInput.PlaceholderText");
+				throw new global::System.NotImplementedException("The member string VpnCustomPromptTextInput.DisplayName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20VpnCustomPromptTextInput.DisplayName");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "string VpnCustomPromptTextInput.PlaceholderText");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "string VpnCustomPromptTextInput.DisplayName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool Emphasized
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool VpnCustomPromptTextInput.Emphasized is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20VpnCustomPromptTextInput.Emphasized");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "bool VpnCustomPromptTextInput.Emphasized");
 			}
 		}
 #endif
@@ -75,6 +103,20 @@ namespace Windows.Networking.Vpn
 			set
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "bool VpnCustomPromptTextInput.IsTextHidden");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string PlaceholderText
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string VpnCustomPromptTextInput.PlaceholderText is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20VpnCustomPromptTextInput.PlaceholderText");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.Vpn.VpnCustomPromptTextInput", "string VpnCustomPromptTextInput.PlaceholderText");
 			}
 		}
 #endif
@@ -96,17 +138,34 @@ namespace Windows.Networking.Vpn
 		}
 #endif
 		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.VpnCustomPromptTextInput()
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.PlaceholderText.set
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.PlaceholderText.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.IsTextHidden.set
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.IsTextHidden.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Text.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.DisplayName.set
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.DisplayName.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Compulsory.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.FromAbi(nint)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.operator ==(Windows.Networking.Vpn.VpnCustomPromptTextInput, Windows.Networking.Vpn.VpnCustomPromptTextInput)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.operator !=(Windows.Networking.Vpn.VpnCustomPromptTextInput, Windows.Networking.Vpn.VpnCustomPromptTextInput)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Equals(Windows.Networking.Vpn.VpnCustomPromptTextInput)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Equals(object)
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.GetHashCode()
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.Compulsory.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.Compulsory.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.DisplayName.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.DisplayName.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.Emphasized.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Windows.Networking.Vpn.IVpnCustomPromptElement.Emphasized.set
 		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Compulsory.get
-		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Emphasized.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Compulsory.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.DisplayName.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.DisplayName.set
 		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Emphasized.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Emphasized.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.IsTextHidden.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.IsTextHidden.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.PlaceholderText.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.PlaceholderText.set
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.Text.get
+		// Forced skipping of method Windows.Networking.Vpn.VpnCustomPromptTextInput.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Networking.Vpn.IVpnCustomPromptElement
 	}
 }

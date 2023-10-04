@@ -23,7 +23,16 @@ namespace Microsoft.UI.Windowing
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Added.add
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.operator ==(Microsoft.UI.Windowing.DisplayAreaWatcher, Microsoft.UI.Windowing.DisplayAreaWatcher)
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.operator !=(Microsoft.UI.Windowing.DisplayAreaWatcher, Microsoft.UI.Windowing.DisplayAreaWatcher)
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Equals(Microsoft.UI.Windowing.DisplayAreaWatcher)
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Equals(object)
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Start()
@@ -38,7 +47,7 @@ namespace Microsoft.UI.Windowing
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Windowing.DisplayAreaWatcher", "void DisplayAreaWatcher.Stop()");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Status.get
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Added.add
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Added.remove
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.EnumerationCompleted.add
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.EnumerationCompleted.remove
@@ -48,6 +57,8 @@ namespace Microsoft.UI.Windowing
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Stopped.remove
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Updated.add
 		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Updated.remove
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.Status.get
+		// Forced skipping of method Microsoft.UI.Windowing.DisplayAreaWatcher.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Windowing.DisplayAreaWatcher, global::Microsoft.UI.Windowing.DisplayArea> Added

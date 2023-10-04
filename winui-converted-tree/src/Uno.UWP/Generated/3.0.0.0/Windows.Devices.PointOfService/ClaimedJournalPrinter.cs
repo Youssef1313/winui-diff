@@ -15,35 +15,75 @@ namespace Windows.Devices.PointOfService
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint LineSpacing
+		uint global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineSpacing is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineSpacing");
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.CharactersPerLine is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.CharactersPerLine");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineSpacing");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.CharactersPerLine");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint LineHeight
+		global::Windows.Devices.PointOfService.PosPrinterColorCartridge global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.ColorCartridge
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineHeight is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineHeight");
+				throw new global::System.NotImplementedException("The member PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PosPrinterColorCartridge%20ClaimedJournalPrinter.ColorCartridge");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineHeight");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge");
 			}
 		}
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool IsLetterQuality
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCartridgeEmpty
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsCartridgeEmpty is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsCartridgeEmpty");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCartridgeRemoved
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsCartridgeRemoved is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsCartridgeRemoved");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCoverOpen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsCoverOpen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsCoverOpen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsHeadCleaning
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsHeadCleaning is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsHeadCleaning");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsLetterQuality
 		{
 			get
 			{
@@ -57,15 +97,69 @@ namespace Windows.Devices.PointOfService
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Devices.PointOfService.PosPrinterColorCartridge ColorCartridge
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsPaperEmpty
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PosPrinterColorCartridge%20ClaimedJournalPrinter.ColorCartridge");
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsPaperEmpty is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsPaperEmpty");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsPaperNearEnd
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsPaperNearEnd is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsPaperNearEnd");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsReadyToPrint
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsReadyToPrint is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsReadyToPrint");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineHeight
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineHeight is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineHeight");
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineHeight");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineSpacing
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineSpacing is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineSpacing");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineSpacing");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineWidth
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineWidth is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineWidth");
 			}
 		}
 #endif
@@ -80,6 +174,20 @@ namespace Windows.Devices.PointOfService
 			set
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.CharactersPerLine");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Devices.PointOfService.PosPrinterColorCartridge ColorCartridge
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PosPrinterColorCartridge%20ClaimedJournalPrinter.ColorCartridge");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "PosPrinterColorCartridge ClaimedJournalPrinter.ColorCartridge");
 			}
 		}
 #endif
@@ -125,6 +233,20 @@ namespace Windows.Devices.PointOfService
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool IsLetterQuality
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.IsLetterQuality is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.IsLetterQuality");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "bool ClaimedJournalPrinter.IsLetterQuality");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsPaperEmpty
 		{
 			get
@@ -155,6 +277,34 @@ namespace Windows.Devices.PointOfService
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint LineHeight
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineHeight is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineHeight");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineHeight");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint LineSpacing
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint ClaimedJournalPrinter.LineSpacing is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20ClaimedJournalPrinter.LineSpacing");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Devices.PointOfService.ClaimedJournalPrinter", "uint ClaimedJournalPrinter.LineSpacing");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public uint LineWidth
 		{
 			get
@@ -163,6 +313,16 @@ namespace Windows.Devices.PointOfService
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.operator ==(Windows.Devices.PointOfService.ClaimedJournalPrinter, Windows.Devices.PointOfService.ClaimedJournalPrinter)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.operator !=(Windows.Devices.PointOfService.ClaimedJournalPrinter, Windows.Devices.PointOfService.ClaimedJournalPrinter)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Equals(Windows.Devices.PointOfService.ClaimedJournalPrinter)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Equals(object)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.GetHashCode()
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Devices.PointOfService.JournalPrintJob CreateJob()
@@ -170,24 +330,6 @@ namespace Windows.Devices.PointOfService
 			throw new global::System.NotImplementedException("The member JournalPrintJob ClaimedJournalPrinter.CreateJob() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=JournalPrintJob%20ClaimedJournalPrinter.CreateJob%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.CharactersPerLine.set
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.CharactersPerLine.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineHeight.set
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineHeight.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineSpacing.set
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineSpacing.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineWidth.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsLetterQuality.set
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsLetterQuality.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsPaperNearEnd.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.ColorCartridge.set
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.ColorCartridge.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCoverOpen.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCartridgeRemoved.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCartridgeEmpty.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsHeadCleaning.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsPaperEmpty.get
-		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsReadyToPrint.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool ValidateData(string data)
@@ -195,6 +337,44 @@ namespace Windows.Devices.PointOfService
 			throw new global::System.NotImplementedException("The member bool ClaimedJournalPrinter.ValidateData(string data) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ClaimedJournalPrinter.ValidateData%28string%20data%29");
 		}
 #endif
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.ValidateData(string)
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.CharactersPerLine.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.ColorCartridge.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.ColorCartridge.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCartridgeEmpty.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCartridgeRemoved.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsCoverOpen.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsHeadCleaning.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsLetterQuality.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsLetterQuality.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsPaperEmpty.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsPaperNearEnd.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.IsReadyToPrint.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineHeight.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineHeight.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineSpacing.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineSpacing.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation.LineWidth.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.CharactersPerLine.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.CharactersPerLine.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.ColorCartridge.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.ColorCartridge.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCartridgeEmpty.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCartridgeRemoved.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsCoverOpen.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsHeadCleaning.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsLetterQuality.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsLetterQuality.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsPaperEmpty.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsPaperNearEnd.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.IsReadyToPrint.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineHeight.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineHeight.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineSpacing.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineSpacing.set
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.LineWidth.get
+		// Forced skipping of method Windows.Devices.PointOfService.ClaimedJournalPrinter.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.PointOfService.ICommonClaimedPosPrinterStation
 	}
 }

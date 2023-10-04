@@ -16,6 +16,16 @@ namespace Windows.Foundation.Diagnostics
 		}
 #endif
 		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.RuntimeBrokerErrorSettings()
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.FromAbi(nint)
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.operator ==(Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings, Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings)
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.operator !=(Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings, Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings)
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.Equals(Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings)
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.Equals(object)
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.GetHashCode()
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetErrorOptions(global::Windows.Foundation.Diagnostics.ErrorOptions value)
@@ -23,6 +33,7 @@ namespace Windows.Foundation.Diagnostics
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings", "void RuntimeBrokerErrorSettings.SetErrorOptions(ErrorOptions value)");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.Windows.Foundation.Diagnostics.IErrorReportingSettings.SetErrorOptions(Windows.Foundation.Diagnostics.ErrorOptions)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Diagnostics.ErrorOptions GetErrorOptions()
@@ -30,6 +41,8 @@ namespace Windows.Foundation.Diagnostics
 			throw new global::System.NotImplementedException("The member ErrorOptions RuntimeBrokerErrorSettings.GetErrorOptions() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ErrorOptions%20RuntimeBrokerErrorSettings.GetErrorOptions%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.Windows.Foundation.Diagnostics.IErrorReportingSettings.GetErrorOptions()
+		// Forced skipping of method Windows.Foundation.Diagnostics.RuntimeBrokerErrorSettings.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Foundation.Diagnostics.IErrorReportingSettings
 	}
 }

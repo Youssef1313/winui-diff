@@ -15,6 +15,66 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.ChainDepth
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint PlayReadyLicense.ChainDepth is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20PlayReadyLicense.ChainDepth");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.DomainAccountID
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadyLicense.DomainAccountID is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyLicense.DomainAccountID");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.DateTimeOffset? global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.ExpirationDate
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset? PlayReadyLicense.ExpirationDate is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%3F%20PlayReadyLicense.ExpirationDate");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		uint global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.ExpireAfterFirstPlay
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint PlayReadyLicense.ExpireAfterFirstPlay is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20PlayReadyLicense.ExpireAfterFirstPlay");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.FullyEvaluated
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.FullyEvaluated is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.FullyEvaluated");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Media.Protection.PlayReady.IPlayReadyLicense.UsableForPlay
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.UsableForPlay is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.UsableForPlay");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public uint ChainDepth
 		{
 			get
@@ -55,31 +115,21 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool FullyEvaluated
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.FullyEvaluated is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.FullyEvaluated");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool UsableForPlay
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.UsableForPlay is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.UsableForPlay");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool ExpiresInRealTime
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.ExpiresInRealTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.ExpiresInRealTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool FullyEvaluated
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.FullyEvaluated is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.FullyEvaluated");
 			}
 		}
 #endif
@@ -113,12 +163,26 @@ namespace Windows.Media.Protection.PlayReady
 			}
 		}
 #endif
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.FullyEvaluated.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.UsableForPlay.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpirationDate.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpireAfterFirstPlay.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.DomainAccountID.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ChainDepth.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool UsableForPlay
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PlayReadyLicense.UsableForPlay is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadyLicense.UsableForPlay");
+			}
+		}
+#endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.operator ==(Windows.Media.Protection.PlayReady.PlayReadyLicense, Windows.Media.Protection.PlayReady.PlayReadyLicense)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.operator !=(Windows.Media.Protection.PlayReady.PlayReadyLicense, Windows.Media.Protection.PlayReady.PlayReadyLicense)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Equals(Windows.Media.Protection.PlayReady.PlayReadyLicense)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Guid GetKIDAtChainDepth(uint chainDepth)
@@ -126,10 +190,24 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member Guid PlayReadyLicense.GetKIDAtChainDepth(uint chainDepth) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadyLicense.GetKIDAtChainDepth%28uint%20chainDepth%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.GetKIDAtChainDepth(uint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.ChainDepth.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.DomainAccountID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.ExpirationDate.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.ExpireAfterFirstPlay.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.FullyEvaluated.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.Windows.Media.Protection.PlayReady.IPlayReadyLicense.UsableForPlay.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ChainDepth.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.DomainAccountID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpirationDate.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpireAfterFirstPlay.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpiresInRealTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.FullyEvaluated.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.InMemoryOnly.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.SecureStopId.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.SecurityLevel.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.InMemoryOnly.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.ExpiresInRealTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.UsableForPlay.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadyLicense.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadyLicense
 	}
 }

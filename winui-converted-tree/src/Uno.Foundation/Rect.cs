@@ -1,4 +1,4 @@
-﻿#nullable enable
+#nullable enable
 using System;
 using System.Diagnostics;
 using System.Globalization;
@@ -52,6 +52,29 @@ public partial struct Rect
 		Width = width;
 		Height = height;
 	}
+
+#if HAS_UNO_WINUI
+	public Rect(float x, float y, float width, float height)
+	{
+		if (!Uno.FoundationFeatureConfiguration.Rect.AllowNegativeWidthHeight)
+		{
+			if (width < 0)
+			{
+				throw new ArgumentOutOfRangeException(nameof(width), _negativeErrorMessage);
+			}
+
+			if (height < 0)
+			{
+				throw new ArgumentOutOfRangeException(nameof(width), _negativeErrorMessage);
+			}
+		}
+
+		X = x;
+		Y = y;
+		Width = width;
+		Height = height;
+	}
+#endif
 
 	public Rect(Point point1, Point point2)
 	{

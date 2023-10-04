@@ -229,7 +229,6 @@ namespace Microsoft.UI.Xaml
 		public static bool Equals(Duration first, Duration second)
 		{
 			return first.Equals(second);
-
 		}
 
 		public int CompareTo(Duration other)

@@ -10,6 +10,19 @@ namespace Windows.Networking.NetworkOperators
 	{
 		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.ProfileUsage()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public ProfileUsage(uint _UsageInMegabytes, global::System.DateTimeOffset _LastSyncTime)
+		{
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Networking.NetworkOperators.ProfileUsage", "ProfileUsage.ProfileUsage(uint _UsageInMegabytes, DateTimeOffset _LastSyncTime)");
+		}
+#endif
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.ProfileUsage(uint, System.DateTimeOffset)
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.operator ==(Windows.Networking.NetworkOperators.ProfileUsage, Windows.Networking.NetworkOperators.ProfileUsage)
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.operator !=(Windows.Networking.NetworkOperators.ProfileUsage, Windows.Networking.NetworkOperators.ProfileUsage)
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.Equals(Windows.Networking.NetworkOperators.ProfileUsage)
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.Equals(object)
+		// Forced skipping of method Windows.Networking.NetworkOperators.ProfileUsage.GetHashCode()
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		public uint UsageInMegabytes;
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__

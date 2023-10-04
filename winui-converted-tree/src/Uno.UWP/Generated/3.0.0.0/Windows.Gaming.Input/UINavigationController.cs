@@ -15,6 +15,46 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Collections.Generic.IReadOnlyList<global::Windows.Gaming.Input.UINavigationController> UINavigationControllers
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<UINavigationController> UINavigationController.UINavigationControllers is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CUINavigationController%3E%20UINavigationController.UINavigationControllers");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Gaming.Input.Headset global::Windows.Gaming.Input.IGameController.Headset
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Headset UINavigationController.Headset is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Headset%20UINavigationController.Headset");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Gaming.Input.IGameController.IsWireless
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool UINavigationController.IsWireless is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20UINavigationController.IsWireless");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.Gaming.Input.IGameController.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User UINavigationController.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20UINavigationController.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.Headset Headset
 		{
 			get
@@ -43,16 +83,29 @@ namespace Windows.Gaming.Input
 			}
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.As<I>()
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllers.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerAdded.add
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerAdded.remove
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerRemoved.add
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerRemoved.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Collections.Generic.IReadOnlyList<global::Windows.Gaming.Input.UINavigationController> UINavigationControllers
+		public static global::Windows.Gaming.Input.UINavigationController FromGameController(global::Windows.Gaming.Input.IGameController gameController)
 		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IReadOnlyList<UINavigationController> UINavigationController.UINavigationControllers is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CUINavigationController%3E%20UINavigationController.UINavigationControllers");
-			}
+			throw new global::System.NotImplementedException("The member UINavigationController UINavigationController.FromGameController(IGameController gameController) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UINavigationController%20UINavigationController.FromGameController%28IGameController%20gameController%29");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.FromAbi(nint)
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.operator ==(Windows.Gaming.Input.UINavigationController, Windows.Gaming.Input.UINavigationController)
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.operator !=(Windows.Gaming.Input.UINavigationController, Windows.Gaming.Input.UINavigationController)
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Equals(Windows.Gaming.Input.UINavigationController)
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Equals(object)
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.GetHashCode()
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Gaming.Input.UINavigationReading GetCurrentReading()
@@ -76,13 +129,19 @@ namespace Windows.Gaming.Input
 #endif
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.HeadsetConnected.add
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.HeadsetConnected.remove
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.HeadsetConnected.add
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.HeadsetConnected.remove
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.HeadsetDisconnected.add
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.HeadsetDisconnected.remove
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.HeadsetDisconnected.add
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.HeadsetDisconnected.remove
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UserChanged.add
 		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UserChanged.remove
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Headset.get
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.IsWireless.get
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.User.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.UserChanged.add
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.UserChanged.remove
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.Headset.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.IsWireless.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameController.User.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Devices.Power.BatteryReport TryGetBatteryReport()
@@ -90,21 +149,62 @@ namespace Windows.Gaming.Input
 			throw new global::System.NotImplementedException("The member BatteryReport UINavigationController.TryGetBatteryReport() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=BatteryReport%20UINavigationController.TryGetBatteryReport%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Windows.Gaming.Input.IGameControllerBatteryInfo.TryGetBatteryReport()
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.Headset.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.IsWireless.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.User.get
+		// Forced skipping of method Windows.Gaming.Input.UINavigationController.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Windows.Gaming.Input.UINavigationController FromGameController(global::Windows.Gaming.Input.IGameController gameController)
+		public static event global::System.EventHandler<global::Windows.Gaming.Input.UINavigationController> UINavigationControllerAdded
 		{
-			throw new global::System.NotImplementedException("The member UINavigationController UINavigationController.FromGameController(IGameController gameController) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UINavigationController%20UINavigationController.FromGameController%28IGameController%20gameController%29");
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerAdded");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerAdded");
+			}
 		}
 #endif
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerAdded.add
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerAdded.remove
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerRemoved.add
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllerRemoved.remove
-		// Forced skipping of method Windows.Gaming.Input.UINavigationController.UINavigationControllers.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static event global::System.EventHandler<global::Windows.Gaming.Input.UINavigationController> UINavigationControllerRemoved
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerRemoved");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerRemoved");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> HeadsetConnected
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, Headset> UINavigationController.HeadsetConnected");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, Headset> UINavigationController.HeadsetConnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> global::Windows.Gaming.Input.IGameController.HeadsetConnected
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -136,6 +236,22 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.Gaming.Input.Headset> global::Windows.Gaming.Input.IGameController.HeadsetDisconnected
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, Headset> UINavigationController.HeadsetDisconnected");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, Headset> UINavigationController.HeadsetDisconnected");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.System.UserChangedEventArgs> UserChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
@@ -152,33 +268,17 @@ namespace Windows.Gaming.Input
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static event global::System.EventHandler<global::Windows.Gaming.Input.UINavigationController> UINavigationControllerAdded
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.Gaming.Input.IGameController, global::Windows.System.UserChangedEventArgs> global::Windows.Gaming.Input.IGameController.UserChanged
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerAdded");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, UserChangedEventArgs> UINavigationController.UserChanged");
 			}
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerAdded");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static event global::System.EventHandler<global::Windows.Gaming.Input.UINavigationController> UINavigationControllerRemoved
-		{
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerRemoved");
-			}
-			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event EventHandler<UINavigationController> UINavigationController.UINavigationControllerRemoved");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Gaming.Input.UINavigationController", "event TypedEventHandler<IGameController, UserChangedEventArgs> UINavigationController.UserChanged");
 			}
 		}
 #endif

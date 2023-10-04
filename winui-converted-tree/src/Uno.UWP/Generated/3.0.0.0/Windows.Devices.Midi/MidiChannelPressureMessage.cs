@@ -8,6 +8,36 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiChannelPressureMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiChannelPressureMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiChannelPressureMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiChannelPressureMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiChannelPressureMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiChannelPressureMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiChannelPressureMessage.Type");
+			}
+		}
+#endif
 		// Skipping already declared property Channel
 		// Skipping already declared property Pressure
 		// Skipping already declared property RawData
@@ -15,11 +45,25 @@ namespace Windows.Devices.Midi
 		// Skipping already declared property Type
 		// Skipping already declared method Windows.Devices.Midi.MidiChannelPressureMessage.MidiChannelPressureMessage(byte, byte)
 		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.MidiChannelPressureMessage(byte, byte)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.operator ==(Windows.Devices.Midi.MidiChannelPressureMessage, Windows.Devices.Midi.MidiChannelPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.operator !=(Windows.Devices.Midi.MidiChannelPressureMessage, Windows.Devices.Midi.MidiChannelPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Equals(Windows.Devices.Midi.MidiChannelPressureMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Channel.get
 		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Pressure.get
-		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiChannelPressureMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

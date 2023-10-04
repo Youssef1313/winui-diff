@@ -63,10 +63,22 @@ namespace Microsoft.UI.Xaml.Automation
 			}
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.As<I>()
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeIdProperty.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeNameProperty.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AuthorProperty.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.DateTimeProperty.get
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.TargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.operator ==(Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers, Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.operator !=(Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers, Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.Equals(Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

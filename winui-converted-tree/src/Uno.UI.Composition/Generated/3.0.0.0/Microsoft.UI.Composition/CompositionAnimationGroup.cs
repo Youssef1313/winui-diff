@@ -6,7 +6,7 @@ namespace Microsoft.UI.Composition
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 	[global::Uno.NotImplemented]
 #endif
-	public partial class CompositionAnimationGroup : global::Microsoft.UI.Composition.CompositionObject, global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Composition.CompositionAnimation>, global::Microsoft.UI.Composition.ICompositionAnimationBase
+	public partial class CompositionAnimationGroup : global::Microsoft.UI.Composition.CompositionObject, global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Composition.CompositionAnimation>, global::System.Collections.IEnumerable, global::Microsoft.UI.Composition.ICompositionAnimationBase
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		internal CompositionAnimationGroup()
@@ -23,7 +23,14 @@ namespace Microsoft.UI.Composition
 			}
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.First()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.operator ==(Microsoft.UI.Composition.CompositionAnimationGroup, Microsoft.UI.Composition.CompositionAnimationGroup)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.operator !=(Microsoft.UI.Composition.CompositionAnimationGroup, Microsoft.UI.Composition.CompositionAnimationGroup)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.Equals(Microsoft.UI.Composition.CompositionAnimationGroup)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Add(global::Microsoft.UI.Composition.CompositionAnimation value)
@@ -45,16 +52,18 @@ namespace Microsoft.UI.Composition
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Composition.CompositionAnimationGroup", "void CompositionAnimationGroup.RemoveAll()");
 		}
 #endif
-		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.Count.get
-		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.CompositionAnimation>
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.CompositionAnimation>
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Composition.CompositionAnimation> GetEnumerator()
 		{
-			throw new global::System.NotSupportedException();
+			throw new global::System.NotImplementedException("The member IEnumerator<CompositionAnimation> CompositionAnimationGroup.GetEnumerator() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IEnumerator%3CCompositionAnimation%3E%20CompositionAnimationGroup.GetEnumerator%28%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.System.Collections.IEnumerable.GetEnumerator()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.Count.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionAnimationGroup.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Composition.CompositionAnimation>
 		// Processing: System.Collections.IEnumerable
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		// DeclaringType: System.Collections.IEnumerable

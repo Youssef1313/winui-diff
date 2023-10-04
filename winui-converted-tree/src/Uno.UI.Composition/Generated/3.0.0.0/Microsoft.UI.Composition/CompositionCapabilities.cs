@@ -8,22 +8,6 @@ namespace Microsoft.UI.Composition
 #endif
 	public partial class CompositionCapabilities
 	{
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool AreEffectsFast()
-		{
-			throw new global::System.NotImplementedException("The member bool CompositionCapabilities.AreEffectsFast() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CompositionCapabilities.AreEffectsFast%28%29");
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public bool AreEffectsSupported()
-		{
-			throw new global::System.NotImplementedException("The member bool CompositionCapabilities.AreEffectsSupported() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CompositionCapabilities.AreEffectsSupported%28%29");
-		}
-#endif
-		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Changed.add
-		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Changed.remove
 #if __ANDROID__ || __IOS__ || false || false || false || false || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__")]
 		public CompositionCapabilities()
@@ -32,6 +16,33 @@ namespace Microsoft.UI.Composition
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.CompositionCapabilities()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.operator ==(Microsoft.UI.Composition.CompositionCapabilities, Microsoft.UI.Composition.CompositionCapabilities)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.operator !=(Microsoft.UI.Composition.CompositionCapabilities, Microsoft.UI.Composition.CompositionCapabilities)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Equals(Microsoft.UI.Composition.CompositionCapabilities)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Equals(object)
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.WinRT.IWinRTObject.AdditionalTypeData.get
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool AreEffectsSupported()
+		{
+			throw new global::System.NotImplementedException("The member bool CompositionCapabilities.AreEffectsSupported() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CompositionCapabilities.AreEffectsSupported%28%29");
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public bool AreEffectsFast()
+		{
+			throw new global::System.NotImplementedException("The member bool CompositionCapabilities.AreEffectsFast() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CompositionCapabilities.AreEffectsFast%28%29");
+		}
+#endif
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Changed.add
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.Changed.remove
+		// Forced skipping of method Microsoft.UI.Composition.CompositionCapabilities.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Composition.CompositionCapabilities, object> Changed

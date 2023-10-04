@@ -10,6 +10,26 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IValueProvider.IsReadOnly
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CalendarDatePickerAutomationPeer.IsReadOnly is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CalendarDatePickerAutomationPeer.IsReadOnly");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Microsoft.UI.Xaml.Automation.Provider.IValueProvider.Value
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string CalendarDatePickerAutomationPeer.Value is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CalendarDatePickerAutomationPeer.Value");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public bool IsReadOnly
 		{
 			get
@@ -30,9 +50,18 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 #endif
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.CalendarDatePickerAutomationPeer(Microsoft.UI.Xaml.Controls.CalendarDatePicker)
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.CalendarDatePickerAutomationPeer(Microsoft.UI.Xaml.Controls.CalendarDatePicker)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.CalendarDatePickerAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.CalendarDatePickerAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Invoke()
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.IsReadOnly.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IInvokeProvider.Invoke()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetValue(string value)
@@ -40,6 +69,13 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer", "void CalendarDatePickerAutomationPeer.SetValue(string value)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.SetValue(string)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IValueProvider.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.CalendarDatePickerAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IInvokeProvider
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IValueProvider
 	}

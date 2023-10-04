@@ -10,16 +10,6 @@ namespace Windows.Media.MediaProperties
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Asf
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Asf is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Asf");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string Aac
 		{
 			get
@@ -80,11 +70,11 @@ namespace Windows.Media.MediaProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Mpeg1
+		public static string Asf
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Mpeg1 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Mpeg1");
+				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Asf is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Asf");
 			}
 		}
 #endif
@@ -255,6 +245,16 @@ namespace Windows.Media.MediaProperties
 			get
 			{
 				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Mpeg is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Mpeg");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static string Mpeg1
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Mpeg1 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Mpeg1");
 			}
 		}
 #endif
@@ -490,6 +490,16 @@ namespace Windows.Media.MediaProperties
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static string Pgs
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Pgs is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Pgs");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static string Srt
 		{
 			get
@@ -518,28 +528,7 @@ namespace Windows.Media.MediaProperties
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static string Pgs
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string MediaEncodingSubtypes.Pgs is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20MediaEncodingSubtypes.Pgs");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Pgs.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Srt.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Ssa.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.VobSub.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Heif.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.P010.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Alac.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Flac.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Vp9.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.L8.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.L16.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.D16.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.As<I>()
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Aac.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.AacAdts.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Ac3.get
@@ -562,10 +551,10 @@ namespace Windows.Media.MediaProperties
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Jpeg.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.JpegXr.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mjpg.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mp3.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mpeg.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mpeg1.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mpeg2.get
-		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mp3.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Mpeg4.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Nv12.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Pcm.get
@@ -580,5 +569,17 @@ namespace Windows.Media.MediaProperties
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Wvc1.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Yuy2.get
 		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Yv12.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.D16.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.L16.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.L8.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Vp9.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Alac.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Flac.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.P010.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Heif.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Pgs.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Srt.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.Ssa.get
+		// Forced skipping of method Windows.Media.MediaProperties.MediaEncodingSubtypes.VobSub.get
 	}
 }

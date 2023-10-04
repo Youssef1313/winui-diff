@@ -10,10 +10,24 @@ namespace Microsoft.UI.Xaml.Controls
 	{
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.DataTemplateSelector.DataTemplateSelector()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.DataTemplateSelector()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.DataTemplateSelector(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.operator ==(Microsoft.UI.Xaml.Controls.DataTemplateSelector, Microsoft.UI.Xaml.Controls.DataTemplateSelector)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.operator !=(Microsoft.UI.Xaml.Controls.DataTemplateSelector, Microsoft.UI.Xaml.Controls.DataTemplateSelector)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Equals(Microsoft.UI.Xaml.Controls.DataTemplateSelector)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.DataTemplateSelector(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.WinRT.IWinRTObject.AdditionalTypeData.get
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplate(object, Microsoft.UI.Xaml.DependencyObject)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplate(object)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore(object, Microsoft.UI.Xaml.DependencyObject)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Microsoft.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore(object, Microsoft.UI.Xaml.DependencyObject)
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.DataTemplateSelector.SelectTemplateCore(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Microsoft.UI.Xaml.Controls.IDataTemplateSelectorOverrides.SelectTemplateCore(object)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Microsoft.UI.Xaml.UIElement GetElement(global::Microsoft.UI.Xaml.ElementFactoryGetArgs args)
@@ -21,6 +35,7 @@ namespace Microsoft.UI.Xaml.Controls
 			throw new global::System.NotImplementedException("The member UIElement DataTemplateSelector.GetElement(ElementFactoryGetArgs args) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=UIElement%20DataTemplateSelector.GetElement%28ElementFactoryGetArgs%20args%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Microsoft.UI.Xaml.IElementFactory.GetElement(Microsoft.UI.Xaml.ElementFactoryGetArgs)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void RecycleElement(global::Microsoft.UI.Xaml.ElementFactoryRecycleArgs args)
@@ -28,6 +43,9 @@ namespace Microsoft.UI.Xaml.Controls
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.DataTemplateSelector", "void DataTemplateSelector.RecycleElement(ElementFactoryRecycleArgs args)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.Microsoft.UI.Xaml.IElementFactory.RecycleElement(Microsoft.UI.Xaml.ElementFactoryRecycleArgs)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DataTemplateSelector.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.IElementFactory
 	}
 }

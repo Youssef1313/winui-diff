@@ -10,16 +10,6 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid HeartRateMeasurement
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.HeartRateMeasurement is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.HeartRateMeasurement");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::System.Guid BatteryLevel
 		{
 			get
@@ -120,6 +110,16 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid HeartRateMeasurement
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.HeartRateMeasurement is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.HeartRateMeasurement");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::System.Guid IntermediateCuffPressure
 		{
 			get
@@ -215,6 +215,216 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 			get
 			{
 				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.TemperatureType is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.TemperatureType");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid AlertCategoryId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertCategoryId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertCategoryId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid AlertCategoryIdBitMask
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertCategoryIdBitMask is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertCategoryIdBitMask");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid AlertLevel
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertLevel is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertLevel");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid AlertNotificationControlPoint
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertNotificationControlPoint is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertNotificationControlPoint");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid AlertStatus
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertStatus is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertStatus");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid BootKeyboardInputReport
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootKeyboardInputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootKeyboardInputReport");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid BootKeyboardOutputReport
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootKeyboardOutputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootKeyboardOutputReport");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid BootMouseInputReport
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootMouseInputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootMouseInputReport");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid CurrentTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CurrentTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CurrentTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid CyclingPowerControlPoint
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerControlPoint is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerControlPoint");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid CyclingPowerFeature
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerFeature is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerFeature");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid CyclingPowerMeasurement
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerMeasurement is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerMeasurement");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid CyclingPowerVector
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerVector is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerVector");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid DateTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DateTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DateTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid DayDateTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DayDateTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DayDateTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid DayOfWeek
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DayOfWeek is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DayOfWeek");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid DstOffset
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DstOffset is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DstOffset");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid ExactTime256
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.ExactTime256 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.ExactTime256");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid FirmwareRevisionString
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.FirmwareRevisionString is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.FirmwareRevisionString");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid GapAppearance
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.GapAppearance is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.GapAppearance");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public static global::System.Guid GapDeviceName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.GapDeviceName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.GapDeviceName");
 			}
 		}
 #endif
@@ -410,11 +620,11 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid CyclingPowerFeature
+		public static global::System.Guid ReferenceTimeInformation
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerFeature is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerFeature");
+				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.ReferenceTimeInformation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.ReferenceTimeInformation");
 			}
 		}
 #endif
@@ -608,276 +818,7 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 			}
 		}
 #endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid AlertCategoryId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertCategoryId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertCategoryId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid AlertCategoryIdBitMask
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertCategoryIdBitMask is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertCategoryIdBitMask");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid AlertLevel
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertLevel is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertLevel");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid AlertNotificationControlPoint
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertNotificationControlPoint is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertNotificationControlPoint");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid AlertStatus
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.AlertStatus is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.AlertStatus");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid BootKeyboardInputReport
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootKeyboardInputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootKeyboardInputReport");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid BootKeyboardOutputReport
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootKeyboardOutputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootKeyboardOutputReport");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid BootMouseInputReport
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.BootMouseInputReport is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.BootMouseInputReport");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid CurrentTime
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CurrentTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CurrentTime");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid CyclingPowerControlPoint
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerControlPoint is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerControlPoint");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid ReferenceTimeInformation
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.ReferenceTimeInformation is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.ReferenceTimeInformation");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid CyclingPowerMeasurement
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerMeasurement is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerMeasurement");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid CyclingPowerVector
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.CyclingPowerVector is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.CyclingPowerVector");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid DateTime
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DateTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DateTime");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid DayDateTime
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DayDateTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DayDateTime");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid DayOfWeek
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DayOfWeek is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DayOfWeek");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid DstOffset
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.DstOffset is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.DstOffset");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid ExactTime256
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.ExactTime256 is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.ExactTime256");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid FirmwareRevisionString
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.FirmwareRevisionString is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.FirmwareRevisionString");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid GapAppearance
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.GapAppearance is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.GapAppearance");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::System.Guid GapDeviceName
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid GattCharacteristicUuids.GapDeviceName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20GattCharacteristicUuids.GapDeviceName");
-			}
-		}
-#endif
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryId.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertLevel.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertNotificationControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertStatus.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootKeyboardInputReport.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootKeyboardOutputReport.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootMouseInputReport.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CurrentTime.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerFeature.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerMeasurement.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerVector.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DateTime.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DayDateTime.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DayOfWeek.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapDeviceName.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DstOffset.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ExactTime256.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.FirmwareRevisionString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HardwareRevisionString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HidControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HidInformation.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Ieee1107320601RegulatoryCertificationDataList.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LnControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LnFeature.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LocalTimeInformation.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LocationAndSpeed.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ManufacturerNameString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Navigation.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.NewAlert.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapPeripheralPreferredConnectionParameters.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapPeripheralPrivacyFlag.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.PnpId.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.PositionQuality.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ProtocolMode.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ReferenceTimeInformation.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Report.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ReportMap.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.RingerControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.RingerSetting.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ScanIntervalWindow.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ScanRefresh.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SerialNumberString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GattServiceChanged.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SoftwareRevisionString.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SupportedNewAlertCategory.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SupportUnreadAlertCategory.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SystemId.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeAccuracy.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeSource.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeUpdateControlPoint.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeUpdateState.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeWithDst.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeZone.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel.get
-		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.UnreadAlertStatus.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.As<I>()
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BatteryLevel.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BloodPressureFeature.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BloodPressureMeasurement.get
@@ -899,5 +840,65 @@ namespace Windows.Devices.Bluetooth.GenericAttributeProfile
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SensorLocation.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TemperatureMeasurement.get
 		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TemperatureType.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryId.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertCategoryIdBitMask.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertLevel.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertNotificationControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.AlertStatus.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootKeyboardInputReport.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootKeyboardOutputReport.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.BootMouseInputReport.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CurrentTime.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerFeature.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerMeasurement.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.CyclingPowerVector.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DateTime.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DayDateTime.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DayOfWeek.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.DstOffset.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ExactTime256.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.FirmwareRevisionString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapAppearance.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapDeviceName.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapPeripheralPreferredConnectionParameters.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapPeripheralPrivacyFlag.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GapReconnectionAddress.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.GattServiceChanged.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HardwareRevisionString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HidControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.HidInformation.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Ieee1107320601RegulatoryCertificationDataList.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LnControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LnFeature.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LocalTimeInformation.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.LocationAndSpeed.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ManufacturerNameString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ModelNumberString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Navigation.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.NewAlert.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.PnpId.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.PositionQuality.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ProtocolMode.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ReferenceTimeInformation.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.Report.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ReportMap.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.RingerControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.RingerSetting.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ScanIntervalWindow.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.ScanRefresh.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SerialNumberString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SoftwareRevisionString.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SupportUnreadAlertCategory.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SupportedNewAlertCategory.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.SystemId.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeAccuracy.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeSource.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeUpdateControlPoint.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeUpdateState.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeWithDst.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TimeZone.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.TxPowerLevel.get
+		// Forced skipping of method Windows.Devices.Bluetooth.GenericAttributeProfile.GattCharacteristicUuids.UnreadAlertStatus.get
 	}
 }

@@ -4,10 +4,8 @@
 namespace Windows.Networking.Connectivity
 {
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-	[global::Uno.NotImplemented]
-#endif
-	public partial struct WwanContract
+	public enum WwanContract
 	{
-		// Forced skipping of method Windows.Networking.Connectivity.WwanContract.WwanContract()
 	}
+#endif
 }

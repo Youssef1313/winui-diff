@@ -10,15 +10,31 @@ namespace Windows.Media.Audio
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public uint Release
+		string global::Windows.Media.Effects.IAudioEffectDefinition.ActivatableClassId
 		{
 			get
 			{
-				throw new global::System.NotImplementedException("The member uint LimiterEffectDefinition.Release is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20LimiterEffectDefinition.Release");
+				throw new global::System.NotImplementedException("The member string LimiterEffectDefinition.ActivatableClassId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LimiterEffectDefinition.ActivatableClassId");
 			}
-			set
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Collections.IPropertySet global::Windows.Media.Effects.IAudioEffectDefinition.Properties
+		{
+			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.LimiterEffectDefinition", "uint LimiterEffectDefinition.Release");
+				throw new global::System.NotImplementedException("The member IPropertySet LimiterEffectDefinition.Properties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20LimiterEffectDefinition.Properties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string ActivatableClassId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string LimiterEffectDefinition.ActivatableClassId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LimiterEffectDefinition.ActivatableClassId");
 			}
 		}
 #endif
@@ -38,21 +54,25 @@ namespace Windows.Media.Audio
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string ActivatableClassId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string LimiterEffectDefinition.ActivatableClassId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20LimiterEffectDefinition.ActivatableClassId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.Collections.IPropertySet Properties
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member IPropertySet LimiterEffectDefinition.Properties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20LimiterEffectDefinition.Properties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public uint Release
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member uint LimiterEffectDefinition.Release is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=uint%20LimiterEffectDefinition.Release");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Audio.LimiterEffectDefinition", "uint LimiterEffectDefinition.Release");
 			}
 		}
 #endif
@@ -64,12 +84,25 @@ namespace Windows.Media.Audio
 		}
 #endif
 		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.LimiterEffectDefinition(Windows.Media.Audio.AudioGraph)
-		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Release.set
-		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Release.get
-		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Loudness.set
-		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Loudness.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.operator ==(Windows.Media.Audio.LimiterEffectDefinition, Windows.Media.Audio.LimiterEffectDefinition)
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.operator !=(Windows.Media.Audio.LimiterEffectDefinition, Windows.Media.Audio.LimiterEffectDefinition)
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Equals(Windows.Media.Audio.LimiterEffectDefinition)
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Equals(object)
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.GetHashCode()
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Windows.Media.Effects.IAudioEffectDefinition.ActivatableClassId.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Windows.Media.Effects.IAudioEffectDefinition.Properties.get
 		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.ActivatableClassId.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Loudness.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Loudness.set
 		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Properties.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Release.get
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.Release.set
+		// Forced skipping of method Windows.Media.Audio.LimiterEffectDefinition.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Effects.IAudioEffectDefinition
 	}
 }

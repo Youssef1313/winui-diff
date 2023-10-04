@@ -23,8 +23,7 @@ namespace Microsoft.UI.Xaml
 		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata(object)
 		// Skipping already declared method Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata(object, Microsoft.UI.Xaml.PropertyChangedCallback)
 		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata(object, Microsoft.UI.Xaml.PropertyChangedCallback)
-		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.DefaultValue.get
-		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.CreateDefaultValueCallback.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Microsoft.UI.Xaml.PropertyMetadata Create(object defaultValue)
@@ -53,5 +52,21 @@ namespace Microsoft.UI.Xaml
 			throw new global::System.NotImplementedException("The member PropertyMetadata PropertyMetadata.Create(CreateDefaultValueCallback createDefaultValueCallback, PropertyChangedCallback propertyChangedCallback) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PropertyMetadata%20PropertyMetadata.Create%28CreateDefaultValueCallback%20createDefaultValueCallback%2C%20PropertyChangedCallback%20propertyChangedCallback%29");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.operator ==(Microsoft.UI.Xaml.PropertyMetadata, Microsoft.UI.Xaml.PropertyMetadata)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.operator !=(Microsoft.UI.Xaml.PropertyMetadata, Microsoft.UI.Xaml.PropertyMetadata)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.Equals(Microsoft.UI.Xaml.PropertyMetadata)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.PropertyMetadata(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.CreateDefaultValueCallback.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.DefaultValue.get
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.PropertyMetadata.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 	}
 }

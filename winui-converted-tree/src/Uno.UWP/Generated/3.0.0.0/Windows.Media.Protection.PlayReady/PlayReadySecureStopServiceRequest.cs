@@ -10,6 +10,128 @@ namespace Windows.Media.Protection.PlayReady
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		byte[] global::Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.PublisherCertificate
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member byte[] PlayReadySecureStopServiceRequest.PublisherCertificate is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=byte%5B%5D%20PlayReadySecureStopServiceRequest.PublisherCertificate");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.SessionID
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadySecureStopServiceRequest.SessionID is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadySecureStopServiceRequest.SessionID");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.DateTimeOffset global::Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.StartTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset PlayReadySecureStopServiceRequest.StartTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20PlayReadySecureStopServiceRequest.StartTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.Stopped
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool PlayReadySecureStopServiceRequest.Stopped is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20PlayReadySecureStopServiceRequest.Stopped");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.DateTimeOffset global::Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.UpdateTime
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member DateTimeOffset PlayReadySecureStopServiceRequest.UpdateTime is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=DateTimeOffset%20PlayReadySecureStopServiceRequest.UpdateTime");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ChallengeCustomData");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest", "string PlayReadySecureStopServiceRequest.ChallengeCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ResponseCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ResponseCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Uri global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Uri PlayReadySecureStopServiceRequest.Uri is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Uri%20PlayReadySecureStopServiceRequest.Uri");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest", "Uri PlayReadySecureStopServiceRequest.Uri");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.IMediaProtectionServiceRequest.ProtectionSystem
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadySecureStopServiceRequest.ProtectionSystem is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadySecureStopServiceRequest.ProtectionSystem");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Guid global::Windows.Media.Protection.IMediaProtectionServiceRequest.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadySecureStopServiceRequest.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadySecureStopServiceRequest.Type");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string ChallengeCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ChallengeCustomData");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest", "string PlayReadySecureStopServiceRequest.ChallengeCustomData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Guid ProtectionSystem
 		{
 			get
@@ -20,21 +142,21 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Guid Type
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member Guid PlayReadySecureStopServiceRequest.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadySecureStopServiceRequest.Type");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public byte[] PublisherCertificate
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member byte[] PlayReadySecureStopServiceRequest.PublisherCertificate is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=byte%5B%5D%20PlayReadySecureStopServiceRequest.PublisherCertificate");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string ResponseCustomData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ResponseCustomData");
 			}
 		}
 #endif
@@ -70,6 +192,16 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Guid Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Guid PlayReadySecureStopServiceRequest.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Guid%20PlayReadySecureStopServiceRequest.Type");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.DateTimeOffset UpdateTime
 		{
 			get
@@ -94,30 +226,6 @@ namespace Windows.Media.Protection.PlayReady
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string ChallengeCustomData
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ChallengeCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ChallengeCustomData");
-			}
-			set
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest", "string PlayReadySecureStopServiceRequest.ChallengeCustomData");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string ResponseCustomData
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string PlayReadySecureStopServiceRequest.ResponseCustomData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20PlayReadySecureStopServiceRequest.ResponseCustomData");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public PlayReadySecureStopServiceRequest(byte[] publisherCertBytes)
 		{
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest", "PlayReadySecureStopServiceRequest.PlayReadySecureStopServiceRequest(byte[] publisherCertBytes)");
@@ -132,16 +240,21 @@ namespace Windows.Media.Protection.PlayReady
 		}
 #endif
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.PlayReadySecureStopServiceRequest(System.Guid, byte[])
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.SessionID.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.StartTime.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.UpdateTime.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Stopped.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.PublisherCertificate.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Uri.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Uri.set
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ResponseCustomData.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ChallengeCustomData.get
-		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ChallengeCustomData.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.FromAbi(nint)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.operator ==(Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest, Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.operator !=(Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest, Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Equals(Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Equals(object)
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.GetHashCode()
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.PublisherCertificate.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.SessionID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.StartTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.Stopped.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest.UpdateTime.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Foundation.IAsyncAction BeginServiceRequest()
@@ -149,6 +262,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member IAsyncAction PlayReadySecureStopServiceRequest.BeginServiceRequest() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IAsyncAction%20PlayReadySecureStopServiceRequest.BeginServiceRequest%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.BeginServiceRequest()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest NextServiceRequest()
@@ -156,6 +270,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member IPlayReadyServiceRequest PlayReadySecureStopServiceRequest.NextServiceRequest() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPlayReadyServiceRequest%20PlayReadySecureStopServiceRequest.NextServiceRequest%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.NextServiceRequest()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.Media.Protection.PlayReady.PlayReadySoapMessage GenerateManualEnablingChallenge()
@@ -163,6 +278,7 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member PlayReadySoapMessage PlayReadySecureStopServiceRequest.GenerateManualEnablingChallenge() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=PlayReadySoapMessage%20PlayReadySecureStopServiceRequest.GenerateManualEnablingChallenge%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.GenerateManualEnablingChallenge()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::System.Exception ProcessManualEnablingResponse(byte[] responseBytes)
@@ -170,8 +286,27 @@ namespace Windows.Media.Protection.PlayReady
 			throw new global::System.NotImplementedException("The member Exception PlayReadySecureStopServiceRequest.ProcessManualEnablingResponse(byte[] responseBytes) is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Exception%20PlayReadySecureStopServiceRequest.ProcessManualEnablingResponse%28byte%5B%5D%20responseBytes%29");
 		}
 #endif
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ProcessManualEnablingResponse(byte[])
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ChallengeCustomData.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.ResponseCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest.Uri.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.IMediaProtectionServiceRequest.ProtectionSystem.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Windows.Media.Protection.IMediaProtectionServiceRequest.Type.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ChallengeCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ChallengeCustomData.set
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ProtectionSystem.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.PublisherCertificate.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.ResponseCustomData.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.SessionID.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.StartTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Stopped.get
 		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Type.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.UpdateTime.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Uri.get
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.Uri.set
+		// Forced skipping of method Windows.Media.Protection.PlayReady.PlayReadySecureStopServiceRequest.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadySecureStopServiceRequest
 		// Processing: Windows.Media.Protection.PlayReady.IPlayReadyServiceRequest
 		// Processing: Windows.Media.Protection.IMediaProtectionServiceRequest

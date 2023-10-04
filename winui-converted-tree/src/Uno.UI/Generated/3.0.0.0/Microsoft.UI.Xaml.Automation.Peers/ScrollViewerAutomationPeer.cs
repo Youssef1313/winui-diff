@@ -10,6 +10,66 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 	{
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double ScrollViewerAutomationPeer.HorizontalScrollPercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20ScrollViewerAutomationPeer.HorizontalScrollPercent");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double ScrollViewerAutomationPeer.HorizontalViewSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20ScrollViewerAutomationPeer.HorizontalViewSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ScrollViewerAutomationPeer.HorizontallyScrollable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ScrollViewerAutomationPeer.HorizontallyScrollable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double ScrollViewerAutomationPeer.VerticalScrollPercent is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20ScrollViewerAutomationPeer.VerticalScrollPercent");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		double global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member double ScrollViewerAutomationPeer.VerticalViewSize is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=double%20ScrollViewerAutomationPeer.VerticalViewSize");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool ScrollViewerAutomationPeer.VerticallyScrollable is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20ScrollViewerAutomationPeer.VerticallyScrollable");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public double HorizontalScrollPercent
 		{
 			get
@@ -76,12 +136,16 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 		}
 #endif
 		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.ScrollViewerAutomationPeer(Microsoft.UI.Xaml.Controls.ScrollViewer)
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontallyScrollable.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontalScrollPercent.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontalViewSize.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticallyScrollable.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticalScrollPercent.get
-		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.ScrollViewerAutomationPeer(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.operator ==(Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.operator !=(Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer, Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Equals(Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.ScrollViewerAutomationPeer(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.WinRT.IWinRTObject.NativeObject.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Scroll(global::Microsoft.UI.Xaml.Automation.ScrollAmount horizontalAmount, global::Microsoft.UI.Xaml.Automation.ScrollAmount verticalAmount)
@@ -89,6 +153,7 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer", "void ScrollViewerAutomationPeer.Scroll(ScrollAmount horizontalAmount, ScrollAmount verticalAmount)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.Scroll(Microsoft.UI.Xaml.Automation.ScrollAmount, Microsoft.UI.Xaml.Automation.ScrollAmount)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void SetScrollPercent(double horizontalPercent, double verticalPercent)
@@ -96,6 +161,21 @@ namespace Microsoft.UI.Xaml.Automation.Peers
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer", "void ScrollViewerAutomationPeer.SetScrollPercent(double horizontalPercent, double verticalPercent)");
 		}
 #endif
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.SetScrollPercent(double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.ScrollViewerAutomationPeer.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Automation.Provider.IScrollProvider
 	}
 }

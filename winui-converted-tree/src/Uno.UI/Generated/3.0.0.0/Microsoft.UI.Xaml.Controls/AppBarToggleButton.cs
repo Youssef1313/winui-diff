@@ -8,14 +8,6 @@ namespace Microsoft.UI.Xaml.Controls
 #endif
 	public partial class AppBarToggleButton : global::Microsoft.UI.Xaml.Controls.ICommandBarElement
 	{
-		// Skipping already declared property LabelPosition
-		// Skipping already declared property Label
-		// Skipping already declared property KeyboardAcceleratorTextOverride
-		// Skipping already declared property Icon
-		// Skipping already declared property TemplateSettings
-		// Skipping already declared property IsCompact
-		// Skipping already declared property DynamicOverflowOrder
-		// Skipping already declared property IsInOverflow
 		// Skipping already declared property DynamicOverflowOrderProperty
 		// Skipping already declared property IconProperty
 		// Skipping already declared property IsCompactProperty
@@ -23,29 +15,93 @@ namespace Microsoft.UI.Xaml.Controls
 		// Skipping already declared property KeyboardAcceleratorTextOverrideProperty
 		// Skipping already declared property LabelPositionProperty
 		// Skipping already declared property LabelProperty
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int AppBarToggleButton.DynamicOverflowOrder is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20AppBarToggleButton.DynamicOverflowOrder");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.AppBarToggleButton", "int AppBarToggleButton.DynamicOverflowOrder");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarToggleButton.IsCompact is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarToggleButton.IsCompact");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.AppBarToggleButton", "bool AppBarToggleButton.IsCompact");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Microsoft.UI.Xaml.Controls.ICommandBarElement.IsInOverflow
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool AppBarToggleButton.IsInOverflow is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20AppBarToggleButton.IsInOverflow");
+			}
+		}
+#endif
+		// Skipping already declared property DynamicOverflowOrder
+		// Skipping already declared property Icon
+		// Skipping already declared property IsCompact
+		// Skipping already declared property IsInOverflow
+		// Skipping already declared property KeyboardAcceleratorTextOverride
+		// Skipping already declared property Label
+		// Skipping already declared property LabelPosition
+		// Skipping already declared property TemplateSettings
 		// Skipping already declared method Microsoft.UI.Xaml.Controls.AppBarToggleButton.AppBarToggleButton()
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.AppBarToggleButton()
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Label.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Label.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.As<I>()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IconProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsCompactProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsInOverflowProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverrideProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPositionProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.FromAbi(nint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.AppBarToggleButton(WinRT.IObjectReference)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.operator ==(Microsoft.UI.Xaml.Controls.AppBarToggleButton, Microsoft.UI.Xaml.Controls.AppBarToggleButton)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.operator !=(Microsoft.UI.Xaml.Controls.AppBarToggleButton, Microsoft.UI.Xaml.Controls.AppBarToggleButton)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Equals(Microsoft.UI.Xaml.Controls.AppBarToggleButton)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Equals(object)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.GetHashCode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.AppBarToggleButton(WinRT.DerivedComposed)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Microsoft.UI.Xaml.Controls.ICommandBarElement.DynamicOverflowOrder.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsCompact.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Microsoft.UI.Xaml.Controls.ICommandBarElement.IsInOverflow.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrder.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrder.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Icon.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Icon.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPosition.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPosition.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.TemplateSettings.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsCompact.get
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsCompact.set
 		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsInOverflow.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrder.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrder.set
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IconProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPositionProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverrideProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsCompactProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsInOverflowProperty.get
-		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.DynamicOverflowOrderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.KeyboardAcceleratorTextOverride.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Label.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.Label.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.LabelPosition.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.IsOverridableInterface(System.Guid)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.AppBarToggleButton.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Microsoft.UI.Xaml.Controls.ICommandBarElement
 	}
 }

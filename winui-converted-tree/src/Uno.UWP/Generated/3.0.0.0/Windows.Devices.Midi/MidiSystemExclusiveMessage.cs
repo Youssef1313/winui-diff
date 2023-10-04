@@ -8,14 +8,58 @@ namespace Windows.Devices.Midi
 #endif
 	public partial class MidiSystemExclusiveMessage : global::Windows.Devices.Midi.IMidiMessage
 	{
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Streams.IBuffer global::Windows.Devices.Midi.IMidiMessage.RawData
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IBuffer MidiSystemExclusiveMessage.RawData is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IBuffer%20MidiSystemExclusiveMessage.RawData");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.TimeSpan global::Windows.Devices.Midi.IMidiMessage.Timestamp
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member TimeSpan MidiSystemExclusiveMessage.Timestamp is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=TimeSpan%20MidiSystemExclusiveMessage.Timestamp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Devices.Midi.MidiMessageType global::Windows.Devices.Midi.IMidiMessage.Type
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member MidiMessageType MidiSystemExclusiveMessage.Type is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=MidiMessageType%20MidiSystemExclusiveMessage.Type");
+			}
+		}
+#endif
 		// Skipping already declared property RawData
 		// Skipping already declared property Timestamp
 		// Skipping already declared property Type
 		// Skipping already declared method Windows.Devices.Midi.MidiSystemExclusiveMessage.MidiSystemExclusiveMessage(Windows.Storage.Streams.IBuffer)
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.MidiSystemExclusiveMessage(Windows.Storage.Streams.IBuffer)
-		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.FromAbi(nint)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.operator ==(Windows.Devices.Midi.MidiSystemExclusiveMessage, Windows.Devices.Midi.MidiSystemExclusiveMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.operator !=(Windows.Devices.Midi.MidiSystemExclusiveMessage, Windows.Devices.Midi.MidiSystemExclusiveMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Equals(Windows.Devices.Midi.MidiSystemExclusiveMessage)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Equals(object)
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.GetHashCode()
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Windows.Devices.Midi.IMidiMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Windows.Devices.Midi.IMidiMessage.Timestamp.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Windows.Devices.Midi.IMidiMessage.Type.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.RawData.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Timestamp.get
 		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.Type.get
+		// Forced skipping of method Windows.Devices.Midi.MidiSystemExclusiveMessage.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.Devices.Midi.IMidiMessage
 	}
 }

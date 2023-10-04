@@ -8,8 +8,7 @@ namespace Windows.UI.Core.Preview
 #endif
 	public partial class SystemNavigationManagerPreview
 	{
-		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.CloseRequested.add
-		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.CloseRequested.remove
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.As<I>()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public static global::Windows.UI.Core.Preview.SystemNavigationManagerPreview GetForCurrentView()
@@ -17,6 +16,19 @@ namespace Windows.UI.Core.Preview
 			throw new global::System.NotImplementedException("The member SystemNavigationManagerPreview SystemNavigationManagerPreview.GetForCurrentView() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SystemNavigationManagerPreview%20SystemNavigationManagerPreview.GetForCurrentView%28%29");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.operator ==(Windows.UI.Core.Preview.SystemNavigationManagerPreview, Windows.UI.Core.Preview.SystemNavigationManagerPreview)
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.operator !=(Windows.UI.Core.Preview.SystemNavigationManagerPreview, Windows.UI.Core.Preview.SystemNavigationManagerPreview)
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.Equals(Windows.UI.Core.Preview.SystemNavigationManagerPreview)
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.Equals(object)
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.CloseRequested.add
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.CloseRequested.remove
+		// Forced skipping of method Windows.UI.Core.Preview.SystemNavigationManagerPreview.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public event global::System.EventHandler<global::Windows.UI.Core.Preview.SystemNavigationCloseRequestedPreviewEventArgs> CloseRequested

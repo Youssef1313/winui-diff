@@ -15,11 +15,151 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem> global::Windows.ApplicationModel.Activation.IFileActivatedEventArgs.Files
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<IStorageItem> FileActivatedEventArgs.Files is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CIStorageItem%3E%20FileActivatedEventArgs.Files");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IFileActivatedEventArgs.Verb
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string FileActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20FileActivatedEventArgs.Verb");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ActivationKind global::Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationKind FileActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20FileActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.ApplicationExecutionState global::Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ApplicationExecutionState FileActivatedEventArgs.PreviousExecutionState is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ApplicationExecutionState%20FileActivatedEventArgs.PreviousExecutionState");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.ApplicationModel.Activation.SplashScreen global::Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member SplashScreen FileActivatedEventArgs.SplashScreen is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=SplashScreen%20FileActivatedEventArgs.SplashScreen");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Storage.Search.StorageFileQueryResult global::Windows.ApplicationModel.Activation.IFileActivatedEventArgsWithNeighboringFiles.NeighboringFilesQuery
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member StorageFileQueryResult FileActivatedEventArgs.NeighboringFilesQuery is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFileQueryResult%20FileActivatedEventArgs.NeighboringFilesQuery");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		string global::Windows.ApplicationModel.Activation.IFileActivatedEventArgsWithCallerPackageFamilyName.CallerPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string FileActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20FileActivatedEventArgs.CallerPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		int global::Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int FileActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20FileActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.ViewManagement.ActivationViewSwitcher global::Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member ActivationViewSwitcher FileActivatedEventArgs.ViewSwitcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationViewSwitcher%20FileActivatedEventArgs.ViewSwitcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.System.User global::Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member User FileActivatedEventArgs.User is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=User%20FileActivatedEventArgs.User");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public string CallerPackageFamilyName
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member string FileActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20FileActivatedEventArgs.CallerPackageFamilyName");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public int CurrentlyShownApplicationViewId
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member int FileActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20FileActivatedEventArgs.CurrentlyShownApplicationViewId");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem> Files
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IReadOnlyList<IStorageItem> FileActivatedEventArgs.Files is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CIStorageItem%3E%20FileActivatedEventArgs.Files");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.ApplicationModel.Activation.ActivationKind Kind
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member ActivationKind FileActivatedEventArgs.Kind is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=ActivationKind%20FileActivatedEventArgs.Kind");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Storage.Search.StorageFileQueryResult NeighboringFilesQuery
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member StorageFileQueryResult FileActivatedEventArgs.NeighboringFilesQuery is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFileQueryResult%20FileActivatedEventArgs.NeighboringFilesQuery");
 			}
 		}
 #endif
@@ -55,51 +195,11 @@ namespace Windows.ApplicationModel.Activation
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public int CurrentlyShownApplicationViewId
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member int FileActivatedEventArgs.CurrentlyShownApplicationViewId is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=int%20FileActivatedEventArgs.CurrentlyShownApplicationViewId");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::System.Collections.Generic.IReadOnlyList<global::Windows.Storage.IStorageItem> Files
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IReadOnlyList<IStorageItem> FileActivatedEventArgs.Files is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IReadOnlyList%3CIStorageItem%3E%20FileActivatedEventArgs.Files");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string Verb
 		{
 			get
 			{
 				throw new global::System.NotImplementedException("The member string FileActivatedEventArgs.Verb is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20FileActivatedEventArgs.Verb");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public string CallerPackageFamilyName
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member string FileActivatedEventArgs.CallerPackageFamilyName is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20FileActivatedEventArgs.CallerPackageFamilyName");
-			}
-		}
-#endif
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Storage.Search.StorageFileQueryResult NeighboringFilesQuery
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member StorageFileQueryResult FileActivatedEventArgs.NeighboringFilesQuery is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=StorageFileQueryResult%20FileActivatedEventArgs.NeighboringFilesQuery");
 			}
 		}
 #endif
@@ -113,16 +213,37 @@ namespace Windows.ApplicationModel.Activation
 			}
 		}
 #endif
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Files.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Verb.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Kind.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.PreviousExecutionState.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.SplashScreen.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.NeighboringFilesQuery.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.FromAbi(nint)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.operator ==(Windows.ApplicationModel.Activation.FileActivatedEventArgs, Windows.ApplicationModel.Activation.FileActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.operator !=(Windows.ApplicationModel.Activation.FileActivatedEventArgs, Windows.ApplicationModel.Activation.FileActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Equals(Windows.ApplicationModel.Activation.FileActivatedEventArgs)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Equals(object)
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.GetHashCode()
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.WinRT.IWinRTObject.AdditionalTypeData.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IFileActivatedEventArgs.Files.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IFileActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgs.SplashScreen.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IFileActivatedEventArgsWithNeighboringFiles.NeighboringFilesQuery.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IFileActivatedEventArgsWithCallerPackageFamilyName.CallerPackageFamilyName.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IApplicationViewActivatedEventArgs.CurrentlyShownApplicationViewId.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IViewSwitcherProvider.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Windows.ApplicationModel.Activation.IActivatedEventArgsWithUser.User.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.CallerPackageFamilyName.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.CurrentlyShownApplicationViewId.get
-		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Files.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Kind.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.NeighboringFilesQuery.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.PreviousExecutionState.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.SplashScreen.get
 		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.User.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.Verb.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.ViewSwitcher.get
+		// Forced skipping of method Windows.ApplicationModel.Activation.FileActivatedEventArgs.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Processing: Windows.ApplicationModel.Activation.IFileActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IActivatedEventArgs
 		// Processing: Windows.ApplicationModel.Activation.IFileActivatedEventArgsWithNeighboringFiles

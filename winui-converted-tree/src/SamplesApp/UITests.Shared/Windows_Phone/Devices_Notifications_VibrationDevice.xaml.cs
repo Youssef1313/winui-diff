@@ -7,7 +7,11 @@ using Uno.UI.Samples.Controls;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Foundation.Metadata;
+#if HAS_UNO_WINUI
+using Windows.Devices.Haptics;
+#else
 using Windows.Phone.Devices.Notification;
+#endif
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;

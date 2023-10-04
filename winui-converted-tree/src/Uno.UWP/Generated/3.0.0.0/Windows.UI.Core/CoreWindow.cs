@@ -8,8 +8,132 @@ namespace Windows.UI.Core
 #endif
 	public partial class CoreWindow : global::Windows.UI.Core.ICoreWindow, global::Windows.UI.Core.ICorePointerRedirector
 	{
-		// Skipping already declared property PointerPosition
-		// Skipping already declared property PointerCursor
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		object global::Windows.UI.Core.ICoreWindow.AutomationHostProvider
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object CoreWindow.AutomationHostProvider is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20CoreWindow.AutomationHostProvider");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Rect global::Windows.UI.Core.ICoreWindow.Bounds
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Rect CoreWindow.Bounds is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Rect%20CoreWindow.Bounds");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Collections.IPropertySet global::Windows.UI.Core.ICoreWindow.CustomProperties
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IPropertySet CoreWindow.CustomProperties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20CoreWindow.CustomProperties");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Core.CoreDispatcher global::Windows.UI.Core.ICoreWindow.Dispatcher
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreDispatcher CoreWindow.Dispatcher is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreDispatcher%20CoreWindow.Dispatcher");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Core.CoreWindowFlowDirection global::Windows.UI.Core.ICoreWindow.FlowDirection
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreWindowFlowDirection CoreWindow.FlowDirection is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreWindowFlowDirection%20CoreWindow.FlowDirection");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "CoreWindowFlowDirection CoreWindow.FlowDirection");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindow.IsInputEnabled
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWindow.IsInputEnabled is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWindow.IsInputEnabled");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "bool CoreWindow.IsInputEnabled");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.UI.Core.CoreCursor global::Windows.UI.Core.ICoreWindow.PointerCursor
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member CoreCursor CoreWindow.PointerCursor is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=CoreCursor%20CoreWindow.PointerCursor");
+			}
+			set
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "CoreCursor CoreWindow.PointerCursor");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		global::Windows.Foundation.Point global::Windows.UI.Core.ICoreWindow.PointerPosition
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member Point CoreWindow.PointerPosition is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=Point%20CoreWindow.PointerPosition");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		bool global::Windows.UI.Core.ICoreWindow.Visible
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member bool CoreWindow.Visible is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=bool%20CoreWindow.Visible");
+			}
+		}
+#endif
+		// Skipping already declared property ActivationMode
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public object AutomationHostProvider
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member object CoreWindow.AutomationHostProvider is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20CoreWindow.AutomationHostProvider");
+			}
+		}
+#endif
+		// Skipping already declared property Bounds
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		public global::Windows.Foundation.Collections.IPropertySet CustomProperties
+		{
+			get
+			{
+				throw new global::System.NotImplementedException("The member IPropertySet CoreWindow.CustomProperties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20CoreWindow.CustomProperties");
+			}
+		}
+#endif
+		// Skipping already declared property Dispatcher
+		// Skipping already declared property DispatcherQueue
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.UI.Core.CoreWindowFlowDirection FlowDirection
@@ -38,31 +162,8 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
-		// Skipping already declared property Dispatcher
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public object AutomationHostProvider
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member object CoreWindow.AutomationHostProvider is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=object%20CoreWindow.AutomationHostProvider");
-			}
-		}
-#endif
-		// Skipping already declared property Bounds
-#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.Foundation.Collections.IPropertySet CustomProperties
-		{
-			get
-			{
-				throw new global::System.NotImplementedException("The member IPropertySet CoreWindow.CustomProperties is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=IPropertySet%20CoreWindow.CustomProperties");
-			}
-		}
-#endif
-		// Skipping already declared property Visible
-		// Skipping already declared property ActivationMode
-		// Skipping already declared property DispatcherQueue
+		// Skipping already declared property PointerCursor
+		// Skipping already declared property PointerPosition
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.UI.UIContext UIContext
@@ -73,18 +174,19 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
-		// Forced skipping of method Windows.UI.Core.CoreWindow.AutomationHostProvider.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.Bounds.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.CustomProperties.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.Dispatcher.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.FlowDirection.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.FlowDirection.set
-		// Forced skipping of method Windows.UI.Core.CoreWindow.IsInputEnabled.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.IsInputEnabled.set
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCursor.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCursor.set
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPosition.get
-		// Forced skipping of method Windows.UI.Core.CoreWindow.Visible.get
+		// Skipping already declared property Visible
+		// Forced skipping of method Windows.UI.Core.CoreWindow.As<I>()
+		// Skipping already declared method Windows.UI.Core.CoreWindow.GetForCurrentThread()
+		// Forced skipping of method Windows.UI.Core.CoreWindow.FromAbi(nint)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.operator ==(Windows.UI.Core.CoreWindow, Windows.UI.Core.CoreWindow)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.operator !=(Windows.UI.Core.CoreWindow, Windows.UI.Core.CoreWindow)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Equals(Windows.UI.Core.CoreWindow)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Equals(object)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.GetHashCode()
+		// Forced skipping of method Windows.UI.Core.CoreWindow.WinRT.IWinRTObject.HasUnwrappableNativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.WinRT.IWinRTObject.NativeObject.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.WinRT.IWinRTObject.QueryInterfaceCache.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.WinRT.IWinRTObject.AdditionalTypeData.get
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Activate()
@@ -92,6 +194,7 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "void CoreWindow.Activate()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Activate()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public void Close()
@@ -99,8 +202,11 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "void CoreWindow.Close()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Close()
 		// Skipping already declared method Windows.UI.Core.CoreWindow.GetAsyncKeyState(Windows.System.VirtualKey)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.GetAsyncKeyState(Windows.System.VirtualKey)
 		// Skipping already declared method Windows.UI.Core.CoreWindow.GetKeyState(Windows.System.VirtualKey)
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.GetKeyState(Windows.System.VirtualKey)
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public void ReleasePointerCapture()
@@ -108,6 +214,7 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "void CoreWindow.ReleasePointerCapture()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.ReleasePointerCapture()
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public void SetPointerCapture()
@@ -115,49 +222,99 @@ namespace Windows.UI.Core
 			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "void CoreWindow.SetPointerCapture()");
 		}
 #endif
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.SetPointerCapture()
 		// Forced skipping of method Windows.UI.Core.CoreWindow.Activated.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.Activated.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Activated.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Activated.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.AutomationProviderRequested.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.AutomationProviderRequested.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.AutomationProviderRequested.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.AutomationProviderRequested.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.CharacterReceived.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.CharacterReceived.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.CharacterReceived.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.CharacterReceived.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.Closed.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.Closed.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Closed.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Closed.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.InputEnabled.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.InputEnabled.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.InputEnabled.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.InputEnabled.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.KeyDown.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.KeyDown.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.KeyDown.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.KeyDown.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.KeyUp.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.KeyUp.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.KeyUp.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.KeyUp.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCaptureLost.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCaptureLost.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerCaptureLost.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerCaptureLost.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerEntered.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerEntered.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerEntered.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerEntered.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerExited.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerExited.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerExited.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerExited.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerMoved.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerMoved.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerMoved.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerMoved.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPressed.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPressed.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerPressed.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerPressed.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerReleased.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerReleased.remove
-		// Forced skipping of method Windows.UI.Core.CoreWindow.TouchHitTesting.add
-		// Forced skipping of method Windows.UI.Core.CoreWindow.TouchHitTesting.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerReleased.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerReleased.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerWheelChanged.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerWheelChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerWheelChanged.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerWheelChanged.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.SizeChanged.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.SizeChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.SizeChanged.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.SizeChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.TouchHitTesting.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.TouchHitTesting.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.TouchHitTesting.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.TouchHitTesting.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.VisibilityChanged.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.VisibilityChanged.remove
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPosition.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.VisibilityChanged.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.VisibilityChanged.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.AutomationHostProvider.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Bounds.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.CustomProperties.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Dispatcher.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.FlowDirection.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.FlowDirection.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.IsInputEnabled.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.IsInputEnabled.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerCursor.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerCursor.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.PointerPosition.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICoreWindow.Visible.get
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedAway.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedAway.remove
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedTo.add
-		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedTo.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedAway.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedAway.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedReleased.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedReleased.remove
-		// Forced skipping of method Windows.UI.Core.CoreWindow.ClosestInteractiveBoundsRequested.add
-		// Forced skipping of method Windows.UI.Core.CoreWindow.ClosestInteractiveBoundsRequested.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedReleased.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedReleased.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedTo.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerRoutedTo.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedTo.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Windows.UI.Core.ICorePointerRedirector.PointerRoutedTo.remove
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public string GetCurrentKeyEventDeviceId()
@@ -165,18 +322,65 @@ namespace Windows.UI.Core
 			throw new global::System.NotImplementedException("The member string CoreWindow.GetCurrentKeyEventDeviceId() is not implemented. For more information, visit https://aka.platform.uno/notimplemented#m=string%20CoreWindow.GetCurrentKeyEventDeviceId%28%29");
 		}
 #endif
-		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeStarted.add
-		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeStarted.remove
+		// Forced skipping of method Windows.UI.Core.CoreWindow.ClosestInteractiveBoundsRequested.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.ClosestInteractiveBoundsRequested.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeCompleted.add
 		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeCompleted.remove
-		// Forced skipping of method Windows.UI.Core.CoreWindow.DispatcherQueue.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeStarted.add
+		// Forced skipping of method Windows.UI.Core.CoreWindow.ResizeStarted.remove
 		// Forced skipping of method Windows.UI.Core.CoreWindow.ActivationMode.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.AutomationHostProvider.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Bounds.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.CustomProperties.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Dispatcher.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.DispatcherQueue.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.FlowDirection.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.FlowDirection.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.IsInputEnabled.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.IsInputEnabled.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCursor.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerCursor.set
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPosition.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.PointerPosition.set
 		// Forced skipping of method Windows.UI.Core.CoreWindow.UIContext.get
-		// Skipping already declared method Windows.UI.Core.CoreWindow.GetForCurrentThread()
+		// Forced skipping of method Windows.UI.Core.CoreWindow.Visible.get
+		// Forced skipping of method Windows.UI.Core.CoreWindow.System.Runtime.InteropServices.ICustomQueryInterface.GetInterface(ref System.Guid, out nint)
 		// Skipping already declared event Windows.UI.Core.CoreWindow.Activated
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.WindowActivatedEventArgs> global::Windows.UI.Core.ICoreWindow.Activated
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, WindowActivatedEventArgs> CoreWindow.Activated");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, WindowActivatedEventArgs> CoreWindow.Activated");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.AutomationProviderRequestedEventArgs> AutomationProviderRequested
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, AutomationProviderRequestedEventArgs> CoreWindow.AutomationProviderRequested");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, AutomationProviderRequestedEventArgs> CoreWindow.AutomationProviderRequested");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.AutomationProviderRequestedEventArgs> global::Windows.UI.Core.ICoreWindow.AutomationProviderRequested
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -208,7 +412,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.CharacterReceivedEventArgs> global::Windows.UI.Core.ICoreWindow.CharacterReceived
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, CharacterReceivedEventArgs> CoreWindow.CharacterReceived");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, CharacterReceivedEventArgs> CoreWindow.CharacterReceived");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.CoreWindowEventArgs> Closed
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, CoreWindowEventArgs> CoreWindow.Closed");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, CoreWindowEventArgs> CoreWindow.Closed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.CoreWindowEventArgs> global::Windows.UI.Core.ICoreWindow.Closed
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -238,6 +474,22 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.InputEnabledEventArgs> global::Windows.UI.Core.ICoreWindow.InputEnabled
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, InputEnabledEventArgs> CoreWindow.InputEnabled");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, InputEnabledEventArgs> CoreWindow.InputEnabled");
+			}
+		}
+#endif
 #if false || false || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.KeyEventArgs> KeyDown
@@ -248,6 +500,22 @@ namespace Windows.UI.Core
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyDown");
 			}
 			[global::Uno.NotImplemented("IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyDown");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.KeyEventArgs> global::Windows.UI.Core.ICoreWindow.KeyDown
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyDown");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyDown");
@@ -272,7 +540,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.KeyEventArgs> global::Windows.UI.Core.ICoreWindow.KeyUp
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyUp");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, KeyEventArgs> CoreWindow.KeyUp");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> PointerCaptureLost
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerCaptureLost");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerCaptureLost");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerCaptureLost
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -302,6 +602,22 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerEntered
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerEntered");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerEntered");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> PointerExited
@@ -312,6 +628,22 @@ namespace Windows.UI.Core
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerExited");
 			}
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerExited");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerExited
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerExited");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerExited");
@@ -334,6 +666,22 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerMoved
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerMoved");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerMoved");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> PointerPressed
@@ -344,6 +692,22 @@ namespace Windows.UI.Core
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerPressed");
 			}
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerPressed");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerPressed
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerPressed");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			remove
 			{
 				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerPressed");
@@ -366,6 +730,22 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerReleased
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerReleased");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerReleased");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || false
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__NETSTD_REFERENCE__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> PointerWheelChanged
@@ -382,7 +762,39 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICoreWindow.PointerWheelChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerWheelChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, PointerEventArgs> CoreWindow.PointerWheelChanged");
+			}
+		}
+#endif
 		// Skipping already declared event Windows.UI.Core.CoreWindow.SizeChanged
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.WindowSizeChangedEventArgs> global::Windows.UI.Core.ICoreWindow.SizeChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, WindowSizeChangedEventArgs> CoreWindow.SizeChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, WindowSizeChangedEventArgs> CoreWindow.SizeChanged");
+			}
+		}
+#endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.TouchHitTestingEventArgs> TouchHitTesting
@@ -399,10 +811,58 @@ namespace Windows.UI.Core
 			}
 		}
 #endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.TouchHitTestingEventArgs> global::Windows.UI.Core.ICoreWindow.TouchHitTesting
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, TouchHitTestingEventArgs> CoreWindow.TouchHitTesting");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, TouchHitTestingEventArgs> CoreWindow.TouchHitTesting");
+			}
+		}
+#endif
 		// Skipping already declared event Windows.UI.Core.CoreWindow.VisibilityChanged
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.CoreWindow, global::Windows.UI.Core.VisibilityChangedEventArgs> global::Windows.UI.Core.ICoreWindow.VisibilityChanged
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, VisibilityChangedEventArgs> CoreWindow.VisibilityChanged");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<CoreWindow, VisibilityChangedEventArgs> CoreWindow.VisibilityChanged");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> PointerRoutedAway
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedAway");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedAway");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerRedirector.PointerRoutedAway
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
@@ -434,7 +894,39 @@ namespace Windows.UI.Core
 #endif
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerRedirector.PointerRoutedReleased
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedReleased");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedReleased");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> PointerRoutedTo
+		{
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedTo");
+			}
+			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Core.CoreWindow", "event TypedEventHandler<ICorePointerRedirector, PointerEventArgs> CoreWindow.PointerRoutedTo");
+			}
+		}
+#endif
+#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
+		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
+		event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Core.ICorePointerRedirector, global::Windows.UI.Core.PointerEventArgs> global::Windows.UI.Core.ICorePointerRedirector.PointerRoutedTo
 		{
 			[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 			add
